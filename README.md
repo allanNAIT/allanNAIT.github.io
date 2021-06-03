@@ -5,4 +5,4 @@
 <a href="comp1017/comp1017.html"><img src="comp1017/comp1017-icon.png" alt="comp1017"></a>
 <a href="dmit1508/dmit1508.html"><img src="dmit1508/dmit1508-icon.png" alt="dmit1508"></a>
 <a href="dmit1530/dmit1530.html"><img src="dmit1530/dmit1530-icon.png" alt="dmit1530"></a>
-<a href="dmit1530/dmit1530.html"><img src="dmit1530/dmit1530-icon.png" alt="dmit1530"></a>
+<a href="phys1521/phys1521.html"><img src="phys1521/phys1521-icon.png" alt="dphys1521"></a>

@@ -6,5 +6,12 @@ minima:
     github: bandit412
 description: A collection of notes and resources for my DMIT courses.
 show_excerpts: false # set to true to show excerpts on the homepage
-  
+
+header_pages:
+# - about.md
+# - anap1525.md
+ - comp1017.md
+ - dmit1508.md
+# - dmit1530.md
+# - phys1521.md
 theme: minima

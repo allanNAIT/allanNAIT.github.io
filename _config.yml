@@ -4,7 +4,7 @@ email: aanderson@nait.ca
 minima:
   date_format: "%b %-d, %Y"
 github_username: bandit412
-description: A collection of notes and resources for my DMIT courses. This site is unofficial. For official resources for each course, got to https://moodle.nait.ca.
+description: A collection of notes and resources for my DMIT courses. This site is unofficial. For official resources for each course, got to <a href="https://moodle.nait.ca" target="_blank">moodel.nait.ca</a>.
 show_excerpts: false # set to true to show excerpts on the homepage
 
 header_pages:
@@ -15,6 +15,4 @@ header_pages:
 # - phys1521/phys1521.md
  - about.md
 
-exclude:
-  README.md
 theme: minima

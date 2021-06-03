@@ -9,7 +9,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 
 header_pages:
 # - anap1525/anap1525.md
- - comp1017/comp1017.md
+# - comp1017/comp1017.md
  - dmit1508/dmit1508.md
  - dmit1530/dmit1530.md
  - phys1521/phys1521.md

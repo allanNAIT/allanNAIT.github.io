@@ -51,3 +51,6 @@ This is a quick reference for creating a 3NF database.
 As you apply the rules of normalization to each view you will uncover more attributes and entities that need to be in the database. After each view has been normalized and you have a database schema (design) for each view you must merge them together to create the final database schema to satisfy the requirements of the organization.
 
 Entities that have the same primary key must be merged into one table. Consider the example where you normalized 2 views and uncovered the following entities.
+
+### [References Home](references.md)
+### [DMIT1508 Home](../dmit1508.md)

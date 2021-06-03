@@ -32,4 +32,4 @@ Running your web page in the browser shuould look like:
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

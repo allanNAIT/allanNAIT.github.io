@@ -23,4 +23,4 @@ In this module you will learn how to set up a basic website development framewor
 
 ### [10 - Module 1 Assignment](10-module1-assignment/README.md)
 
-### [Home](../README.md)
+### [Home](../comp1017.md)

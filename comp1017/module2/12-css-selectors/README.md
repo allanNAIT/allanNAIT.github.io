@@ -60,4 +60,4 @@ Complete and submit your lab following the instructions on Moodle.
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

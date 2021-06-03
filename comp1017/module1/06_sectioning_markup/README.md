@@ -48,4 +48,4 @@ Download the **ex-document-structure.zip** file from Moodle and extract its cont
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

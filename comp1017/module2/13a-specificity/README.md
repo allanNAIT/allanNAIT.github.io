@@ -44,4 +44,4 @@ There is no related exercise for this walkthrough.
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

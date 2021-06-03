@@ -69,4 +69,4 @@ from your browser after you have checked your work.
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

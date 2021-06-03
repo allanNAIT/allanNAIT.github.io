@@ -112,4 +112,4 @@ Download the **ex-markup2.zip** file from Moodle and extract its contents. Exami
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

@@ -17,4 +17,4 @@ In this module students will learn how to mark up content using the new HTML5 W3
 
 ### [25 - Module 3 Assignment](25-module3-assignment/README.md)
 
-### [Home](../README.md)
+### [Home](../comp1017.md)

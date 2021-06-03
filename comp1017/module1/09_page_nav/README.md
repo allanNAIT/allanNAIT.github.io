@@ -105,4 +105,4 @@ Download the **simple-navigation-exercise.zip** file from Moodle and extract its
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

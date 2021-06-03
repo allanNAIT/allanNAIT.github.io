@@ -69,4 +69,4 @@ Submit your completed las as per the instructions on Moodle.
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

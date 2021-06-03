@@ -50,4 +50,4 @@ There are no exercises related to this demo.
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

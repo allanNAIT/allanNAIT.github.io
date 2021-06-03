@@ -9,4 +9,4 @@ This file is optional as we do not cover SEO in this course.
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

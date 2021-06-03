@@ -76,4 +76,4 @@ When completed, show your web page to your instructor.
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

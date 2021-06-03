@@ -55,4 +55,4 @@ Download the **lab-page-layout.zip** file from Moodle. The completed web page sh
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

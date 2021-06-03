@@ -40,4 +40,4 @@ Follow the instructions and submission requirements posted on Moodle.
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

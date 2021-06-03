@@ -33,4 +33,4 @@ Download the **document-outline-ex.zip** file from Moodle and extract its conten
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

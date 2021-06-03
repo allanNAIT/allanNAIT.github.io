@@ -101,4 +101,4 @@ Download the **ex-web-imageformats.zip** file from Moodle and extract to a folde
 
 ### [Module Home](../README.md)
 
-### [Home](../../README.md)
+### [Home](../../comp1017.md)

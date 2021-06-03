@@ -4,7 +4,8 @@
 **Name**: Allan Anderson<br>
 **Email**: aanderson@nait.ca<br>
 **Phone**: 780-378-5275<br>
-**Office Hours**: 08:00 - 15:30
+**Office Hours**: 08:00 - 15:30<br>
+**Office Location**: W309 - HP Centre
 
 ## Education & Qualifications
 B. Sc. - University of Saskatchewan (1977)<br>

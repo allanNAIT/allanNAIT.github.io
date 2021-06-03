@@ -1,1 +1,2 @@
-<h1 style="text-aligh:center;">Welcome to my GitHub Pages<br>A Resource for Students!</h1>
+<h1>Welcome to my GitHub Pages</h1>
+<h2>A Resource for Students!</h2>

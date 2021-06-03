@@ -21,4 +21,4 @@ This module is intended to give you a base level knowledge of using CSS to const
 
 ### [18 - Module 2 Assignment](18-module2-assignment/README.md)
 
-### [Home](../comp1017.md)
+### [COMP1017 Home](../comp1017.md)

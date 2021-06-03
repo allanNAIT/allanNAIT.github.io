@@ -14,4 +14,7 @@ header_pages:
  - dmit1530/dmit1530.md
 # - phys1521/phys1521.md
  - about.md
+
+exclude:
+  README.md
 theme: minima

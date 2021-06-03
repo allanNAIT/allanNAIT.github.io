@@ -8,10 +8,10 @@ description: A collection of notes and resources for my DMIT courses. This site 
 show_excerpts: false # set to true to show excerpts on the homepage
 
 header_pages:
- - cpsc1012/cpsc1012.md
+# - cpsc1012/cpsc1012.md
  - comp1017/comp1017.md
  - dmit1508/dmit1508.md
  - dmit1530/dmit1530.md
- - phys1521/phys1521.md
+# - phys1521/phys1521.md
  - about.md
 theme: minima

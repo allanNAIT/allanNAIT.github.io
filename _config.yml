@@ -1,7 +1,8 @@
 title: Allan's GitHub Pages
-author: 
-  name: Allan Anderson
-  email: aanderson@nait.ca
+author: Allan Anderson
+minima:
+  social_links:
+    github: bandit412
 description: A collection of notes and resources for my DMIT courses.
 show_excerpts: false # set to true to show excerpts on the homepage
 minima:

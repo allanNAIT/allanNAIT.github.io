@@ -15,4 +15,6 @@ header_pages:
 # - phys1521/phys1521.md
  - about.md
 
+include:
+  README.md
 theme: minima

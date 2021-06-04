@@ -3,7 +3,21 @@ layout: page
 title: Data Definition Language (DDL)
 ---
 
-## Basic Table Definition
+## Topics on this page:
+* [Basic Table Definition](#basic)
+* [CREATE TABLE Syntax](#create)
+* [Verifying Your Table](#verify)
+* [DROP Statement](#drop)
+* [Constraints](#constraints)
+  * [PK Constraints](#pk)
+  * [FK Constraints](#fk)
+  * [CHECK Constraints](#check)
+  * [LIKE Operator](#like)
+  * [Testing a CHECK Constratint](#testing)
+  * [DEFAULT Constraint](#default)
+* [Practice](#practice)
+
+## <a ID="basic">Basic Table Definition</a>
 * Data are stored in tables
 * A table is a _2D array_ and consists of rows & columns:
   * Each `column` records **one attribute**
@@ -15,7 +29,7 @@ title: Data Definition Language (DDL)
   * Whether `NULL` is a **acceptable value** for the`column`
   * Any othere `CONSTRAINT`S that must hold **true** for a column
 
-## CREATE TABLE Syntax
+## <a ID="create">CREATE TABLE Syntax</a>
 
 ```sql
 CREATE TABLE TableName (
@@ -79,7 +93,7 @@ CREATE TABLE ItemOnOrder (
 )
 ```
 
-## Verifying Your Table
+## <a ID="verify">Verifying Your Table</a>
 After a table has been created, use the system Stored Procedure `SP_HELP` to list the table definition.
 
 The syntax to run a Stored Procedure is:
@@ -94,5 +108,22 @@ So, the syntax to run this Stored Procedure is:
 EXEC SP_HELP Customers
 ```
 
+## <a ID="drop">DROP Statement</a>
+
+## <a ID="constraints">Constraints</a>
+
+### <a ID="pk">PK Constraints</a>
+
+### <a ID="fk">FK Constraints</a>
+
+### <a ID="check">CHECK Constraints</a>
+
+### <a ID="like">LIKE Operator</a>
+
+### <a ID="testing">Testing a CHECK Constraint</a>
+
+### <a ID="default">DEFAULT Constraint</a>
+
+## <a ID="practice">Practice</a>
 
 ### [DMIT1508 Home](../)

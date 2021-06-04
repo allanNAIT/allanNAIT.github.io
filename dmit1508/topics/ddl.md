@@ -269,8 +269,102 @@ CREATE TABLE StoreInRegion (
 
 
 ### <a ID="check">CHECK Constraints</a>
+The `CHECK` constraint enables you to specify what values are acceptable (i.e., define a `DOMAIN`).
+
+`CHECK` constraints should be given a meaningful name and consist of an expression that evaluates to `TRUE` or `FALSE`.
+
+Syntax:
+
+```sql
+CONSTRAINT CK_ConstraintName CHECK (expression)
+```
+
+#### Creating an Expression
+The expression in the `CHECK` constraint:
+* Cannot contain a subquery
+* Must evaluate to `TRUE` or `FALSE`
+* Can be a compound Boolean expression
+* Can reference another column in the same table
+
+**Examples**:
+1. The column `QuantitySold` **must be positive**
+  * `CONSTRAINT CK_QuantitySold CHECK (QuantitySold > 0)`
+2. The column `DateReceived` **must be on or after** the `DateOrdered`
+  * `CONSTRAINT CK_DateReceived CHECK (DateReceived >= DateOrdered)`
+3. The column `CourseMark` **must be between 0 and 100**, inclusive
+  * `CONSTRAINT CK_CourseMark CHECK (CourseMark BETWEEN 0 AND 100)`
+  * `CONSTRAINT CK_CourseMark CHECK (CourseMark >= 0 AND CourseMark <= 100)`
+4. The column `PostalCode` **must follow the pattern** A9A 9A9
+  * CONSTRAINT CK_PostalCode CHECK (PostalCode LIKE '[A-Z][0-9][A-Z] [0-9][A-Z][0-9]')`
 
 ### <a ID="like">LIKE Operator</a>
+The `LIKE` operator lets you perform pattern matching on character or datetime data.
+
+Syntax:
+
+```sql
+ColumnName LIKE 'pattern'
+```
+
+**Example**:
+
+```sql
+LastName LIKE 'A%'
+```
+
+The `% `is a wildcard that means “any string of 0+ characters”.
+
+#### Wildcard Characters
+* `%` means “any string of **zero or more characters**”
+* `_` means “any **single character**”
+* `[]` means “any single character **within** the specified range (`[a-z]`) or set (`[adrz]`) of characters”
+* `[^]` means “any single character **not within**` the specified range ([^a-z]`) or set (`[^adrz]`) of characters”
+
+**Examples**:
+* `LIKE 'A%'`
+  * First character must be `A` followed by any number of characters.
+* `LIKE '[0-9]'`
+  * Must be a number. Data must be 1 character in length.
+* `LIKE '[A-Z][0-9][A-Z] [0-9][A-Z][0-9]'`
+  * Pattern for Canadian post code. Must be 7 characters in length.
+* `LIKE 'JAN%2000%'`
+  * Month must be January, Year must be 2000.
+* `LIKE '5[%]'`
+  * First character must be `5`, second character must be `%`. Data must be 2 characters in length.
+
+**Type carefully...**<br>
+If the expression is `Word LIKE 'ABC '` and the value of `Word` is “ABC” the expression tests `FALSE`.
+
+**Example**<br>
+![like-example-erd.png](images/like-example-erd.png)
+
+```sql
+CREATE TABLE Supplier (
+	SupplierId	INT IDENTITY (1, 1)	NOT NULL
+	CONSTRAINT PK_Supplier PRIMARY KEY CLUSTERED,
+	Name		VARCHAR(100)		NOT NULL,	
+	Phone		CHAR(14)			NOT NULL
+	CONSTRAINT CK_Phone CHECK
+	(Phone LIKE '([0-9][0-9][0-9]) [0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]')
+)
+```
+
+```sql
+CREATE TABLE PurchaseOrder (
+	OrderNumber		INT IDENTITY (1,1)		NOT NULL
+	CONSTRAINT PK_PurchaseOrder PRIMARY KEY CLUSTERED,
+	OrderDate			SMALLDATETIME		NOT NULL,
+	DateReceived		SMALLDATETIME		NOT NULL,
+	SupplierId			INT			NOT NULL
+	CONSTRAINT FK_PurchaseOrderToSupplier REFERENCES Supplier (SupplierId),
+	SubTotal			MONEY			NOT NULL
+	CONSTRAINT CK_SubTotalMustBePositive CHECK (Subtotal > 0),
+	GST			MONEY			NOT NULL
+	CONSTRAINT CK_GSTMustBePositive CHECK (GST > 0),
+	Total AS Subtotal + GST,
+	CONSTRAINT CK_DateReceivedMustBeOnOrAfterOrderDate CHECK (DateReceived >= OrderDate)
+)
+```
 
 ### <a ID="testing">Testing a CHECK Constraint</a>
 

@@ -240,7 +240,7 @@ CREATE TABLE RegionInCountry (
 	RegionId	SMALLINT		NOT NULL,
 	Name		VARCHAR(100) 	        NOT NULL,
 	CONSTRAINT	PK_CountryId_RegionId
-	PRIMARY KEY CLUSTERED (CountryId, RegionId)
+	    PRIMARY KEY CLUSTERED (CountryId, RegionId)
 )
 ```
 
@@ -255,8 +255,8 @@ CREATE TABLE StoreInRegion (
 	CONSTRAINT	PK_CountryId_RegionId_StoreId 
 	PRIMARY KEY CLUSTERED (CountryId, RegionId, StoreId),
 	CONSTRAINT	FK_StoreInRegionToRegionInCountry
-	FOREIGN KEY (CountryId, RegionId)
-	REFERENCES RegionInCountry (CountryId, RegionId)
+	    FOREIGN KEY (CountryId, RegionId)
+	    REFERENCES RegionInCountry (CountryId, RegionId)
 )
 ```
 

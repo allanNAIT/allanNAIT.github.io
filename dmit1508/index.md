@@ -17,7 +17,7 @@ title: DMIT1508
     * [LIKE Operator](topics/ddl.md/#like)
     * [Testing a CHECK Constratint](topics/ddl.md/#testing)
     * [DEFAULT Constraint](topics/ddl.md/#default)
-  * [Practice](topics/ddl.md/#practice)
+  * [DDL Practice](topics/ddl.md/#practice)
 * [Data Manipulation Language (DML)](topics/dml.md)
 * [SQL Queries](topics/queries.md)
 * [SQL Stored Procedures](topics/stored-procedures.md)

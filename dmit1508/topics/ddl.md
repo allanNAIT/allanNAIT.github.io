@@ -15,7 +15,7 @@ title: Data Definition Language (DDL)
   * [LIKE Operator](#like)
   * [Testing a CHECK Constratint](#testing)
   * [DEFAULT Constraint](#default)
-* [Practice](#practice)
+* [DDL Practice](#practice)
 
 ## <a ID="basic">Basic Table Definition</a>
 * Data are stored in tables
@@ -276,6 +276,6 @@ CREATE TABLE StoreInRegion (
 
 ### <a ID="default">DEFAULT Constraint</a>
 
-## <a ID="practice">Practice</a>
+## <a ID="practice">DDL Practice</a>
 
 ### [DMIT1508 Home](../)

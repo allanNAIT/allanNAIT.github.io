@@ -344,7 +344,7 @@ CREATE TABLE Supplier (
 	    CONSTRAINT PK_Supplier PRIMARY KEY CLUSTERED,
 	Name		VARCHAR(100)		NOT NULL,	
 	Phone		CHAR(14)	        NOT NULL
-	CONSTRAINT CK_Phone
+        CONSTRAINT CK_Phone
         CHECK (Phone LIKE '([0-9][0-9][0-9]) [0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]')
 )
 ```
@@ -356,13 +356,12 @@ CREATE TABLE PurchaseOrder (
 	OrderDate		SMALLDATETIME		        NOT NULL,
 	DateReceived		SMALLDATETIME		        NOT NULL,
 	SupplierId		INT			        NOT NULL
-	CONSTRAINT FK_PurchaseOrderToSupplier REFERENCES Supplier (SupplierId),
+        CONSTRAINT FK_PurchaseOrderToSupplier
+        REFERENCES Supplier (SupplierId),
 	SubTotal		MONEY			        NOT NULL
-	CONSTRAINT CK_SubTotalMustBePositive
-        CHECK (Subtotal > 0),
+        CONSTRAINT CK_SubTotalMustBePositive CHECK (Subtotal > 0),
 	GST			MONEY			         NOT NULL
-	CONSTRAINT CK_GSTMustBePositive
-        CHECK (GST > 0),
+        CONSTRAINT CK_GSTMustBePositive CHECK (GST > 0),
 	Total AS Subtotal + GST,
 	CONSTRAINT CK_DateReceivedMustBeOnOrAfterOrderDate
         CHECK (DateReceived >= OrderDate)

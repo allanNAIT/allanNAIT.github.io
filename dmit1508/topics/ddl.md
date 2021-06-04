@@ -147,9 +147,126 @@ Constraints are used for:
   * Defined by the [`CHECK`](#check) constraint
 5. Ensure that **all values in a column are unique**
 
+### Setting Constraints
+1. When the table is initially created, using the `CREATE TABLE` statement, or
+2. On an already existing table, using the `ALTER TABLE` statement
+
+Each constraint must have a unique name, and we will use prefixes to identify each type: `PK`, `FK`, `CK`(CHECK), and `DF`(DEFAULT)
+
 ### <a ID="pk">PK Constraints</a>
+In a normalized database design, all tables must have the `PK` constraint.
+
+Any column that acts as a `PK` must be defined as `NOT NULL`.
+
+#### Primary Key Syntax: (column-level constraint)
+Syntax:
+
+```sql
+CONSTRAINT PK_ConstraintName PRIMARY KEY CLUSTERED
+```
+
+Example:
+
+```sql
+CREATE TABLE Student (
+    StudentId 	CHAR(9)		NOT NULL CONSTRAINT PK_Student PRIMARY KEY CLUSTERED,
+    LastName    VARCHAR(20)	NOT NULL,
+    FirstName   VARCHAR(15)	NOT NULL)
+```
+
+#### Primary Key Syntax: (table-level constraint)
+What about tables with composite keys?
+
+Example:
+
+```sql
+CREATE TABLE Marks (
+    StudentId 	CHAR(9)		NOT NULL,
+    CourseId	CHAR(6)		NOT NULL,
+    Mark		SMALLINT	NULL,
+    CONSTRAINT PK_Marks PRIMARY KEY CLUSTERED (StudentId, CourseId))
+```
+
+**Practice**:
+![ddl-practice-create.png](images/ddl-practice-create.png)
+1. Modify the script that defines the `Employee`, `Project`, and `EmployeeOnProject` tables to include the necessary `PK` constraint definitions.
+2. Use the `SP_HELP` procedure to retrieve a description.
+3. Save your script.
 
 ### <a ID="fk">FK Constraints</a>
+The `FK` constraint defines a relationship between rows, and defines a parent-child relationship between tables.
+
+This affects:
+1. Dropping tables
+2. Creating tables
+3. Inserting/updating/deleting rows in tables
+
+#### FK Constraints & Referential Integrity
+You must `DROP` a child table before you `DROP` its parent table.
+
+You must `CREATE` a parent table before you `CREATE` its child table.
+
+The value of a column acting as a `FK` must be either:
+* A value that exists as a `PK` in the associated parent table
+* `NULL`
+
+For example, given the ERD below:
+![fk-example-erd.png](images/fk-example.png)
+
+1. `DROP TABLE StoreInRegion`
+2. `DROP TABLE RegionInCountry`
+3. `DROP TABLE Country`
+4. `CREATE TABLE Country (...)`
+5. `CREATE TABLE RegionInCountry (...)`
+6. `CREATE TABLE StoreInRegion (...)`
+
+#### Data Types
+`FK`s must have the same datatype as its associated `PK`.
+
+Syntax:
+
+```sql
+CONSTRAINT FK_ConstraintName
+	[FOREIGN KEY (Column1[, ... Column16] ]
+	REFERENCES TableName (Column1 [, ... Column16] )
+```
+**RegionInCountry Example**: Using the ERD show earlier:
+
+```sql
+CREATE TABLE RegionInCountry (
+	CountryId	SMALLINT		NOT NULL
+		CONSTRAINT FK_RegionInCountryToCountry
+		REFERENCES Country (CountryId),
+	RegionId	SMALLINT		NOT NULL,
+	Name		VARCHAR(100) 	NOT NULL,
+	CONSTRAINT	PK_CountryId_RegionId
+	PRIMARY KEY CLUSTERED (CountryId, RegionId)
+)
+```
+
+**StoreInRegion Example**
+
+```sql
+CREATE TABLE StoreInRegion (
+	CountryId	SMALLINT		NOT NULL,	
+	RegionId	SMALLINT		NOT NULL,	
+	StoreId		SMALLINT		NOT NULL,
+	Phone		VARCHAR(100) 	NOT NULL,
+	CONSTRAINT	PK_CountryId_RegionId_StoreId 
+	PRIMARY KEY CLUSTERED (CountryId, RegionId, StoreId),
+	CONSTRAINT	FK_StoreInRegionToRegionInCountry
+	FOREIGN KEY (CountryId, RegionId)
+	REFERENCES RegionInCountry (CountryId, RegionId)
+)
+```
+
+#### Exercise
+![fk-exercise.png](images/fk-exercise.png)
+1. Modify the script that defines the `Employee`, `Project` and `EmployeeOnProject` tables to include the necessary `Foreign Key` constraint definitions.  
+2. Create the `Department` table as a stand-alone table for now (no relationships to other tables).  Use the `IDENTITY` property for the `DepartmentNumber`.    
+
+
+
 
 ### <a ID="check">CHECK Constraints</a>
 

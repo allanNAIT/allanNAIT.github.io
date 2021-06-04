@@ -3,6 +3,7 @@ layout: page
 title: DMIT1508 SQL Data Types
 ---
 ## String Data Types
+
 Data Type | Description | Max Size
 ----------|-------------|---------
 `CHAR(n)` | Fixed width characater string | 8,000 characters
@@ -19,6 +20,7 @@ Data Type | Description | Max Size
 `IMAGE` | Variable width binary string | 2GB
 
 ## Numeric Data Types
+
 Data Type | Description 
 ----------|------------
 `BIT` | Integer that can be 1, 0, or `NULL`
@@ -34,6 +36,7 @@ Data Type | Description
 `REAL` | Floating precision number data from -3.40E + 38 to 3.40E + 38
 
 ## Date and Time Data Types
+
 Data Type | Description 
 ----------|------------
 `DATETIME` | From January 1, 1753 to December 31, 9999 with an accuracy of 3.33 milliseconds

@@ -179,3 +179,6 @@ Here is a list of SQL Keywords that we will learn
   * e.g., `Total > 10` is **true** if the value of Total is greater than (not equal to) the value `10`.
 * `>=` means greater than or equal to
   * e.g., `Total >= 10` is **true** if the value of Total is greater than, or exactly, the value `10`.
+
+### [References Home](references.md)
+### [DMIT1508 Home](../)

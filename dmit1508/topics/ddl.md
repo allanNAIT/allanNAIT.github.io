@@ -121,7 +121,7 @@ e.g., to drop the `Items` table:
 DROP TABLE Items
 ```
 
-**Practice**:
+**Practice**:<br>
 ![ddl-practice-create.png](images/ddl-practice-create.png)
 
 1. Create a script that will create the 3 tables above:<br>
@@ -187,7 +187,7 @@ CREATE TABLE Marks (
     CONSTRAINT PK_Marks PRIMARY KEY CLUSTERED (StudentId, CourseId))
 ```
 
-**Practice**:
+**Practice**:<br>
 ![ddl-practice-create.png](images/ddl-practice-create.png)
 1. Modify the script that defines the `Employee`, `Project`, and `EmployeeOnProject` tables to include the necessary `PK` constraint definitions.
 2. Use the `SP_HELP` procedure to retrieve a description.

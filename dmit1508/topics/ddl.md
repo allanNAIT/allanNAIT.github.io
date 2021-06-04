@@ -210,7 +210,7 @@ The value of a column acting as a `FK` must be either:
 * A value that exists as a `PK` in the associated parent table
 * `NULL`
 
-For example, given the ERD below:
+For example, given the ERD below:<br>
 ![fk-example-erd.png](images/fk-example-erd.png)
 
 1. `DROP TABLE StoreInRegion`

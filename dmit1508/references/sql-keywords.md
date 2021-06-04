@@ -71,8 +71,25 @@ Here is a list of SQL Keywords that we will learn
 * `IN` lets us check for an exact match within a list of values. e.g., `WHERE StudentID IN (20001, 20002, 20004)`.
 * `INSERT` lets us add a new row (or rows) to a table. We can add using hardcoded values, the results of a subquery, or the results of a `SELECT` statement! More on the [DML page](../dml.md). Some examples:
 
-```sql:
+```sql
 INSERT INTO Staff (FirstName,LastName)
 VALUES ('Bob','Smith'),
        ('Bob','Jones') -- inserting 2 rows in a single INSERT
+```
+
+```sql
+INSERT INTO Item (ItemID,
+                  ItemName,
+                  Cost,
+                  Description)
+VALUES (123,
+        'Whatchamacallit',
+        SELECT AVG(Cost) FROM Item -- INSERTing a value from a subquery,
+        NULL)
+```
+
+```sql
+INSERT INTO Student(FirstName,LastName)
+SELECT FirstName,Lastname FROM Employee
+-- this is essentially copying values from one table to another
 ```

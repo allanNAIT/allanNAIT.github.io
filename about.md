@@ -1,4 +1,4 @@
-# About
+<h1>About</h1>
 
 ## Contact Information
 **Name**: Allan Anderson<br>

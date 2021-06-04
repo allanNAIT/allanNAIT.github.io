@@ -211,7 +211,7 @@ The value of a column acting as a `FK` must be either:
 * `NULL`
 
 For example, given the ERD below:
-![fk-example-erd.png](images/fk-example.png)
+![fk-example-erd.png](images/fk-example-erd.png)
 
 1. `DROP TABLE StoreInRegion`
 2. `DROP TABLE RegionInCountry`

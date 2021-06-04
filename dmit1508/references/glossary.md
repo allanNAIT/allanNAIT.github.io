@@ -37,3 +37,6 @@ A combination of 2 or more attributes acting as the primary key is called a _con
 
 ## R
 * A **relationship** is the association that describes the interaction between entities. 
+
+### [References Home](references.md)
+### [DMIT1508 Home](../)

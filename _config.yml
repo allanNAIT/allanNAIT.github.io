@@ -18,6 +18,6 @@ header_pages:
  - dmit2028/index.md
  - about.md
 
-include:
+exclude:
   README.md
 theme: minima

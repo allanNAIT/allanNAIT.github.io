@@ -3,6 +3,6 @@ In this module you are going to build a multi-page website from the provided Pho
 
 ## Lessons
 
-### [30 - Module 4 Assignment](30-module4-assignment/README.md)
+### [30 - Module 4 Assignment](30-module4-assignment/assignment4.md)
 
-### [COMP1017 Home](../comp1017.md)
+### [COMP1017 Home](../)

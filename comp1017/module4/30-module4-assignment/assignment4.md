@@ -1,6 +1,6 @@
 # 30 - Module 4 Assignment
 Follow the instructions on Moodle to complete this assignment.
 
-### [Module Home](../README.md)
+### [Module Home](../module4.md)
 
-### [Home](../../comp1017.md)
+### [COMP1017 Home](../../)

@@ -63,7 +63,7 @@ CREATE TABLE Customers (
 	CustomerNumber	       INT IDENTITY(1,1)	NOT NULL,
 	LastName		VARCHAR(100)		NOT NULL,
 	FirstName		VARCHAR(100)		NOT NULL,
-	Phone			CHAR(8)		       NULL
+	Phone			CHAR(8)		        NULL
 )
 
 -- Create the Orders table

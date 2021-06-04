@@ -341,28 +341,29 @@ If the expression is `Word LIKE 'ABC '` and the value of `Word` is “ABC” the
 ```sql
 CREATE TABLE Supplier (
 	SupplierId	INT IDENTITY (1, 1)	NOT NULL
-	CONSTRAINT PK_Supplier PRIMARY KEY CLUSTERED,
+	    CONSTRAINT PK_Supplier PRIMARY KEY CLUSTERED,
 	Name		VARCHAR(100)		NOT NULL,	
-	Phone		CHAR(14)	NOT NULL
-	CONSTRAINT CK_Phone CHECK
-	(Phone LIKE '([0-9][0-9][0-9]) [0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]')
+	Phone		CHAR(14)	    NOT NULL
+	CONSTRAINT CK_Phone
+    CHECK (Phone LIKE '([0-9][0-9][0-9]) [0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]')
 )
 ```
 
 ```sql
 CREATE TABLE PurchaseOrder (
 	OrderNumber		INT IDENTITY (1,1)		NOT NULL
-	CONSTRAINT PK_PurchaseOrder PRIMARY KEY CLUSTERED,
-	OrderDate		SMALLDATETIME		    NOT NULL,
-	DateReceived		SMALLDATETIME		    NOT NULL,
+	    CONSTRAINT PK_PurchaseOrder PRIMARY KEY CLUSTERED,
+	OrderDate		SMALLDATETIME		     NOT NULL,
+	DateReceived		SMALLDATETIME		       NOT NULL,
 	SupplierId			INT			NOT NULL
 	CONSTRAINT FK_PurchaseOrderToSupplier REFERENCES Supplier (SupplierId),
-	SubTotal		MONEY			    NOT NULL
+	SubTotal		MONEY			      NOT NULL
 	CONSTRAINT CK_SubTotalMustBePositive CHECK (Subtotal > 0),
 	GST			MONEY			        NOT NULL
 	CONSTRAINT CK_GSTMustBePositive CHECK (GST > 0),
 	Total AS Subtotal + GST,
-	CONSTRAINT CK_DateReceivedMustBeOnOrAfterOrderDate CHECK (DateReceived >= OrderDate)
+	CONSTRAINT CK_DateReceivedMustBeOnOrAfterOrderDate
+        CHECK (DateReceived >= OrderDate)
 )
 ```
 

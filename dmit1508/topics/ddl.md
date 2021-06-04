@@ -251,7 +251,7 @@ CREATE TABLE StoreInRegion (
 	CountryId	SMALLINT		NOT NULL,	
 	RegionId	SMALLINT		NOT NULL,	
 	StoreId		SMALLINT		NOT NULL,
-	Phone		VARCHAR(100) 	NOT NULL,
+	Phone		VARCHAR(100) 	    NOT NULL,
 	CONSTRAINT	PK_CountryId_RegionId_StoreId 
 	PRIMARY KEY CLUSTERED (CountryId, RegionId, StoreId),
 	CONSTRAINT	FK_StoreInRegionToRegionInCountry
@@ -261,7 +261,7 @@ CREATE TABLE StoreInRegion (
 ```
 
 #### Exercise
-![fk-exercise.png](images/fk-exercise.png)
+![fk-exercise-erd.png](images/fk-exercise-erd.png)
 1. Modify the script that defines the `Employee`, `Project` and `EmployeeOnProject` tables to include the necessary `Foreign Key` constraint definitions.  
 2. Create the `Department` table as a stand-alone table for now (no relationships to other tables).  Use the `IDENTITY` property for the `DepartmentNumber`.    
 

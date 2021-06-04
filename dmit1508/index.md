@@ -6,6 +6,7 @@ title: DMIT1508
 
 ## Main Topics
 * [Data Definition Langauge (DDL)](topics/ddl.md)
+  * [Basic Table Definition](topics/ddl.md/#basic)
 * [Data Manipulation Language (DML)](topics/dml.md)
 * [SQL Queries](topics/queries.md)
 * [SQL Stored Procedures](topics/stored-procedures.md)

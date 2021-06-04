@@ -72,24 +72,43 @@ Here is a list of SQL Keywords that we will learn
 * `INSERT` lets us add a new row (or rows) to a table. We can add using hardcoded values, the results of a subquery, or the results of a `SELECT` statement! More on the [DML page](../dml.md). Some examples:
 
 ```sql
-INSERT INTO Staff (FirstName,LastName)
-VALUES ('Bob','Smith'),
-       ('Bob','Jones') -- inserting 2 rows in a single INSERT
+    INSERT INTO Staff (FirstName,LastName)
+    VALUES ('Bob','Smith'),
+           ('Bob','Jones') -- inserting 2 rows in a single INSERT
 ```
 
 ```sql
-INSERT INTO Item (ItemID,
-                  ItemName,
-                  Cost,
-                  Description)
-VALUES (123,
-        'Whatchamacallit',
-        SELECT AVG(Cost) FROM Item -- INSERTing a value from a subquery,
-        NULL)
+    INSERT INTO Item (ItemID,
+                      ItemName,
+                      Cost,
+                      Description)
+    VALUES (123,
+            'Whatchamacallit',
+            SELECT AVG(Cost) FROM Item -- INSERTing a value from a subquery,
+            NULL)
 ```
 
 ```sql
-INSERT INTO Student(FirstName,LastName)
-SELECT FirstName,Lastname FROM Employee
--- this is essentially copying values from one table to another
+    INSERT INTO Student(FirstName,LastName)
+    SELECT FirstName,Lastname FROM Employee
+    -- this is essentially copying values from one table to another
 ```
+
+## J
+* `JOIN` lets us join data from multiple tables.
+  * `table1 INNER JOIN table2` returns only **records that exist in both tables**.
+    * If you are joining a parent to child, OR child to parent, you will only get **records for parents** that have child records.
+  * `table1 LEFT JOIN table2` returns **all records in table1**, regardless of whether they exist in table2.
+    * If you are joining parent to child, you will get **parents regardless of whether they have child records**.
+    * If you are joining child to parent, you will get only child records, so you **should use `INNER JOIN` instead**.
+  * `table1 RIGHT JOIN table2` returns **all records in table2**, regardless of whether they exist in table1.
+    * If you qre joining parent to child, you will get only child records, so you **should use `INNER JOIN` instead**.
+    * If you are joining child to parent, you will get **parents regardless of whether they have child records**.
+  * `table1 FULL OUTER JOIN table2` returns all records that exist in either table.
+    * If you are joining parent to child, you will get parents regardless of whether they have child records, so you **should use `LEFT JOIN` instead**.
+    * If you are joining child to parent, you will get parents regardless of whether they have child records, so you **should use `RIGHT JOIN` instead**.
+  * How to pick a `JOIN` type:
+    | Joining Parent to Child | Joining Child to Parent
+----|-------------------------|------------------------
+`INNER` | only records for parents that have child records | only records for parents that have child records
+`LEFT` | parents regardless of whether they have child records | use _`INNER JOIN`_ instead

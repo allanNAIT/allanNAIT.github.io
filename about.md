@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
+title: about
 ---
-
-# About
 
 ## Contact Information
 **Name**: Allan Anderson<br>

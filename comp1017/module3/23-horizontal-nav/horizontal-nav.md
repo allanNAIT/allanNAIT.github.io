@@ -1,4 +1,7 @@
-# 23 - Styling Horizontal Navigation
+---
+layout: page
+title: 23 - Styling Horizontal Navigation
+---
 The following file is required for this lesson:
 * [css-horizontal-menu.zip](files/css-horizontal-menu.zip)
 
@@ -85,6 +88,6 @@ Download the documents for the Lab from Moodle to get the following files:
 
 Complete the lab as per the instructions on Moodle.
 
-### [Module Home](../README.md)
+### [Module Home](../module3.md)
 
-### [Home](../../comp1017.md)
+### [COMP1017 Home](../../)

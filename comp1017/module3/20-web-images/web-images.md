@@ -1,4 +1,7 @@
-# 20 - Web Image Formats
+---
+layout: page
+title: 20 - Web Image Formats
+---
 The following file is required for this lesson:
 *[demo-web-image-formats.zip](files/demo-web-image-formats.zip)
 
@@ -99,6 +102,6 @@ You can follow along with your instructor to complete this build and/or you can 
 ## <a id="exercise">Exercise Instructions</a>
 Download the **ex-web-imageformats.zip** file from Moodle and extract to a folder called **ex-web-image-formats**. You can use either Photoshop or photpea.com to extract the images from the **design-comp.psd** file. Use the submission instructions on Moodle.
 
-### [Module Home](../README.md)
+### [Module Home](../module3.md)
 
-### [Home](../../comp1017.md)
+### [COMP1017 Home](../../)

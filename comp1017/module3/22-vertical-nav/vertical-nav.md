@@ -1,4 +1,7 @@
-# 22 - Styling Vertical Navigation
+---
+layout: page
+title: 22 - Styling Vertical Navigation
+---
 The following file is required for this lesson:
 * [css-vertical-nav.psd.zip](files/css-vertical-nav.psd.zip)
 
@@ -29,6 +32,6 @@ You can follow along with your instructor to complete this build and/or you can 
 ## Exercise Instructions
 There are no exercises related to this demo.
 
-### [Module Home](../README.md)
+### [Module Home](../module3.md)
 
-### [Home](../../comp1017.md)
+### [COMP1017 Home](../../)

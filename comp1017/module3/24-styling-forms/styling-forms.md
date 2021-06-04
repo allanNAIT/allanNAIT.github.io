@@ -1,4 +1,7 @@
-# 24 - Styling Forms
+---
+layout: page
+title: 24 - Styling Forms
+---
 The following file is required for this lesson:
 * [demo-styling-forms.zip](files/demo-styling-forms.zip)
 
@@ -78,6 +81,6 @@ Before adding style rules to your styles.css file, the web page should look like
 Download the **ex-contact-form.zip** file from Moodle. The ZIP file contains instructions in the file, **ex-contact-form.pdf**, and the Photoshop file, **form-design-comp.psd**, which will aid you in completing this exercise. Complete this exercise as per the instructions on Moodle.
 
 
-### [Module Home](../README.md)
+### [Module Home](../module3.md)
 
-### [Home](../../comp1017.md)
+### [COMP1017 Home](../../)

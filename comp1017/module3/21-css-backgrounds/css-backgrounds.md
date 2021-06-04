@@ -1,4 +1,7 @@
-# 21 - CSS Background Images
+---
+layout: page
+title: 21 - CSS Background Images
+---
 The following file is required for this lesson:
 * [demo-css-background-image.zip](files/demo-css-background-image.zip)
 
@@ -67,6 +70,6 @@ There are no exercises related to this demo.
 ## Lab
 Submit your completed las as per the instructions on Moodle.
 
-### [Module Home](../README.md)
+### [Module Home](../module3.md)
 
-### [Home](../../comp1017.md)
+### [COMP1017 Home](../../)

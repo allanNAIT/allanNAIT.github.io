@@ -1,4 +1,7 @@
-# 13A - CSS Cascade Specificity
+---
+layout: page
+title: 13A - CSS Cascade Specificity
+---
 The following file is required for this lesson:
 
 * [demo-cascade.zip](files/demo-cascade.zip)
@@ -42,6 +45,6 @@ You can follow along with your instructor to complete this build and/or you can 
 ## Exercise Instructions
 There is no related exercise for this walkthrough.
 
-### [Module Home](../README.md)
+### [Module Home](../module2.md)
 
-### [Home](../../comp1017.md)
+### [Home](../../)

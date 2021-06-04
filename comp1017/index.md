@@ -13,7 +13,7 @@ This is a secondary resource for COMP1017; the official course material can be f
 ### [Module 1 - Document Structure](module1/module1.md)
 Here you will explore the basic structure of web pages, marking up content, deployemnt, sectioning, and simple site navigation.
 
-### [Module 2 - CSS & Web Page Layout](module2/README.md)
+### [Module 2 - CSS & Web Page Layout](module2/module2.md)
 Here you will explore layout styling using Cascading Stylesheets (CSS), the Box Model, and Flexbox.
 
 ### [Module 3 - Styling Content With CSS](module3/README.md)

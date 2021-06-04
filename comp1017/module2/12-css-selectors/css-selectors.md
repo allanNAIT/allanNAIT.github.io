@@ -1,4 +1,7 @@
-# 12 - CSS Selectors
+---
+layout: page
+title: 12 - CSS Selectors
+---
 The following file is required for this lesson:
 
 * [demo-css-seelctors.zip](files/demo-css-seelctors.zip)
@@ -58,6 +61,6 @@ Make a copy of your **demo-css-selectors** project and name the copy **css-selec
 
 Complete and submit your lab following the instructions on Moodle.
 
-### [Module Home](../README.md)
+### [Module Home](../module2.md)
 
-### [Home](../../comp1017.md)
+### [Home](../../)

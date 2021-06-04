@@ -1,4 +1,7 @@
-# 16 - Flexbox II
+---
+layout: page
+title: 16 - Flexbox II
+---
 The following file is required for this lesson:
 * [demo-flex-wrap.zip](files/demo-flex-wrap.zip)
 
@@ -47,6 +50,6 @@ Complete the exercises as per the instructions on Moodle. Remember to calculate 
 ## Lab Instructions
 Complete the Lab for this lesson and submit as per the instructions on Moodle.
 
-### [Module Home](../README.md)
+### [Module Home](../module2.md)
 
-### [Home](../../comp1017.md)
+### [Home](../../)

@@ -1,4 +1,7 @@
-# 14 - Page Layout
+---
+layout: page
+title: 14 - Page Layout
+---
 The following files are required for this lesson:
 * [center-page-framework.zip](files/center-page-framework.zip)
 * [demo-page-layout.zip](files/demo-page-layout.zip)
@@ -53,6 +56,6 @@ There is no related exercise for this walkthrough.
 ## Lab
 Download the **lab-page-layout.zip** file from Moodle. The completed web page should look like the **compted.jpg** file supplied. Submit this as per the instructions on Moodle.
 
-### [Module Home](../README.md)
+### [Module Home](../module2.md)
 
-### [Home](../../comp1017.md)
+### [COMP1017 Home](../../)

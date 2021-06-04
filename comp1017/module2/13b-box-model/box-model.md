@@ -1,4 +1,7 @@
-# 14 - The Box Model
+---
+layout: page
+title: 13b - The Box Model
+---
 The following file is required for this lesson:
 
 * [demo-box-model.zip](files/demo-box-model.zip)
@@ -43,6 +46,6 @@ There is no related exercise for this walkthrough.
 
 For each of the classes applied, do the math to see the actual size the sections take up on a web page.
 
-### [Module Home](../README.md)
+### [Module Home](../module2.md)
 
-### [Home](../../README.md)
+### [COMP1017 Home](../../)

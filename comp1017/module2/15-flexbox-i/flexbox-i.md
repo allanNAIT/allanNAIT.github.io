@@ -1,4 +1,7 @@
-# 15 - Flexbox I
+---
+layout: page
+title: 15 - Flexbox I
+---
 The following file is required for this lesson:
 * [demo-flexbox.zip](files/demo-flexbox.zip)
 
@@ -56,6 +59,6 @@ There are three exercises related to this demo; the first one is this demo. Down
 
 Complete the exercises as per the instructions on Moodle. Remember to calculate the `<div>` widths using the Box Model.
 
-### [Module Home](../README.md)
+### [Module Home](../module2.md)
 
-### [Home](../../comp1017.md)
+### [Home](../../)

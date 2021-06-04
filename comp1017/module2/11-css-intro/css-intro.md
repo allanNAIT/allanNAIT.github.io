@@ -1,4 +1,7 @@
-# 11 - Introduction to CSS
+---
+layout: page
+title: 11 - Introduction to CSS
+---
 The following files are required for this lesson:
 
 * [demo-style-sheet-start.zip](files/demo-style-sheet-start.zip)
@@ -74,6 +77,6 @@ Download the **ex-selecting-elements.zip** file from Moodle and extract the cont
 
 When completed, show your web page to your instructor.
 
-### [Module Home](../README.md)
+### [Module Home](../module2.md)
 
-### [Home](../../comp1017.md)
+### [COMP1017 Home](../../)

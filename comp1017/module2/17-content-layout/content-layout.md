@@ -1,4 +1,7 @@
-# 17 - Layout with Content
+---
+layout: page
+title: 17 - Layout with Content
+---
 The following file is required for this lesson:
 * [layout-with-content.zip](files/layout-with-content.zip)
 
@@ -62,6 +65,6 @@ You can follow along with your instructor to complete this build and/or you can 
 ## Exercise Instructions
 There are no exercises related to this demo.
 
-### [Module Home](../README.md)
+### [Module Home](../module2.md)
 
-### [Home](../../comp1017.md)
+### [COMP1017 Home](../../)

@@ -35,7 +35,7 @@ title: Data Definition Language (DDL)
 CREATE TABLE TableName (
     Column1 DATATYPE [IDENTITY [(seed, increment)]] | [NULL | NOT NULL] [<column constraints>],
     Column2 DATATYPE [IDENTITY [(seed, increment)]] | [NULL | NOT NULL] [<column constraints>],
-    Column3 DATATYPE[IDENTITY [(seed, increment)]] | [NULL | NOT NULL] [<column constraints>],
+    Column3 DATATYPE [IDENTITY [(seed, increment)]] | [NULL | NOT NULL] [<column constraints>],
     ...  
     [<table constraints>]
 ) 
@@ -109,8 +109,43 @@ EXEC SP_HELP Customers
 ```
 
 ## <a ID="drop">DROP Statement</a>
+The `DROP TABLE` statement is used to **delete** a table (both is data and its definition). The syntax is:
+
+```sql
+DROP TABLE TableName
+```
+
+e.g., to drop the `Items` table:
+
+```sql
+DROP TABLE Items
+```
+
+**Practice**:
+![ddl-practice-create.png](images/ddl-practice-create.png)
+
+1. Create a script that will create the 3 tables above:<br>
+    <ol type="a">
+        <li>Use appropriate data types</li>
+        <li>Do not worry about defining `PK`s or `FK`s</li>
+        <li>Do not allow `NULL`s in any column</li>
+        <li>`EmployeeID`s are 11 characters long</li>
+        <li>Use the identity property for ProjectNumber in the Project table, but not in the EmployeeOnProject table (why?)</li>
+    </ol>
+2. List the table definition
+3. Save your script
 
 ## <a ID="constraints">Constraints</a>
+Constraints are used for:
+1. Define the `PK`
+  * This is defined by the [`PRIMARY KEY`](#pk)
+2. Define **relationships**
+  * This is defined by the [`FOREIGN KEY`](#fk) constraint
+3. Define **defualt values**
+  * Defined by the [`DEFAULT`](#default) constraint
+4. Define the **domain of valid values**
+  * Defined by the [`CHECK`](#check) constraint
+5. Ensure that **all values in a column are unique**
 
 ### <a ID="pk">PK Constraints</a>
 

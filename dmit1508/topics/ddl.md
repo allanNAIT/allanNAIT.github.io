@@ -238,7 +238,7 @@ CREATE TABLE RegionInCountry (
 		CONSTRAINT FK_RegionInCountryToCountry
 		REFERENCES Country (CountryId),
 	RegionId	SMALLINT		NOT NULL,
-	Name		VARCHAR(100) 	NOT NULL,
+	Name		VARCHAR(100) 	    NOT NULL,
 	CONSTRAINT	PK_CountryId_RegionId
 	PRIMARY KEY CLUSTERED (CountryId, RegionId)
 )

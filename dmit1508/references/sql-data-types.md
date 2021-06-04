@@ -1,4 +1,6 @@
-# SQL Data Types
-
+---
+layout: page
+title: DMIT1508 SQL Data Types
+---
 ### [References Home](references.md)
-### [DMIT1508 Home](../dmit1508.md)
+### [DMIT1508 Home](../)

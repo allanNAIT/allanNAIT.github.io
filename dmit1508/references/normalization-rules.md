@@ -1,4 +1,7 @@
-# Normalization Rules
+---
+layout: page
+title: Normalization Rules
+---
 This is a quick reference for creating a 3NF database.
 
 ## Terms:
@@ -53,4 +56,4 @@ As you apply the rules of normalization to each view you will uncover more attri
 Entities that have the same primary key must be merged into one table. Consider the example where you normalized 2 views and uncovered the following entities.
 
 ### [References Home](references.md)
-### [DMIT1508 Home](../dmit1508.md)
+### [DMIT1508 Home](../)

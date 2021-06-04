@@ -10,7 +10,7 @@ This is a secondary resource for COMP1017; the official course material can be f
 
 ## Modules
 
-### [Module 1 - Document Structure](module1/README.md)
+### [Module 1 - Document Structure](module1/module1.md)
 Here you will explore the basic structure of web pages, marking up content, deployemnt, sectioning, and simple site navigation.
 
 ### [Module 2 - CSS & Web Page Layout](module2/README.md)

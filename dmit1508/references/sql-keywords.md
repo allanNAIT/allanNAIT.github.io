@@ -108,6 +108,7 @@ Here is a list of SQL Keywords that we will learn
     * If you are joining parent to child, you will get parents regardless of whether they have child records, so you **should use `LEFT JOIN` instead**.
     * If you are joining child to parent, you will get parents regardless of whether they have child records, so you **should use `RIGHT JOIN` instead**.
   * How to pick a `JOIN` type:
+  
     | Joining Parent to Child | Joining Child to Parent
 ----|-------------------------|------------------------
 `INNER` | only records for parents that have child records | only records for parents that have child records

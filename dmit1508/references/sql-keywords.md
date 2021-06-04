@@ -21,24 +21,24 @@ Here is a list of SQL Keywords that we will learn
 
 ## C
 * `COMMIT TRANSACTION` marks the end of the transaction, and makes everything that happened since `BEGIN TRANSACTION` permanent.
-* `CONSTRAINT`s can be added to define the Primary Key, Foreign Key, any default values, or conditions a column has (e.g., what values are allowed, or what format the value must be in). More on constraints on the [DDL page](../ddl.md).
+* `CONSTRAINT`s can be added to define the Primary Key, Foreign Key, any default values, or conditions a column has (e.g., what values are allowed, or what format the value must be in). More on constraints on the [DDL page](../topics/ddl.md).
 * `COUNT(*)` returns the number of rows in a query.
 * `COUNT(ColumnName)` returns the number of non-null values in the specified column.
 * `CREATE NONCLUSTERED INDEX` lets us create a new index, which speeds up data retrieval.
-* `CREATE PROCEDURE` lets us create a set of SQL statements that is stored in the database, and can be run as needed. Check out the [Stored Procedures](../stored-procedues.md) page for more info.
-* `CREATE TABLE` creates the structure for a new table in our database (see [DDL page](../ddl.md) for syntax)
+* `CREATE PROCEDURE` lets us create a set of SQL statements that is stored in the database, and can be run as needed. Check out the [Stored Procedures](../topics/stored-procedues.md) page for more info.
+* `CREATE TABLE` creates the structure for a new table in our database (see [DDL page](../topics/ddl.md) for syntax)
   * `IDENTITY(seed, increment)` is what we add to each column that is a technical key (i.e., SQL will generate the value for us)
-* `CREATE TRIGGER` creates a new trigger that will be executed by a specific kind of DML statement on a specific table. Learn more on the [Triggers page](../triggers.md).
-* `CREATE VIEW` lets us save a specific query, and `SELECT` from that view just like we select from a table. More on the [Views page](../views.md).
+* `CREATE TRIGGER` creates a new trigger that will be executed by a specific kind of DML statement on a specific table. Learn more on the [Triggers page](../topics/triggers.md).
+* `CREATE VIEW` lets us save a specific query, and `SELECT` from that view just like we select from a table. More on the [Views page](../topics/views.md).
 
 ## D
-* `DATEADD(xx, n, date1)` adds `n` `xx` to `date1` (`n` may be negative). See the [Queries page](../queries.md) for possible values for `xx`.
+* `DATEADD(xx, n, date1)` adds `n` `xx` to `date1` (`n` may be negative). See the [Queries page](../topics/queries.md) for possible values for `xx`.
   * e.g., `DATEADD(yy, 5, HireDate)` returns the date 5 years after the `HireDate`.
-* `DATEDIFF(xx, date1, date2)` returns the number of `xx` from `date1` to `date2`. See the [Queries page](../queries.md) for possible values for `xx`.
+* `DATEDIFF(xx, date1, date2)` returns the number of `xx` from `date1` to `date2`. See the [Queries page](../topics/queries.md) for possible values for `xx`.
   * e.g., `DATEDIFF(dd, OrderDate, ShipDate)` returns the number of days between `OrderDate` and `ShipDate`.
-* `DATENAME(xx, date1)` returns a string representation of the `xx` of `date1`. See the [Queries page](../queries.md) for possible values for `xx`.
+* `DATENAME(xx, date1)` returns a string representation of the `xx` of `date1`. See the [Queries page](../topics/queries.md) for possible values for `xx`.
   * e.g., `DATENAME(dw, '2020-01-01')` returns `Wednesday`.
-* `DATEPART(xx, date1)` returns integer representation of the `xx` of `date1`. See the [Queries page](../queries.md) for possible values for `xx`.
+* `DATEPART(xx, date1)` returns integer representation of the `xx` of `date1`. See the [Queries page](../topics/queries.md) for possible values for `xx`.
   * e.g., `DATEPART(mm, '2020-03-01')` returns `3` because March is the 3rd month of the year.
   * `YEAR(date1)` functions the same as `DATEPART(yy, date1)`
     * e.g., `YEAR('2020-03-01')` returns `2020`.
@@ -47,7 +47,7 @@ Here is a list of SQL Keywords that we will learn
   * `DAY(date1)` functions the same as `DATEPART(dd, date1)`
     * e.g., `DAY('2020-03-01')` returns `1`.
 * `DECLARE` lets us create a new variable: e.g., `DECLARE @FirstName VARCHAR(10), @LastName VARCHAR(20)`.
-* `DELETE` statements remove record(s) from a table. More on the [DML page](../dml.md). e.g., `DELETE FROM Student WHERE GraduationStatus = 'Y'`.
+* `DELETE` statements remove record(s) from a table. More on the [DML page](../topics/dml.md). e.g., `DELETE FROM Student WHERE GraduationStatus = 'Y'`.
 * `DISTINCT` can be added to a `SELECT` or `COUNT()` to only count **unique** rows or values.
 * `DROP INDEX` deletes an index from the database.
 * `DROP PROCEDURE` deletes a stored procedure.
@@ -59,7 +59,7 @@ Here is a list of SQL Keywords that we will learn
 ## E
 * `EXEC ProcedureName ParameterName` is how we execute a stored procedure called ProcedureName with a parameter called ParameterName. Some SPs have no parameters, some have one, some have many: if we have multiple parameters, we separate them with commas like this: `EXEC ProcedureName Param1, Param2`.
   * e.g., `EXEC sp_help Customers` runs the `sp_help` on the `Customers` table.
-  * e.g. `EXEC sp_helptext CustomerView` runs `sp_helptext` on the `CustomerView` view. It can also be used to get the definition of [triggers](../triggers.md)!
+  * e.g. `EXEC sp_helptext CustomerView` runs `sp_helptext` on the `CustomerView` view. It can also be used to get the definition of [triggers](../topics/triggers.md)!
 
   ## G
 * `GETDATE()` returns the current datetime (i.e., today’s date).
@@ -69,7 +69,7 @@ Here is a list of SQL Keywords that we will learn
 * `IF` is a conditional statement: the code within an `IF` block will only run if its condition evaluates to true. Optionally, an `IF` statement may have an `ELSE` block: that code will only run if the original condition evaluates to **false**.
 * `IF EXISTS (...)` will run the query in parentheses, and will return true if at least one record is returned. This is helpful to check if there are existing records to `UPDATE` or `DELETE` before trying to `UPDATE` or `DELETE` them.
 * `IN` lets us check for an exact match within a list of values. e.g., `WHERE StudentID IN (20001, 20002, 20004)`.
-* `INSERT` lets us add a new row (or rows) to a table. We can add using hardcoded values, the results of a subquery, or the results of a `SELECT` statement! More on the [DML page](../dml.md). Some examples:
+* `INSERT` lets us add a new row (or rows) to a table. We can add using hardcoded values, the results of a subquery, or the results of a `SELECT` statement! More on the [DML page](../topics/dml.md). Some examples:
 
 ```sql
     INSERT INTO Staff (FirstName,LastName)
@@ -119,7 +119,7 @@ Here is a list of SQL Keywords that we will learn
 ## L
 * `LEN(column | expression)` returns the length of a string or expression. e.g., `LEN('hello')` has the value `5`.
 * `LEFT(column | expression, length)` returns length number of characters, starting at the left. e.g., `LEFT('12345', 2)` returns the first `2` characters of `12345`: `12`.
-* The `LIKE` operator lets us do pattern matching on a character. This is useful in a `CHECK` constraint or in a `WHERE` clause. Check out the [DDL page](../ddl.md) to see the wildcards we can use within our patterns.
+* The `LIKE` operator lets us do pattern matching on a character. This is useful in a `CHECK` constraint or in a `WHERE` clause. Check out the [DDL page](../topics/ddl.md) to see the wildcards we can use within our patterns.
 * `LOWER(column | expression)` returns a string in all lowercase. e.g., `LOWER('Bob')` returns `bob`.
 * `LTRIM(column | expression)` trims any leading whitespace from a string (e.g., spaces and tabs at the start of a string).
 
@@ -146,7 +146,7 @@ Here is a list of SQL Keywords that we will learn
 * `RTRIM(column | expression)` trims any trailing whitespace (e.g., spaces and tabs at the end of a string) from a string.
 
 ## S
-* `SELECT` is how we start a query that retrieves data from our database. Details on all its parts are available on the [Queries page](../queries.md).
+* `SELECT` is how we start a query that retrieves data from our database. Details on all its parts are available on the [Queries page](../topics/queries.md).
     * It is also how we can assign literal values to multiple variables, or assign values to a variable `FROM` a `SELECT` statement. Check out the Stored Procedures page for more info.
     * We can also use it to get info from our databases, like a list of triggers: `SELECT Name FROM SysObjects WHERE Type = 'TR'`
 * `SET` lets us assign a literal value to a variable: e.g., `SET @FirstName = 'Bob'`.
@@ -158,7 +158,7 @@ Here is a list of SQL Keywords that we will learn
 
 ## U
 * `UNION` lets us combine the results of multiple SQL queries, as long as they have the same number of columns and similar data types. The columns are named according to the first query in the `UNION` (i.e., the names of the columns in subsequent queries does not appear in the results).
-* `UPDATE` statements let us change the values of one or more columns in existing rows. More on the [DML page](../dml.md).
+* `UPDATE` statements let us change the values of one or more columns in existing rows. More on the [DML page](../topics/dml.md).
   * e.g., `UPDATE Student SET FirstName = 'Bob', LastName = 'Smith' WHERE StudentID = 123`
   * The `UPDATE()` function returns **true** if an `INSERT` or `UPDATE` was attempted on a specified column. These are used in triggers to let us branch around the logic if the column of interest wasn’t updated.
 * `UPPER(column | expression)` returns a string in `UPPERCASE`. e.g., `UPPER('Bob')` returns `BOB`.

@@ -366,7 +366,15 @@ CREATE TABLE PurchaseOrder (
 )
 ```
 
-### <a ID="testing">Testing a CHECK Constraint</a>
+#### <a ID="testing">Testing a CHECK Constraint</a>
+* Use `SP_HELP` to list the definition of a table. This ensures the constraint definition is in place and is correct.
+* **Add a row to the table using data that violates the constraint**. You should receive an error message and the row should not be added to the table.
+
+#### Practice
+The company **does not allow an employee to work on one project for more than 20 hours per week**.
+
+Add a `CHECK` constraint to ensure this business rule is enforced.
+
 
 ### <a ID="default">DEFAULT Constraint</a>
 

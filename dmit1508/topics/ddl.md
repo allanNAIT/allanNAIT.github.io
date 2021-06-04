@@ -60,7 +60,7 @@ We can write the table creation SQL as follows:
 ```sql
 -- Create the Customers table
 CREATE TABLE Customers (
-	CustomerNumber	       INT IDENTITY(1,1)	NOT NULL,
+	CustomerNumber	        INT IDENTITY(1,1)	NOT NULL,
 	LastName		VARCHAR(100)		NOT NULL,
 	FirstName		VARCHAR(100)		NOT NULL,
 	Phone			CHAR(8)		        NULL
@@ -70,7 +70,7 @@ CREATE TABLE Customers (
 CREATE TABLE Orders (
 	OrderNumber		INT IDENTITY(1,1)	NOT NULL,
 	OrderDate		SMALLDATETIME		NOT NULL,
-	CustomerNumber	       INT			NOT NULL,
+	CustomerNumber	        INT			NOT NULL,
 	Subtotal		MONEY			NOT NULL,
 	GST			MONEY			NOT NULL,
 	Total 	 		MONEY			NOT NULL
@@ -79,8 +79,8 @@ CREATE TABLE Orders (
 -- Create the Items table
 CREATE TABLE Items (
 	ItemNumber		INT IDENTITY(1,1)	NOT NULL,
-	Description	       VARCHAR(100)		NOT NULL,
-	CurrentPrice	       SMALLMONEY		NOT NULL
+	Description	        VARCHAR(100)		NOT NULL,
+	CurrentPrice	        SMALLMONEY		NOT NULL
 )
 
 -- Create the ItemsOnOrder table

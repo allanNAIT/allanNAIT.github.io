@@ -26,14 +26,14 @@ You can follow along with your instructor to complete this build and/or you can 
         <li>Below the image is another paragraph with a second level heading.</li>
         <li>The next paragraph has an unordered list below it. Add the paragraph and its second level heading. Once added, add an unordered list below using the html code structure below:<br>
 
-        ---html:
+        ```html:
             <ul>
                 <li>first list item</li>
                 <li>second list item</li>
                 .
                 .
             </ul>
-        ---
+        ```
 
         </li>
 
@@ -41,14 +41,14 @@ You can follow along with your instructor to complete this build and/or you can 
         <li>Below the paragraph add an ordered list using the format below:
         <br>
 
-        ---html:
+        ```html:
             <ol>
                 <li>first step</li>
                 <li>second step</li>
             .
             .
             </ol>
-        ---
+       ```
 
         </li>
         <li>The final section has three paragraphs. The first has a second level heading. Below that is a third level heading, <code>&lt;h3&gt; … &lt;/h3&gt;</code>, and a list below it. As there is no set order in the list, the list will be an unordered list.</li>

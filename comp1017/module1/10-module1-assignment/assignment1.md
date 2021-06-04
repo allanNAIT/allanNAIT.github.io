@@ -6,4 +6,4 @@ In this assignment, you are going to create a multi-page web site. See Moodle fo
 
 ### [Module Home](../module1.md)
 
-### [Home](../../)
+### [COMP1017 Home](../../)

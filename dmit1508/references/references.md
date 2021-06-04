@@ -1,5 +1,6 @@
 # DMIT1508 Database Fundamentals - References
 
+## [Glossary](glossary.md)
 ## [Normalization Rules](normalization-rules.md)
 ## [SQL Data Types](sql-data-types.md)
 ## [Installing SQL Server](danas-guide-to-installing-ssms-on-windows.pdf){:target="_blank"}

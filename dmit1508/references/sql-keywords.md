@@ -30,3 +30,49 @@ Here is a list of SQL Keywords that we will learn
   * `IDENTITY(seed, increment)` is what we add to each column that is a technical key (i.e., SQL will generate the value for us)
 * `CREATE TRIGGER` creates a new trigger that will be executed by a specific kind of DML statement on a specific table. Learn more on the [Triggers page](../triggers.md).
 * `CREATE VIEW` lets us save a specific query, and `SELECT` from that view just like we select from a table. More on the [Views page](../views.md).
+
+## D
+* `DATEADD(xx, n, date1)` adds `n` `xx` to `date1` (`n` may be negative). See the [Queries page](../queries.md) for possible values for `xx`.
+  * e.g., `DATEADD(yy, 5, HireDate)` returns the date 5 years after the `HireDate`.
+* `DATEDIFF(xx, date1, date2)` returns the number of `xx` from `date1` to `date2`. See the [Queries page](../queries.md) for possible values for `xx`.
+  * e.g., `DATEDIFF(dd, OrderDate, ShipDate)` returns the number of days between `OrderDate` and `ShipDate`.
+* `DATENAME(xx, date1)` returns a string representation of the `xx` of `date1`. See the [Queries page](../queries.md) for possible values for `xx`.
+  * e.g., `DATENAME(dw, '2020-01-01')` returns `Wednesday`.
+* `DATEPART(xx, date1)` returns integer representation of the `xx` of `date1`. See the [Queries page](../queries.md) for possible values for `xx`.
+  * e.g., `DATEPART(mm, '2020-03-01')` returns `3` because March is the 3rd month of the year.
+  * `YEAR(date1)` functions the same as `DATEPART(yy, date1)`
+    * e.g., `YEAR('2020-03-01')` returns `2020`.
+  * `MONTH(date1)` functions the same as `DATEPART(mm, date1)`
+    * e.g., `MONTH('2020-03-01')` returns `3`.
+  * `DAY(date1)` functions the same as `DATEPART(dd, date1)`
+    * e.g., `DAY('2020-03-01')` returns `1`.
+* `DECLARE` lets us create a new variable: e.g., `DECLARE @FirstName VARCHAR(10), @LastName VARCHAR(20)`.
+* `DELETE` statements remove record(s) from a table. More on the [DML page](../dml.md). e.g., `DELETE FROM Student WHERE GraduationStatus = 'Y'`.
+* `DISTINCT` can be added to a `SELECT` or `COUNT()` to only count **unique** rows or values.
+* `DROP INDEX` deletes an index from the database.
+* `DROP PROCEDURE` deletes a stored procedure.
+* `DROP TABLE` deletes a table from the database: both its structure AND its contents.
+  * If you DROP a table that has triggers associated with it, the triggers are dropped as well.
+* `DROP TRIGGER` deletes a trigger from the database.
+* `DROP VIEW` deletes a view from the database.
+
+## E
+* `EXEC ProcedureName ParameterName` is how we execute a stored procedure called ProcedureName with a parameter called ParameterName. Some SPs have no parameters, some have one, some have many: if we have multiple parameters, we separate them with commas like this: `EXEC ProcedureName Param1, Param2`.
+  * e.g., `EXEC sp_help Customers` runs the `sp_help` on the `Customers` table.
+  * e.g. `EXEC sp_helptext CustomerView` runs `sp_helptext` on the `CustomerView` view. It can also be used to get the definition of [triggers](../triggers.md)!
+
+  ## G
+* `GETDATE()` returns the current datetime (i.e., today’s date).
+* `GO` is a batch terminator. It basically says, “Hey SQL, execute up to this point. Everything after this point is a separate batch.”
+
+## I
+* `IF` is a conditional statement: the code within an `IF` block will only run if its condition evaluates to true. Optionally, an `IF` statement may have an `ELSE` block: that code will only run if the original condition evaluates to **false**.
+* `IF EXISTS (...)` will run the query in parentheses, and will return true if at least one record is returned. This is helpful to check if there are existing records to `UPDATE` or `DELETE` before trying to `UPDATE` or `DELETE` them.
+* `IN` lets us check for an exact match within a list of values. e.g., `WHERE StudentID IN (20001, 20002, 20004)`.
+* `INSERT` lets us add a new row (or rows) to a table. We can add using hardcoded values, the results of a subquery, or the results of a `SELECT` statement! More on the [DML page](../dml.md). Some examples:
+
+```sql:
+INSERT INTO Staff (FirstName,LastName)
+VALUES ('Bob','Smith'),
+       ('Bob','Jones') -- inserting 2 rows in a single INSERT
+```

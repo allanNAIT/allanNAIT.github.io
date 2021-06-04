@@ -109,11 +109,73 @@ Here is a list of SQL Keywords that we will learn
     * If you are joining child to parent, you will get parents regardless of whether they have child records, so you **should use `RIGHT JOIN` instead**.
   * How to pick a `JOIN` type:
 
- &nbsp;| Joining Parent to Child | Joining Child to Parent
-----|-------------------------|------------------------
-`INNER` | only records for parents that have child records | only records for parents that have child records
-`LEFT` | parents regardless of whether they have child records | _use `INNER JOIN`_ instead
-`RIGHT` | _use `INNER JOIN` instead_ | parents regardless of whether they have child records
-`FULL OUTER` | _use `LEFT JOIN` instead_ | _use `RIGHT JOIN` instead_
+   &nbsp;| Joining Parent to Child | Joining Child to Parent
+  ----|-------------------------|------------------------
+  `INNER` | only records for parents that have child records | only records for parents that have child records
+  `LEFT` | parents regardless of whether they have child records | _use `INNER JOIN`_ instead
+  `RIGHT` | _use `INNER JOIN` instead_ | parents regardless of whether they have child records
+  `FULL OUTER` | _use `LEFT JOIN` instead_ | _use `RIGHT JOIN` instead_
 
 ## L
+* `LEN(column | expression)` returns the length of a string or expression. e.g., `LEN('hello')` has the value `5`.
+* `LEFT(column | expression, length)` returns length number of characters, starting at the left. e.g., `LEFT('12345', 2)` returns the first `2` characters of `12345`: `12`.
+* The `LIKE` operator lets us do pattern matching on a character. This is useful in a `CHECK` constraint or in a `WHERE` clause. Check out the [DDL page](../ddl.md) to see the wildcards we can use within our patterns.
+* `LOWER(column | expression)` returns a string in all lowercase. e.g., `LOWER('Bob')` returns `bob`.
+* `LTRIM(column | expression)` trims any leading whitespace from a string (e.g., spaces and tabs at the start of a string).
+
+## M
+* `MAX()` retuns the maximum value from a column of numeric, date, or character values.
+* `MIN()` retuns the minimum value from a column of numeric, date, or character values.
+
+## N
+* `NOT` can be added to many other keywords: `NOT IN`, `NOT BETWEEN`, `NOT NULL`.
+* `NULL` is the absence of a value. We can test whether or not a value is null by using `IS NULL` in our clause.
+  * We do not use “`= NULL`”. Why? `NULL` is not a value so it is impossible to be equal to it).
+
+## O
+* `OR` is used between two boolean expressions, if we need either to be true. Both sides of the expression need to be a full and complete boolean expression: e.g., “`WHERE Value = 5 OR Value = 10`” is correct. “`WHERE VALUE = 5 OR 10`” is incorrect, because “`10`” is not a boolean expression.
+
+## P
+* `PRINT` lets us print informational messages to the screen to help with testing and debugging.
+
+## R
+* `RAISERROR('error message', 16, 1)` is how we raise errors to a user. For example, if a parameter is missing, a DML statements fails, or an `UPDATE` or `DELETE` affects zero records. We should always include helpful error messages so the user knows what went wrong.
+* `REVERSE(column | expression)` returns a string in reverse order: e.g., `REVERSE('123')` returns `321`.
+* `RIGHT(column | expression, length)` returns length number of characters, starting at the right. e.g., `RIGHT('12345', 2)` returns the last `2` characters of the string: `45`.
+* `ROLLBACK TRANSACTION` marks the end of a transaction, and “undoes” everything that happened since `BEGIN TRANSACTION`.
+* `RTRIM(column | expression)` trims any trailing whitespace (e.g., spaces and tabs at the end of a string) from a string.
+
+## S
+* `SELECT` is how we start a query that retrieves data from our database. Details on all its parts are available on the [Queries page](../queries.md).
+    * It is also how we can assign literal values to multiple variables, or assign values to a variable `FROM` a `SELECT` statement. Check out the Stored Procedures page for more info.
+    * We can also use it to get info from our databases, like a list of triggers: `SELECT Name FROM SysObjects WHERE Type = 'TR'`
+* `SET` lets us assign a literal value to a variable: e.g., `SET @FirstName = 'Bob'`.
+* `SOME` compares against any of the values:
+  * `WHERE Grade > SOME (SELECT Grade … )`
+  * It iss the same as `ANY`.
+* `SUBSTRING(column | expression, start, length)` returns a subset of characters from a string or expression. e.g., `SUBSTRING('abcdefg', 2, 3)` returns `3` characters, starting at position `2`: `bcd`.
+* `SUM()` is a function that returns the sum of a column containing numeric values. e.g., `SUM(GST)` will take all the values in the `GST` column, add them together, and return the total.
+
+## U
+* `UNION` lets us combine the results of multiple SQL queries, as long as they have the same number of columns and similar data types. The columns are named according to the first query in the `UNION` (i.e., the names of the columns in subsequent queries does not appear in the results).
+* `UPDATE` statements let us change the values of one or more columns in existing rows. More on the [DML page](../dml.md).
+  * e.g., `UPDATE Student SET FirstName = 'Bob', LastName = 'Smith' WHERE StudentID = 123`
+  * The `UPDATE()` function returns **true** if an `INSERT` or `UPDATE` was attempted on a specified column. These are used in triggers to let us branch around the logic if the column of interest wasn’t updated.
+* `UPPER(column | expression)` returns a string in `UPPERCASE`. e.g., `UPPER('Bob')` returns `BOB`.
+
+## Other Operators
+* `@@error` is a global variable that holds the error code for the most recently executed statement. If that statement did not error, it has a value of `0`. We will check its value after every DML statement.
+* `@@identity` returns the most recently used identity value.
+* `@@rowcount` returns the number of rows affects by the most recent statement.
+* `=` lets us look for an exact match (is equal to)
+  * e.g., `FirstName = 'Bob'` evaluates to **true** only if `FirsName` is **exactly** `Bob`; any extra letters, punctuation, or spacing, or another word entirely, evaluates to **false**.
+* `<>` or `!=` both mean _is not_ equal to
+  * e.g., `@@error <> 0` is how we check if `@@error` has a value other than `0`.
+* `<` means less than
+  * e.g., `Subtotal < 5` is **true** if the value of `Subtotal` is less than (not equal to) the value `5`.
+* `<=` means less than or equal to
+  * e.g., `Subtotal <= 5` is **true** if the value of `Subtotal` is less than, or exactly, the value `5`.
+* `>` means greater than
+  * e.g., `Total > 10` is **true** if the value of Total is greater than (not equal to) the value `10`.
+* `>=` means greater than or equal to
+  * e.g., `Total >= 10` is **true** if the value of Total is greater than, or exactly, the value `10`.

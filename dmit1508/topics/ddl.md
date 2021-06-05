@@ -15,7 +15,6 @@ title: Data Definition Language (DDL)
   * [LIKE Operator](#like)
   * [Testing a CHECK Constratint](#testing)
   * [DEFAULT Constraint](#default)
-* [DDL Practice](#practice)
 
 ## <a ID="basic">Basic Table Definition</a>
 * Data are stored in tables
@@ -427,7 +426,7 @@ CREATE TABLE PurchaseOrder (
 )
 ```
 
-
-## <a ID="practice">DDL Practice</a>
+#### Practice
+Establish **5.0 as the default number of hours per week** that an employee will work on a project.
 
 ### [DMIT1508 Home](../)

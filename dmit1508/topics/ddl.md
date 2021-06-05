@@ -360,7 +360,7 @@ CREATE TABLE PurchaseOrder (
         REFERENCES Supplier (SupplierId),
 	SubTotal		MONEY			        NOT NULL
         CONSTRAINT CK_SubTotalMustBePositive CHECK (Subtotal > 0),
-	GST			MONEY			         NOT NULL
+	GST			MONEY			        NOT NULL
         CONSTRAINT CK_GSTMustBePositive CHECK (GST > 0),
 	Total AS Subtotal + GST,
 	CONSTRAINT CK_DateReceivedMustBeOnOrAfterOrderDate
@@ -377,8 +377,56 @@ The company **does not allow an employee to work on one project for more than 20
 
 Add a `CHECK` constraint to ensure this business rule is enforced.
 
-
 ### <a ID="default">DEFAULT Constraint</a>
+The `DEFAULT` constraint lets you define a value that is assigned to a column when the user adds a row and does not supply a value.
+
+A `DEFAULT` constraint can be defined on any column except:
+* A column with the `TIMESTAMP` data type
+* A column with the `IDENTITY` property
+
+The value of the default can be supplied via constant or a function or can be `NULL`.
+
+Its name should use a prefix of `DF`.
+
+Syntax:
+
+```sql
+CONSTRAINT DF_ConstraintName
+    DEFAULT  constant | function | NULL
+```
+
+**Examples**:
+* Use current date as default for `DateReceived`:
+  * `CONSTRAINT DF_DateReceived DEFAULT GETDATE()`
+* Use `NULL` as default for `PostalCode`:
+  * `CONSTRAINT DF_PostalCode DEFAULT NULL`
+* Use 5.90 as default for `HourlyRate`:
+  * `CONSTRAINT DF_HourlyRate DEFAULT 5.90`
+
+#### Example
+![like-example-erd.png](images/like-example-erd.png)
+
+```sql
+CREATE TABLE PurchaseOrder (
+	OrderNumber	     INT IDENTITY (1,1)	NOT NULL
+	    CONSTRAINT PK_PurchaseOrder PRIMARY KEY CLUSTERED,
+	OrderDate		SMALLDATETIME	    NOT NULL
+	    CONSTRAINT DF_OrderDate DEFAULT GetDate(),
+	DateReceived	SMALLDATETIME	    NOT NULL,
+	SupplierId		INT		            NOT NULL
+	    CONSTRAINT FK_PurchaseOrderToSupplier
+        REFERENCES Supplier (SupplierId),
+	SubTotal		MONEY		        NOT NULL
+	    CONSTRAINT CK_SubTotalMustBePositive
+        CHECK (Subtotal > 0),
+	GST		MONEY		NOT NULL
+	    CONSTRAINT CK_GSTMustBePositive CHECK (GST > 0),
+	Total AS Subtotal + GST,
+	CONSTRAINT CK_DateReceivedMustBeOnOrAfterOrderDate 
+	    CHECK (DateReceived >= OrderDate)
+)
+```
+
 
 ## <a ID="practice">DDL Practice</a>
 

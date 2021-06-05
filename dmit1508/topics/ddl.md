@@ -412,7 +412,7 @@ CREATE TABLE PurchaseOrder (
     OrderDate        SMALLDATETIME          NOT NULL
         CONSTRAINT DF_OrderDate DEFAULT GETDATE(),
     DateReceived     SMALLDATETIME          NOT NULL,
-    SupplierId       INT            NOT NULL
+    SupplierId       INT                    NOT NULL
         CONSTRAINT FK_PurchaseOrderToSupplier
         REFERENCES Supplier (SupplierId),
     SubTotal         MONEY                  NOT NULL

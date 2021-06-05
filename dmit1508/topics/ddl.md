@@ -408,18 +408,18 @@ CONSTRAINT DF_ConstraintName
 
 ```sql
 CREATE TABLE PurchaseOrder (
-	OrderNumber	     INT IDENTITY (1,1)	NOT NULL
+	OrderNumber	     INT IDENTITY (1,1)     NOT NULL
 	    CONSTRAINT PK_PurchaseOrder PRIMARY KEY CLUSTERED,
-	OrderDate		SMALLDATETIME	    NOT NULL
+	OrderDate		SMALLDATETIME           NOT NULL
 	    CONSTRAINT DF_OrderDate DEFAULT GetDate(),
-	DateReceived	SMALLDATETIME	    NOT NULL,
-	SupplierId		INT		            NOT NULL
+	DateReceived	SMALLDATETIME           NOT NULL,
+	SupplierId		INT		                NOT NULL
 	    CONSTRAINT FK_PurchaseOrderToSupplier
         REFERENCES Supplier (SupplierId),
-	SubTotal		MONEY		        NOT NULL
+	SubTotal		MONEY		            NOT NULL
 	    CONSTRAINT CK_SubTotalMustBePositive
         CHECK (Subtotal > 0),
-	GST		MONEY		NOT NULL
+	GST		       MONEY		            NOT NULL
 	    CONSTRAINT CK_GSTMustBePositive CHECK (GST > 0),
 	Total AS Subtotal + GST,
 	CONSTRAINT CK_DateReceivedMustBeOnOrAfterOrderDate 

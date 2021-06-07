@@ -17,3 +17,11 @@ In this module, we will start off with a review of best practice techniques for 
 ### [10 - RWD](10-rwd.md)
 ### [11 - Relative Units & CSS Selectors](11-units-selectors.md)
 ### [12 - In-Class Lab](12-in-class-lab.md)
+
+## References
+* [HTML Refresher](files/dmit1530-week-01-html-refresher.pdf){:target="_blank"}
+* [CSS Refresher](files/dmit1530-week-01-css-refresher.pdf){:target="_blank"}
+* [Photoshop Refresher](files/dmit1530-week-01-photoshop-refresher.pdf){:target="_blank"}
+* [Emmet Cheatsheet](files/emmet-cheatsheet.pdf){:target="_blank"}
+
+### [DMIT1530 Home](../)

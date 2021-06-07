@@ -165,7 +165,7 @@ ON table1.joinfield = table2.joinfield
 ```
 
 ### Types of JOINs
-![join-types.png](images/join-types/png)
+![join-types.png](images/join-types.png)
 
 * `INNER JOIN` returns only records that exist in both tables
 * `FULL OUTER JOIN` returns all records that exist in either table

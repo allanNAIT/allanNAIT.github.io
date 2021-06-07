@@ -83,7 +83,8 @@ The `GROUP BY` clause is used with aggregate functions to provide subtotals. For
 
 ```sql
 SELECT CourseID, AVG(Mark) AS AverageMark
-FROM Registration	GROUP BY CourseID
+FROM Registration
+GROUP BY CourseID
 ```
 
 This calculates the average mark per course.
@@ -158,7 +159,8 @@ How do we connect data in one table to its related record(s) in another?
 
 ```sql
 SELECT field1, field2, … 
-FROM table1[INNER, FULL OUTER, …] JOIN table2
+FROM table1
+[INNER, FULL OUTER, …] JOIN table2
 ON table1.joinfield = table2.joinfield
 ```
 
@@ -174,10 +176,13 @@ ON table1.joinfield = table2.joinfield
 
 ```sql
 SELECT field1, field2, … 
-FROM table1INNER JOIN table2
+FROM table1
+INNER JOIN table2
 ON table1.joinfield = table2.joinfield
-INNER JOIN table3	ON table.joinfield = table3.joinfield
-INNER JOIN table4	ON table.joinfield = table4.joinfield
+INNER JOIN table3
+ON table.joinfield = table3.joinfield
+INNER JOIN table4
+ON table.joinfield = table4.joinfield
 …
 ```
 

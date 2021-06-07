@@ -51,7 +51,7 @@ SELECT * FROM Registration -- no more registrations
 ```
 
 ### Putting it all together ...
-_Note_: You will need to review the [Stored Procedures](topics/stored-procedures.md) notes._
+_**Note**: You will need to review the [Stored Procedures](topics/stored-procedures.md) notes._
 
 Creating an Stored Procedure to register a student:
 * Check to see if parameters are `NULL`. If so, `RAISERROR`.

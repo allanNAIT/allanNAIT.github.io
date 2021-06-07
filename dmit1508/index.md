@@ -10,6 +10,8 @@ title: DMIT1508
   * [CREATE TABLE Syntax](topics/ddl.md/#create)
   * [Verifying Your Table](topics/ddl.md/#verify)
   * [DROP Statement](topics/ddl.md/#drop)
+  * [ALTER TABLE](topics/alter.md/#alter)
+  * [Indexes](topics/alter.md/#indexes)
   * [Constraints](topics/ddl.md/#constraints)
     * [PK Constraints](topics/ddl.md/#pk)
     * [FK Constraints](topics/ddl.md/#fk)

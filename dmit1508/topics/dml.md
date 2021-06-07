@@ -8,7 +8,7 @@ title: Data Manipulation Language (DML)
 * [UPDATE](#update)
 * [DELETE](#delete)
 
-## <a ID="insert>INSERT</a>
+## <a ID="insert">INSERT</a>
 The INSERT statement adds 1+ rows to a table. It can include hard-coded values, or can use subqueries to retrieve data from other tables.
 
 ```sql

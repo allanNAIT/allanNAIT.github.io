@@ -29,7 +29,10 @@ title: DMIT1508
   * [UPDATE](topics/dml.md/#update)
   * [DELETE](topics/dml.md/#delete)
   * [SQL Views](topics/views.md)
-* [SQL Stored Procedures](topics/stored-procedures.md) 
+* [SQL Stored Procedures](topics/stored-procedures.md)
+  * [Variables](topics/stored-procedures.md/#variables)
+  * [Flow Control](topics/stored-procedures.md/#flowcontrol)
+  * [Stored Procedures](topics/stored-procedures.md/#procedures)
 * [SQL Triggers](topics/triggers.md)
 * [SQL Transactions](topics/transactions.md)
 

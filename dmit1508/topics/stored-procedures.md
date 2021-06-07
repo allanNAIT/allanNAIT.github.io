@@ -16,7 +16,7 @@ title: SQL Stored Procedures
 * Variables must be declared before they can be used.
 * Variables can be assigned a literal value or a value from a query.
   * To assign **a literal to a single variable**, use `SET`.
-  * To assign **literal values to many variables**, use `SELECT`.7
+  * To assign **literal values to many variables**, use `SELECT`.
   * To assign **values from a query**, use `SELECT`.
 
 ### Declaring Variables
@@ -135,13 +135,13 @@ Stored procedures can include (but are not limited to):
 
 ### Updating Stored Procedures
 You cann use either:
-1. `DROP` the stored procedure then recreate it:<br>
+* `DROP` the stored procedure then recreate it:<br>
 
 ```sql
 DROP PROCEDURE ProcedureName
 ```
 
-2. Use an `ALTER` statement to update it.<br>
+* Use an `ALTER` statement to update it.<br>
 
 ```sql
 ALTER PROCEDURE ProcedureName

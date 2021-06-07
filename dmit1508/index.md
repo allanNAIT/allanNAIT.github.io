@@ -33,8 +33,8 @@ title: DMIT1508
   * [Variables](topics/stored-procedures.md/#variables)
   * [Flow Control](topics/stored-procedures.md/#flowcontrol)
   * [Stored Procedures](topics/stored-procedures.md/#procedures)
-* [SQL Triggers](topics/triggers.md)
 * [SQL Transactions](topics/transactions.md)
+* [SQL Triggers](topics/triggers.md)
 
 ## [References](references/references.md)
 

@@ -25,8 +25,11 @@ title: DMIT1508
   * [JOINs](topics/queries.md/#joins)
   * [Subqueries](topics/queries.md/#subqueries)
 * [Data Manipulation Language (DML)](topics/dml.md)
-* [SQL Stored Procedures](topics/stored-procedures.md)
-* [SQL Views](topics/views.md)
+  * [INSERT](topics/dml.md/#insert)
+  * [UPDATE](topics/dml.md/#update)
+  * [DELETE](topics/dml.md/#delete)
+  * [SQL Views](topics/views.md)
+* [SQL Stored Procedures](topics/stored-procedures.md) 
 * [SQL Triggers](topics/triggers.md)
 * [SQL Transactions](topics/transactions.md)
 

@@ -19,7 +19,7 @@ This demo will be done in three parts:
 You can follow along with your instructor to complete this build and/or you can use this document as a guide in completing the demo build.
 
 ## Steps – <a id="part1">Part 1</a>: Inline Styles
-1.	Download the **demo-style-sheet-start.zip** file and extract the contents. Make note of this location as you will need it for the other parts of this walkthrough. Note, there is no document for the copy; the contents will be generated from [https://www.lipsum.com/](https://www.lipsum.com/).
+1.	Download the **demo-style-sheet-start.zip** file and extract the contents. Make note of this location as you will need it for the other parts of this walkthrough. Note, there is no document for the copy; the contents will be generated from [https://www.lipsum.com/](https://www.lipsum.com/){:target="_blank"}.
 2.	Create a folder called **css-inline-demo** and copy the extracted contents into this folder.
 3.	The result of this demo should look like (the text generated may be different):<br>
 ![css-inline-final.jpg](files/css-inline-final.jpg)<br>
@@ -33,7 +33,7 @@ Note: the styling of the heading is red.
 5.	Save and open **index.html** in your browser.
 
 ## Steps – <a id="part2">Part 2</a>: Embedded Styles
-1.	Create a new folder called **css-embedded-demo** and copy the extracted contents from **Part 1, Step 1**, into this new folder. Note, there is no document for the copy; the contents will be generated from [https://www.lipsum.com/](https://www.lipsum.com/).
+1.	Create a new folder called **css-embedded-demo** and copy the extracted contents from **Part 1, Step 1**, into this new folder. Note, there is no document for the copy; the contents will be generated from [https://www.lipsum.com/](https://www.lipsum.com/){:target="_blank"}.
 2.	The result of this demo should look like (the text generated may be different):<br>
 ![css-embedded-final.jpg](files/css-embedded-final.jpg)
 3.	To style the heading to be red, and to change the font size, use the following in the <head> of the web page:
@@ -56,7 +56,7 @@ Note: the styling of the heading is red.
 4.	Save and open **index.html** in your browser.
 
 ## Steps – <a id="part3">Part 3</a>: Linked Stylesheet
-1.	Create a new folder called **css-linked-demo** and copy the extracted contents from **Part 1, Step 1**, into this new folder. Note, there is no document for the copy; the contents will be generated from [https://www.lipsum.com/](https://www.lipsum.com/).
+1.	Create a new folder called **css-linked-demo** and copy the extracted contents from **Part 1, Step 1**, into this new folder. Note, there is no document for the copy; the contents will be generated from [https://www.lipsum.com/](https://www.lipsum.com/){:target="_blank"}.
 2.	The result of this demo should look like (the text generated may be different):<br>
 ![css-linked-final.jpg](files/css-linked-final.jpg)
 3.	This part of the walkthrough requires you to create a new file. Create a file called **styles.css** in your **css** folder.

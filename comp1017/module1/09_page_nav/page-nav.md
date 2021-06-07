@@ -31,7 +31,7 @@ Notice the slight change in the text on each web page. Additionally, from the **
 ```
 
 8.	Create a second web page called used.html. Copy the content from index.html into this new page with the only difference in the two pages is the content of the `<main>`.
-9.	Validate your HTML using [https://validator.w3.org/](https://validator.w3.org/). Correct any errors before proceeding.
+9.	Validate your HTML using [https://validator.w3.org/](https://validator.w3.org/){:target="_blank"}. Correct any errors before proceeding.
 10.	Once your HTML has been validated open **index.html** in your web browser and see if you can navigate between each of the web pages. If there are errors, make the necessary correction and refresh your web browser.
 
 ## Steps – <a id="part2">Part 2</a>: Sub-directory Linking
@@ -68,7 +68,7 @@ Note: the second hyperlink points to a directory in the web project folder.
 <br>
 Note: Examine the link to get back to index.html.
 10.	Change the contents of the `<main>` on used.html to match the screenshot above.
-11.	Validate your HTML using [https://validator.w3.org/](https://validator.w3.org/). Correct any errors before proceeding.
+11.	Validate your HTML using [https://validator.w3.org/](https://validator.w3.org/){:target="_blank"}. Correct any errors before proceeding.
 12.	Once your HTML has been validated open **index.html** in your web browser and see if you can navigate between each of the web pages. If there are errors, make the necessary correction and refresh your web browser.
 
 ## Steps – <a id="part3">Part 3</a>: Site Navigation
@@ -98,7 +98,7 @@ Note: all web pages are in the same directory and thus use the same navigation m
 
 8.	Create a new web page for each of the other pages of the project. Use the names shown in the navigation menu.
 9.	Copy the code from **index.html** into each new web page. Modify the `<main&gt on each page to match the screenshots above.
-10.	Validate your HTML using [https://validator.w3.org/](https://validator.w3.org/). Correct any errors before proceeding.
+10.	Validate your HTML using [https://validator.w3.org/](https://validator.w3.org/){:target="_blank"}. Correct any errors before proceeding.
 11.	Once your HTML has been validated open index.html in your web browser and see if you can navigate between each of the web pages. If there are errors, make the necessary correction and refresh your web browser.
 
 ## Exercise Instructions

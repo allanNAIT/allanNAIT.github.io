@@ -26,8 +26,8 @@ For your layout, each of the second level headings denote that the content below
     </section>
 ```
 
-8.	Validate your HTML using [https://validator.w3.org/](https://validator.w3.org/). Correct any errors before proceeding.
-9.	Check your document outline using [https://gsnedders.html5.org/outliner/](https://gsnedders.html5.org/outliner/). Your outline should look like the following:<br>
+8.	Validate your HTML using [https://validator.w3.org/](https://validator.w3.org/){:target="_blank"}. Correct any errors before proceeding.
+9.	Check your document outline using [https://gsnedders.html5.org/outliner/](https://gsnedders.html5.org/outliner/){:target="_blank"}. Your outline should look like the following:<br>
 ![document_outline.jpg](files/document_outline.jpg)
 10.	Once your HTML has been validated, and you have a valid document outline, open index.html in your web browser. If there are errors, make the necessary correction and refresh your web browser.
 

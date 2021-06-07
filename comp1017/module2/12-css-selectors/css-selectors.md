@@ -45,7 +45,7 @@ The `<footer>` looks like:<br>
 6.	Add the link to the stylesheet in **index.html**.
 7.	Style the `<ul>` elements as shown below:<br>
 ![style-ul.jpg](files/style-ul.jpg)
-8.	Validate your HTML using [https://validator.w3.org/](https://validator.w3.org/).
+8.	Validate your HTML using [https://validator.w3.org/](https://validator.w3.org/){:target="_blank"}.
 9.	Save your work and open index.html in your browser.
 
 ## Exercise Instructions

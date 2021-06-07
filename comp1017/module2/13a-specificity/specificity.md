@@ -39,7 +39,7 @@ You can follow along with your instructor to complete this build and/or you can 
         </li>
     </ol>
 5.	Link the stylesheet to your **index.html** file.
-6.	Validate your HTML using [https://validator.w3.org/](https://validator.w3.org/).
+6.	Validate your HTML using [https://validator.w3.org/](https://validator.w3.org/){:target="_blank"}.
 7.	Save your work and open **index.html** in your browser.
 
 ## Exercise Instructions

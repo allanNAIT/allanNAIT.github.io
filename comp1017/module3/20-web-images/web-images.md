@@ -6,7 +6,7 @@ The following file is required for this lesson:
 *[demo-web-image-formats.zip](files/demo-web-image-formats.zip)
 
 ## <a id="intro">Introduction</a>
-This lesson does not produce a web page only extracted images from a Photoshop file. If you do not have Photoshop on your computer, you can use the online tool at [photopea.com](https://www.photopea.com/). If you take further web courses in DMIT, you are encouraged to purchase the [Creative Cloud Suite from Adobe](https://www.adobe.com/ca/creativecloud/buy/students.html?promoid=P79NQTWV&mv=other).
+This lesson does not produce a web page only extracted images from a Photoshop file. If you do not have Photoshop on your computer, you can use the online tool at [photopea.com](https://www.photopea.com/){:target="_blank"}. If you take further web courses in DMIT, you are encouraged to purchase the [Creative Cloud Suite from Adobe](https://www.adobe.com/ca/creativecloud/buy/students.html?promoid=P79NQTWV&mv=other){:target="_blank"}.
 
 This walkthrough is in two parts:
 * [Part 1 – Using Photoshop](#part1)
@@ -74,7 +74,7 @@ You can follow along with your instructor to complete this build and/or you can 
 ### [Lesson Home](#intro)
 
 ## Steps – <a id="part2">Part 2: Using photopea.com</a>
-1.	Open the demo.psd file using the online tool ([photopea.com](https://www.photopea.com/)).<br>
+1.	Open the demo.psd file using the online tool ([photopea.com](https://www.photopea.com/){:target="_blank"}).<br>
 ![photopea-01.jpg](files/jpg-photopea/photopea-01.jpg)
 2.	If you have not read the steps for [Part 1](#part1), please read them now and many of the commands and techniques are the same.
 3.	Using the _eye_ icon hide all but the **The Yoga Bolog-jpg** layer. When the layer image is selected, copy the image to the clipboard.

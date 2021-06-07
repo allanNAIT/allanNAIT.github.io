@@ -22,20 +22,18 @@ _NOTE: There is a hover effect on **Hire me**._
         <li>&lt;header&gt;<br>
         <img src="files/index-code-02.jpg" alt="index-code-02">
         </li>
-        <li>Add a &lt;section&gt; block:<br>
+        <li>Add a &lt;section&gt; block</li>
+        <li>Add a &lt;div&gt; for the first column:<br>
         <img src="files/index-code-03.jpg" alt="index-code-03">
         </li>
-        <li>Add a &lt;div&gt; for the first column:<br>
+        <li>Add a &lt;div&gt; for the second column:<br>
         <img src="files/index-code-04.jpg" alt="index-code-04">
         </li>
-        <li>Add a &lt;div&gt; for the second column:<br>
+        <li>Add a &lt;div&gt; for the third column:<br>
         <img src="files/index-code-05.jpg" alt="index-code-05">
         </li>
-        <li>Add a &lt;div&gt; for the third column:<br>
-        <img src="files/index-code-06.jpg" alt="index-code-06">
-        </li>
         <li>Add a &lt;footer&gt; below the &lt;/section&gt;:<br>
-        <img src="files/index-code-07.jpg" alt="index-code-07">
+        <img src="files/index-code-06.jpg" alt="index-code-06">
         </li>
     </ol>
 

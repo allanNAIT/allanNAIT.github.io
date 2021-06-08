@@ -13,9 +13,9 @@ In this module, we will start off with a review of best practice techniques for 
 ### [06 - Itroduction to Git & GitHub](06-github/06-github.md)
 ### [07 - Flexbox Layouts (1)](07-flexbox/07-flexbox.md)
 ### [08 - Flexbox Layouts (2)](08-flexbox/08-flexbox.md)
-### [09 - Introduction to Media Queries](09-media-queries.md)
-### [10 - RWD](10-rwd.md)
-### [11 - Relative Units & CSS Selectors](11-units-selectors.md)
-### [12 - In-Class Lab](12-in-class-lab.md)
+### [09 - Introduction to Media Queries](09-media-queries/09-media-queries.md)
+### [10 - RWD](10-rwd/10-rwd.md)
+### [11 - Relative Units & CSS Selectors](11-units-selectors/11-units-selectors.md)
+### [12 - In-Class Lab](12-in-class-lab/12-in-class-lab.md)
 
 ### [DMIT1530 Home](../)

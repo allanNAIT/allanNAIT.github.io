@@ -15,7 +15,10 @@ In this module, we will start off with a review of best practice techniques for 
 ### [08 - Flexbox Layouts (2)](08-flexbox/08-flexbox.md)
 ### [09 - Introduction to Media Queries](09-media-queries/09-media-queries.md)
 ### [10 - RWD](10-rwd/10-rwd.md)
-### [11 - Relative Units & CSS Selectors](11-units-selectors/11-units-selectors.md)
+### [11a - Relative Units](11a-units/11b-units.md)
+### [11b - Advanced CSS & Flex Order](11b-adv-css/11b-adv-css.md)
 ### [12 - In-Class Lab](12-in-class-lab/12-in-class-lab.md)
+### [13 - Responsive Background Images](13-responsive-background-img/13-responsive-background-img.md)
+### [14 - Assignment 1](14-assignment1/14-assignment1.md)
 
 ### [DMIT1530 Home](../)

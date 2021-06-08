@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 01-03 - Hello Build Activity
+title: Hello Build Activity
 ---
 
 The following file is required for this lesson:

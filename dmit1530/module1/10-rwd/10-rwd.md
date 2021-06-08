@@ -1,6 +1,6 @@
 ---
 Layout: page
-Title: Responsive Web Design
+Title: Responsive Web Design (RWD)
 ---
 
 The following file is required for this lesson:

@@ -22,7 +22,7 @@ You can follow along with your instructor to complete this build and/or you can 
 Microsoft Windows [Version 10.0.19042.985]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Users\yourusername¬>cd C:\Work\_DMIT1530\1212_A02\hello-git
+C:\Users\yourusername>cd C:\Work\_DMIT1530\1212_A02\hello-git
 
 C:\Work\_DMIT1530\1212_A02\hello-git>git init
 Initialized empty Git repository in C:/Work/_DMIT1530/1212_A02/hello-git/.git/
@@ -76,7 +76,17 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 C:\Work\_DMIT1530\1212_A02\hello-git>
 ```
 
+    <ol type="a" start="b">
+        <li>Result on GitHub:<br>
+        <img src="files/git-02.jpg" alt="git-02">
+        </li>
+        <li>Resulting web page:<br>
+        <img src="files/git-03.jpg" alt="git-03">
+        </li>
+    </ol>
 
+## Summary
+You will be using GitHub for submitting assignments in this course. The assignments will be set up using GitHub Classroom; the assignment details for each submission will be give in the assignment specifications.
 
 ### References
 * [Git Notes](files/git-notes.pdf){:target="_blank"}

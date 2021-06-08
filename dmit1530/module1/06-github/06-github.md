@@ -14,9 +14,7 @@ You can follow along with your instructor to complete this build and/or you can 
 2.	Open **index.html** in your browser to see something like:<br>
 ![git-01.jpg](files/git-01.jpg)
 3.	In your code editor, open the **README.md** file to see the instructions for this demo:<br>
-    <ol type="a">
-        <li>Command prompt in Windows (Mac terminal will be similar):<br>
-    </li>
+* Command prompt in Windows (Mac terminal will be similar):<br>
 
 ```
 Microsoft Windows [Version 10.0.19042.985]
@@ -76,15 +74,10 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 C:\Work\_DMIT1530\1212_A02\hello-git>
 ```
 
-<br><br>
-    <ol type="a" start="b">
-        <li>Result on GitHub:<br>
-        <img src="files/git-02.jpg" alt="git-02">
-        </li>
-        <li>Resulting web page:<br>
-        <img src="files/git-03.jpg" alt="git-03">
-        </li>
-    </ol>
+* Result on GitHub:<br>
+![git-02.jpg](files/git-02.jpg)
+* Resulting web page:<br>
+![git-03.jpg](files/git-03.jpg)
 
 ## Summary
 You will be using GitHub for submitting assignments in this course. The assignments will be set up using GitHub Classroom; the assignment details for each submission will be give in the assignment specifications.

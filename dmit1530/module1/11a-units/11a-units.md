@@ -18,7 +18,7 @@ Notice the increasing font size in each level of the nested list.
 ![rems-html.jpg](files/rems-html.jpg)<br>
 Notice the font size does not change in the lower levels of the nested list.
 4.	Review the style rules embedded in the **ems.html** file. Make note of the calculations.
-5.	Review the style rules embedded in the **rems.htm**l** file. Make note of the comments on lines 5 & 6.
+5.	Review the style rules embedded in the **rems.html** file. Make note of the comments on lines 5 & 6.
 
 ### Resources
 * [Font Sizing with rems](font-sizing-with-rems.pdf){:target="_blank"}

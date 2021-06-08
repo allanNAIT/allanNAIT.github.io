@@ -9,7 +9,7 @@ In this module, we will start off with a review of best practice techniques for 
 
 ### [01-03 - Hello Build Activity](01-03-hello-build/01-03-hello-build.md)
 ### [04 - CSS Resets & Dev Tools](04-reset-dev-tools/04-reset-dev-tools.md)
-### [05 - Image Optimization for Web](05-image-optimization.md)
+### [05 - Image Optimization for Web](05-image-optimization/05-image-optimization.md)
 ### [06 - Itroduction to Git & GitHub](06-github.md)
 ### [07 - Flexbox Layouts](07-flexbox.md)
 ### [08 - Flexbox Layouts](08-flexbox.md)

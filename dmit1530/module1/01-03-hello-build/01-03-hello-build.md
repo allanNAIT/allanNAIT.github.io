@@ -94,5 +94,11 @@ Add the style rules as follows:
 1.	Validate your html using [https://validator.w3.org/](https://validator.w3.org/){:target="_blank"}.
 2.	Check your document outline using [https://gsnedders.html5.org/outliner/](https://gsnedders.html5.org/outliner/){:target="_blank"}.
 
+### References
+* [HTML Refresher](files/dmit1530-week-01-html-refresher.pdf){:target="_blank"}
+* [CSS Refresher](files/dmit1530-week-01-css-refresher.pdf){:target="_blank"}
+* [Photoshop Refresher](files/dmit1530-week-01-photoshop-refresher.pdf){:target="_blank"}
+* [Emmet Cheatsheet](files/emmet-cheatsheet.pdf){:target="_blank"}
+
 ### [Module Home](../module1.md)
 ### [DMIT1530 Home](../../)

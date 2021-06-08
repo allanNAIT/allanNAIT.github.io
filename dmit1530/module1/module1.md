@@ -8,7 +8,7 @@ In this module, we will start off with a review of best practice techniques for 
 ## Lessons
 
 ### [01-03 - Hello Build Activity](01-03-hello-build/01-03-hello-build.md)
-### [04 - CSS Resets & Dev Tools](04-reset-dev-tools.md)
+### [04 - CSS Resets & Dev Tools](04-reset-dev-tools/04-reset-dev-tools.md)
 ### [05 - Image Optimization for Web](05-image-optimization.md)
 ### [06 - Itroduction to Git & GitHub](06-github.md)
 ### [07 - Flexbox Layouts](07-flexbox.md)
@@ -17,11 +17,5 @@ In this module, we will start off with a review of best practice techniques for 
 ### [10 - RWD](10-rwd.md)
 ### [11 - Relative Units & CSS Selectors](11-units-selectors.md)
 ### [12 - In-Class Lab](12-in-class-lab.md)
-
-## References
-* [HTML Refresher](files/dmit1530-week-01-html-refresher.pdf){:target="_blank"}
-* [CSS Refresher](files/dmit1530-week-01-css-refresher.pdf){:target="_blank"}
-* [Photoshop Refresher](files/dmit1530-week-01-photoshop-refresher.pdf){:target="_blank"}
-* [Emmet Cheatsheet](files/emmet-cheatsheet.pdf){:target="_blank"}
 
 ### [DMIT1530 Home](../)

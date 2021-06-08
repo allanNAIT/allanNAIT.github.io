@@ -76,7 +76,7 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 C:\Work\_DMIT1530\1212_A02\hello-git>
 ```
 
-<br>
+<br><br>
     <ol type="a" start="b">
         <li>Result on GitHub:<br>
         <img src="files/git-02.jpg" alt="git-02">

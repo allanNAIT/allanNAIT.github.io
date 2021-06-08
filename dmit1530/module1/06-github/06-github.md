@@ -16,8 +16,10 @@ You can follow along with your instructor to complete this build and/or you can 
 3.	In your code editor, open the **README.md** file to see the instructions for this demo:<br>
     <ol type="a">
         <li>Command prompt in Windows (Mac terminal will be similar):<br>
-        <pre>
-        Microsoft Windows [Version 10.0.19042.985]
+    </li>
+
+```
+Microsoft Windows [Version 10.0.19042.985]
 (c) Microsoft Corporation. All rights reserved.
 
 C:\Users\yourusername¬>cd C:\Work\_DMIT1530\1212_A02\hello-git
@@ -40,11 +42,39 @@ On branch main
 
 No commits yet
 
-        </pre>
-        </li>
-        <li></li>
-        <li></li>
-    </li>
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   css/modern-reset.css
+        new file:   css/styles.css
+        new file:   index.html
+
+
+C:\Work\_DMIT1530\1212_A02\hello-git>git commit -m "My first commit"
+[main (root-commit) 0835829] My first commit
+ 4 files changed, 220 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 css/modern-reset.css
+ create mode 100644 css/styles.css
+ create mode 100644 index.html
+
+C:\Work\_DMIT1530\1212_A02\hello-git>git branch -m main
+
+C:\Work\_DMIT1530\1212_A02\hello-git>git remote add origin https://github.com/yourGitAccount/hello-git.git
+
+C:\Work\_DMIT1530\1212_A02\hello-git>git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 3.16 KiB | 3.16 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/yourGitAccount/hello-git.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+C:\Work\_DMIT1530\1212_A02\hello-git>
+```
 
 
 

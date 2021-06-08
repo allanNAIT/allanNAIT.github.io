@@ -44,7 +44,7 @@ You need to customize the content to match the summary of the web page.
 ## Steps - <a ID="box">Part 2</a>: Demo Box Sizing
 1.	Download the **demo-box-sizing.zip** file and extract its contents to a folder named **demo-box-sizing**.
 2.	Open index.html in your browser to see something like:<br>
-![demo-box-sizing-01.jpg](files/demo-box-sizing-01.jpg)
+![box-sizing-01.jpg](files/box-sizing-01.jpg)
 3.	In your code editor you will see the following code:<br>
 ![box-css-styles-01.jpg](files/box-css-styles-01.jpg)
 4.	Uncomment the `.border-box` class, save and refresh the browser to see:<br>
@@ -53,7 +53,7 @@ You need to customize the content to match the summary of the web page.
 5.	Add the following code to the top of your stylesheet:<br>
 ![box-css-styles-02.jpg](files/box-css-styles-02.jpg)
 6.	There may not be a big change but you should see:<br>
-![demo-box-sizing-03.jpg](files/demo-box-sizing-03.jpg)
+![box-sizing-03.jpg](files/box-sizing-03.jpg)
 7.	Now you need to use the developer tools to see the difference in the two boxes:<br>
     <ol type="a">
         <li><b><code>box-sizing: content-box;</code></b><br>

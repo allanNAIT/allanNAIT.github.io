@@ -123,7 +123,7 @@ You can follow along with your instructor to complete this build and/or you can 
                 </li>
             </ol>
         </li>
-        <li>Position items in the order of 6, 4, 2, 5, 3, 1. In your media query set the order of the other items:<br
+        <li>Position items in the order of 6, 4, 2, 5, 3, 1. In your media query set the order of the other items:<br>
             <ol type="i">
                 <li>4<sup>th</sup> child:<br>
                 <img src="files/order-css-styles-04.jpg" alt="order-css-styles-04">

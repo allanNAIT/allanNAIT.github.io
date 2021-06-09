@@ -11,6 +11,9 @@ Title: Advanced CSS Selectors & Flex Order
         color: firebrick;
         font-weight: bold;
     }
+    .html-class{
+        color: blue;
+    }
 </style>
 
 The following files are required for this lesson:
@@ -36,7 +39,7 @@ You can follow along with your instructor to complete this build and/or you can 
         <li>Add a flex container:<br>
         <img src="files/selectors-index-01.jpg" alt="selectors-index-01">
         </li>
-        <li>Add &lt;section&gt; blocks inside the flex container:<br>
+        <li>Add &lt;<span class="html-class">section<.span>&gt; blocks inside the flex container:<br>
         <img src="files/selectors-index-02.jpg" alt="selectors-index-02">
         </li>
         <li>Add a &lt;footer&gt;:<br>

@@ -2,6 +2,16 @@
 Layout: page
 Title: Responsive Web Design (RWD)
 ---
+<style>
+    .css-class{
+        color: firebrick;
+        font-weight: bold;
+    }
+    .html-class{
+        color: blue;
+        font-weight: bold;
+    }
+</style>
 
 The following file is required for this lesson:
 * [demo-liquid-fixed-layout.zip](files/demo-liquid-fixed-layout.zip)
@@ -18,16 +28,16 @@ You can follow along with your instructor to complete this build and/or you can 
         <li>Create a container:<br>
         <img src="files/index-01.jpg" alt="index-01">
         </li>
-        <li>Add a &lt;header&gt; block inside the container:<br>
+        <li>Add a <span class="html-class">&lt;header&gt;</span> block inside the container:<br>
         <img src="files/index-02.jpg" alt="index-02">
         </li>
-        <li>Add the &lt;main&gt; with a &lt;section&gt;:<br>
+        <li>Add the <span class="html-class">&lt;main&gt;</span> with a <span class="html-class">&lt;section&gt;</span>:<br>
         <img src="files/index-03.jpg" alt="index-03">
         </li>
-        <li>Add a flex container below the &lt;section&gt; created above:<br>
+        <li>Add a flex container below the <span class="html-class">&lt;section&gt;</span> created above:<br>
         <img src="files/index-04.jpg" alt="index-04">
         </li>
-        <li>Add a &lt;footer&gt;:<br>
+        <li>Add a <span class="html-class">&lt;footer&gt;</span>:<br>
         <img src="files/index-05.jpg" alt="index-05"><br>
         At this point, your web page should look like:<br>
         <img src="files/rwd-02.jpg" alt="rwd-02">
@@ -35,32 +45,32 @@ You can follow along with your instructor to complete this build and/or you can 
     </ol>
 4.	Now you need to add style rules to your **styles.css** file:<br>
     <ol type="a">
-        <li>Style the &lt;body&gt; element with generic CSS; this will be mobile first:<br>
+        <li>Style the <span class="html-class">&lt;body&gt;</span> element with generic CSS; this will be mobile first:<br>
         <img src="files/css-styles-01.jpg" alt="css-styles-01">
         </li>
-        <li>Style the &lt;header&gt; and &lt;footer&gt; elements:<br>
+        <li>Style the <span class="html-class">&lt;header&gt;</span> and <span class="html-class">&lt;footer&gt;</span> elements:<br>
         <img src="files/css-styles-02.jpg" alt="css-styles-02">
         </li>
-        <li>Style the &lt;nav&gt; element:<br>
+        <li>Style the <span class="html-class">&lt;nav&gt;</span> element:<br>
         <img src="files/css-styles-03.jpg" alt="css-styles-03"><br>
         At this point, your web page should look like:<br>
         <img src="files/rwd-03.jpg" alt="rwd-03">
         </li>
-        <li>As the &lt;section&gt; blocks are not yet being displayed, are they still there? The answer is yes:<br>
+        <li>As the <span class="html-class">&lt;section&gt;</span> blocks are not yet being displayed, are they still there? The answer is yes:<br>
         <img src="files/rwd-04.jpg" alt="rwd-04"><br>
         Now style the <b>.promo</b> class:<br>
         <img src="files/css-styles-04.jpg" alt="css-styles-04"><br>
         <img src="files/rwd-05.jpg" alt="rwd-05">
         </li>
-        <li>You need each of the promo blocks to be side-by-side, equally spaced, thus add the <b>.flex-container</b> class:<br>
+        <li>You need each of the promo blocks to be side-by-side, equally spaced, thus add the <span class="css-class">.flex-container</span> class:<br>
         <img src="files/css-styles-05.jpg" alt="css-styles-05"><br>
         <img src="files/rwd-06.jpg" alt="rwd-06">
         </li>
-        <li>You still need the <b>.banner</b> class, which is:<br>
+        <li>You still need the <span class="css-class">.banner</span> class, which is:<br>
         <img src="files/css-styles-06.jpg" alt="css-styles-06"><br>
         <img src="files/rwd-07.jpg" alt="rwd-07">
         </li>
-        <li>Next add some padding for the &lt;footer&gt; element:<br>
+        <li>Next add some padding for the <span class="html-class">&lt;footer&gt;</span> element:<br>
         <img src="files/css-styles-07.jpg" alt="css-styles-07"><br>
         <img src="files/rwd-08.jpg" alt="rwd-08">
         </li>

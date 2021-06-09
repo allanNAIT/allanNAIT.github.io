@@ -2,6 +2,16 @@
 layout: page
 title: Image Optimization for the Web
 ---
+<style>
+    .css-class{
+        color: firebrick;
+        font-weight: bold;
+    }
+    .html-class{
+        color: blue;
+        font-weight: bold;
+    }
+</style>
 
 The following files are required for this lesson:
 * [demo-optimized-photos.zip](files/demo-optimized-photos.zip)
@@ -53,32 +63,32 @@ You can follow along with your instructor to complete this build and/or you can 
 ![svg-02.jpg](files/svg-02.jpg)
 8.	You will want to be able to scale this. To do this you need to add the following style rules to your **styles.css** file:
     <ol type="a">
-        <li>Add spacing to the &lt;section&gt; element:<br>
+        <li>Add spacing to the <span class="html-class">&lt;section&gt;</span> element:<br>
         <img src="files/svg-css-styles-01.jpg" alt="svg-css-styles-01">
         </li>
-        <li>Style the &lt;svg&gt; element:<br>
+        <li>Style the <span class="html-class">&lt;svg&gt;</span> element:<br>
         <img src="files/svg-css-styles-02.jpg" alt="svg-css-styles-02"><br>
         At this point, save and refresh the browser to see:<br>
         <img src="files/svg-03.jpg" alt="svg-03">
         </li>
-        <li>Add a hover effect to the &lt;svg&gt; element:<br>
+        <li>Add a hover effect to the <span class="html-class">&lt;svg&gt;</span> element:<br>
         <img src="files/svg-css-styles-03.jpg" alt="svg-css-styles-03"><br>
         Once again, save and refresh your browser and test the hover action to see:<br>
         <img src="files/svg-04.jpg" alt="svg-04">
         </li>
-        <li>Now experiment by changing the width and height of the &lt;svg&gt; element:<br>
+        <li>Now experiment by changing the width and height of the <span class="html-class">&lt;svg&gt;</span> element:<br>
         <img src="files/svg-05.jpg" alt="svg-05"><br>Note: the image does not change in size.
         </li>
-        <li>Now you can scale the &lt;svg&gt; by scaling the container by commenting out the code you just added and add the following code:<br>
+        <li>Now you can scale the <span class="html-class">&lt;svg&gt;</span> by scaling the container by commenting out the code you just added and add the following code:<br>
         <img src="files/svg-css-styles-04.jpg" alt="svg-css-styles-04">
         </li>
-        <li>Uncomment the &lt;img&gt; element in your **index.html** and the result should look like:<br>
+        <li>Uncomment the <span class="html-class">&lt;img&gt;</span> element in your **index.html** and the result should look like:<br>
         <img src="files/svg-06.jpg" alt="svg-06">
         </li>
-        <li>Now change the width and heigh in the <b>.svg</b> class:<br>
+        <li>Now change the width and heigh in the <span class="css-class">.svg</span> class:<br>
         <img src="files/svg-07.jpg" alt="svg-07">
         </li>
-        <li>For a final comparison uncomment the &lt;svg&gt; style rule so that both the element and the class style rules are being applied:<br>
+        <li>For a final comparison uncomment the <span class="html-class">&lt;svg&gt;</span> style rule so that both the element and the class style rules are being applied:<br>
         <img src="files/svg-08.jpg" alt="svg-08">
         </li>
     </ol>

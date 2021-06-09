@@ -2,6 +2,12 @@
 layout: page
 title: CSS Resets & Dev Tools
 ---
+<style>
+    .css-class{
+        color: firebrick;
+        font-weight: bold;
+    }
+</style>
 
 The following files are required for this lesson:
 * [demo-reset.zip](files/demo-reset.zip)
@@ -56,11 +62,11 @@ You need to customize the content to match the summary of the web page.
 ![box-sizing-03.jpg](files/box-sizing-03.jpg)
 7.	Now you need to use the developer tools to see the difference in the two boxes:<br>
     <ol type="a">
-        <li><b><code>box-sizing: content-box;</code></b><br>
+        <li><span class="css-class">box-sizing: content-box;</span><br>
         <img src="files/content-box-01.jpg" alt="content-box-01">
         <img src="files/content-box-02.jpg" alt="content-box-02">
         </li>
-        <li><b><code>box-sizing: border-box;</code></b><br>
+        <li><span class="css-class">box-sizing: border-box;</span><br>
         <img src="files/border-box-01.jpg" alt="border-box-01">
         <img src="files/border-box-02.jpg" alt="border-box-02">
         </li>

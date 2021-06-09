@@ -93,7 +93,7 @@ For extra practice you will add content and styling rules to get the output show
         <li>Add a media query so you can switch the order back to the original order:<br>
         <img src="files/css-styles-11.jpg" alt="css-styles-11">
         </li>
-        <li>gAdd a media query for a fixed-width, edge-to-edge, background image:<br>
+        <li>Add a media query for a fixed-width, edge-to-edge, background image:<br>
         <img src="files/css-styles-12.jpg" alt="css-styles-12">
         </li>
     </ol>

@@ -1,6 +1,6 @@
 ---
-Layout: page
-Title: Assignment 1
+layout: page
+title: Assignment 1
 ---
 
 ## Instructions

@@ -9,13 +9,13 @@ description: A collection of notes and resources for my DMIT courses. This site 
 show_excerpts: false # set to true to show excerpts on the homepage
 
 header_pages:
- - anap1525/index.md
+ #- anap1525/index.md
  - comp1017/index.md
- - cpsc1012/index.md
+ #- cpsc1012/index.md
  - dmit1508/index.md
  - dmit1530/index.md
- - phys1521/index.md
- - dmit2028/index.md
+ #- phys1521/index.md
+ #- dmit2028/index.md
  - about.md
 
 exclude:

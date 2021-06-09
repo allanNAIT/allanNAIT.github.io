@@ -27,7 +27,7 @@ _NOTE: There is a hover effect on **Hire me**._
 ## Steps - HTML
 1. The `<head>` block:<br>
 ![index-code-01.jpg](files/index-code-01.jpg)
-2. The `<body>` block in the container <span class="html-class">&lt;div&gt;</span>:<br>
+2. The `<body>` block in the container **`<div>`**:<br>
     <ol type="a">
         <li><span class="html-class">&lt;header&gt;</span><br>
         <img src="files/index-code-02.jpg" alt="index-code-02">

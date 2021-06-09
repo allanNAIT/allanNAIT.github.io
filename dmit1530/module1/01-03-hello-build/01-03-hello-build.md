@@ -2,6 +2,16 @@
 layout: page
 title: Hello Build Activity
 ---
+<style>
+    .css-class{
+        color: firebrick;
+        font-weight: bold;
+    }
+    .html-class{
+        color: blue;
+        font-weight: bold;
+    }
+</style>
 
 The following file is required for this lesson:
 * [hello-build-style-guide.zip](files/hello-style-guide.zip)
@@ -19,20 +29,20 @@ _NOTE: There is a hover effect on **Hire me**._
 ![index-code-01.jpg](files/index-code-01.jpg)
 2. The `<body>` block in the container **div**:<br>
     <ol type="a">
-        <li>&lt;header&gt;<br>
+        <li><span class="html-class">&lt;header&gt;</span><br>
         <img src="files/index-code-02.jpg" alt="index-code-02">
         </li>
-        <li>Add a &lt;section&gt; block</li>
-        <li>Add a &lt;div&gt; for the first column:<br>
+        <li>Add a <span class="html-class">&lt;section&gt;</span> block</li>
+        <li>Add a <span class="html-class">&lt;div&gt;</span> for the first column:<br>
         <img src="files/index-code-03.jpg" alt="index-code-03">
         </li>
-        <li>Add a &lt;div&gt; for the second column:<br>
+        <li>Add a <span class="html-class">&lt;div&gt;</span> for the second column:<br>
         <img src="files/index-code-04.jpg" alt="index-code-04">
         </li>
-        <li>Add a &lt;div&gt; for the third column:<br>
+        <li>Add a <span class="html-class">&lt;div&gt;</span> for the third column:<br>
         <img src="files/index-code-05.jpg" alt="index-code-05">
         </li>
-        <li>Add a &lt;footer&gt; below the &lt;/section&gt;:<br>
+        <li>Add a <span class="html-class">&lt;footer&gt;</span> below the <span class="html-class">&lt;/section&gt;</span>:<br>
         <img src="files/index-code-06.jpg" alt="index-code-06">
         </li>
     </ol>

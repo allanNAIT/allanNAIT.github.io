@@ -2,6 +2,16 @@
 layout: page
 title: Flexbox Layouts (1)
 ---
+<style>
+    .css-class{
+        color: firebrick;
+        font-weight: bold;
+    }
+    .html-class{
+        color: blue;
+        font-weight: bold;
+    }
+</style>
 
 The following files are required for this lesson:
 * [demo-flexbox-content.zip](files/demo-flexbox-content.zip)
@@ -29,16 +39,16 @@ You should now see:<br>
 ![flexbox1-02.jpg](files/flexbox1-02.jpg)
 6.	Now you can change the `justify-content` to different values:<br>
     <ol type="a">
-        <li><code>flex-end</code>:<br>
+        <li><span class="css-class">flex-end</span>:<br>
         <img src="files/flexbox1-03.jpg" alt="flexbox1-03">
         </li>
-        <li><code>center</code>:<br>
+        <li><span class="css-class">center</span>:<br>
         <img src="files/flexbox1-03.jpg" alt="flexbox1-03"></li>
-        <li><code>space-between</code>:<br>
+        <li><span class="css-class">>space-between</span>:<br>
         <img src="files/flexbox1-03.jpg" alt="flexbox1-03"></li>
-        <li><code>space-around</code>:<br>
+        <li><span class="css-class">space-around</span>:<br>
         <img src="files/flexbox1-03.jpg" alt="flexbox1-03"></li>
-        <li><code>space-evenly</code>:<br>
+        <li><span class="css-class">space-evenly</span>:<br>
         <img src="files/flexbox1-03.jpg" alt="flexbox1-03"></li>
     </ol>
 7. The next flexbox property is `align-items` which allows the distribution on the cross axis (y-axis). Reset the `justify-content` to `flex-start` and add the following code to the class (`justify-content: flex-start;` is shown only for reference to where this code goes):<br>
@@ -48,14 +58,14 @@ You should now see:<br>
 ![flexbox1-08.jpg](files/flexbox1-08.jpg)
 9.	Now examine the other values for align-items:<br>
     <ol type="a">
-        <li><code>flex-start</code>:<br>
+        <li><span class="css-class">flex-start</span>:<br>
         <img src="files/flexbox1-09.jpg" alt="flexbox1-09">
         </li>
-        <li><code>flex-end</code>:<br>
+        <li><span class="css-class">flex-end</span>:<br>
         <img src="files/flexbox1-10.jpg" alt="flexbox1-10"></li>
-        <li><code>center</code>:<br>
+        <li><span class="css-class">center</span>:<br>
         <img src="files/flexbox1-11.jpg" alt="flexbox1-11"></li>
-        <li><code>baseline</code>:<br>
+        <li><span class="css-class">>baseline</span>:<br>
         <img src="files/flexbox1-12.jpg" alt="flexbox1-12">
         <br><b>Question</b>: What is the difference between center and baseline?
         </li>
@@ -70,13 +80,13 @@ You should now see:<br>
 **Question**: What do you think you need to do to achieve the desired output?
 4.	Add the following style rules to your **styles.css** file:<br>
     <ol type="a">
-        <li>Style the &lt;body&gt; element:<br>
+        <li>Style the <span class="html-class">&lt;body&gt;</span> element:<br>
         <img src="files/flexbox2-css-styles-01.jpg" alt="flexbox2-css-styles-01">
         </li>
-        <li>Add a <b>.flex-container</b> class:<br>
+        <li>Add a <span class="css-class">.flex-container</span> class:<br>
         <img src="files/flexbox2-css-styles-02.jpg" alt="flexbox2-css-styles-02">
         </li>
-        <li>Style the &lt;header&gt;:<br>
+        <li>Style the <span class="html-class">&lt;header&gt;</span>:<br>
         <img src="files/flexbox2-css-styles-03.jpg" alt="flexbox2-css-styles-03"><br>
         <img src="files/flexbox2-03.jpg" alt="flexbox2-03">
         </li>
@@ -84,11 +94,11 @@ You should now see:<br>
         <img src="files/flexbox2-css-styles-04.jpg" alt="flexbox2-css-styles-04"><br>
         <img src="files/flexbox2-04.jpg" alt="flexbox2-04">
         </li>
-        <li>Now set the margins for the &lt;li&gt; elements:<br>
+        <li>Now set the margins for the <span class="html-class">&lt;li&gt;</span> elements:<br>
         <img src="files/flexbox2-css-styles-05.jpg" alt="flexbox2-css-styles-05"><br>
         <img src="files/flexbox2-05.jpg" alt="flexbox2-05">
         </li>
-        <li>Next, the two hyperlinks, <b>sign-in</b> and <b>sign-up</b>, need to be styled for hover effect and to make them look like buttons:<br>
+        <li>Next, the two hyperlinks, <span class="css-class">sign-in</span> and <span class="css-class">sign-up</span>, need to be styled for hover effect and to make them look like buttons:<br>
         <img src="files/flexbox2-css-styles-06.jpg" alt="flexbox2-css-styles-06"><br>
         <img src="files/flexbox2-06.jpg" alt="flexbox2-06"></li>
         <li>When you hover your mouse over these simulated buttons, there is no visible change in their appearance. To get the desired effect add the following:<br>

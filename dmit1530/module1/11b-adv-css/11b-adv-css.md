@@ -13,6 +13,7 @@ Title: Advanced CSS Selectors & Flex Order
     }
     .html-class{
         color: blue;
+        font-weight: bold;
     }
 </style>
 
@@ -39,7 +40,7 @@ You can follow along with your instructor to complete this build and/or you can 
         <li>Add a flex container:<br>
         <img src="files/selectors-index-01.jpg" alt="selectors-index-01">
         </li>
-        <li>Add &lt;<span class="html-class">section<.span>&gt; blocks inside the flex container:<br>
+        <li>Add &lt;<span class="html-class">section</span>&gt; blocks inside the flex container:<br>
         <img src="files/selectors-index-02.jpg" alt="selectors-index-02">
         </li>
         <li>Add a &lt;footer&gt;:<br>
@@ -54,11 +55,11 @@ You can follow along with your instructor to complete this build and/or you can 
         <img src="files/selectors-css-styles-01.jpg" alt="selectors-css-styles-01"><br>
         <b>Question</b>: What does this style rule do?
         </li>
-        <li>Add styling for the &lt;section&gt; elements:<br>
+        <li>Add styling for the &lt;<span class="html-class">section</span>&gt; elements:<br>
         <img src="files/selectors-css-styles-02.jpg" alt="selectors-css-styles-02"><br>
         <img src="files/selectors-03.jpg" alt="selectors-03">
         </li>
-        <li>As the individual &lt;section&gt; blocks do not appear, you need to use a pseudo-selector to target the styling of each &lt;section&gt;:
+        <li>As the individual &lt;<span class="html-class">section</span>&gt; blocks do not appear, you need to use a pseudo-selector to target the styling of each &lt;<span class="html-class">section</span>&gt;:
             <ol type="i">
                 <li><span class="css-class">first-child</span>:<br>
                 <img src="files/selectors-css-styles-03.jpg" alt="selectors-css-styles-03">
@@ -84,11 +85,11 @@ You can follow along with your instructor to complete this build and/or you can 
                 </li>
             </ol>
         </li>
-        <li>The &lt;footer&gt; needs to have a different background colour:<br>
+        <li>The &lt;<span class="html-class">footer</span>&gt; needs to have a different background colour:<br>
         <img src="files/selectors-css-styles-09.jpg" alt="selectors-css-styles-09"><br>
         <img src="files/selectors-06.jpg" alt="selectors-06">
         </li>
-        <li>The nth of type selector can be used to target the position of a child element. Each &lt;section&gt; has two &lt;p&gt; elements, thus you can target each of these using:<br>
+        <li>The nth of type selector can be used to target the position of a child element. Each &lt;<span class="html-class">section</span>&gt; has two &lt;<span class="html-class">p</span>&gt; elements, thus you can target each of these using:<br>
         <img src="files/selectors-css-styles-10.jpg" alt="selectors-css-styles-10"><br>
         <img src="files/selectors-07.jpg" alt="selectors-07"><br>
         Note: the font of the 1<sup>st</sup> paragraph is now <b>bolded</b> and has a slight text <span class="shadow">shadow</span>:

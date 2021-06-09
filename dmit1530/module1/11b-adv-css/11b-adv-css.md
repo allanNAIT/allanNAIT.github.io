@@ -5,7 +5,11 @@ Title: Advanced CSS Selectors & Flex Order
 
 <style>
     .shadow{
-        text-shadow: 2px 2px;
+        text-shadow: 1px 1px;
+    }
+    .css-class{
+        color: firebrick;
+        font-weight: bold;
     }
 </style>
 
@@ -43,7 +47,7 @@ You can follow along with your instructor to complete this build and/or you can 
     </ol>
 4.	Now you need to add style rules to the **styles.css** file:<br>
     <ol type="a">
-        <li>Add a <b>.flex-container</b> class:<br>
+        <li>Add a <span class="css-class">.flex-container</span> class:<br>
         <img src="files/selectors-css-styles-01.jpg" alt="selectors-css-styles-01"><br>
         <b>Question</b>: What does this style rule do?
         </li>
@@ -53,24 +57,24 @@ You can follow along with your instructor to complete this build and/or you can 
         </li>
         <li>As the individual &lt;section&gt; blocks do not appear, you need to use a pseudo-selector to target the styling of each &lt;section&gt;:
             <ol type="i">
-                <li><b>first-child</b>:<br>
+                <li><span class="css-class">first-child</span>:<br>
                 <img src="files/selectors-css-styles-03.jpg" alt="selectors-css-styles-03">
                 </li>
-                <li><b>last-child</b>:<br>
+                <li><span class="css-class">last-child</span>:<br>
                 <img src="files/selectors-css-styles-04.jpg" alt="selectors-css-styles-04">
                 </li>
-                <li><b>nth-child(2)</b>:<br>
+                <li><span class="css-class">>nth-child(2)</span>:<br>
                 <img src="files/selectors-css-styles-05.jpg" alt="selectors-css-styles-05">
                 </li>
-                <li><b>nth-child(3)</b>:<br>
+                <li><span class="css-class">nth-child(3)</span>:<br>
                 <img src="files/selectors-css-styles-06.jpg" alt="selectors-css-styles-06"><br>
                 Refresh your browser to see:<br>
                 <img src="files/selectors-04.jpg" alt="selectors-04">
                 </li>
-                <li><b>nth-last-child(3)</b>:<br>
+                <li><span class="css-class">nth-last-child(3)</span>:<br>
                 <img src="files/selectors-css-styles-07.jpg" alt="selectors-css-styles-07">
                 </li>
-                <li><b>nth-last-child(2)</b>:<br>
+                <li><span class="css-class">nth-last-child(2)</span>:<br>
                 <img src="files/selectors-css-styles-08.jpg" alt="selectors-css-styles-08"><br>
                 Refresh your browser to see the following making note of the colours you used for each section’s background:<br>
                 <img src="files/selectors-05.jpg" alt="selectors-05">

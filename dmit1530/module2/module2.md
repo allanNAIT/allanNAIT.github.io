@@ -7,7 +7,7 @@ In the first part of the module we will focus on web fonts and font styling with
 
 ## Lessons
 ### [Text Styling and Web Fonts](15-text-web-fonts/15-text-web-fonts.md)
-### [Responsive Navigation](16-17-responive-nav/16-17-responive-nav.md)
+### [Responsive Navigation](16-17-responsive-nav/16-17-responsive-nav.md)
 ### [SVG Elements, Attributes, and Free Libraries](18-libraries/18-libraries.md)
 ### [In-Class Build #2](19-build-02/19-build-02.md)
 ### [Toggle/Hamburger Navigation](20-toggle-nav/20-toggle-nav.md)

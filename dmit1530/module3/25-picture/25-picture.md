@@ -29,15 +29,16 @@ You can follow along with your instructor to complete this build and/or you can 
 
 ## Steps - Component 1:
 ### <a ID="picture">Component 1</a>: Picture Element
-1.	Download the **demo-picture-element.zip** file from Moodle and extract its contents to a folder named **demo-picture-element**.
-2.	The completed output should look like when you resize your browser:
+1.	Download the **demo-picture-element.zip** file and extract its contents to a folder named **demo-picture-element**.
+2.	The completed output should look like:
 
 
 ### <a ID="webp">Component 1</a>: Picture Element with Webp
 1. Instructions
 
 ## Steps - <a ID="card">Component 2</a>: Responsive Card
-1. Downlaod the **demo-responsive-card-component.zip** file and extract its contents to a folder named **demo-responsive-card-component**.
+1. Download the **demo-responsive-card-component.zip** file and extract its contents to a folder named **demo-responsive-card-component**.
+2.	The completed output should look like:
 
 ### [Module Home](../module3.md)
 ### [DMIT1530 Home](../../)

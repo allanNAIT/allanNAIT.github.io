@@ -92,7 +92,7 @@ You can follow along with your instructor to complete this build and/or you can 
         <li>Style the heading:<br>
         <img src="files/toggle1-css-styles-10.jpg" alt="toggle1-css-styles-10"><br>
         Refresh your browser to see (you will need to resize your browser):<br>
-        <img src="files/toggle1-05.jpg" alt="toggle1-05"><br>
+        <img src="files/toggle1-06.jpg" alt="toggle1-06"><br>
         <b>Question</b>: What needs to be done next?
         </li>
     </ol>
@@ -106,7 +106,7 @@ You can follow along with your instructor to complete this build and/or you can 
         </li>
     </ol>
 8.	The result, at a wider browser width, is:<br>
-![toggle1-06.jpg](files/toggle1-06.jpg)
+![toggle1-07.jpg](files/toggle1-07.jpg)
 
 ### [Module Home](../module2.md)
 ### [DMIT1530 Home](../../)

@@ -19,13 +19,17 @@ The following files are required for this lesson:
 
 ## Introduction
 This lesson has two components:
-* [Component 1: Picture Element](#picture)
+* Component 1: Picture Element
+  * [Picture Element](#picture)
+  * [Picture Element with Webp](#webp)
 * [Component 2: Responsive Card](#card)
 
 ## Demo Instructions
 You can follow along with your instructor to complete this build and/or you can use this document as a guide in completing the demo build.
 
 ## Steps - <a ID="picture">Component 1</a>: Picture Element
+
+## Steps - <a ID="webp">Component 1</a>: Picture Element with Webp
 
 ## Steps - <a ID="card">Component 2</a>: Responsive Card
 

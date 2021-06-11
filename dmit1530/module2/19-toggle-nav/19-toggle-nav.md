@@ -29,7 +29,7 @@ You can follow along with your instructor to complete this build and/or you can 
 ## Steps – <a ID="toggle1">Stage 1</a>: Basic Toggle Nav
 1.	Download the **demo-toggle-nav.zip** file and extract its contents to a folder named **demo-toggle-nav**.
 2.	The completed output should look like when you resize your browser:<br>
-![toggle1-01.jpg](files/toggle1-01.jpg)&nbsp;![toggle1-02.jpg](files/toggle1-02.jpg)<br>
+![toggle1-01.jpg](files/toggle1-01.jpg)![toggle1-02.jpg](files/toggle1-02.jpg)<br>
 **Note**: When the browser is resized, the menu will start to wrap to the next row.
 3.	Add the following code to your **index.html**:<br>
     <ol type="a">

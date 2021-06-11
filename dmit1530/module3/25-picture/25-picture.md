@@ -28,12 +28,12 @@ This lesson has two parts:
 You can follow along with your instructor to complete this build and/or you can use this document as a guide in completing the demo build.
 
 ## Steps - Part 1:
-### <a ID="picture">Part 1</a>: Picture Element
+### <a ID="picture">Picture Element</a>
 1.	Download the **demo-picture-element.zip** file and extract its contents to a folder named **demo-picture-element**.
 2.	The completed output should look like:
 
 
-### <a ID="webp">Part 1</a>: Picture Element with Webp
+### <a ID="webp">Picture Element with Webp</a>
 1. Instructions
 
 ## Steps - <a ID="card">Part 2</a>: Responsive Card

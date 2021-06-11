@@ -27,9 +27,10 @@ This lesson has two components:
 ## Demo Instructions
 You can follow along with your instructor to complete this build and/or you can use this document as a guide in completing the demo build.
 
-## Steps - <a ID="picture">Component 1</a>: Picture Element
+## Steps - Component 1:
+### <a ID="picture">Component 1</a>: Picture Element
 
-## Steps - <a ID="webp">Component 1</a>: Picture Element with Webp
+### <a ID="webp">Component 1</a>: Picture Element with Webp
 
 ## Steps - <a ID="card">Component 2</a>: Responsive Card
 

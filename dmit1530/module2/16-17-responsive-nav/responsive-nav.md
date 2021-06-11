@@ -101,19 +101,19 @@ Note: When the browser is resized, the menu will start to wrap to the next row.
 5.	Open your **styles.css** file and add the following style rules:<br>
     <ol type="a">
         <li>Style the <span class="html-class">&lt;body&gt;</span> and <span class="html-class">&lt;header&gt;</span> elements:<br>
-        <img src="files/multi-css-01.jpg" alt="multi-css-01">
+        <img src="files/multi-css-styles-01.jpg" alt="multi-css-styles-01">
         </li>
         <li>Add a style rule for the <span class="html-class">&lt;ul&gt;</span> in the menu:<br>
-        <img src="files/multi-css-02.jpg" alt="multi-css-02">
+        <img src="files/multi-css-styles-02.jpg" alt="multi-css-styles-02">
         </li>
         <li>Style the <span class="html-class">&lt;a&gt;</span> elements in the menu:<br>
-        <img src="files/multi-css-03.jpg" alt="multi-css-03">
+        <img src="files/multi-css-styles-03.jpg" alt="multi-css-styles-03">
         </li>
         <li>Add a hover effect to the menu links:<br>
-        <img src="files/multi-css-04.jpg" alt="multi-css-04">
+        <img src="files/multi-css-styles-04.jpg" alt="multi-css-styles-04">
         </li>
         <li>Style the sub-menus and the SVG:<br>
-        <img src="files/multi-css-05.jpg" alt="multi-css-05">
+        <img src="files/multi-css-styles-05.jpg" alt="multi-css-styles-05">
         </li>
     </ol>
 6.	Refreshing your browser, you should now see something like:<br>
@@ -122,40 +122,40 @@ Note: When the browser is resized, the menu will start to wrap to the next row.
 7.	It is time to add a media query to **styles.css**:<br>
     <ol type="a">
         <li>Add a media query and style the menu:<br>
-        <img src="files/multi-css-06.jpg" alt="multi-css-06">
+        <img src="files/multi-css-styles-06.jpg" alt="multi-css-styles-06">
         </li>
         <li>Add another rule to your media query to style the list items:<br>
-        <img src="files/multi-css-07.jpg" alt="multi-css-07">
+        <img src="files/multi-css-styles-07.jpg" alt="multi-css-styles-07">
         </li>
         <li>Add rules to style the sub-menu:<br>
-        <img src="files/multi-css-08.jpg" alt="multi-css-08">
+        <img src="files/multi-css-styles-08.jpg" alt="multi-css-styles-08">
         </li>
         <li>Add rules to style the dropdown for the sub-menus:<br>
-        <img src="files/multi-css-09.jpg" alt="multi-css-09">
+        <img src="files/multi-css-styles-09.jpg" alt="multi-css-styles-09">
         </li>
         <li>There does not appear to be a significant change if you now refresh your browser. You need to hide and position the sub-menus by adding the following rule:<br>
-        <img src="files/multi-css-10.jpg" alt="multi-css-10">
+        <img src="files/multi-css-styles-10.jpg" alt="multi-css-styles-10">
         </li>
         <li>Now add some layout rules for the menus:<br>
-        <img src="files/multi-css-11.jpg" alt="multi-css-11"><br>
+        <img src="files/multi-css-styles-11.jpg" alt="multi-css-styles-11"><br>
         The sub-menus are hidden but still affect the display of the menu:<br>
         <img src="files/multi-03.jpg" alt="multi-03"><br>
         Notice the vertical scroll bar which indicates there is still something there.<br>
         <b>Question</b>: How can this be fixed?
         </li>
         <li>Add a rule for the hover state of the sub-menus:<br>
-        <img src="files/multi-css-12.jpg" alt="multi-css-12">
+        <img src="files/multi-css-styles-12.jpg" alt="multi-css-styles-12">
         </li>
         <li>Add a transition effect for the menu:<br>
-        <img src="files/multi-css-13.jpg" alt="multi-css-13">
+        <img src="files/multi-css-styles-13.jpg" alt="multi-css-styles-13">
         </li>
         <li>Add accessibility and tab navigation:<br>
-        <img src="files/multi-css-14.jpg" alt="multi-css-14"><br>
+        <img src="files/multi-css-styles-14.jpg" alt="multi-css-styles-14"><br>
         Refresh your browser and use the <b>tab</b> key to tab through the menus.<br>
         <img src="files/multi-04.jpg" alt="multi-04">
         </li>
         <li>Add another media query:<br>
-        <img src="files/multi-css-15.jpg" alt="multi-css-15"><br>
+        <img src="files/multi-css-styles-15.jpg" alt="multi-css-styles-15"><br>
         <img src="files/multi-05.jpg" alt="multi-05"><br>
         <b>Question</b>: What happened?
         </li>

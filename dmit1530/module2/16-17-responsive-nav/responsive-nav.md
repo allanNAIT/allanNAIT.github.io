@@ -90,7 +90,7 @@ Note: When the browser is resized, the menu will start to wrap to the next row.
         <li>Add the sub-menu for <b>Events</b>:<br>
         <img src="files/multi-index-04.jpg" alt="multi-index-04">
         </li>
-        <li>Add the SVG symbol to indicate there is a sub-menu(it is the same SVG for both Books and Events) after the menu item name and before the <span class="html-class">&lt;a&gt;</span> tag:<br>
+        <li>Add the SVG symbol to indicate there is a sub-menu (it is the same SVG for both Books and Events) after the menu item name and before the <span class="html-class">&lt;a&gt;</span> tag:<br>
         <img src="files/multi-index-05.jpg" alt="multi-index-05"><br>
         The code is easier to just copy and paste the <span class="html-class">&lt;path d="…"&gt;</span> from the SVG file in the img folder into your code editor.
         </li>

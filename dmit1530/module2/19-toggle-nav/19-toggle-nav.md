@@ -106,7 +106,45 @@ You can follow along with your instructor to complete this build and/or you can 
         </li>
     </ol>
 8.	The result, at a wider browser width, is:<br>
-![toggle1-07.jpg](files/toggle1-07.jpg)
+![toggle1-07.jpg](files/toggle1-07.jpg)<br>
+**Question**: When the toggle button is pressed, the section content is pushed down. Would it not be better if the dropdown menu were an overlayed menu?
+
+## Steps – <a ID="toggle2">Stage 2</a>: Toggle Nav Version 2
+1.	To get the desired effect make the following changes to your **styles.css** file:<br>
+    <ol type="a">
+        <li>Modify the <span class="css-class">header nav</span> style rule as shown below:<br>
+        <img src="files/toggle2-css-styles-01.jpg" alt="toggle2-css-styles-01">
+        </li>
+        <li>Add some padding to the menu (add this below the <span class="css-class">header nav</span> style rule):<br>
+        <img src="files/toggle2-css-styles-02.jpg" alt="toggle2-css-styles-02">
+        </li>
+    </ol>
+2.	Refresh your browser to see the menu now overlays the section content.<br>
+![toggle2-01.jpg](files/toggle2-01.jpg)
+
+## Steps – <a ID="toggle3">Stage 3</a>: Toggle Nav Version 3
+1.	Download the **toggle-nav-3-images.zip** file from Moodle and extract the images to your **img** folder.
+2.	The completed output should look like (partial view shown):<br>
+![toggle3-01.jpg](files/toggle3-01.jpg)
+3.	The first step is to add the following to your **index.html**:
+    <ol type="a">
+        <li>Add the following below the <span class="html-class">&lt;h2&gt;</span> in the <span class="html-class">&lt;section&gt;</span>:<br>
+        <img src="files/toggle3-index-01.jpg" alt="toggle3-01"><br>
+        You should see the images below the heading.
+    </ol>
+4.	Now add the following style rules below the section h2 style rule:<br>
+    <ol type="a">
+        <li>Style the <span class="css-class">.gallery</span> class:<br>
+        <img src="files/toggle3-css-styles-01.jpg" alt="toggle3-css-styles-01">
+        </li>
+        <li>Style the <span class="css-class">.thumbnail</span> class:<br>
+        <img src="files/toggle3-css-styles-02.jpg" alt="toggle3-css-styles-02">
+        </li>
+        <li>Style the <span class="html-class">&lt;span&gt;</span> class:<br>
+        <img src="files/toggle3-css-styles-03.jpg" alt="toggle3-css-styles-03">
+        </li>
+    </ol>
+5.	Test the results in your browser; use different browser widths to see the full effects.
 
 ### [Module Home](../module2.md)
 ### [DMIT1530 Home](../../)

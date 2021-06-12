@@ -6,6 +6,8 @@ title: CPSC1012
 
 ## Topics
 * [Introduction to Programming](01-intro-to-programming/01-intro-to-programming.md)
+  * [Problem Solving](01-intro-to-programming/problem-solving.md)
+  * [Introduction to Visual Studio](01-intro-to-programming/visual-studio.md)
 * [Sequence Structure](02-sequence/02-sequence.md)
   * [Data Types](02-sequence/data-types.md)
   * [Arithmetic](02-sequence/arithmetic.md)

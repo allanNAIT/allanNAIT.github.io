@@ -3,8 +3,13 @@ layout: page
 title: Looping Structures
 ---
 
+## Introduction
+Put topic introduction here.
 
-## Under Construction
-This site is under construction
+## Topics
+* [While Loop](while.md)
+* [Do Loop](do-loop.md)
+* [For Loop](for-loop.md)
+* [Nested Loops](nested.md)
 
 ### [CPSC1012 Home](../)

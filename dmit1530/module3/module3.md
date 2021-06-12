@@ -11,7 +11,7 @@ The second part of the module will continue with building and styling parts, or 
 ### [`<head>` Element](26-head/26-head.md)
 ### [HTML5 Forms](27-forms/27-forms.md)
 ### [Styling Forms](28-styling-forms/28-styling-forms.md)
-### [Scrolling Techniques & Sticky Elements](29-scoll-sticky/29-scroll-sticky.md)
+### [Scrolling Techniques & Sticky Elements](29-scroll-sticky/29-scroll-sticky.md)
 ### [In-Class Build #4](30-build-04/30-build-04.md)
 ### [In-Class Build #5](31-build-05/31-build-05.md)
 ### [Assignment #3](32-assignment3/32-assignment-3.md)

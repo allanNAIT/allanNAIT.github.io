@@ -2,8 +2,7 @@
 layout: page
 title: CPSC1012
 ---
-![cpsc1012-icon.png](cpsc1012-icon.png)
-# Programming Fundamentals
+![cpsc1012-icon.png](cpsc1012-icon.png) Programming Fundamentals
 
 ## Topics
 * [Introduction to Programming](01-intro-to-programming/01-intro-to-programming.md)

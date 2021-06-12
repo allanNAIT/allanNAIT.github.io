@@ -2,8 +2,7 @@
 layout: page
 title: COMP1017
 ---
-![comp1017-icon.png](comp1017-icon.png)
-# Web Fundamentals I
+![comp1017-icon.png](comp1017-icon.png) Web Fundamentals I
 
 ## Introduction
 This is a secondary resource for COMP1017; the official course material can be found on Moodle. Feel free to bookmark this page to have the current version of these notes.

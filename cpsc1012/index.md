@@ -7,6 +7,9 @@ title: CPSC1012
 ## Topics
 * [Introduction to Programming](01-intro-to-programming/01-intro-to-programming.md)
 * [Sequence Structure](02-sequence/02-sequence.md)
+  * [Data Types](02-sequence/data-types.md)
+  * [Arithmetic](02-sequence/arithmetic.md)
+  * [Input/Output](02-sequence/input-output.md)
 * [Decision Structures](03-decisions/03-decisions.md)
   * [If-Then-Else](03-decisions/if-then-else.md)
   * [Switch Structure](03-descisions/switch.md)

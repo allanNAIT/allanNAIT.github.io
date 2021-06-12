@@ -3,8 +3,11 @@ layout: page
 title: Sequence Structure
 ---
 
+## Introduction
+Put topic introduction here
 
-## Under Construction
-This site is under construction
+## Topics
+* [Data Types](data-types.md)
+* [Arithmetic](arithmetic.md)
 
 ### [CPSC1012 Home](../)

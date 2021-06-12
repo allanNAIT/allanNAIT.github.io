@@ -6,5 +6,5 @@ title: Looping Structures - For Loop
 ## Introduction
 Put topic introduction here.
 
-### [Decisions Home](04-looping.md)
+### [Looping Home](04-looping.md)
 ### [CPSC1012 Home](../)

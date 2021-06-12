@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Looping Structures - While Loop
+title: Sequence - Arithmetic
 ---
 
 ## Introduction
 Put topic introduction here.
 
-### [Looping Home](04-looping.md)
+### [Sequence Home](02-sequence.md)
 ### [CPSC1012 Home](../)

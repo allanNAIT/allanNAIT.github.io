@@ -25,7 +25,7 @@ Here is a list of SQL Keywords that we will learn
 * `COUNT(*)` returns the number of rows in a query.
 * `COUNT(ColumnName)` returns the number of non-null values in the specified column.
 * `CREATE NONCLUSTERED INDEX` lets us create a new index, which speeds up data retrieval.
-* `CREATE PROCEDURE` lets us create a set of SQL statements that is stored in the database, and can be run as needed. Check out the [Stored Procedures](../topics/stored-procedues.md) page for more info.
+* `CREATE PROCEDURE` lets us create a set of SQL statements that is stored in the database, and can be run as needed. Check out the [Stored Procedures](../topics/stored-procedures.md) page for more info.
 * `CREATE TABLE` creates the structure for a new table in our database (see [DDL page](../topics/ddl.md) for syntax)
   * `IDENTITY(seed, increment)` is what we add to each column that is a technical key (i.e., SQL will generate the value for us)
 * `CREATE TRIGGER` creates a new trigger that will be executed by a specific kind of DML statement on a specific table. Learn more on the [Triggers page](../topics/triggers.md).

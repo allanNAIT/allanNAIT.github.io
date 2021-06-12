@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introduction to Programming - Intro to Visual Studio
+title: Introduction to Programming - Introduction to Visual Studio
 ---
 
 ## Introduction

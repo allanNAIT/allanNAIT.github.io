@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CPSC1012
+title: CPSC1012 - Programming Fundamentals
 ---
 ![cpsc1012-icon.png](cpsc1012-icon.png)
 
@@ -16,3 +16,5 @@ title: CPSC1012
 * [Collection Classes](09-collection-classes/09-collection-classes.md)
 * [Object Oreiented Programming (OOP)](10-oop/10-oop.md)
 
+## References
+Coming soon

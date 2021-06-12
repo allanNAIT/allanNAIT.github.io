@@ -12,3 +12,6 @@ title: Styling HTML Forms
         font-weight: bold;
     }
 </style>
+
+### [Module Home](../module3.md)
+### [DMIT1530 Home](../../)

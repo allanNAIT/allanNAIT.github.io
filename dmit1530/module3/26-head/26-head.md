@@ -1,6 +1,6 @@
 ---
 layout: page
-title: &lt;head&gt; Element
+title: <head> Element
 ---
 <style>
     .css-class{

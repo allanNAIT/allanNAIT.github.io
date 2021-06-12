@@ -3,8 +3,11 @@ layout: page
 title: Decision Structures
 ---
 
+## Introduction
+Put topic introduction here.
 
-## Under Construction
-This site is under construction
+## Topics
+* [If-Then-Else](if-then-else.md)
+* [Switch Structure](switch.md)
 
 ### [CPSC1012 Home](../)

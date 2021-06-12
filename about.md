@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+![gravatar](images/gravatar_01.png)
+
 ## Contact Information
 **Name**: Allan Anderson<br>
 **Email**: aanderson@nait.ca<br>

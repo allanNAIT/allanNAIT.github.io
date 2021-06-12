@@ -6,5 +6,5 @@ title: Introduction to Programming - Problem Solving
 ## Introduction
 Put topic introduction here.
 
-### [Sequence Home](01-intro-to-programming.md)
+### [Introduction Home](01-intro-to-programming.md)
 ### [CPSC1012 Home](../)

@@ -4,7 +4,7 @@ title: Sequence - Data Types
 ---
 
 ## Introduction
-There are many data types in the C# programming language. The **bolded** ones in the tables and sections> below are the ones that will be used in this course.
+There are many data types in the C# programming language. The **bolded** ones in the tables and sections below are the ones that will be used in this course.
 
 ### Integral Numeric Types
 

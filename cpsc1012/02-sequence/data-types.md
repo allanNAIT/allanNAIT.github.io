@@ -4,7 +4,7 @@ title: Sequence - Data Types
 ---
 
 ## Introduction
-There are many data types in the C# programming language. The **bolded** ones in the tables and sections below are the ones that will be used in this course.
+There are many data types in the C# programming language. The **bolded** ones in the tables and sections> below are the ones that will be used in this course.
 
 ### Integral Numeric Types
 
@@ -24,7 +24,7 @@ ulong | 0 to 18,446,744,073,709,551,615 | Unsigned 64-bit integer | System.UInt6
 C# Type | Range	 | Precision | Size	 | .NET type
 --------|--------|-----------|-------|----------
 float | ±1.5 x 10<sup>−45,</sup> to ±3.4 x 10<sup>38</sup> | ~6-9 digits | 4 bytes | System.Single
-**double** | ±5.0 × 10−<sup>324</sup> to ±1.7 × 10<sup308</sup> | ~15-17 digits | 8 bytes | System.Double
+**double** | ±5.0 × 10−<sup>324</sup> to ±1.7 × 10<sup>308</sup> | ~15-17 digits | 8 bytes | System.Double
 decimal | ±1.0 x 10<sup>-28</sup> to ±7.9228 x 10<sup>28</sup> | 28-29 digits | 16 bytes | System.Decimal
 
 ### Boolean

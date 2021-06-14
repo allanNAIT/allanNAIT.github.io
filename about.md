@@ -13,6 +13,9 @@ permalink: /about/
 **Office Hours**: 08:00 - 15:30<br>
 **Office Location**: W309 - HP Centre
 
+## Fall 2021 Teaching Schedule
+![fall2021-schedule](images/fall2021-schedule.png)
+
 ## Education & Qualifications
 B. Sc. - University of Saskatchewan (1977)<br>
 B. Ed. - University of Saskatchewan (1980)<br>

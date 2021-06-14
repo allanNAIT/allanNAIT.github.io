@@ -2,6 +2,10 @@
 layout: page
 title: <head> Element
 ---
+The following files are required for this lesson:
+* [demo-favicon.zip](files/demo-favicon.zip)
+* [dmit1530-icon.png](files/dmit1530-icon.png)
+
 ## Introduction
 This lesson does not have any HTML or CSS; it is just for the <head> element block. There are two links on Moodle:
 * [Favicon Generator](https://realfavicongenerator.net/){:target="_blank"}

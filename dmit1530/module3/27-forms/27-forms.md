@@ -35,22 +35,22 @@ You can follow along with your instructor to complete this build and/or you can 
 3.	The first step is to build the form in HTML, thus add the following to your **index.html**:<br>
     <ol type="a">
         <li>Add a <span class="html-class">&lt;section&gt;</span> for your form (the paragraph has lorem ipsum text):<br>
-        <img src="index-01.jpg" alt="index-01">
+        <img src="files/index-01.jpg" alt="index-01">
         </li>
         <li>Add a <span class="html-class">&lt;form&gt;</span> below the div:<br>
-        <img src="index-02.jpg" alt="index-02">
+        <img src="files/index-02.jpg" alt="index-02">
         </li>
         <li>To group the form elements nively, add a <span class="html-class">&lt;fieldset&gt;</span> to the form:<br>
-        <img src="index-03.jpg" alt="index-03">
+        <img src="files/index-03.jpg" alt="index-03">
         </li>
         <li>Add a flex container div:<br>
-        <img src="index-04.jpg" alt="index-04">
+        <img src="files/index-04.jpg" alt="index-04">
         </li>
         <li>Add the input fields of the form:<br>
-        <img src="index-05.jpg" alt="index-05">
+        <img src="files/index-05.jpg" alt="index-05">
         </li>
         <li>Add the submit button:<br>
-        <img src="index-06.jpg" alt="index-06">
+        <img src="files/index-06.jpg" alt="index-06">
         </li>
     </ol>
 4.	Refresh your browser to see:<br>

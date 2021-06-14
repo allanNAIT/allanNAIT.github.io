@@ -93,7 +93,24 @@ You can follow along with your instructor to complete this build and/or you can 
         <img src="files/css-styles-12.jpg" alt="css-styles-12">
         </li>
         <li>Add <span class="css-class">:focus</span> style rule:<br>
-        <img src="files/css-styles-13.jpg" alt="css-styles-13">
+        <img src="files/css-styles-13.jpg" alt="css-styles-13"><br>
+        <img src="files/css-styles-14.jpg" alt="css-styles-14"><br>
+        <b>Reference</b>: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:focus" target="_blank">https://developer.mozilla.org/en-US/docs/Web/CSS/:focus</a>
+        </li>
+        <li>Add some <em>error checking</em> to the input fields:<br>
+        <img src="files/css-styles-15.jpg" alt="css-styles-15">
+        </li>
+    </ol>
+11.	Refresh your browser and try the form:<br>
+    <ol type="a">
+        <li>Hover over an input field:<br>
+        <img src="files/style-forms-05.jpg" alt="stlye-forms-05">
+        </li>
+        <li>No data entered:<br>
+        <img src="files/style-forms-06.jpg" alt="stlye-forms-06">
+        </li>
+        <li>Form fields filled out:<br>
+        <img src="files/style-forms-07.jpg" alt="stlye-forms-07">
         </li>
     </ol>
 

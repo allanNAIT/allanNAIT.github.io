@@ -61,7 +61,7 @@ You can follow along with your instructor to complete this build and/or you can 
         <img src="files/css-styles-01.jpg" alt="css-styles-01"><br>
         The <span class="css-class">:root</span> style rule:<br>
         <img src="files/css-styles-02.jpg" alt="css-styles-02"><br>
-        <b>Reference</b>: [https://developer.mozilla.org/en-US/docs/Web/CSS/:root](https://developer.mozilla.org/en-US/docs/Web/CSS/:root){:target="_blank"}
+        <b>Reference</b>: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:root" target="_blank">https://developer.mozilla.org/en-US/docs/Web/CSS/:root</a>
         </li>
         <li>Style the basic elements of the web page:<br>
         <img src="files/css-styles-03.jpg" alt="css-styles-03"><br>

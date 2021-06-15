@@ -38,7 +38,7 @@ This topic covers Linear Motion, Rotational Motion, Forces, Gravitational Forces
 
 ### [Outcome 4](outcome4/outcome4.md) - Describe the basics of 3D curves and splines in game programming.
 This topic covers the basics of curves and splines.The following concepts, skills, and issues are used to support this Outcome:
-* Examine the curve produced using the general expression for a [Bezier Curve](outcome4/bezier.md)
+* Examine the curve produced using the general expression for a [Bézier Curve](outcome4/bezier.md)
 * Examine the spline produced using the general expression for a [Catmull-Rom Spline](outcome4/splines.md)
 
 ### [Student Research/Application Project](project/project.md)

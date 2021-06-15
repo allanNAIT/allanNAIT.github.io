@@ -15,7 +15,7 @@ This topic covers basic trigonometry and the mathematics of 2D and 3D vectors.
 The following concepts, skills, and issues are used to support this Outcome:
 * Solving right triangles using [trigonometry](outcome1/trigonometry.md)
 * Adding, subtracting, and scaling [vectors](outcome1/vector-math.md)
-* Calculate the [Dot Ptoduct](outcome1/dot-product.md) and angle between two vectors
+* Calculate the [Dot Product](outcome1/dot-product.md) and angle between two vectors
 * Calculate the [Cross Product](outcome1/cross-product.md) of 2 3D vectors
 
 ### [Outcome 2](outcome2/outcome2.md) - Perform basic mathematical calculations using matrices.

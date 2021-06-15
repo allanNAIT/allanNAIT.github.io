@@ -88,7 +88,8 @@ public static Eng_Point2D operator *(double s, Eng_Point2D p)
 ```
 
 <ol start="12">
-	<li>Modify the following methods in the DemoTester.cs class to be:<br>
+	<li>Modify the following methods in the DemoTester.cs class to be:</li>
+</ol>
 
 ```csharp
 public void TestSegmentLengthPoint2D(double aX, double aY, double bX, double bY, double expected)
@@ -110,7 +111,8 @@ public void TestMidpointPoint2D(Eng_Point2D a, Eng_Point2D b, Eng_Point2D expect
     Assert.AreEqual(expected.y, actual.y);
 }//eom
 ```
-    </li>
+
+<ol start="13">
     <li><b>BUILD</b> your solution; should build successfully.</li>
     <li><b>TEST</b> by selecting <b>Test --> Run --> All tests</b> from the main Visual Studio menu.
 </ol>

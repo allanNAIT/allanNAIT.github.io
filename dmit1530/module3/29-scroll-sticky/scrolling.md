@@ -51,6 +51,6 @@ You can follow along with your instructor to complete this build and/or you can 
     </li>
     </ol>
 
-
+### [Lesson Home](29-scroll-sticky.md)
 ### [Module Home](../module3.md)
 ### [DMIT1530 Home](../../)

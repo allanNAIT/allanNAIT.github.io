@@ -48,7 +48,7 @@ This is a quick reference for creating a 3NF database.
         </li>
     </ol>
 
-### **It is possible to have more than one new table created in second and third normal form if there are multiple Partial or Transitive dependencies. Having more than one repeating group table from first normal form is only possible under certain circumstances since the repeating group table(s) will be directly related to the original table (which may not be the case according to the business rules).
+#### **It is possible to have more than one new table created in second and third normal form if there are multiple Partial or Transitive dependencies. Having more than one repeating group table from first normal form is only possible under certain circumstances since the repeating group table(s) will be directly related to the original table (which may not be the case according to the business rules).
 
 ## Merging Views
 As you apply the rules of normalization to each view you will uncover more attributes and entities that need to be in the database. After each view has been normalized and you have a database schema (design) for each view you must merge them together to create the final database schema to satisfy the requirements of the organization.

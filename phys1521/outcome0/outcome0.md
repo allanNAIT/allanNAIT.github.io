@@ -41,7 +41,6 @@ The following file is required for this outcome:
 9.	Right-click your Solution (**MathPhysicsEngine_Lastname**) and select **Manage NuGet Packages for Solution…**.
 10.	Select Browse, and search for **NUnit**. Add the **NUnit** and **NUnit3TestAdapter** packages to the **Engine.Test** project only.
 11.	Modify the following methods in the `Eng_Point2D.cs` class to be:<br>
-
 ```csharp
 #region Class Methods
 public double SegmentLength(Eng_Point2D a, Eng_Point2D b)
@@ -87,7 +86,6 @@ public static Eng_Point2D operator *(double s, Eng_Point2D p)
 #endregion
 ```
 12.	Modify the following methods in the DemoTester.cs class to be:<br>
-
 ```csharp
 public void TestSegmentLengthPoint2D(double aX, double aY, double bX, double bY, double expected)
 {
@@ -108,7 +106,6 @@ public void TestMidpointPoint2D(Eng_Point2D a, Eng_Point2D b, Eng_Point2D expect
     Assert.AreEqual(expected.y, actual.y);
 }//eom
 ```
-
 13.	**BUILD** your solution; should build successfully.
 14.	**TEST** by selecting **Test --> Run --> All tests** from the main Visual Studio menu.
 

@@ -18,7 +18,7 @@ The following concepts, skills, and issues are used to support this Outcome:
 * Calculate the [Dot Ptoduct](outcome1/dot-product.md) and angle between two vectors
 * Calculate the [Cross Product](outcome1/cross-product.md) of 2 3D vectors
 
-### [Outcome 2](outcome2/outcone2.md) - Perform basic mathematical calculations using matrices.
+### [Outcome 2](outcome2/outcome2.md) - Perform basic mathematical calculations using matrices.
 This topic covers the mathematics of matrices and quaternions. The following concepts, skills, and issues are used to support this Outcome:
 The following concepts, skills, and issues are used to support this Outcome:
 * Scaling and multiplying [matrices](outcome2/matrix-math.md)

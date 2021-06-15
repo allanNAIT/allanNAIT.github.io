@@ -40,7 +40,7 @@ The following file is required for this outcome:
 8.	Right-click the **Engine.Test** project and select **Add --> Reference**. Select the **Engine** project.
 9.	Right-click your Solution (**MathPhysicsEngine_Lastname**) and select **Manage NuGet Packages for Solution…**.
 10.	Select Browse, and search for **NUnit**. Add the **NUnit** and **NUnit3TestAdapter** packages to the **Engine.Test** project only.
-11.	Modify the following methods in the `Eng_Point2D.cs` class to be:
+11.	Modify the following methods in the `Eng_Point2D.cs` class to be:<br>
 
 ```csharp
 #region Class Methods
@@ -121,8 +121,10 @@ Each class will have an empty constructor, and one or more greedy constructors. 
 
 ### Class Methods
 Each class will contain one or more class methods. The class methods will perform mathematical operations using the properties of the class to either:<br>
-* Modify the instance of the class
-* Return a calculated value based on one or more of the properties of the class
+    <ol type="a">
+        <li>Modify the instance of the class</li>
+        <li>Return a calculated value based on one or more of the properties of the class</li>
+    </ol>
 
 ### Overload Operators
 The overload operators perform mathematical operations, and Boolean comparisons, on one or more instances of the class. Using an overloaded operator makes the class more functional, and saves having to write other more complex classes.

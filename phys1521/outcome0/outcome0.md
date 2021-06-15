@@ -339,3 +339,4 @@ When coding your labs, you **MUST** adhere to the following conventions and stan
 6.	Class methods **DO NOT** (normally) take in external parameters.
 7.	**DO NOT** modify method code signature given for lab questions; just code the body of the method.
 
+### [PHYS1521 Home](../)

@@ -2,6 +2,7 @@
 layout: page
 title: Perform basic mathematical calculations relating to 2D and 3D vectors.
 ---
+This topic covers basic trigonometry and the mathematics of 2D and 3D vectors.
 
 ## Topics
 * [1.1 - Trigonometry](trigonometry.md)

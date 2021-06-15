@@ -13,7 +13,7 @@ The material in this topic will aid you in completing the Labs for this course. 
 ### [Outcome 1](outcome1/outcome1.md) -  Perform basic mathematical calculations relating to 2D and 3D vectors.
 This topic covers basic trigonometry and the mathematics of 2D and 3D vectors. 
 The following concepts, skills, and issues are used to support this Outcome:
-* Solving right triangles using t rigonometry
+* Solving right triangles using trigonometry
 * Adding, subtracting, and scaling vectors
 * Calculate the Dot Ptoduct and angle between two vectors
 * Calculate the Cross Product of 2 3D vectors

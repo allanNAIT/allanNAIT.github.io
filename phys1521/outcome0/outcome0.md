@@ -87,7 +87,8 @@ public static Eng_Point2D operator *(double s, Eng_Point2D p)
 #endregion
 ```
 
-12.	Modify the following methods in the DemoTester.cs class to be:<br>
+<ol start="12">
+	<li>Modify the following methods in the DemoTester.cs class to be:<br>
 
 ```csharp
 public void TestSegmentLengthPoint2D(double aX, double aY, double bX, double bY, double expected)
@@ -109,9 +110,10 @@ public void TestMidpointPoint2D(Eng_Point2D a, Eng_Point2D b, Eng_Point2D expect
     Assert.AreEqual(expected.y, actual.y);
 }//eom
 ```
-
-13.	**BUILD** your solution; should build successfully.
-14.	**TEST** by selecting **Test --> Run --> All tests** from the main Visual Studio menu.
+    </li>
+    <li><b>BUILD</b> your solution; should build successfully.</li>
+    <li><b>TEST</b> by selecting <b>Test --> Run --> All tests</b> from the main Visual Studio menu.
+</ol>
 
 ## Coding
 Open the `Eng_Point2D.cs` file. This file demonstrates the basic coding practice to use for all the class files for the PHYS1521 labs.
@@ -137,10 +139,13 @@ The overload operators perform mathematical operations, and Boolean comparisons,
 For many of the classes needed for a PHYS1521 Lab, you will be given starting code. This will aid you in completing the labs.
 
 ## Provided Test Code
-For each lab, there will be a test class created. The starting test class provided is incomplete. You will need to either:<br>
-* Leave the test data alone (i.e., <span class="comments">// Instructor Data - MUST NOT DELETE OR MODIFY</span>)
-* Leave the test data alone (i.e., <span class="comments">// Student Data - YOU NEED TO ADD YOUR DATA BELOW</span>)
-* Leave the test data alone (i.e., <span class="comments">// Student Data - MUST CHANGE</span>)
+For each lab, there will be a test class created. The starting test class provided is incomplete. You will need to either:
+
+<ol type="a">
+    <li>Leave the test data alone (i.e., <span class="comments">// Instructor Data - MUST NOT DELETE OR MODIFY</span>)</li>
+    <li>Leave the test data alone (i.e., <span class="comments">// Student Data - YOU NEED TO ADD YOUR DATA BELOW</span>)</li>
+    <li>Leave the test data alone (i.e., <span class="comments">// Student Data - MUST CHANGE</span>)</li>
+</ol>
 
 The test methods provided are mostly incomplete; they should all pass because they do not test anything. You will need to code the test to test the constructors, class methods, and overload operators of the class. Some of test cases provided are complete, or need no modifications; DO NOT change that code.
 

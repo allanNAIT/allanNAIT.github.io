@@ -47,9 +47,46 @@ You can follow along with your instructor to complete this build and/or you can 
 
         Tote bag gentrify skateboard bicycle rights coloring book. Ennui kale chips freegan subway tile jianbing fam. Tacos blog  ushwic narwhal +1. Cray meggings vice keytar man bun YOLO pug vexillologist raw denim. Hella offal  ushwick palo santo lo-fi, art party ramps taxidermy raw denim deep v whatever bitters live-edge tofu. Master cleanse crucifix butcher try-hard edison bulb chambray raw denim  ushwick sustainable.
         </pre>
-    
-    </li>
+        </li>
     </ol>
+4.	Refresh your browser to see something like:<br>
+![scrolling-02.jpg](files/scrolling-02.jpg)<br>
+**Question**: What is the next step?
+5.	Add the following to your **styles.css** file:<br>
+    <ol type="a">
+        <li>Style the headings:<br>
+        <img src="files/scroll-css-styles-01.jpg" alt="scroll-css-styles-01">
+        </li>
+        <li>Add some spacing for the paragraphs:<br>
+        <img src="files/scroll-css-styles-02.jpg" alt="scroll-css-styles-02">
+        </li>
+        <li>Add the <span class="css-class">.horizontal-content</span> class:<br>
+        <img src="files/scroll-css-styles-03.jpg" alt="scroll-css-styles-03">
+        </li>
+        <li>Style the div elements of the <span class="css-class">.horizontal-content</span> class:<br>
+        <img src="files/scroll-css-styles-04.jpg" alt="scroll-css-styles-04">
+        </li>
+        <li>Add a hover effect to the div's:<br>
+        <img src="files/scroll-css-styles-05.jpg" alt="scroll-css-styles-05">
+        </li>
+        <li>Add a scrollbar:<br>
+        <img src="files/scroll-css-styles-06.jpg" alt="scroll-css-styles-06">
+        </li>
+    </ol>
+6.	At this point you should have the following output:<br>
+![scrolling-03.jpg](files/scrolling-03.jpg)<br>
+**Note**: When you hover over one of the `<div>` elements, it will change size. Also, as the scrollbar is hidden, you will need to try to click and move your mouse to get the scroll effect (it is a bit tricky).
+**Question**: What is next?
+7.	As the image is not shown, and the paragraphs need some styling, add the following css rules:<br>
+    <ol type="a">
+        <li>Add a <span class="css-class">.parallax-image</span> class:<br>
+        <img src="files/scroll-css-styles-07.jpg" alt="scroll-css-styles-07">
+        </li>
+        <li>Add a <span class="css-class">.filler-content</span> class:<br>
+        <img src="files/scroll-css-styles-08.jpg" alt="scroll-css-styles-08">
+        </li>
+    </ol>
+8.	All done? What else could be done?
 
 ### [Lesson Home](29-scroll-sticky.md)
 ### [Module Home](../module3.md)

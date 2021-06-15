@@ -16,7 +16,7 @@ The following file is required for this outcome:
 ## Lab Setup Instructions
 1. Open Visual Studio and create a new Visual Studio Solution project: **MathPhysicsEngine_Lastname** (replace Lastname with your last name)
 2.	Add a new project called **Engine**, which must be a Class Library (.NET Framework). Once created, delete the **Class1.cs** file.<br>
-![lab-setup-01.jpg](files/lab-setup-01)
+![lab-setup-01](files/lab-setup-01.jpg)
 3.	In this project add the following folders:<br>
     <ol type="a">
         <li><b>Mathematics</b> (this will be used for all the coded math classes)</li>
@@ -86,7 +86,6 @@ public static Eng_Point2D operator *(double s, Eng_Point2D p)
 }//eom
 #endregion
 ```
-
 12.	Modify the following methods in the DemoTester.cs class to be:<br>
 
 ```csharp
@@ -124,10 +123,8 @@ Each class will have an empty constructor, and one or more greedy constructors. 
 
 ### Class Methods
 Each class will contain one or more class methods. The class methods will perform mathematical operations using the properties of the class to either:<br>
-    <ol type="a">
-        <li>Modify the instance of the class</li>
-        <li>Return a calculated value based on one or more of the properties of the class</li>
-    </ol>
+* Modify the instance of the class
+* Return a calculated value based on one or more of the properties of the class
 
 ### Overload Operators
 The overload operators perform mathematical operations, and Boolean comparisons, on one or more instances of the class. Using an overloaded operator makes the class more functional, and saves having to write other more complex classes.
@@ -137,11 +134,9 @@ For many of the classes needed for a PHYS1521 Lab, you will be given starting co
 
 ## Provided Test Code
 For each lab, there will be a test class created. The starting test class provided is incomplete. You will need to either:<br>
-    <ol type="a">
-        <li>Leave the test data alone (i.e., <span class="comments">// Instructor Data - MUST NOT DELETE OR MODIFY</span>)</li>
-        <li>Leave the test data alone (i.e., <span class="comments">// Student Data - YOU NEED TO ADD YOUR DATA BELOW</span>)</li>
-        <li>Leave the test data alone (i.e., <span class="comments">// Student Data - MUST CHANGE</span>)</li>
-    </ol>
+* Leave the test data alone (i.e., <span class="comments">// Instructor Data - MUST NOT DELETE OR MODIFY</span>)
+* Leave the test data alone (i.e., <span class="comments">// Student Data - YOU NEED TO ADD YOUR DATA BELOW</span>)
+* Leave the test data alone (i.e., <span class="comments">// Student Data - MUST CHANGE</span>)
 
 The test methods provided are mostly incomplete; they should all pass because they do not test anything. You will need to code the test to test the constructors, class methods, and overload operators of the class. Some of test cases provided are complete, or need no modifications; DO NOT change that code.
 

@@ -114,7 +114,7 @@ public void TestMidpointPoint2D(Eng_Point2D a, Eng_Point2D b, Eng_Point2D expect
 
 <ol start="13">
     <li><b>BUILD</b> your solution; should build successfully.</li>
-    <li><b>TEST</b> by selecting <b>Test --> Run --> All tests</b> from the main Visual Studio menu.
+    <li><b>TEST</b> by selecting <b>Test --> Run --> All tests</b> from the main Visual Studio menu.</li>
 </ol>
 
 ## Coding

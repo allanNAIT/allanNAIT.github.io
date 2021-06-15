@@ -124,6 +124,7 @@ Each class will have an empty constructor, and one or more greedy constructors. 
 
 ### Class Methods
 Each class will contain one or more class methods. The class methods will perform mathematical operations using the properties of the class to either:<br>
+
     <ol type="a">
         <li>Modify the instance of the class</li>
         <li>Return a calculated value based on one or more of the properties of the class</li>

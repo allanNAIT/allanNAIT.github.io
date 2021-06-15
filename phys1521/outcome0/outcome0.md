@@ -40,7 +40,8 @@ The following file is required for this outcome:
 8.	Right-click the **Engine.Test** project and select **Add --> Reference**. Select the **Engine** project.
 9.	Right-click your Solution (**MathPhysicsEngine_Lastname**) and select **Manage NuGet Packages for Solution…**.
 10.	Select Browse, and search for **NUnit**. Add the **NUnit** and **NUnit3TestAdapter** packages to the **Engine.Test** project only.
-11.	Modify the following methods in the `Eng_Point2D.cs` class to be:<br>
+11.	Modify the following methods in the `Eng_Point2D.cs` class to be:
+
 ```csharp
 #region Class Methods
 public double SegmentLength(Eng_Point2D a, Eng_Point2D b)

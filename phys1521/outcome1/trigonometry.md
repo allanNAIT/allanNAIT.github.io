@@ -52,10 +52,10 @@ At this point it is important to do some sample calculations with a specific foc
 When doing these calculation is previous math classes most students used `degrees` for the measurement of the angle θ. In computer programming the standard math libraries for these calculations use `radians`. The simplest way to explain this concept is to ask for the equation for the circumference of a circle (<img src="https://latex.codecogs.com/svg.latex?\large&space;circumference=2\times{\pi}\times{r}" title="circumference=2\times{\pi}\times{r}"/>). Knowing that there are 360<sup>o</sup> in a circle we get:<br>
 <img src="https://latex.codecogs.com/svg.latex?\large&space;360=2\times{\pi}\times{r}" title="360=2\times{\pi}\times{r}"/>
 
-Therefore, <img src="https://latex.codecogs.com/svg.latex?\large&space;1 degree=\frac{\pi}{180}" title="1 degree=\frac{\pi}{180} radians"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;1 radian=\frac{180}{\pi} degrees" title="1 radian=\frac{180}{\pi} degrees"/>.
+Therefore, <img src="https://latex.codecogs.com/svg.latex?\large&space;1 degree=\frac{\pi}{180} radians" title="1 degree=\frac{\pi}{180} radians"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;1 radian=\frac{180}{\pi} degrees" title="1 radian=\frac{180}{\pi} degrees"/>.
 
-
-
+## Exercises & Assignments
+Have students complete the Trigonometry worksheet. Once complete proceed to Moodle to complete Knowledge Check 01 - Trigonometry (strongly recommended to be completed prior to attempting Lab 1).
 
 ### [Outcome Home](outcome1.md)
 ### [PHYS1521 Home](../)

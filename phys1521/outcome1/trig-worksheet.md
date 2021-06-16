@@ -6,8 +6,8 @@ title: Trigonometry Worksheet
 For all questions use the basic right triangle as shown below:<br>
 ![right-triangle](files/right-triangle.png)
 
-1. Given θ = 20<sup>o</sup> and hypotenuse = 4, then adjacent = **??** and opposite= **??****.
-2.	Given θ = 40<sup>o</sup> and hypotenuse = 6, then adjacent = **??****and opposite = **??**.
+1. Given θ = 20<sup>o</sup> and hypotenuse = 4, then adjacent = **??** and opposite= **??**.
+2.	Given θ = 40<sup>o</sup> and hypotenuse = 6, then adjacent = **??** and opposite = **??**.
 3.	Given θ = 20<sup>o</sup> and opposite = 4, then hypotenuse = **??** and adjacent = **??**.
 4.	Given θ = 40<sup>o</sup> and opposite = 4, then hypotenuse = **??** and adjacent = **??**.
 5.	Given θ = 20<sup>o</sup> and adjacent = 4, then hypotenuse = **??** and opposite = **??**.

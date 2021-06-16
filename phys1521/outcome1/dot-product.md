@@ -38,5 +38,7 @@ This equation is only partially complete. The correct form is (derived using the
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\theta=cos^{-1}\left(\frac{A\cdot{B}){\Vert{A}\Vert\times\Vert{B}\Vert}\right)"/>
 
+Example, given two vectors, <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{cc}3 & 4\end{array}\right]"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;B=\left[\begin{array}{cc}-2 & 1\end{array}\right]"/>, calculate the Dot Product of the vectors and the angle between them:
+
 ### [Outcome Home](outcome1.md)
 ### [PHYS1521 Home](../)

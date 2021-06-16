@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Notation Standards
+permalink: /notation-standards/
 ---
 ## Introduction
 Throughout this course your instructor will use many conventions to denote mathematical properties and identifiers. Some of these are standard and in many published resources some of the notations used in this course differ from what is considered standard. As the intent of this course is to not make you an expert in Mathematics or Physics, the notations used simplify the understanding and, hopefully, make the programming aspect of video games easier for the programmer.

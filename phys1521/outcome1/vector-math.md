@@ -92,7 +92,7 @@ Given a vector 20@30<sup>o</sup> convert this to component form.
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;20@30^{o}=\left[\begin{array}{c}20cos(30) \\ 20sin(30)\end{array}\right]=\left[\begin{array}{c}17.320508075688772935274463415059 \\ 10\end{array}\right]"/>
 
-Up to this point the number of decimal places used has not been specified (answers shown were from the computer’s calculator application and no rounding was used). Refer to [Notation Statndards](../notation-standards.md) for use of decimal places.
+Up to this point the number of decimal places used has not been specified (answers shown were from the computer’s calculator application and no rounding was used). Refer to [Notation Statndards](notation-standards.md) for use of decimal places.
 
 ## Exercises & Assignments
 Have students complete the [Vector Exercises Part 1 worksheet](vector-worksheet-1.md). Once complete proceed to Moodle to complete Knowledge Check 02 - Vectors Pt. 1 (Conversion) (strongly recommended to be completed prior to attempting Lab 1).

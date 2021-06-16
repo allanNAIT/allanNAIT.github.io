@@ -27,20 +27,20 @@ Additionally, like basic numbers (scalar values), mathematical operations should
 
 As this course is for game programming the fundamental representation of a vector will be mathematical. There are two forms, as shown below, which represent the same vector:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{ccc}2 & 3 & -1\end{array}\right]" title="V=\left[\begin{array}{ccc}2 & 3 & -1\end{array}\right]"/>&nbsp;(Horizontal or row form, [seen on Knowledge Chechs])
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{ccc}2 & 3 & -1\end{array}\right]"/>&nbsp;(Horizontal or row form, [seen on Knowledge Chechs])
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{c}2 \\ 3 \\ -1\end{array}\right]" title="V=\left[\begin{array}{c}2 \\ 3 \\ -1\end{array}\right]"/>&nbsp;(Vertical or column form [used in this course])
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{c}2 \\ 3 \\ -1\end{array}\right]"/>&nbsp;(Vertical or column form [used in this course])
 
 The form used depends does not matter unless multiplying a matrix by a vector (future lesson) and as such both forms will be used interchangeably (the row form will be used on Moodle Knowledge Checks).
 
 There is a loose relationship between a vector and point in either a 2D or 3D coordinate system. Typically, a vector is in the form:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{ccc}V_{x} & V_{y} & V_{z}\end{array}\right]" title="V=\left[\begin{array}{ccc}V_{x} & V_{y} & V_{z}\end{array}\right]"/>&nbsp;<b>OR</b><img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{c}V_{x} \\ V_{y} \\ V_{z}\end{array}\right]" title="V=\left[\begin{array}{c}V_{x} \\ V_{y} \\ V_{z\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{ccc}V_{x} & V_{y} & V_{z}\end{array}\right]"/>&nbsp;<b>OR</b><img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{c}V_{x} \\ V_{y} \\ V_{z}\end{array}\right]"/>
 
 As either of these forms can be used it would make sense that a vector can be represented graphically using a 2D or 3D coordinate system. It is important to note here that the location of a vector in either a 2D or 3D coordinate system is purely arbitrary; that is the same vector can be drawn graphically in different locations on a coordinate system but still be the same vector.
 
 #### Example
-<img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}3 \\ 4\end{array}\right]=B=\left[\begin{array}{c}3 \\ 4\end{array}\right]" title="A=\left[\begin{array}{c}3 \\ 4\end{array}\right]=B=\left[\begin{array}{c}3 \\ 4\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}3 \\ 4\end{array}\right]=B=\left[\begin{array}{c}3 \\ 4\end{array}\right]"/>
 
 ![2d-vector-graph](files/2d-vector-graph.jpg)
 
@@ -49,7 +49,8 @@ It is now important to emphasize that the x and y components of a vector do not 
 ### Addition & Subtraction
 How would you answer the following example:
 
-Given <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}2 \\ -4\end{array}\right]"/>
+Given <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}2 \\ -4\end{array}\right]"/>&nbps;and <img src="https://latex.codecogs.com/svg.latex?\large&space;B=\left[\begin{array}{c}-3 \\ 5\end{array}\right]"/>&nbsp; what is A + B? <span class="red"><img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}2 + (-3) \\ (-4) + 5\end{array}\right]=\left[\begin{array}{c}-1 \\ -1\end{array}\right]"/></span>
+
 
 
 ### [Outcome Home](outcome1.md)

@@ -71,6 +71,30 @@ We know that a vector has both magnitude and direction. The direction of a vecto
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;direction=tan^{-1}\left(\frac{opposite}{adjacent}\right)=tan^{-1}\left(\frac{4}{3}\right)=53.130102354155978703144387440907^{o}"/>
 
+Calculate the direction of the following vectors:
+
+<ol type="a">
+    <li><img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}-3 \\ -4\end{array}\right]"/></li>
+    <li><img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}3 \\ -4\end{array}\right]"/></li>
+    <li><img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}-3 \\ 4\end{array}\right]"/></li>
+</ol>
+
+_The direction for A is the same as the original vector example but the direction of the x and y values are opposite. The directions for both B and C are the same but graphically they are not. What is the problem?_
+
+The tan<sup>-1</sup> function does not distinguish between quadrants of a 2D coordinate system. In programming there are two functions that can be used `atan` and `atan2`. Using `atan` will give you the wrong result when the vector is in an opposite quadrant, while the `atan2` function should give you the correct angle value.
+
+With the calculations the vector can be written as:<br>
+`magnitude@direction`
+For the majority of this course you will not have to convert from the component form to the magnitude and direction (polar) form but be aware of the issues. Most of the work will have vectors in component form with some conversion from polar to component form.
+
+Given a vector 20@30<sup>o</sup> convert this to component form.
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;20@30^{o}=\left[\begin{array}{c}20cos(30) \\ 20sin(30)\end{array}\right]=\left[\begin{array}{c}17.320508075688772935274463415059 \\ 10\end{array}\right]"/>
+
+Up to this point the number of decimal places used has not been specified (answers shown were from the computer’s calculator application and no rounding was used). Refer to [Notation Statndards](../notation-standards.md) for use of decimal places.
+
+## Exercises & Assignments
+Have students complete the [Vector Exercises Part 1 worksheet](vector-worksheet-1.md). Once complete proceed to Moodle to complete Knowledge Check 02 - Vectors Pt. 1 (Conversion) (strongly recommended to be completed prior to attempting Lab 1).
 
 ### [Outcome Home](outcome1.md)
 ### [PHYS1521 Home](../)

@@ -44,9 +44,9 @@ It is standard to use the Greek alphabet to identify mathematical, or physical, 
 * <img src="https://latex.codecogs.com/svg.latex?\large&space;\tau"/> (pronounced tau) is used for torque
 * <img src="https://latex.codecogs.com/svg.latex?\large&space;\omega"/> (pronounced omega) is used for angular velocity
 * <img src="https://latex.codecogs.com/svg.latex?\large&space;\alpha"/> (pronouced alpha) is also used for angular acceleration
-* <img src="https://latex.codecogs.com/svg.latex?\large&space;\iota"/> (pronounced iota) is used for inertia
+* <img src="https://latex.codecogs.com/svg.latex?\large&space;\Iota"/> (pronounced iota) is used for inertia
 * <img src="https://latex.codecogs.com/svg.latex?\large&space;\Sigma"/> (pronounced sigma) is used for summations
-* <img src="https://latex.codecogs.com/svg.latex?\large&space;\zeta"/> used in spring damping equations
+* <img src="https://latex.codecogs.com/svg.latex?\large&space;\zeta"/> (pronounced zeta) is used in spring damping
 
 ## Other Symbols
 You may encounter some other symbols such as:

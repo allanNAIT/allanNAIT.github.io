@@ -40,5 +40,14 @@ This equation is only partially complete. The correct form is (derived using the
 
 Example, given two vectors, <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{cc}3 & 4\end{array}\right]"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;B=\left[\begin{array}{cc}-2 & 1\end{array}\right]"/>, calculate the Dot Product of the vectors and the angle between them:
 
+![dot-product-example-solution](files/dot-product-example-solution.jpg)
+
+How does this work in 3D? In 3D the angles are not represented the same way as in 2D, however, any two vectors must lie in the same plane thus it is still valid to calculate the angle between two 3D vectors.
+
+## Exercises & Assignments
+Have students complete the [Vector Exercises Part 2 worksheet](vector-worksheet-2.md). Once complete proceed to Moodle to complete Knowledge Check 03 - Vectors Pt. 2 (Dot Product) (strongly recommended to be completed prior to attempting Lab 1).
+
+
+
 ### [Outcome Home](outcome1.md)
 ### [PHYS1521 Home](../)

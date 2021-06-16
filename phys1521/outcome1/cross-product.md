@@ -50,7 +50,35 @@ Given the 3D vectors of <img src="https://latex.codecogs.com/svg.latex?\large&sp
 ![cross-product-graphical](files/cross-product-graphical.jpg)<br>
 ![cross-product-graphical-perpendicular](files/cross-product-graphical-perpendicular.jpg)
 
+The first graphical view shows a vector that is perpendicular to A and B, which is the result of the Cross Product, and shows a vector <img src="https://latex.codecogs.com/svg.latex?\large&space;\frac{A\times{B}}{\Vert{A\times{B}}\Vert}"/>, this vector is sometimes called the Surface Normal. The second graphical view shows, as best that can be done, that the **normalized** Cross Product is perpendicular to both A and B.
 
+The concept of a **normalized** vector was previously covered. It is an important concept that students need to know. A **normalized** vector has a magnitude of 1. It is computed by dividing each vector component by the magnitude of the vector.
+
+Geometrically it can be shown that:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{A\times{B}}\Vert=(\Vert{A}\Vert)(\Vert{B}\Vert)(sin(\theta))"/>
+
+This result is equal to the area of the parallelogram formed by the two sides A and B.
+
+The true meaning of a **Surface Normal** depends on the type of surface. The simplest type of surface is one formed by three points in 3D coordinate space. To find the surface normal of the plane formed by these three points, use the following steps:
+1.	Choose one point as a reference point.
+2.	Determine the vectors from the reference point to the other two points that determine the plane.
+3.	Calculate the Cross Product of the vectors from step 2.
+4.	Normalize the calculation from step 3.
+
+### Example
+Given three points <img src="https://latex.codecogs.com/svg.latex?\large&space;A=(3,2,4)"/>, <img src="https://latex.codecogs.com/svg.latex?\large&space;B=(-2,3,-4)"/>, and <img src="https://latex.codecogs.com/svg.latex?\large&space;C=(4,-2,3)"/>, calculate the surface normal.
+
+Using **A** as the reference point, the vectors <img src="https://latex.codecogs.com/svg.latex?\large&space;\vec{AB}"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;\vec{AC}"/> are calculated as follows:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V_{1}=B-A=\left[\begin{array}{c}-2-3 \\ 3-2 \\ -4-4\end{array}\right]=\left[\begin{array}{c}-5 \\ 1 \\ 8\end{array}\right]"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V_{2}=B-A=\left[\begin{array}{c}4-3\\ -2-2 \\ 3-4\end{array}\right]=\left[\begin{array}{c}1 \\ -4 \\ -1\end{array}\right]"/>
+
+Next calculate <img src="https://latex.codecogs.com/svg.latex?\large&space;V_{1}\times{V_{2}}"/> (the Cross product):
+
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;N=V_{1}\times{V_{2}}=\left[\begin{array{c}-5 \\ 1 \\ 8\end{array}\right]\times{\left[\begin{array}{c}1 \\ -4 \\ -1\end{array}\right]=\left[\begin{array}{c}(1)(-1)-(-4)(-8) \\ (-8)(1)-(-5)(-1) \\ (-5)(-4)-(1)(1)\end{array}\right]=\left[\begin{array}{c}-33 \\ -13 \\ 19\end{array}\right]"/>
 
 ### [Outcome Home](outcome1.md)
 ### [PHYS1521 Home](../)

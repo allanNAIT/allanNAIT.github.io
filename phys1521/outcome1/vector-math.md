@@ -40,7 +40,7 @@ There is a loose relationship between a vector and point in either a 2D or 3D co
 As either of these forms can be used it would make sense that a vector can be represented graphically using a 2D or 3D coordinate system. It is important to note here that the location of a vector in either a 2D or 3D coordinate system is purely arbitrary; that is the same vector can be drawn graphically in different locations on a coordinate system but still be the same vector.
 
 #### Example
-<img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}3 \\ 4\end{array}\right]=B=left[\begin{array}{c}3 \\ 4\end{array}\right]" title="A=\left[\begin{array}{c}3 \\ 4\end{array}\right]=B=left[\begin{array}{c}3 \\ 4\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}3 \\ 4\end{array}\right]=B=\left[\begin{array}{c}3 \\ 4\end{array}\right]" title="A=\left[\begin{array}{c}3 \\ 4\end{array}\right]=B=\left[\begin{array}{c}3 \\ 4\end{array}\right]"/>
 
 ![2d-vector-graph](files/2d-vector-graph.jpg)
 
@@ -49,7 +49,7 @@ It is now important to emphasize that the x and y components of a vector do not 
 ### Addition & Subtraction
 How would you answer the following example:
 
-Given <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}2 \\ -4\end{array}\right]" title="A=\left[\begin{array}{c}2 \\ -4\end{array}\right]"/>
+Given <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}2 \\ -4\end{array}\right]"/>
 
 
 ### [Outcome Home](outcome1.md)

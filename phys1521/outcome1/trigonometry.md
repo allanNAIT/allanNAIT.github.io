@@ -43,9 +43,7 @@ The right triangle:
 
 You should remember **SOH CAH TOA** from high scholl math class:
 
-```math
-sin(theta)=opposite/hypotenuse
-```
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;sin(\theta)=\frac{opposite}{hypotenuse}" title="sin(\theta)=\frac{opposite}{hypotenuse}"/>
 
 
 ### [Outcome Home](outcome1.md)

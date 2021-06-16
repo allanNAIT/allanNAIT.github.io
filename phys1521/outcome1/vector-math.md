@@ -67,6 +67,10 @@ Using the vectors from the graphical representation, calculate the magnitude of 
 
 The proper way to represent this is <img src="https://latex.codecogs.com/svg.latex?\large&space;||A||=5"/>
 
+We know that a vector has both magnitude and direction. The direction of a vector can be found using basic trigonometry:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;direction=\arctan{\frac{opposite}{adjacent}}"/>
+
 
 ### [Outcome Home](outcome1.md)
 ### [PHYS1521 Home](../)

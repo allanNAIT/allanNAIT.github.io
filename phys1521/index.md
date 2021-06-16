@@ -46,4 +46,4 @@ This is a required component for PHYS1521 in which you will, individually or as 
 
 ## Refereences
 * [Notation Standards](notation-standards.md)
-* [3D Pythagorean Proof](images/3d_pythagoras_proof.jpg)
+* [3D Pythagorean Proof](3d_pythagoras_proof.md)

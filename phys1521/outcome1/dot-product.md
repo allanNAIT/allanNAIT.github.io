@@ -32,11 +32,11 @@ In this case the Dot Product <img src="https://latex.codecogs.com/svg.latex?\lar
 
 Using the figure above and change the unit vector to a vector of any length it should be relatively easy to compute the angle between the two vectors:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;cos(\theta)=\frac{adjacent}{hypoteneuse}=\frac{\hat{A}\cdot(A)}{\Vert{A}\Vert}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;cos(\theta)=\frac{adjacent}{hypoteneuse}=\frac{\hat{A}\cdot{A}}{\Vert{A}\Vert}"/>
 
 This equation is only partially complete. The correct form is (derived using the Law of Cosines):
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;\theta=cos^{-1}\left(\frac{A}\cdot{B}){\Vert{A}\Vert\times\Vert{B}\Vert}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\theta=cos^{-1}\left(\frac{A\cdot{B}){\Vert{A}\Vert\times\Vert{B}\Vert}\right)"/>
 
 ### [Outcome Home](outcome1.md)
 ### [PHYS1521 Home](../)

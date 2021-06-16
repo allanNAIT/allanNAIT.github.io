@@ -3,6 +3,13 @@ layout: page
 title: Notation Standards
 permalink: /notation-standards/
 ---
+<style>
+    .greek{
+        font-family: courier;
+        font-style: italic
+    }
+</style>
+
 ## Introduction
 Throughout this course your instructor will use many conventions to denote mathematical properties and identifiers. Some of these are standard and in many published resources some of the notations used in this course differ from what is considered standard. As the intent of this course is to not make you an expert in Mathematics or Physics, the notations used simplify the understanding and, hopefully, make the programming aspect of video games easier for the programmer.
 
@@ -44,7 +51,7 @@ It is standard to use the Greek alphabet to identify mathematical, or physical, 
 * <img src="https://latex.codecogs.com/svg.latex?\large&space;\tau"/> (pronounced tau) is used for torque
 * <img src="https://latex.codecogs.com/svg.latex?\large&space;\omega"/> (pronounced omega) is used for angular velocity
 * <img src="https://latex.codecogs.com/svg.latex?\large&space;\alpha"/> (pronouced alpha) is also used for angular acceleration
-* _I_ (pronounced iota) is used for inertia
+* <span class="greek">I</span> (pronounced iota) is used for inertia
 * <img src="https://latex.codecogs.com/svg.latex?\large&space;\Sigma"/> (pronounced sigma) is used for summations
 * <img src="https://latex.codecogs.com/svg.latex?\large&space;\zeta"/> (pronounced zeta) is used in spring damping
 

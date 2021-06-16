@@ -6,7 +6,8 @@ permalink: /notation-standards/
 <style>
     .greek{
         font-family: courier;
-        font-style: italic
+        font-style: italic;
+        font-size: 1.25rem;
     }
 </style>
 

@@ -69,7 +69,7 @@ The proper way to represent this is <img src="https://latex.codecogs.com/svg.lat
 
 We know that a vector has both magnitude and direction. The direction of a vector can be found using basic trigonometry:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;direction=tan^{-1}(\frac{opposite}{adjacent})=tan^{-1}\frac{4}{3}=53.130102354155978703144387440907^{o}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;direction=tan^{-1}\left(\frac{opposite}{adjacent}\right)=tan^{-1}\left(\frac{4}{3}\right)=53.130102354155978703144387440907^{o}"/>
 
 
 ### [Outcome Home](outcome1.md)

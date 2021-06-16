@@ -43,11 +43,7 @@ The right triangle:
 
 You should remember **SOH CAH TOA** from high scholl math class:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;sin(\theta)=\frac{opposite}{hypotenuse}" title="sin(\theta)=\frac{opposite}{hypotenuse}"/>
-
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;cos(\theta)=\frac{adjacent}{hypotenuse}" title="cos(\theta)=\frac{adjacent}{hypotenuse}"/>
-
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;tan(\theta)=\frac{opposite}{adjacent}" title="tan(\theta)=\frac{opposite}{adjacent}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;sin(\theta)=\frac{opposite}{hypotenuse}" title="sin(\theta)=\frac{opposite}{hypotenuse}"/>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;cos(\theta)=\frac{adjacent}{hypotenuse}" title="cos(\theta)=\frac{adjacent}{hypotenuse}"/>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;tan(\theta)=\frac{opposite}{adjacent}" title="tan(\theta)=\frac{opposite}{adjacent}"/>
 
 
 ### [Outcome Home](outcome1.md)

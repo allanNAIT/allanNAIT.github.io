@@ -44,3 +44,6 @@ This topic covers the basics of curves and splines.The following concepts, skill
 ### [Student Research/Application Project](project/project.md)
 This is a required component for PHYS1521 in which you will, individually or as part of a team, complete a research or application project and present your work to the remainder of the class.
 
+## Refereences
+* [Notation Standards](notation-standards.md)
+* [3D Pythagorean Proof](images/3d_pythagoras_proof.jpg)

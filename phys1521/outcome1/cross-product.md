@@ -80,5 +80,7 @@ Next calculate <img src="https://latex.codecogs.com/svg.latex?\large&space;V_{1}
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;N=V_{1}\times{V_{2}}=\left[\begin{array{c}-5 \\ 1 \\ 8\end{array}\right]\times{\left[\begin{array}{c}1 \\ -4 \\ -1\end{array}\right]}=\left[\begin{array}{c}(1)(-1)-(-4)(-8) \\ (-8)(1)-(-5)(-1) \\ (-5)(-4)-(1)(1)\end{array}\right]=\left[\begin{array}{c}-33 \\ -13 \\ 19\end{array}\right]"/>
 
+Finally, normalize the Cross Product:
+
 ### [Outcome Home](outcome1.md)
 ### [PHYS1521 Home](../)

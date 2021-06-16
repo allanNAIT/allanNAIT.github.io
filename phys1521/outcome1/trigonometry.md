@@ -46,13 +46,13 @@ You should remember **SOH CAH TOA** from high scholl math class:<br>
 
 These simple trig equations can be algebraically rearranged:
 #### Sine Function
-<img src="https://latex.codecogs.com/svg.latex?\large&space;opposite=sin(\theta)\times{hypotenuse}" title="opposite=sin(\theta)\times{hypotenuse}"/>&nbsp;<b>AND</b><img src="https://latex.codecogs.com/svg.latex?\large&space;hypotenuse=\frac{opposite}{sin(\theta)}" title="hypotenuse=\frac{opposite}{sin(\theta)}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;opposite=sin(\theta)\times{hypotenuse}" title="opposite=sin(\theta)\times{hypotenuse}"/>&nbsp;<b>AND</b>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;hypotenuse=\frac{opposite}{sin(\theta)}" title="hypotenuse=\frac{opposite}{sin(\theta)}"/>
 
 #### Cosine Function
-<img src="https://latex.codecogs.com/svg.latex?\large&space;ahjacent=cos(\theta)\times{hypotenuse}" title="adjacent=cos(\theta)\times{hypotenuse}"/>&nbsp;<b>AND</b><img src="https://latex.codecogs.com/svg.latex?\large&space;hypotenuse=\frac{adjacent}{cos(\theta)}" title="hypotenuse=\frac{adjacent}{cos(\theta)}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;ahjacent=cos(\theta)\times{hypotenuse}" title="adjacent=cos(\theta)\times{hypotenuse}"/>&nbsp;<b>AND</b>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;hypotenuse=\frac{adjacent}{cos(\theta)}" title="hypotenuse=\frac{adjacent}{cos(\theta)}"/>
 
-### Tangent Function
-<img src="https://latex.codecogs.com/svg.latex?\large&space;opposite=tan(\theta)\times{hypotenuse}" title="opposite=tan(\theta)\times{hypotenuse}"/>&nbsp;<b>AND</b><img src="https://latex.codecogs.com/svg.latex?\large&space;adjacent=\frac{opposite}{tan(\theta)}" title="adjacent=\frac{opposite}{tan(\theta)}"/>
+#### Tangent Function
+<img src="https://latex.codecogs.com/svg.latex?\large&space;opposite=tan(\theta)\times{hypotenuse}" title="opposite=tan(\theta)\times{hypotenuse}"/>&nbsp;<b>AND</b>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;adjacent=\frac{opposite}{tan(\theta)}" title="adjacent=\frac{opposite}{tan(\theta)}"/>
 
 You should also remember the Pythagorean Theorem:<br>
 <img src="https://latex.codecogs.com/svg.latex?\large&space;adjacent^2+opposite^2=hypotenuse^2" title="adjacent^2+opposite^2=hypotenuse^2"/>&nbsp;<b>OR</b>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;hypotenuse=\sqrt{adjacent^2+opposite^2}" title="hypotenuse=\sqrt{adjacent^2+opposite^2}"/>

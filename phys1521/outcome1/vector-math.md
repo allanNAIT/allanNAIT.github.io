@@ -74,8 +74,8 @@ We know that a vector has both magnitude and direction. The direction of a vecto
 Calculate the direction of the following vectors:
 
 <ol type="a">
-    <li><img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}-3 \\ -4\end{array}\right]"/></li>
-    <li><img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}3 \\ -4\end{array}\right]"/></li>
+    <li><img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}-3 \\ -4\end{array}\right]"/><br></br></li>
+    <li><img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}3 \\ -4\end{array}\right]"/><br></br></li>
     <li><img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}-3 \\ 4\end{array}\right]"/></li>
 </ol>
 
@@ -85,6 +85,7 @@ The tan<sup>-1</sup> function does not distinguish between quadrants of a 2D coo
 
 With the calculations the vector can be written as:<br>
 `magnitude@direction`
+
 For the majority of this course you will not have to convert from the component form to the magnitude and direction (polar) form but be aware of the issues. Most of the work will have vectors in component form with some conversion from polar to component form.
 
 Given a vector 20@30<sup>o</sup> convert this to component form.

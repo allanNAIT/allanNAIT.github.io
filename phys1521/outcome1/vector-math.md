@@ -2,6 +2,12 @@
 layout: page
 title: Vector Math
 ---
+<style>
+    .red{
+        color:red;
+    }
+</style>
+
 ## Introduction
 Most of the work done in game programming, and thus in this course, is done using vectors. Some students may know some basics of what a vector is and how to represent it. 
 
@@ -34,6 +40,16 @@ There is a loose relationship between a vector and point in either a 2D or 3D co
 As either of these forms can be used it would make sense that a vector can be represented graphically using a 2D or 3D coordinate system. It is important to note here that the location of a vector in either a 2D or 3D coordinate system is purely arbitrary; that is the same vector can be drawn graphically in different locations on a coordinate system but still be the same vector.
 
 #### Example
+<img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}3 \\ 4\end{array}\right]=B=left[\begin{array}{c}3 \\ 4\end{array}\right]" title="A=\left[\begin{array}{c}3 \\ 4\end{array}\right]=B=left[\begin{array}{c}3 \\ 4\end{array}\right]"/>
+
+![2d-vector-graph](files/2d-vector-graph.jpg)
+
+It is now important to emphasize that the x and y components of a vector do not represent actual distances from the origin of a 2D coordinate system (recall that the 2D coordinate system is itself a relative representation) but a change in x and y component directions; we can place a vector anywhere on a 2D coordinate system and it would still represent the actual vector.
+
+### Addition & Subtraction
+How would you answer the following example:
+
+Given <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}2 \\ -4\end{array}\right]"/>
 
 
 ### [Outcome Home](outcome1.md)

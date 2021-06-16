@@ -24,21 +24,21 @@ Subscripts are used to denote different values of the same type, i.e., x<sub>1</
 
 ### Superscripts
 Numeric superscripts are used quite often mathematically, such as in the equation a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>. In addition to these standard superscripts certain superscript notations will be used in the course:
-* <img src="https://latex.codecogs.com/svg.latex?\large&space;\hat{A}=normalizes A"/>
-* <img src="https://latex.codecogs.com/svg.latex?\large&space;\bar{AB}=length of line segment between A and B"/>
+* <img src="https://latex.codecogs.com/svg.latex?\large&space;\hat{A}"/> = normalizes A
+* <img src="https://latex.codecogs.com/svg.latex?\large&space;\bar{AB}"/> = length of line segment between A and B
 
 ## Other Notations
 There are other notations used throughout this course, such as:
-* <img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{A}\Vert= magnitude of A"/>
-* <img src="https://latex.codecogs.com/svg.latex?\large&space;\vert{A}\vert=determinant of A (where A is a matrix)"/>
+* <img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{A}\Vert"/> = magnitude of A
+* <img src="https://latex.codecogs.com/svg.latex?\large&space;\vert{A}\vert"/> = determinant of A (where A is a matrix)
 
 ## Greek Letters
 It is standard to use the Greek alphabet to identify mathematical, or physical, properties. The following will be used throughout this course:
-* <img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta=change"/> (i.e., <img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{x}=x_{2}-x_{1}")/>
+* <img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta"/> = change (i.e., <img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{x}=x_{2}-x_{1}"/>)
 * The following symbols are used to denote angles:
-  * <img src="https://latex.codecogs.com/svg.latex?\large&space;\theta=theta"/>
-  * <img src="https://latex.codecogs.com/svg.latex?\large&space;\alpha=alpha"/>
-  * <img src="https://latex.codecogs.com/svg.latex?\large&space;\beta=beta"/>
+  * <img src="https://latex.codecogs.com/svg.latex?\large&space;\theta"/> = theta
+  * <img src="https://latex.codecogs.com/svg.latex?\large&space;\alpha"/> = alpha
+  * <img src="https://latex.codecogs.com/svg.latex?\large&space;\beta"/> = beta
 * <img src="https://latex.codecogs.com/svg.latex?\large&space;\mu"/> (pronounced mu) is used for the friction coefficient
 * <img src="https://latex.codecogs.com/svg.latex?\large&space;\epsilon"/> (pronpuced epsilon) is used for the coefficient of elasticity
 * <img src="https://latex.codecogs.com/svg.latex?\large&space;\tau"/> (pronounced tau) is used for torque

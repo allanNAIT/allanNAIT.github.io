@@ -28,5 +28,13 @@ However, the other symbol for multiplication, `x`, produces a different result:
 
 Looking at this result the computation is not obvious.
 
+With <img src="https://latex.codecogs.com/svg.latex?\large&space;A\times{B}=\left[\begin{array}{c}A_{x} \\ A_{y} \\ A_{z}\end{array}\right]\times{\left[\begin{array}{c}B_{x} \\ B_{y} \\ B_{z}\end{array}\right]}"/> then <img src="https://latex.codecogs.com/svg.latex?\large&space;a=A_{y}B_{z}-A_{z}B_{y}"/>
+
+Next <img src="https://latex.codecogs.com/svg.latex?\large&space;A\times{B}=\left[\begin{array}{c}A_{x} \\ A_{y} \\ A_{z}\end{array}\right]\times{\left[\begin{array}{c}B_{x} \\ B_{y} \\ B_{z}\end{array}\right]}"/> then <img src="https://latex.codecogs.com/svg.latex?\large&space;a=A_{z}B_{x}-A_{x}B_{z}"/>
+
+Finally <img src="https://latex.codecogs.com/svg.latex?\large&space;A\times{B}=\left[\begin{array}{c}A_{x} \\ A_{y} \\ A_{z}\end{array}\right]\times{\left[\begin{array}{c}B_{x} \\ B_{y} \\ B_{z}\end{array}\right]}"/> then <img src="https://latex.codecogs.com/svg.latex?\large&space;a=A_{x}B_{y}-A_{y}B_{x}"/>
+
+Therefore we get <img src="https://latex.codecogs.com/svg.latex?\large&space;A\times{B}=\left[\begin{array}{c}(A_{y}B_{z}-A_{z}B_{y}) \\ (A_{z}B_{x}-A_{x}B_{z}) \\ (A_{x}B_{y}-A_{y}B_{x})\end{array}\right]"/>
+
 ### [Outcome Home](outcome1.md)
 ### [PHYS1521 Home](../)

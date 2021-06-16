@@ -43,12 +43,12 @@ It is now important to emphasize that the x and y components of a vector do not 
 ### Addition & Subtraction
 How would you answer the following example:
 
-Given <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}2 \\ -4\end{array}\right]"/>&nbsp;and <img src="https://latex.codecogs.com/svg.latex?\large&space;B=\left[\begin{array}{c}-3 \\ 5\end{array}\right]"/>&nbsp; what is A + B? <img src="https://latex.codecogs.com/svg.latex?\large&space;A+B=\left[\begin{array}{c}2 + (-3) \\ (-4) + 5\end{array}\right]=\left[\begin{array}{c}-1 \\ -1\end{array}\right]"/>
+Given <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}2 \\ -4\end{array}\right]"/>&nbsp;and <img src="https://latex.codecogs.com/svg.latex?\large&space;B=\left[\begin{array}{c}-3 \\ 5\end{array}\right]"/>&nbsp; what is A + B? <img src="https://latex.codecogs.com/svg.latex?\large&space;A+B=\left[\begin{array}{c}2 + (-3) \\ (-4) + 5\end{array}\right]=\left[\begin{array}{c}-1 \\ 1\end{array}\right]"/>
 
 
 What about A - B? <img src="https://latex.codecogs.com/svg.latex?\large&space;A-B=\left[\begin{array}{c}2 - (-3) \\ (-4) - 5\end{array}\right]=\left[\begin{array}{c}5 \\ -9\end{array}\right]"/>
 
-It is important that students understand the result is simply the addition, or subtraction, of individual vector components. Mathematically <img src="https://latex.codecogs.com/svg.latex?\large&space;A+B=B+A"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;A-B\neqB-A"/>.
+It is important that students understand the result is simply the addition, or subtraction, of individual vector components. Mathematically <img src="https://latex.codecogs.com/svg.latex?\large&space;A+B=B+A"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;A-B\neq{B-A}"/>.
 
 ### Scaling
 In mathematics you learned that <img src="https://latex.codecogs.com/svg.latex?\large&space;2x3=6"/> (and other multiplication facts). Does the following make sense:

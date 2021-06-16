@@ -74,8 +74,8 @@ We know that a vector has both magnitude and direction. The direction of a vecto
 Calculate the direction of the following vectors:
 
 <ol type="a">
-    <li><img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}-3 \\ -4\end{array}\right]"/><br></br></li>
-    <li><img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}3 \\ -4\end{array}\right]"/><br></br></li>
+    <li><img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}-3 \\ -4\end{array}\right]"/><br><br></li>
+    <li><img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}3 \\ -4\end{array}\right]"/><br><br></li>
     <li><img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}-3 \\ 4\end{array}\right]"/></li>
 </ol>
 

@@ -94,6 +94,21 @@ Given a vector 20@30<sup>o</sup> convert this to component form.
 
 Up to this point the number of decimal places used has not been specified (answers shown were from the computer’s calculator application and no rounding was used). Refer to [Notation Statndards](../notation-standards.md) for use of decimal places.
 
+### Normalization
+Normalizing a vector is to make its magnitude = 1.
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\hat{A}=\frac{1}{\Vert{A}\Vert}\times{A}
+
+Example: Normalize the vector <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}3 \\ 4\end{array}\right]"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{A}\Vert=\sqrt{3^2+4^2}=5"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\hat{A}=\frac{1}{\Vert{A}\Vert}\times{A}=\frac{1}{5}\left[\begin{array}{c}3 \\ 4\end{array}\right]=\left[\begin{array}{c}\frac{3}{5} \\ \frac{4}{5}\end{array}\right]=\left[\begin{array}{c}0.6 \\ 0.8\end{array}\right]"/>
+
+Now to prove the magnitude of the normalized vector is 1.
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{\hat{A}}\Vert=\Vert{\left[\begin{array}{c}0.6 \\ 0.8\end{array}\right]}=0.6^2+0.8^2=0.36+0.64=1"/>
+
 ## Exercises & Assignments
 Have students complete the [Vector Exercises Part 1 worksheet](vector-worksheet-1.md). Once complete proceed to Moodle to complete Knowledge Check 02 - Vectors Pt. 1 (Conversion) (strongly recommended to be completed prior to attempting Lab 1).
 

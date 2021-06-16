@@ -77,10 +77,23 @@ Using **A** as the reference point, the vectors <img src="https://latex.codecogs
 
 Next calculate <img src="https://latex.codecogs.com/svg.latex?\large&space;V_{1}\times{V_{2}}"/> (the Cross product):
 
-
 <img src="https://latex.codecogs.com/svg.latex?\large&space;N=V_{1}\times{V_{2}}=\left[\begin{array}{c}-5 \\ 1 \\ 8\end{array}\right]\times{\left[\begin{array}{c}1 \\ -4 \\ -1\end{array}\right]}=\left[\begin{array}{c}(1)(-1)-(-4)(-8) \\ (-8)(1)-(-5)(-1) \\ (-5)(-4)-(1)(1)\end{array}\right]=\left[\begin{array}{c}-33 \\ -13 \\ 19\end{array}\right]"/>
 
 Finally, normalize the Cross Product:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{N}=\sqrt{(-33)^2+(-13)^2+(19)^2}=\sqrt(1619)"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\hat{N}=\frac{1}{\sqrt{1619}}\left[\begin{array}{c}-33 \\ -13 \\ 19\end{array}\right]\approx{\left[\begin{array}{c}-0.8201 \\ -0.3231 \\ 0.4772\end{array}\right]}"/>
+
+![surface-normal-solution-1](files/surface-normal-solution-1.jpg)
+
+As we can choose any of the three points as a reference point, selecting a different point as a reference point will give a different resulting Surface Normal (A and C swapped; C is the reference point):
+
+![surface-normal-solution-2](files/surface-normal-solution-2.jpg)
+
+## Exercises & Assignments
+Complete the [Vector Exercises Part 3](vector-worksheet-3.md) worksheet. Once complete proceed to Moodle to complete Knowledge Check 04 - Vectors Pt. 3 (Cross Product) (strongly recommended to be completed prior to attempting Lab 1).
+
 
 ### [Outcome Home](outcome1.md)
 ### [PHYS1521 Home](../)

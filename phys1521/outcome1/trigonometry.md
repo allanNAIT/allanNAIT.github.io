@@ -45,6 +45,10 @@ You should remember **SOH CAH TOA** from high scholl math class:
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;sin(\theta)=\frac{opposite}{hypotenuse}" title="sin(\theta)=\frac{opposite}{hypotenuse}"/>
 
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;cos(\theta)=\frac{adjacent}{hypotenuse}" title="cos(\theta)=\frac{adjacent}{hypotenuse}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;tan(\theta)=\frac{opposite}{adjacent}" title="tan(\theta)=\frac{opposite}{adjacent}"/>
+
 
 ### [Outcome Home](outcome1.md)
 ### [PHYS1521 Home](../)

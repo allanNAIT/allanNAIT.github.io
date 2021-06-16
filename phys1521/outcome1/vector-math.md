@@ -107,7 +107,7 @@ Example: Normalize the vector <img src="https://latex.codecogs.com/svg.latex?\la
 
 Now to prove the magnitude of the normalized vector is 1.
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{\hat{A}}\Vert=\Vert{\left[\begin{array}{c}0.6 \\ 0.8\end{array}\right]}=0.6^2+0.8^2=0.36+0.64=1"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{\hat{A}}\Vert=\Vert{\left[\begin{array}{c}0.6 \\ 0.8\end{array}\right]}\Vert=0.6^2+0.8^2=0.36+0.64=1"/>
 
 ## Exercises & Assignments
 Have students complete the [Vector Exercises Part 1 worksheet](vector-worksheet-1.md). Once complete proceed to Moodle to complete Knowledge Check 02 - Vectors Pt. 1 (Conversion) (strongly recommended to be completed prior to attempting Lab 1).

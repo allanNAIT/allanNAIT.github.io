@@ -65,7 +65,7 @@ When doing these calculation is previous math classes most students used `degree
 Therefore, <img src="https://latex.codecogs.com/svg.latex?\large&space;1 degree=\frac{\pi}{180} radians" title="1 degree=\frac{\pi}{180} radians"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;1 radian=\frac{180}{\pi} degrees" title="1 radian=\frac{180}{\pi} degrees"/>.
 
 ## Exercises & Assignments
-Have students complete the [Trigonometry worksheet](trig-worksheet.md). Once complete proceed to Moodle to complete Knowledge Check 01 - Trigonometry (strongly recommended to be completed prior to attempting Lab 1).
+Complete the [Trigonometry worksheet](trig-worksheet.md). Once complete proceed to Moodle to complete Knowledge Check 01 - Trigonometry (strongly recommended to be completed prior to attempting Lab 1).
 
 ### [Outcome Home](outcome1.md)
 ### [PHYS1521 Home](../)

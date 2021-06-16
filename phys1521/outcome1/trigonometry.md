@@ -15,7 +15,7 @@ The key concepts for this part of the lesson are:
 ### Lesson
 When viewing a scene of a game each object displayed is displayed relative to the game camera, and such is how our 2D system must be; everything is relative. As a 2D system is relative how can game programmers work in such a system? The answer is simple as we treat each game interaction as its own 2D system and do the math accordingly.
 
-There are two 2D systems, one which is the standard 2D system that will be used in class and the other being the 2D system used in some game engines (the point `[0,0]` is at the top left of the screen. How can game programmers work with the second coordinate system? The answer from the class should be something like a simple translation. (The transformations/rotations used will be covered in a future lesson, but the students should get the concept that there is a standard 2D coordinate system.)
+There are two 2D systems, one which is the standard 2D system that will be used in class and the other being the 2D system used in some game engines (the point `[0,0]` is at the top left of the screen. How can game programmers work with the second coordinate system? The answer from the class should be something like a simple translation. (The transformations/rotations used will be covered in a future lesson.)
 
 ## 3D Coordinate Space
 ### Key Concepts
@@ -30,10 +30,22 @@ Students need to know that there are two basic graphics display systems used in 
 
 _For the remainder of the class lessons the **Left Hand Rule** will be used, which has a z-axis heading._
 
-
+## Trigonometry
+### Key Concepts
+The key concepts for this part of the lesson are:
+* Conversion between degrees and radians
+* Solving a right triangle
+* Understanding some basic trigonometric identities
 
 ### Lesson
+The right triangle:
+![right-triangle](files/right-triangle.png)
 
+You should remember **SOH CAH TOA** from high scholl math class:
+
+```math
+sin(theta)=opposite/hypotenuse
+```
 
 
 ### [Outcome Home](outcome1.md)

@@ -65,11 +65,11 @@ Using the vectors from the graphical representation, calculate the magnitude of 
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;magnitude=\sqrt{3^2+4^2}=5"/>
 
-The proper way to represent this is <img src="https://latex.codecogs.com/svg.latex?\large&space;||A||=5"/>
+The proper way to represent this is <img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{A}\Vert=5"/>
 
 We know that a vector has both magnitude and direction. The direction of a vector can be found using basic trigonometry:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;direction=\arctan{\frac{opposite}{adjacent}}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;direction=tan^{-1}(\frac{opposite}{adjacent})=tan^{-1}\frac{4}{3}=53.130102354155978703144387440907^{o}"/>
 
 
 ### [Outcome Home](outcome1.md)

@@ -49,8 +49,8 @@ You should also remember the Pythagorean Theorem:<br>
 
 At this point it is important to do some sample calculations with a specific focus on finding the side opposite and side adjacent given θ and the hypotenuse, and the reverse of this calculation.
 
-When doing these calculation is previous math classes most students used `degrees` for the measurement of the angle θ. In computer programming the standard math libraries for these calculations use `radians`. The simplest way to explain this concept is to ask for the equation for the circumference of a circle (<img src="https://latex.codecogs.com/svg.latex?\large&space;circumference=2\pir" title="circumference=2\pir"/>). Knowing that there are 360<sup>o</sup> in a circle we get:<br>
-<img src="https://latex.codecogs.com/svg.latex?\large&space;360=2\pir" title="360=2\pir"/>
+When doing these calculation is previous math classes most students used `degrees` for the measurement of the angle θ. In computer programming the standard math libraries for these calculations use `radians`. The simplest way to explain this concept is to ask for the equation for the circumference of a circle (<img src="https://latex.codecogs.com/svg.latex?\large&space;circumference=2\times{\pi}\times{r}" title="circumference=2\times{\pi}\times{r}"/>). Knowing that there are 360<sup>o</sup> in a circle we get:<br>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;360=2\times{\pi}\times{r}" title="360=2\times{\pi}\times{r}"/>
 
 Therefore, <img src="https://latex.codecogs.com/svg.latex?\large&space;1 degree=\frac{\pi}{180}" title="1 degree=\frac{\pi}{180} radians"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;1 radian=\frac{180}{\pi} degrees" title="1 radian=\frac{180}{\pi} degrees"/>.
 

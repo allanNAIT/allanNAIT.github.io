@@ -49,7 +49,7 @@ It is now important to emphasize that the x and y components of a vector do not 
 ### Addition & Subtraction
 How would you answer the following example:
 
-Given <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}2 \\ -4\end{array}\right]"/>
+Given <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}2 \\ -4\end{array}\right]" title="A=\left[\begin{array}{c}2 \\ -4\end{array}\right]"/>
 
 
 ### [Outcome Home](outcome1.md)

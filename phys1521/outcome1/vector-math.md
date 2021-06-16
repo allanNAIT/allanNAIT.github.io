@@ -65,7 +65,7 @@ Using the vectors from the graphical representation, calculate the magnitude of 
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;magnitude=\sqrt{3^2+4^2}=5"/>
 
-The proper way to represent this is <img src="https://latex.codecogs.com/svg.latex?\large&space;\\vertA\\vert=5"/>
+The proper way to represent this is <img src="https://latex.codecogs.com/svg.latex?\large&space;\\Vert{A}\\Vert=5"/>
 
 
 ### [Outcome Home](outcome1.md)

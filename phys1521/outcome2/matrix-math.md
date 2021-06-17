@@ -111,7 +111,7 @@ With the results of multiplying a vector and a matrix being different when using
 
 Using the example above, using a column vector and a transposed matrix the result will be the same vector as using the column vector and the original matrix:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;\left[\begin{array}{ccc}2&0&0\\0&3&0\\-2&3&1\end{array}\right]\times{\left[\begin{array}{c}2\\-1\\3\end{array}\right]}=\left[\begin{aarray}{c}(2)(2)+(0)(-1)+(0)(3)\\(0)(2)+(3)(-1)+(0)(3)\\(-2)(2)+(3)(-1)+(1)(3)\end{array}\right]=\left[\begin{array}{c}4\\-3\\-4\end{arraY}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\left[\begin{array}{ccc}2&0&0\\0&3&0\\-2&3&1\end{array}\right]\times{\left[\begin{array}{c}2\\-1\\3\end{array}\right]}=\left[\begin{array}{c}(2)(2)+(0)(-1)+(0)(3)\\(0)(2)+(3)(-1)+(0)(3)\\(-2)(2)+(3)(-1)+(1)(3)\end{array}\right]=\left[\begin{array}{c}4\\-3\\-4\end{arraY}\right]"/>
 
 ![matrix-times-vector](files/matrix-times-vector.jpg)
 

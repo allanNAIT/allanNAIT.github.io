@@ -130,7 +130,7 @@ With the covering of transposing of a matrix it should be obvious that the trans
 With this knowledge, it should be noted that multiplication of a vector and a matrix in either system will give the same resulting vector based on the rules of matrix multiplication.
 
 ## Exercises & Assignments
-Have students complete the [Matrix Math worksheet](matrix-worksheet-1/md). Once complete proceed to Moodle to complete Knowledge Check 05 - Matrix Math (strongly recommended to be completed prior to attempting Lab 2).
+Have students complete the [Matrix Math worksheet](matrix-worksheet-1.md). Once complete proceed to Moodle to complete Knowledge Check 05 - Matrix Math (strongly recommended to be completed prior to attempting Lab 2).
 
 ### [Outcome Home](outcome2.md)
 ### [PHYS1521 Home](../)

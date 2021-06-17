@@ -91,8 +91,8 @@ The concept that <img src="https://latex.codecogs.com/svg.latex?\large&space;A\t
 #### Multiplying a Vector and a Matrix
 At this point it becomes vitally important to know whether the game engine uses row or column vectors, or row vs. column matrices as the order of multiplication matters. Recall the basic rule for multiplying matrices in that the columns in the first matrix must match the rows in the second matrix. So, for a 3x3 matrix the following multiplications are allowed with vectors:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;\left[\begin{array}{ccc}X&Y&Z\end{array}\right]\times{\left[\begin{array}{ccc}M_{11}&M_{12}&M_{13}\\M_{21}&M_{22}&M_{23}\\M_{31}&M_{32}&M_{33}]}"/><br><br>
-<img src="https://latex.codecogs.com/svg.latex?\large&space;\left[begin{array}{ccc}XM_{11}+YM_{21}+ZM_{31}&XM_{12}+YM_{22}+ZM_{32}\\XM_{13}+YM_{23}+ZM_{33}\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\left[\begin{array}{ccc}X&Y&Z\end{array}\right]\times{\left[\begin{array}{ccc}M_{11}&M_{12}&M_{13}\\M_{21}&M_{22}&M_{23}\\M_{31}&M_{32}&M_{33}\end{array}\right]}"/><br><br>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;=\left[\begin{array}{ccc}XM_{11}+YM_{21}+ZM_{31}&XM_{12}+YM_{22}+ZM_{32}\\XM_{13}+YM_{23}+ZM_{33}\end{array}\right]"/>
 
 AND (**preferred for this course**):<br>
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\left[\begin{array}{ccc}M_{11}&M_{12}&M_{13}\\M_{21}&M_{22}&M_{23}\\M_{31}&M_{32}&M_{33}\end{array}\right]\times{\left[\begin{array}{c}X\\Y\\Z\end{array}\right]}=\left[\begin{array}{c}XM_{11}+YM_{12}+ZM_{13}\\XM_{21}+YM_{22}+ZM_{23}\\XM_{31}+YM_{32}+ZM_{33}\end{array}\right]"/>
@@ -103,8 +103,9 @@ Examining the terms, it should be obvious that the resulting vector matrices fro
 <img src="https://latex.codecogs.com/svg.latex?\large&space;=\left[\begin{array}{ccc}(2)(2)+(-1)(0)+(3)(0)&(2)(0)+(-1)(3)+(3)(0)&(2)(-2)+(-1)(3)+(3)(1)\end{array}\right]"/><br><br>
 <img src="https://latex.codecogs.com/svg.latex?\large&space;=\left[\begin{array}{ccc}4&-3&-4\end{array}\right]"/>
 
-WHILE<br>
-<img src="https://latex.codecogs.com/svg.latex?\large&space;\left[\begin{array}{ccc}2&0&-2\\0&3&3\\0&0&1\end{array}\right]\times{\left[\begin{array}{c}2\\-1\\3\end{array}\right]}=\left[\begin{array}{c}(2)(2)+(0)(-1)+(-2)(3)\\(0)(2)+(3)(-1)+(3)(3)\\(0)(2)+(0)(-1)+(1)(3)\end{array}\right]=\left][\begin{array}{c}-2\\6\\3\end{array}\right]"/>
+WHILE
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\left[\begin{array}{ccc}2&0&-2\\0&3&3\\0&0&1\end{array}\right]\times{\left[\begin{array}{c}2\\-1\\3\end{array}\right]}=\left[\begin{array}{c}(2)(2)+(0)(-1)+(-2)(3)\\(0)(2)+(3)(-1)+(3)(3)\\(0)(2)+(0)(-1)+(1)(3)\end{array}\right]=\left[\begin{array}{c}-2\\6\\3\end{array}\right]"/>
 
 With the results of multiplying a vector and a matrix being different when using a row vs. a column vector this begs the question as to which vector form is the correct form when doing these calculations? Many internet references prefer row vectors and go through a good discussion as to why row vectors are preferred over column vectors.
 

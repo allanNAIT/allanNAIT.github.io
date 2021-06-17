@@ -81,7 +81,7 @@ Next calculate <img src="https://latex.codecogs.com/svg.latex?\large&space;V_{1}
 
 Finally, normalize the Cross Product:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{N}=\sqrt{(-33)^2+(-13)^2+(19)^2}=\sqrt{1619}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{N}\Vert=\sqrt{(-33)^2+(-13)^2+(19)^2}=\sqrt{1619}"/>
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\hat{N}=\frac{1}{\sqrt{1619}}\left[\begin{array}{c}-33 \\ -13 \\ 19\end{array}\right]\approx{\left[\begin{array}{c}-0.8201 \\ -0.3231 \\ 0.4772\end{array}\right]}"/>
 

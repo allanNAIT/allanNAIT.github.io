@@ -73,4 +73,12 @@ Two matrices can only be multiplied together if the number of columns in the fir
 
 It is easier to explain using the following algebraic example:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;A\times{B}=\left[\begin{array}{ccc}A_{11}&A_{12}&A_{13}\\A_{21}&A_{22}&A_{23}\\A_{31}&A_{32}&A_{33}\end{array}\right]\times{\left[\begin{array}{ccc}B_{11}&B_{12}&B_{13}\\B_{21}&B_{22}&B_{23}\\B_{31}&B_{32}&B_{33}\end{array}\right]}=\left[\begin{array}{ccc}A_{11}B_{11}+A_{12}B_{21}+A_{13}B_{31}&A_{11}B_{12}+A_{12}B_{22}+A_{13}B_{32}&A_{11}B_{13}+A_{12}B_{23}+A_{13}B_{33}\\A_{21}B_{11}+A_{22}B_{21}+A_{23}B_{31}&A_{21}B_{12}+A_{22}B_{22}+A_{23}B_{32}&A_{21}B_{13}+A_{22}B_{23}+A_{23}B_{33}\\A_{31}B_{11}+A_{32}B_{21}+A_{33}B_{31}&A_{31}B_{12}+A_{32}B_{22}+A_{33}B_{32}&A_{31}B_{13}+A_{32}B_{23}+A_{33}B_{33}\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;A\times{B}=\left[\begin{array}{ccc}A_{11}&A_{12}&A_{13}\\A_{21}&A_{22}&A_{23}\\A_{31}&A_{32}&A_{33}\end{array}\right]\times{\left[\begin{array}{ccc}B_{11}&B_{12}&B_{13}\\B_{21}&B_{22}&B_{23}\\B_{31}&B_{32}&B_{33}\end{array}\right]}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;=\left[\begin{array}{ccc}A_{11}B_{11}+A_{12}B_{21}+A_{13}B_{31}&A_{11}B_{12}+A_{12}B_{22}+A_{13}B_{32}&A_{11}B_{13}+A_{12}B_{23}+A_{13}B_{33}\\A_{21}B_{11}+A_{22}B_{21}+A_{23}B_{31}&A_{21}B_{12}+A_{22}B_{22}+A_{23}B_{32}&A_{21}B_{13}+A_{22}B_{23}+A_{23}B_{33}\\A_{31}B_{11}+A_{32}B_{21}+A_{33}B_{31}&A_{31}B_{12}+A_{32}B_{22}+A_{33}B_{32}&A_{31}B_{13}+A_{32}B_{23}+A_{33}B_{33}\end{array}\right]"/>
+
+One may or may not see the pattern, so it is best to go through a couple of examples with actual values in the matrices, such as:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;A\times{B}=\left[\begin{array}{ccc}2&-1&3\\1&3&-2\\1&0&1\end{array}\right]\times{\left[\begin{array}{ccc}3&-1&2\\2&4&-3\\-1&1&0\end{array}\right]}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;=\left[\begin{array}{ccc}(2)(3)+(-1)(2)+(3)(-1)&(2)(-1)+(-1)(4)+(3)(1)&(2)(2)+(-1)(-3)+(3)(0)\\(1)(3)+(3)(2)+(-2)(-1)&(1)(-1)+(3)(4)+(-2)(1)&(1)(2)+(3)(-3)+(-2)(0)\\(1)(2)+(0)(-3)+(1)(0)&(1)(-1)+(0)(4)+(1)(1)&(1)(2)+(0)(-3)+(1)(0)\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;=\left[\begin{array}{ccc}6-2-4&-2-4+3&4+3+0\\3+6+2&-1+12-2&2-9+0\\2+0+0&-1+0+1&2+0+0\end{array}\right]=\left[\begin{array}{ccc}1&-3&7\\11&9&-7\\2&0&2\end{array}\right]"/>
+

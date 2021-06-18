@@ -75,7 +75,7 @@ The key concepts for this part of the lesson are:
 As was learned in the previous lesson it is possible to multiply two matrices to create a new matrix. It was a general rule that <img src="https://latex.codecogs.com/svg.latex?\large&space;A\times{B}\neq{B\times{A}}"/>, unless one of the matrices was a special matrix, such as the Identity matrix. In this part of the lesson the students will combine the S and the T matrices, which will be shown that can be done in any order, to create a combination matrix. This is possible due to the elements of each matrix that have values of 0.
 
 ### 2D
-In this part create a scaling matrix **S**, and a transformation matrix **T** and multiply them <img src="https://latex.codecogs.com/svg.latex?\large&space;S\times{T}"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;T\times{S}"/> (at this point the students should be able to do most of the multiplication without having to write out each step):
+In this part create a scaling matrix **S**, and a transformation matrix **T** and multiply them <img src="https://latex.codecogs.com/svg.latex?\large&space;S\times{T}"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;T\times{S}"/> (at this point, you should be able to do most of the multiplication without having to write out each step):
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;S\times{T}=\left[\begin{array}{ccc}S_{x}&0&0\\0&S_{y}&0\\0&0&1\end{array}\right]\times{\left[\begin{array}{ccc}1&0&T_{x}\\0&1&T_{y}\\0&0&1\end{array}\right]}=\left[\begin{array}{ccc}S_{x}&0&T_{x}\\0&S_{y}&T_{y}\\0&0&1\end{array}\right]"/>
 
@@ -91,7 +91,7 @@ For example a point on an object is 2D space, <img src="https://latex.codecogs.c
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\left[\begin{array}{ccc}2&0&3\\0&3&4\\0&0&1\end{array}\right]\times{\left[\begin{array}{c}-2\\4\\1\end{array}\right]}=\left[\begin{array}{c}-1\\16\\1\end{array}\right]"/>
 
 ## Exercises & Assignments
-Complete the [Matrix Transforms worksheet](matrix-math-2.md). Once complete proceed to Moodle to complete Knowledge Check 06 - Matrix Transforms (strongly recommended to be completed prior to attempting Lab 2).
+Complete the [Matrix Transforms worksheet](matrix-worksheet-2.md). Once complete proceed to Moodle to complete Knowledge Check 06 - Matrix Transforms (strongly recommended to be completed prior to attempting Lab 2).
 
 ### [Outcome Home](outcome2.md)
 ### [PHYS1521 Home](../)

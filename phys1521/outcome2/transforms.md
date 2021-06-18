@@ -63,4 +63,23 @@ Similar to transforming (shifting) an object in 2D and 3D space it is possible t
 
 Note that this is one instance where the Row and Column major matrices are the same. To demonstrate this use the following example. Given an object in 3D space with one of its points at (4,-1,2) and this object is scaled by <img src="https://latex.codecogs.com/svg.latex?\large&space;(S_{x},S_{y},S_{z})=(3,2,4)"/>.
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;\left[\begin{array}{cccc}3&0&0&0\\0&2&0&0\\0&0&4&0\\0&0&0&1\end{array}\right]\times{\left[\begin{array}{c}4\\-1\\2\\2\\1\end{array}\right]}=\left[\begin{array}{c}12\\-2\\8\\1\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\left[\begin{array}{cccc}3&0&0&0\\0&2&0&0\\0&0&4&0\\0&0&0&1\end{array}\right]\times{\left[\begin{array}{c}4\\-1\\2\\1\end{array}\right]}=\left[\begin{array}{c}12\\-2\\8\\1\end{array}\right]"/>
+
+## Combination Transformations
+### Key Concepts
+The key concepts for this part of the lesson are:
+* Create a Scaling and Transformation matrix in 2D and 3D
+* Calculate the results of a combination matrix in 2D and 3D
+
+### Lesson
+As was learned in the previous lesson it is possible to multiply two matrices to create a new matrix. It was a general rule that <img src="https://latex.codecogs.com/svg.latex?\large&space;A\times{B}\neq{B\times{A}}"/>, unless one of the matrices was a special matrix, such as the Identity matrix. In this part of the lesson the students will combine the S and the T matrices, which will be shown that can be done in any order, to create a combination matrix. This is possible due to the elements of each matrix that have values of 0.
+
+### 2D
+In this part create a scaling matrix **S**, and a transformation matrix **T** and multiply them <img src="https://latex.codecogs.com/svg.latex?\large&space;S\times{T}"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;T\times{S}"/> (at this point the students should be able to do most of the multiplication without having to write out each step):
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;S\times{T}=\left[\begin{array}{ccc}S_{x}&0&0\\0&S_{y}&0\\0&0&1\end{array}\right]\times{\left[\begin{array}{ccc}1&0&T_{x}\\0&1&T_{y}\\0&0&1\end{array}\right]}=\left[\begin{array}{ccc}S_{x}&0&T_{x}\\0&S_{y}&T_{y}\\0&0&1\end{array}\right]"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;T\times{S}=\left[\begin{array}{ccc}1&0&T_{x}\\0&1&T_{y}\\0&0&1\end{array}\right]\times{\left[\begin{array}{ccc}S_{x}&0&0\\0&S_{y}&0\\0&0&1\end{array}\right]}=\left[\begin{array}{ccc}S_{x}&0&T_{x}\\0&S_{y}&T_{y}\\0&0&1\end{array}\right]"/>
+
+
+

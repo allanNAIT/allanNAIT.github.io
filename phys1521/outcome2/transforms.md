@@ -81,5 +81,19 @@ In this part create a scaling matrix **S**, and a transformation matrix **T** an
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;T\times{S}=\left[\begin{array}{ccc}1&0&T_{x}\\0&1&T_{y}\\0&0&1\end{array}\right]\times{\left[\begin{array}{ccc}S_{x}&0&0\\0&S_{y}&0\\0&0&1\end{array}\right]}=\left[\begin{array}{ccc}S_{x}&0&T_{x}\\0&S_{y}&T_{y}\\0&0&1\end{array}\right]"/>
 
+### 3D
+Using the knowledge gained from the 2D examples above the combination matrices in 3D are:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;S\times{T}=T\times{S}=\left[\begin{array}{cccc}S_{x}&0&0&T_{x}\\0&S_{y}&0&T_{y}\\0&0&S_{z}&T_{z}\\0&0&0&1\end{array}\right]"/>
+
+For example a point on an object is 2D space, <img src="https://latex.codecogs.com/svg.latex?\large&space;(-2,4)"/> is being transformed by scaling it by <img src="https://latex.codecogs.com/svg.latex?\large&space;(2,3)"/> and shifting it by <img src="https://latex.codecogs.com/svg.latex?\large&space;(3,4)"/>:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\left[\begin{array}{ccc}2&0&3\\0&3&4\\0&0&1\end{array}\right]\times{\left[\begin{array}{c}-2\\4\\1\end{array}\right]}=\left[\begin{array}{c}-1\\16\\1\end{array}\right]"/>
+
+## Exercises & Assignments
+Complete the [Matrix Transforms worksheet](matrix-math-2.md). Once complete proceed to Moodle to complete Knowledge Check 06 - Matrix Transforms (strongly recommended to be completed prior to attempting Lab 2).
+
+### [Outcome Home](outcome2.md)
+### [PHYS1521 Home](../)
 
 

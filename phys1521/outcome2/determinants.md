@@ -76,3 +76,14 @@ Expanding this out we get:
 <img src="https://latex.codecogs.com/svg.latex?\large&space;det(M)=M_{11}M_{22}M_{33}-M_{11}M_{23}M_{32}-M_{12}M_{21}M_{33}+M_{12}M_{23}M_{31}+M_{13}M_{21}M_{32}-M_{13}M_{22}M_{31}"/>
 
 Comparing this result with the previous result shows the answer will be the same. Unfortunately, the calculation of the determinant of a 4x4 matrix MUST use this proper method (above), and not expanding on the original 3x3 determinant calculation.
+
+### 4x4 Determinants
+If we use the pattern from the 3x3 determinant calculation, you will NOT get the correct determinant value. Instead, you need to use the following pattern:
+
+Given matrix <img src="https://latex.codecogs.com/svg.latex?\large&space;M=\left[\begin{array}{cccc}M_{11}&M_{12}&M_{13}&M_{14}\\M_{21}&M_{22}&M_{23}&M_{24}\\M_{31}&M_{32}&M_{33}&M_{34}\\M_{41}&M_{42}&M_{43}&M_{44}\end{array}\right]"/>
+
+then
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;det(M)=M_{11}\times{det\left[\begin{array}{ccc}M_{22}&M_{23}&M_{24}\\M_{32}&M_{33}&M_{34}\\M_{42}&M_{43}&M_{44}\end{array}\right]-M_{12}\times{det\left[\begin{array}{ccc}M_{21}&M_{23}&M_{24}\\M_{31}&M_{33}&M_{34}\\M_{41}&M_{43}&M_{44}\end{array}\right]+M_{13}\times{det\left[\begin{array}{ccc}M_{21}&M_{22}&M_{24}\\M_{31}&M_{32}&M_{34}\\M_{41}&M_{42}&M_{44}\end{array}\right]-M_{14}\times{det\left[\begin{array}{ccc}M_{21}&M_{22}&M_{23}\\M_{31}&M_{32}&M_{33}\\M_{41}&M_{42}&M_{43}\end{array}\right]"/>
+
+

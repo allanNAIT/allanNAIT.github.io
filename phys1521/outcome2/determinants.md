@@ -65,7 +65,9 @@ This method of calculating the determinant of a 3x3 matrix does not extend to th
 
 Given <img src="https://latex.codecogs.com/svg.latex?\large&space;M=\left[\begin{array}{ccc}M_{11}&M_{12}&M_{13}\\M_{21}&M_{22}&M_{23}\\M_{31}&M_{32}&M_{33}\end{array}\right]"/>
 
-then <img src="https://latex.codecogs.com/svg.latex?\large&space;det(M)=M_{11}\times{det\left[\begin{array}{cc}M_{22}&M_{23}\\M_{32}&M_{33}\end{array}\right]}-M_{12}\times{det\left[\begin{array}{cc}M_{21}&M_{23}\\M_{31}&M_{33}\end{array}\right]}+M_{13}\times{det\left[\begin{array}{cc}M_{21}&M_{22}\\M_{31}&M_{32}\end{array}\right]}"/>
+then
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;det(M)=M_{11}\times{det\left[\begin{array}{cc}M_{22}&M_{23}\\M_{32}&M_{33}\end{array}\right]}-M_{12}\times{det\left[\begin{array}{cc}M_{21}&M_{23}\\M_{31}&M_{33}\end{array}\right]}+M_{13}\times{det\left[\begin{array}{cc}M_{21}&M_{22}\\M_{31}&M_{32}\end{array}\right]}"/>
 
 Expanding this out we get:
 

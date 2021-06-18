@@ -37,7 +37,7 @@ We can do mathematical calculations (`SubTotal * 1.05`) or combine strings (`Fir
 What if we only want to return certain records?
 
 ```sql
-SELECT FirstName, 	LastName 
+SELECT FirstName, LastName 
 FROM STUDENT
 WHERE City = 'Edmonton'
 ```

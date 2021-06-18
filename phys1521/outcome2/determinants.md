@@ -32,7 +32,7 @@ The computed value of a determinant is not always a positive number; it can be n
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\vert{M}\vert=\left|\begin{array}{cc}-3&2\\4&5\end{array}\right|=(-3)(5)-(2)(4)=-23"/>
 
-![2-x-2-determinant-calculation](files/2-x-2-determinant-calculation.jpg)
+![determinant-calculation-2-x-2](files/determinant-calculation-2-x-2.jpg)
 
 Now what about a 3x3 matrix? Since a 3D matrix has 3 basis vectors the geometric shape would be a parallelogram extended to 3 dimensions creating a parallelepiped. In this case the determinant would be the volume of the parallelepiped as shown in the below:
 
@@ -59,7 +59,7 @@ Now using the 3D matrix, the calculation of its determinant is:
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\vert{M}\vert=\left|\begin{array}{ccc}2&5&1\\1&2&5\\4&3&4\end{array}\right|=(2)(2)(4)+(5)(5)(4)+(1)(1)(3)-(1)(2)(4)-(5)(1)(4)-(2)(3)(5)"/>
 <img src="https://latex.codecogs.com/svg.latex?\large&space;=16+100+3-8-20-30=61"/>
 
-![3-x-3-determinant-calculation](files/3-x-3-determinant-calculation.jpg)
+![determinant-calculation-3-x-3](files/determinant-calculation-3-x-3.jpg)
 
 This method of calculating the determinant of a 3x3 matrix does not extend to the calculation of the determinant of a 4x4 matrix. The correct process uses determinants of 2x2 matrices:
 

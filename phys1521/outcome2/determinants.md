@@ -84,6 +84,6 @@ Given matrix <img src="https://latex.codecogs.com/svg.latex?\large&space;M=\left
 
 then
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;det(M)=M_{11}\times{det\left[\begin{array}{ccc}M_{22}&M_{23}&M_{24}\\M_{32}&M_{33}&M_{34}\\M_{42}&M_{43}&M_{44}\end{array}\right]-M_{12}\times{det\left[\begin{array}{ccc}M_{21}&M_{23}&M_{24}\\M_{31}&M_{33}&M_{34}\\M_{41}&M_{43}&M_{44}\end{array}\right]+M_{13}\times{det\left[\begin{array}{ccc}M_{21}&M_{22}&M_{24}\\M_{31}&M_{32}&M_{34}\\M_{41}&M_{42}&M_{44}\end{array}\right]-M_{14}\times{det\left[\begin{array}{ccc}M_{21}&M_{22}&M_{23}\\M_{31}&M_{32}&M_{33}\\M_{41}&M_{42}&M_{43}\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;det(M)=M_{11}\times{det\left[\begin{array}{ccc}M_{22}&M_{23}&M_{24}\\M_{32}&M_{33}&M_{34}\\M_{42}&M_{43}&M_{44}\end{array}\right]-M_{12}\times{det\left[\begin{array}{ccc}M_{21}&M_{23}&M_{24}\\M_{31}&M_{33}&M_{34}\\M_{41}&M_{43}&M_{44}\end{array}\right]"/><br><img src="https://latex.codecogs.com/svg.latex?\large&space;+M_{13}\times{det\left[\begin{array}{ccc}M_{21}&M_{22}&M_{24}\\M_{31}&M_{32}&M_{34}\\M_{41}&M_{42}&M_{44}\end{array}\right]-M_{14}\times{det\left[\begin{array}{ccc}M_{21}&M_{22}&M_{23}\\M_{31}&M_{32}&M_{33}\\M_{41}&M_{42}&M_{43}\end{array}\right]"/>
 
 

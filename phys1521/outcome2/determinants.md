@@ -136,3 +136,18 @@ To find a cofactor matrix, such as <img src="https://latex.codecogs.com/svg.late
 * Calculate the determiniant of the resulting 2x2 matrix multiplied by -1:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;-C^{\{12\}}=-\left|\begin{array}{cc}5&3\\1&4\end{array}\right|=-17"/>
+
+To find a cofactor matrix, such as <img src="https://latex.codecogs.com/svg.latex?\large&space;C^{\{13\}}"/> do the following:
+* Eliminate the first row and the third column on the matrix
+* Calculate the determiniant of the resulting 2x2 matrix
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;C^{\{13\}}=\left|\begin{array}{cc}5&2\\1&5\end{array}\right|=23"/>
+
+The next row of the matrix produces the following cofactors:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;-C^{\{21\}}=-\left|\begin{array}{cc}1&4\\5&4\end{array}\right|=16"/>, <img src="https://latex.codecogs.com/svg.latex?\large&space;C^{\{22\}}=\left|\begin{array}{cc}2&4\\1&4\end{array}\right|=4"/>, <img src="https://latex.codecogs.com/svg.latex?\large&space;-C^{\{23\}}=-\left|\begin{array}{cc}2&1\\1&5\end{array}\right|=-9"/>
+
+Finally, the last row of the matrix produces the following cofactors:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;C^{\{31\}}=-\left|\begin{array}{cc}1&4\\2&3\end{array}\right|=-5"/>, <img src="https://latex.codecogs.com/svg.latex?\large&space;-C^{\{22\}}=-\left|\begin{array}{cc}2&4\\5&3\end{array}\right|=14"/>, <img src="https://latex.codecogs.com/svg.latex?\large&space;C^{\{33\}}=\left|\begin{array}{cc}2&1\\5&2\end{array}\right|=-1"/>
+

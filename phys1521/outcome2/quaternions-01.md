@@ -42,4 +42,4 @@ Next step is to concatenate these three forms in the correct order, Roll, Pitch,
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_1Q_2=\left[\begin{array}{cc}Q_{1w}&\left(\begin{array}{ccc}Q_{1x}&Q_{1y}&Q_{1z}\end{array}\right)\end{array}\right]\left[\begin{array}{cc}Q_{2w}&\left(\begin{array}{ccc}Q_{2x}&Q_{2y}&Q_{2z}\end{array}\right)\end{array}\right]"/>
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;=\left[\begin{array}{c}Q_{1w}Q_{2w}-Q_{1x}Q_{2x}-Q_{1y}Q_{2y}-Q_{1z}Q_{2z}\\\left(\begin{array}{c}0\\sin(\frac{Y}{2})\\0\end{array}\right)\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;=\left[\begin{array}{c}Q_{1w}Q_{2w}-Q_{1x}Q_{2x}-Q_{1y}Q_{2y}-Q_{1z}Q_{2z}\\\left(\begin{array}{c}Q_{1w}Q_{2x}+Q_{1x}Q_{2w}+Q_{1y}Q_{2z}-Q_{1z}Q_{2y}\\Q_{1w}Q_{2y}+Q_{1y}Q_{2w}+Q_{1z}Q_{2x}-Q_{1x}Q_{2z}\\Q_{1w}Q_{2z}+Q_{1z}Q_{2w}+Q_{1x}Q_{2y}-Q_{1y}Q_{2x}\end{array}\right)\end{array}\right]"/>

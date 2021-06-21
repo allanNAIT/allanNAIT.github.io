@@ -151,3 +151,10 @@ Finally, the last row of the matrix produces the following cofactors:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;C^{\{31\}}=-\left|\begin{array}{cc}1&4\\2&3\end{array}\right|=-5"/>, <img src="https://latex.codecogs.com/svg.latex?\large&space;-C^{\{22\}}=-\left|\begin{array}{cc}2&4\\5&3\end{array}\right|=14"/>, <img src="https://latex.codecogs.com/svg.latex?\large&space;C^{\{33\}}=\left|\begin{array}{cc}2&1\\5&2\end{array}\right|=-1"/>
 
+Time to put all the cofactors together and calculate the Adjoint matrix:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;adj(M)={\left[\begin{array}{ccc}C^{\{11\}}&-C^{\{12\}}&C^{\{13\}}\\-C^{\{21\}}&C^{\{22\}}&-C^{\{23\}}\\C^{\{31\}}&-C^{\{32\}}&C^{\{33\}}\end{array}\right]}^T={\left[\begin{array}{ccc}-7&-17&23\\16&4&-9\\-5&14&-1\end{array}\right]}^T=\left[\begin{array}{ccc}-7&16&-5\\-17&4&14\\23&-9&-1\end{array}\right]"/>
+
+Now that the Adjoint matrix is computed the next step is to compute the inverse (for ease of calculations leave values as fractions when demonstrating this to avoid decimal rounding errors):
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M^{-1}=\frac{1}{61}\left[\begin{array}{ccc}-7&16&-5\\-17&4&14\\23&-9&-1\end{array}\right]=\left[\begin{array}{ccc}\frac{-7}{61}&\frac{16}{61}&\frac{-5}{61}\\\frac{-17}{61}&\frac{4}{61}&\frac{14}{61}\\\frac{23}{61}&\frac{-9}{61}&\frac{-1}{61}\end{array}\right]=\approx{\left[\begin{array}{ccc}-0.1148&0.2623&-0.0820\\-0.2787&0.0656&0.2295\\0.3770&-0.1475&-0.0164\end{array}\right]}"/>

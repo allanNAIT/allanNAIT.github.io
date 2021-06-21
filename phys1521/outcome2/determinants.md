@@ -98,7 +98,7 @@ The key concepts for this part of the lesson are:
 ### Lesson
 Previously it was given that the inverse of a matrix satisfies the equation <img src="https://latex.codecogs.com/svg.latex?\large&space;M\times{M^{-1}=I"/>. For a 2x2 matrix the inverse is calculated as:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;M^{-1}=\frac{1}{detM}M^'"/> where <img src="https://latex.codecogs.com/svg.latex?\large&space;M^'=\left[\begin{array}{cc}M_{22}&-M_{12}\\-M_{21}&M_{11}\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M^{-1}=\frac{1}{detM}M^{'}"/> where <img src="https://latex.codecogs.com/svg.latex?\large&space;M^{'}=\left[\begin{array}{cc}M_{22}&-M_{12}\\-M_{21}&M_{11}\end{array}\right]"/>
 
 Example using the previous 2x2 matrices:
 

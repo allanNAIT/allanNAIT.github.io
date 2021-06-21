@@ -83,7 +83,7 @@ Considering the multiplication rules for matrices if a rotation were to take pla
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;R_{RPY}=\left[\begin{array}{ccc}cos(Y)cos(R)-sin(Y)sin(P)sin(R)&-sin(R)cos(P)&sin(Y)cos(R)+cos(Y)sin(P)sin(R)\\cos(Y)sin(R)+sin(Y)sin(P)cos(R)&cos(R)cos(P)&sin(R)sin(Y)-cos(Y)sin(P)cos(R)\\-sin(Y)cos(P)&sin(P)&cos(Y)cos(P)\end{array}\right]"/>
 
-For example, given the vector, in homogeneous space, <img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{c}3\\4\\-1\\1\end{array}\right]"/> and the rotation angles of Roll=5<sup>o</sup>, Pitch=10<sup>o</sup>, and Yaw=10<sup>o</sup> calculate the individual rotation matrices, the product of the vectors with each matrix, the RPY matrix and the product of the vector and this matrix:
+For example, given the vector, in homogeneous space, <img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{c}3\\4\\-1\\1\end{array}\right]"/> and the rotation angles of **Roll=5<sup>o</sup>**, **Pitch=10<sup>o</sup>**, and **Yaw=10<sup>o</sup>** calculate the individual rotation matrices, the product of the vectors with each matrix, the RPY matrix and the product of the vector and this matrix:
 
 ![roll-pitch-yaw-math](files/roll-pitch-yaw-math.jpg)
 
@@ -97,10 +97,10 @@ The result of the inverse sine operation will yield results in the range of <img
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;M_{31}=-sin(Y)cos(P)"/>
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;sin(Y)=-\frac{M_{31}{cos(P)}}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;sin(Y)=-\frac{M_{31}{cos(P)}"/>
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;M_{33}=cos(Y)cos(P)"/>
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(Y)=\frac{M_{33}}{cos(P)}"/>
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;Y=tan^{-1}\left(\frac{sin(Y)}{cos(Y)}\right)=tan^{-1}\left(\frac{{\frac{-M_{31}}{cos(P)}{\frac{M_{33}}{cos(P)\right)"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Y=tan^{-1}\left\left(\frac{sin(Y)}{cos(Y)}\right)=tan^{-1}\left(\frac{\frac{-M_{31}}{cos(P)}}{\frac{M_{33}}{cos(P)}}\right)"/>

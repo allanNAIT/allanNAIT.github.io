@@ -123,8 +123,16 @@ which is not zero, therefore the inverse of the given matrix can be computed.
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;adj(M)={\left[\begin{array}{ccc}C^{11}&-C^{12}&C^{13}\\-C^{21}&C^{22}&-C^{23}\\C^{31}&-C^{32}&C^{33}\end{array}\right]}^T"/>
 
-To find a cofactor matrix, such as _C<sup>{11}</sup>_ do the following:
+Each of the elements of the `adjoint` array are called `cofactors`.
+
+To find a cofactor matrix, such as <img src="https://latex.codecogs.com/svg.latex?\large&space;C^{11}"/> do the following:
 * Eliminate the first row and the first column on the matrix
 * Calculate the determiniant of the resulting 2x2 matrix:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;C^{11}=\left|\begin{array}{cc}2&3\\5&4\end{array}\right|=-7"/>
+
+To find a cofactor matrix, such as <img src="https://latex.codecogs.com/svg.latex?\large&space;C^{12}"/> do the following:
+* Eliminate the first row and the second column on the matrix
+* Calculate the determiniant of the resulting 2x2 matrix multiplied by -1:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;-C^{12}=\left|\begin{array}{cc}5&3\\1&4\end{array}\right|=-17"/>

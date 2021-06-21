@@ -110,3 +110,8 @@ Next calculate the individual matrix elements:
 <img src="https://latex.codecogs.com/svg.latex?\large&space;R_Q=\left[\begin{array}{ccc}0.8826&-0.4408&0.1630\\0.4698&0.8138&-0.3420\\0.0180&0.3785&0.9254\end{array}\right]"/>
 
 ![quaternion-to-matrix-math](files/quaternion-to-matrix-math.jpg)
+
+#### Create Euler Angles from a Quaternion
+Now that conversion of Euler angles to a Quaternion is done there should be a way to take a given Quaternion and calculate the initial Euler angles. This is only necessary for output to the game user; once the rotations are in Quaternion form it is best to stay in that form.
+
+In a previous lesson, it was possible to extract Euler angles from a full rotation matrix thus this technique will be adapted here. Note that the Gimbal Lock condition is not being addressed here.

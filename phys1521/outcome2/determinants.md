@@ -12,8 +12,9 @@ The key concepts for this part of the lesson are:
 * Calculating a determinant for a 2x2, 3x3, and 4x4 matrices
 
 ## Lesson
-Every square matrix has a special property called the determinant. The determinant is used to create an inverse matrix from a given matrix such that <img src="https://latex.codecogs.com/svg.latex?\large&space;M\times{M^(-1)}=I"/>. Not every square matrix has an inverse, as will be covered later in this lesson, but for now that is the purpose of covering determinants. It is important to get an understanding of what a determinant is before it is calculated.
+Every square matrix has a special property called the determinant. The determinant is used to create an inverse matrix from a given matrix such that <img src="https://latex.codecogs.com/svg.latex?\large&space;M\times{M^{-1}=I"/>. Not every square matrix has an inverse, as will be covered later in this lesson, but for now that is the purpose of covering determinants. It is important to get an understanding of what a determinant is before it is calculated.
 
+#### 2x2 Determinants
 Given the matrix:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;M=\left[\begin{array}{cc}3&1\\1&2\end{array}\right]"/>
@@ -34,6 +35,7 @@ The computed value of a determinant is not always a positive number; it can be n
 
 ![determinant-calculation-2-x-2](files/determinant-calculation-2-x-2.jpg)
 
+#### 3x3 Determinants
 Now what about a 3x3 matrix? Since a 3D matrix has 3 basis vectors the geometric shape would be a parallelogram extended to 3 dimensions creating a parallelepiped. In this case the determinant would be the volume of the parallelepiped as shown in the below:
 
 ![parallelepiped](files/parallelepiped.jpg)
@@ -77,7 +79,7 @@ Expanding this out we get:
 
 Comparing this result with the previous result shows the answer will be the same. Unfortunately, the calculation of the determinant of a 4x4 matrix MUST use this proper method (above), and not expanding on the original 3x3 determinant calculation.
 
-### 4x4 Determinants
+#### 4x4 Determinants
 If we use the pattern from the 3x3 determinant calculation, you will NOT get the correct determinant value. Instead, you need to use the following pattern:
 
 Given matrix <img src="https://latex.codecogs.com/svg.latex?\large&space;M=\left[\begin{array}{cccc}M_{11}&M_{12}&M_{13}&M_{14}\\M_{21}&M_{22}&M_{23}&M_{24}\\M_{31}&M_{32}&M_{33}&M_{34}\\M_{41}&M_{42}&M_{43}&M_{44}\end{array}\right]"/>
@@ -87,3 +89,21 @@ then
 <img src="https://latex.codecogs.com/svg.latex?\large&space;det(M)=M_{11}\times{det\left[\begin{array}{ccc}M_{22}&M_{23}&M_{24}\\M_{32}&M_{33}&M_{34}\\M_{42}&M_{43}&M_{44}\end{array}\right]-M_{12}\times{det\left[\begin{array}{ccc}M_{21}&M_{23}&M_{24}\\M_{31}&M_{33}&M_{34}\\M_{41}&M_{43}&M_{44}\end{array}\right]"/><br><img src="https://latex.codecogs.com/svg.latex?\large&space;+M_{13}\times{det\left[\begin{array}{ccc}M_{21}&M_{22}&M_{24}\\M_{31}&M_{32}&M_{34}\\M_{41}&M_{42}&M_{44}\end{array}\right]-M_{14}\times{det\left[\begin{array}{ccc}M_{21}&M_{22}&M_{23}\\M_{31}&M_{32}&M_{33}\\M_{41}&M_{42}&M_{43}\end{array}\right]"/>
 
 
+## Inverses
+### Key Concepts
+The key concepts for this part of the lesson are:
+* Create an inverse matrix for 2x2 and 3x3 matrices
+* Prove that the inverse matrix satisfies the equation <img src="https://latex.codecogs.com/svg.latex?\large&space;M\times{M^{-1}=I"/>
+
+### Lesson
+Previously it was given that the inverse of a matrix satisfies the equation <img src="https://latex.codecogs.com/svg.latex?\large&space;M\times{M^{-1}=I"/>. For a 2x2 matrix the inverse is calculated as:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M^{-1}=\frac{1}{detM}M^'"/> where <img src="https://latex.codecogs.com/svg.latex?\large&space;M^'=\left[\begin{array}{cc}M_{22}&-M_{12}\\-M_{21}&M_{11}\end{array}\right]"/>
+
+Example using the previous 2x2 matrices:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\vert{M}\vert=\left|\begin{array}{cc}-3&2\\4&5\end{array}\right|=(-3)(5)-(2)(4)=-23"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M^{-1}=\frac{1}{-23}\left[\begin{array}{cc}5&-2\\-4&-3\end{array}\right]=\left[\begin{array}{cc}-0.2174&0.0870\\0.1739&0.1304\end{array}\right]"/>
+
+![inverse-2-x-2-calculation](files/inverse-2-x-2-calculation.jpg)

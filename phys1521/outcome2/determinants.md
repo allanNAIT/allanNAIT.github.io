@@ -157,4 +157,11 @@ Time to put all the cofactors together and calculate the Adjoint matrix:
 
 Now that the Adjoint matrix is computed the next step is to compute the inverse (for ease of calculations leave values as fractions when demonstrating this to avoid decimal rounding errors):
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;M^{-1}=\frac{1}{61}\left[\begin{array}{ccc}-7&16&-5\\-17&4&14\\23&-9&-1\end{array}\right]=\left[\begin{array}{ccc}\frac{-7}{61}&\frac{16}{61}&\frac{-5}{61}\\\frac{-17}{61}&\frac{4}{61}&\frac{14}{61}\\\frac{23}{61}&\frac{-9}{61}&\frac{-1}{61}\end{array}\right]=\approx{\left[\begin{array}{ccc}-0.1148&0.2623&-0.0820\\-0.2787&0.0656&0.2295\\0.3770&-0.1475&-0.0164\end{array}\right]}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M^{-1}=\frac{1}{61}\left[\begin{array}{ccc}-7&16&-5\\-17&4&14\\23&-9&-1\end{array}\right]=\left[\begin{array}{ccc}\frac{-7}{61}&\frac{16}{61}&\frac{-5}{61}\\\frac{-17}{61}&\frac{4}{61}&\frac{14}{61}\\\frac{23}{61}&\frac{-9}{61}&\frac{-1}{61}\end{array}\right]\approx{\left[\begin{array}{ccc}-0.1148&0.2623&-0.0820\\-0.2787&0.0656&0.2295\\0.3770&-0.1475&-0.0164\end{array}\right]}"/>
+
+Time to prove that <img src="https://latex.codecogs.com/svg.latex?\large&space;M\times{M^{-1}}=I"/>:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\vert{M}\vert=\left[\begin{array}{ccc}2&1&4\\5&2&3\\1&5&4\end{array}\right]\times{\left[\begin{array}{ccc}\frac{-7}{61}&\frac{16}{61}&\frac{-5}{61}\\\frac{-17}{61}&\frac{4}{61}&\frac{14}{61}\\\frac{23}{61}&\frac{-9}{61}&\frac{-1}{61}\end{array}\right]}=\left[\begin{array}{ccc}\frac{-14-17+92}{61}&\frac{32+4-36}{61}&\frac{-10+14-4}{61}\\\frac{-35-34+69}{61}&\frac{80+8-27}{61}&\frac{-25+28-3}{61}\\\frac{-7-85+92}{61}&\frac{16+20-36}{61}&\frac{-5+70-4}{61}\end{array}\right]=\left[\begin{array}{ccc}1&0&0\\0&1&0\\0&0&1\end{array}\right]"/>
+
+![inverse-3-x-3-calculation](files/inverse-3-x-3-calculation.jpg)
+

@@ -103,4 +103,18 @@ The result of the inverse sine operation will yield results in the range of <img
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(Y)=\frac{M_{33}}{cos(P)}"/>
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;Y=tan^{-1}\left(\frac{sin(Y)}{cos(Y)}\right)=tan^{-1}\left(\frac{\frac{-M_{31}}{cos(P)}}{\frac{M_{33}}{cos(P)}}\right)"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Y=tan^{-1}\left(\frac{sin(Y)}{cos(Y)}\right)=tan^{-1}\left(\frac{\frac{-M_{31}}{cos(P)}}{\frac{M_{33}}{cos(P)}}\right)=tan^{-1}\left(\frac{-M_{31}}{M_{33}}\right)"/>
+
+Next the calculation for the Roll angle needs to be done using cells M<sub>12</sub> and M<sub>22</sub>:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{12}=-sin(R)cos(P)"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;sin(R)=-\frac{M_{12}}{cos(P)}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{22}=cos(R)cos(P)"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;cos(R)=\frac{M_{22}}{cos(P)}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R=tan^{-1}\left(\frac{sin(R)}{cos(R)}\right)=tan^{-1}\left(\frac{\frac{-M_{12}}{cos(P)}}{\frac{M_{22}}{cos(P)}}\right)=tan^{-1}\left(\frac{-M_{12}}{M_{22}}\right)"/>
+
+In programming the correct function to use is the `ATAN2` function to give the correct angle.

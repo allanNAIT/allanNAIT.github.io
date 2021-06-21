@@ -167,7 +167,7 @@ Time to prove that <img src="https://latex.codecogs.com/svg.latex?\large&space;M
 
 As an extension computing the inverse of a 4x4 matrix is also possible and is necessary when using the 4D homogeneous coordinate system. The one change that needs to be made is for the Adjoint matrix as shown below:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;adj(M)={\left[\begin{array}{cccc}C^{\{11\}}&-C^{\{12\}}&C^{\{13\}&-C^{\{14\}}\\-C^{\{21\}}&C^{\{22\}}&-C^{\{23\}&C^{\{24\}\\C^{\{31\}}&-C^{\{32\}}&C^{\{33\}&-C^{\{34\}}\\-C^{\{41\}}&C^{\{42\}}&-C^{\{43\}&C^{\{44\}\end{array}\right]}^T"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;adj(M)={\left[\begin{array}{cccc}C^{\{11\}}&-C^{\{12\}}&C^{\{13\}}&-C{\{14\}}\\-C^{\{21\}}&C^{\{22\}}&-C^{\{23\}}&C^{\{24\}}\\C^{\{31\}}&-C^{\{32\}}&C^{\{33\}}&-C^{\{34\}}\\-C^{\{41\}}&C^{\{42\}}&-C^{\{43\}}&C^{\{44\}}\end{array}\right]}^T"/>
 
 With each of the cofactors needing to have a determinant of a 3x3 matrix.
 

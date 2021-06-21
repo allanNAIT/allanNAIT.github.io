@@ -121,4 +121,4 @@ In the previous example the determinant was computed to be 61:
 
 which is not zero, therefore the inverse of the given matrix can be computed.
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;adj(M)={\left[\begin{array}{ccc}C^{11}&C^{12}&C^{13}\\C^{21}&C^{22}&C^{23}\\C^{31}&C^{32}&C^{33}\end{array}\right]}^T"/> with <img src="https://latex.codecogs.com/svg.latex?\large&space;{\eft[\begin{array}{ccc}+&-&+\\-&+&-\\+&-&+\end{array}\right]}^T"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;adj(M)={\left[\begin{array}{ccc}C^{11}&-C^{12}&C^{13}\\-C^{21}&C^{22}&-C^{23}\\C^{31}&-C^{32}&C^{33}\end{array}\right]}^T"/>

@@ -67,7 +67,7 @@ In each of these new matrices the reference, or w-axis, does not change with any
 
 Using simple linear transformations only one rotation is done at a time. For example, take a point (2, 1, 4) and rotate it individually about the x-, y- and z-axis with a rotation angle of 90<sup>o</sup>. The first step would be to construct the individual matrices as shown below but first <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(90)=0"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;sin(90)=1"/>
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{z}(\theta)=\left[\begin{array}{cccc}cos(20)&-1&0&0\\1&0&0&0\\0&0&1&0\\0&0&0&1\end{array}\right]"/>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{x}(\theta)=\left[\begin{array}{cccc}1&0&0&0\\0&0&-1&0\\0&1&0&0\\0&0&0&1\end{array}\right]"/>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{y}(\theta)=\left[\begin{array}{cccc}0&0&1&0\\0&1&0&0\\-1&0&0&0\\0&0&0&1\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{z}(\theta)=\left[\begin{array}{cccc}0&-1&0&0\\1&0&0&0\\0&0&1&0\\0&0&0&1\end{array}\right]"/>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{x}(\theta)=\left[\begin{array}{cccc}1&0&0&0\\0&0&-1&0\\0&1&0&0\\0&0&0&1\end{array}\right]"/>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{y}(\theta)=\left[\begin{array}{cccc}0&0&1&0\\0&1&0&0\\-1&0&0&0\\0&0&0&1\end{array}\right]"/>
 
 Now perform the multiplication:
 
@@ -79,5 +79,19 @@ Now perform the multiplication:
 
 As a side note the rotation matrices created above have some common names such as pitch (attitude), roll (bank), or yaw (heading). These terms only make sense relative to the direction of travel in a 3D coordinate space but typically in a LHR system roll is rotation about the z-axis, pitch is rotation about the x-axis. (In a RHR system, roll is about the x-axis and pitch is about the z-axis.)
 
-Considering the multiplication rules for matrices if a rotation were to take place about more than one axis of rotation in each game loop, does the order of multiplication matter? Yes, the order matters (the instructor could take any two of the matrices and multiply them in different order and show that the resulting matrix is not the same; the problem is compounded when using all three rotation matrices). There is a standard that will be used in this class which is Roll-Pitch-Yaw (RPY). The calculation is first Rx x Ry, then this result is multiplied by Rx, <img src="https://latex.codecogs.com/svg.latex?\large&space;R_{RPY}=R_{z}\times({R_{x}\times{R_{y}}})"/>
+Considering the multiplication rules for matrices if a rotation were to take place about more than one axis of rotation in each game loop, does the order of multiplication matter? Yes, the order matters (the instructor could take any two of the matrices and multiply them in different order and show that the resulting matrix is not the same; the problem is compounded when using all three rotation matrices). There is a standard that will be used in this class which is Roll-Pitch-Yaw (RPY). The calculation is first R<sub>x</sub> x R<sub>y</sub>, then this result is multiplied by R<sub>z</sub>, <img src="https://latex.codecogs.com/svg.latex?\large&space;R_{RPY}=R_{z}\times({R_{x}\times{R_{y}}})"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{RPY}=\left[\begin{array}{ccc}cos(Y)cos(R)-sin(Y)sin(P)sin(R)&-sin(R)cos(P)&sin(Y)cos(R)+cos(Y)sin(P)sin(R)\\cos(Y)sin(R)+sin(Y)sin(P)cos(R)&cos(R)cos(P)&sin(R)sin(Y)-cos(Y)sin(P)cos(R)\\-sin(Y)cos(P)&sin(P)&cos(Y)cos(P)\end{array}\right]"/>
+
+For example, given the vector, in homogeneous space, <img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{c}3\\4\\-1\\1\end{array}\right]"/> and the rotation angles of Roll=5<sup>o</sup>, Pitch=10<sup>o</sup>, and Yaw=10<sup>o</sup> calculate the individual rotation matrices, the product of the vectors with each matrix, the RPY matrix and the product of the vector and this matrix:
+
+![roll-pitch-yaw-math](files/roll-pitch-yaw-math/jpg)
+
+The reverse of this operation, Matrix to Euler Angles, is also possible. The technique used here will restrict yaw and roll to ±180<sup>o</sup> and pitch to ±90<sup>o</sup>. An additional restraint is that there are no additional linear transforms in the matrix, such as shifting and scaling.
+
+Examining the Euler-to-Matrix result it is easiest to start with the pitch angle (from the matrix cell M<sub>32</sub>).
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{32}=sin(P)"/> therefore <img src="https://latex.codecogs.com/svg.latex?\large&space;P=sin^{-1}(M_{32})"/>
+
+The result of the inverse sine operation will yield results in the range of <img src="https://latex.codecogs.com/svg.latex?\large&space;\frac{-\pi}{2}"/> to <img src="https://latex.codecogs.com/svg.latex?\large&space;\frac{\pi}{2}"/> which is -90<sup>o</sup> to +90<sup>o</sup>, which is the desired range. Once P has been calculated the value <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(P)"/> can also be computed, if <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(P)\neq{0}"/>, using cell M<sub>31</sub>.
 

@@ -54,3 +54,15 @@ Now that a simple 2D rotation matrix has been defined the next step is to expand
 For rotation about the x axis the matrix is:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;R_{x}(\theta)=\left[\begin{array}{ccc}1&0&0\\0&cos(20)&-sin(\theta)\\0&sin(\theta)&cos(\theta)\end{array}\right]"/>
+
+Rotation about the y-axis is:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{y}(\theta)=\left[\begin{array}{ccc}cos(\theta)&0&sin(\theta)\\0&1&0\\-sin(\theta)&0&cos(\theta)\end{array}\right]"/>
+
+As with the other linear transformations, each of these rotation matrices need to be put in homogeneous, or 4D, form:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{z}(\theta)=\left[\begin{array}{cccc}cos(20)&-sin(20)&0&0\\sin(20)&cos(20)&0&0\\0&0&1&0\\0&0&0&1\end{array}\right]"/>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{x}(\theta)=\left[\begin{array}{ccc}1&0&0&0\\0&cos(20)&-sin(\theta)&0\\0&sin(\theta)&cos(\theta)&0\\0&0&0&1\end{array}\right]"/>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{y}(\theta)=\left[\begin{array}{ccc}cos(\theta)&0&sin(\theta)&0\\0&1&0&0\\-sin(\theta)&0&cos(\theta)&0\\0&0&0&1\end{array}\right]"/>
+
+In each of these new matrices the reference, or w-axis, does not change with any of the rotations, which is the desired result.
+
+Using simple linear transformations only one rotation is done at a time. For example, take a point (2, 1, 4) and rotate it individually about the x-, y- and z-axis with a rotation angle of 90<sup>o</sup>. The first step would be to construct the individual matrices as shown below but first <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(90)=0"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;sin(90)=1"/>

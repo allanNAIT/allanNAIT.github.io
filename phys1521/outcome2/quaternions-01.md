@@ -77,7 +77,7 @@ There are other possible multiplication orders of the Quaternions, which produce
 #### Create a Matrix from a Quaternion
 It was shown in a previous lesson how to convert Euler angles to a rotation matrix. It should then be possible to convert a Quaternion to a rotation matrix. The final equation is what is important:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{Q}=\left[\begin{array}{ccc}1-2(Q_{y}^2+Q_{z}^2)&2(Q_{x}Q_{y}-Q_{w}Q_{z})&2(Q_{x}Q_{z}+Q_{w}Q_{y})\\4&5&6\\7&8&9\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{Q}=\left[\begin{array}{ccc}1-2(Q_{y}^2+Q_{z}^2)&2(Q_{x}Q_{y}-Q_{w}Q_{z})&2(Q_{x}Q_{z}+Q_{w}Q_{y})\\2(Q_{x}Q_{y}+Q_{w}Q_{z})&1-2(Q_{x}^2+Q_{z}^2)&2(Q_{y}Q_{z}-Q_{w}Q_{x})\\7&8&9\end{array}\right]"/>
 
 For example, use the following Quaternion and create a matrix:
 

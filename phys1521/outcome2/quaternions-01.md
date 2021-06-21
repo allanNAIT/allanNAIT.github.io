@@ -65,3 +65,11 @@ Next substitute into the Quaternion multiplication expression:
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Q=\left[\begin{array}{c}(0.9962)(0.9848)(0.9659)+(0.0872)(0.1736)(0.2588)\\\left(\begin{array}{c}(0.9962)(0.1736)(0.9659)+(0.0872)(0.9848)(0.2588)\\(0.0872)(0.9848)(0.9659)-(0.9962)(0.1736)(0.2588)\\(0.9962)(0.9848)(0.2588)-(0.0872)(0.1736)(0.9659)\end{array}\right)\end{array}\right]\approx{\left[\begin{array}{c}0.9515\\\left(\begin{array}{c}0.1893\\0.0382\\0.2393\end{array}\right)\end{array}\right]"/>
 
 ![quaternion-math](files/quaternion-math.jpg)
+
+Just to make certain that this is a unit Quaternion, with a magnitude of 1 (accurate with rounding errors):
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{Q}\Vert=\sqrt{0.95154852^2+0.18930786^2+0.03813458^2+0.23929834^2}=1"/>
+
+There are other possible multiplication orders of the Quaternions, which produce different results. However, some of them are equivalent due to the multiplicative property of Quaternions. The first result is equivalent to:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q=\left[\begin{array}{c}cos(\frac{Y}{2})\\\left(\begin{array}{c}0\\sin(\frac{Y}{2})\\0\end{array}\right)\end{array}\right]\left(\left[\begin{array}{c}cos(\frac{P}{2})\\\left(\begin{array}{c}sin(\frac{P}{2})\\0\\0\end{array}\right)\end{array}\right]\left[\begin{array}{c}cos(\frac{R}{2})\\\left(\begin{array}{c}0\\0\\sin(\frac{R}{2})\end{array}\right)\end{array}\right]\right)"/>

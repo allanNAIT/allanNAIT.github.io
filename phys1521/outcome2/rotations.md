@@ -61,8 +61,23 @@ Rotation about the y-axis is:
 
 As with the other linear transformations, each of these rotation matrices need to be put in homogeneous, or 4D, form:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{z}(\theta)=\left[\begin{array}{cccc}cos(20)&-sin(20)&0&0\\sin(20)&cos(20)&0&0\\0&0&1&0\\0&0&0&1\end{array}\right]"/>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{x}(\theta)=\left[\begin{array}{ccc}1&0&0&0\\0&cos(20)&-sin(\theta)&0\\0&sin(\theta)&cos(\theta)&0\\0&0&0&1\end{array}\right]"/>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{y}(\theta)=\left[\begin{array}{ccc}cos(\theta)&0&sin(\theta)&0\\0&1&0&0\\-sin(\theta)&0&cos(\theta)&0\\0&0&0&1\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{z}(\theta)=\left[\begin{array}{cccc}cos(20)&-sin(20)&0&0\\sin(20)&cos(20)&0&0\\0&0&1&0\\0&0&0&1\end{array}\right]"/>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{x}(\theta)=\left[\begin{array}{cccc}1&0&0&0\\0&cos(20)&-sin(\theta)&0\\0&sin(\theta)&cos(\theta)&0\\0&0&0&1\end{array}\right]"/>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{y}(\theta)=\left[\begin{array}{cccc}cos(\theta)&0&sin(\theta)&0\\0&1&0&0\\-sin(\theta)&0&cos(\theta)&0\\0&0&0&1\end{array}\right]"/>
 
 In each of these new matrices the reference, or w-axis, does not change with any of the rotations, which is the desired result.
 
 Using simple linear transformations only one rotation is done at a time. For example, take a point (2, 1, 4) and rotate it individually about the x-, y- and z-axis with a rotation angle of 90<sup>o</sup>. The first step would be to construct the individual matrices as shown below but first <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(90)=0"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;sin(90)=1"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{z}(\theta)=\left[\begin{array}{cccc}cos(20)&-1&0&0\\1&0&0&0\\0&0&1&0\\0&0&0&1\end{array}\right]"/>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{x}(\theta)=\left[\begin{array}{cccc}1&0&0&0\\0&0&-1&0\\0&1&0&0\\0&0&0&1\end{array}\right]"/>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{y}(\theta)=\left[\begin{array}{cccc}0&0&1&0\\0&1&0&0\\-1&0&0&0\\0&0&0&1\end{array}\right]"/>
+
+Now perform the multiplication:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{z}=\left[\begin{array}{cccc}cos(20)&-1&0&0\\1&0&0&0\\0&0&1&0\\0&0&0&1\end{array}\right]\times{\left[\begin{array}{c}2\\1\\4\\1\end{array}\right]}=\left[\begin{array}{c}-1\\2\\4\\1\end{array}\right]"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{x}=\left[\begin{array}{cccc}1&0&0&0\\0&0&-1&0\\0&1&0&0\\0&0&0&1\end{array}\right]\times{\left[\begin{array}{c}2\\1\\4\\1\end{array}\right]}=\left[\begin{array}{c}2\\-4\\1\\1\end{array}\right]"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{y}(\theta)=\left[\begin{array}{cccc}0&0&1&0\\0&1&0&0\\-1&0&0&0\\0&0&0&1\end{array}\right]\times{\left[\begin{array}{c}2\\1\\4\\1\end{array}\right]}=\left[\begin{array}{c}4\\1\\-2\\1\end{array}\right]"/>
+
+As a side note the rotation matrices created above have some common names such as pitch (attitude), roll (bank), or yaw (heading). These terms only make sense relative to the direction of travel in a 3D coordinate space but typically in a LHR system roll is rotation about the z-axis, pitch is rotation about the x-axis. (In a RHR system, roll is about the x-axis and pitch is about the z-axis.)
+
+Considering the multiplication rules for matrices if a rotation were to take place about more than one axis of rotation in each game loop, does the order of multiplication matter? Yes, the order matters (the instructor could take any two of the matrices and multiply them in different order and show that the resulting matrix is not the same; the problem is compounded when using all three rotation matrices). There is a standard that will be used in this class which is Roll-Pitch-Yaw (RPY). The calculation is first Rx x Ry, then this result is multiplied by Rx, <img src="https://latex.codecogs.com/svg.latex?\large&space;R_{RPY}=R_{z}\times({R_{x}\times{R_{y}}})"/>
+

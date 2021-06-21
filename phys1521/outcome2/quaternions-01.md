@@ -73,3 +73,40 @@ Just to make certain that this is a unit Quaternion, with a magnitude of 1 (accu
 There are other possible multiplication orders of the Quaternions, which produce different results. However, some of them are equivalent due to the multiplicative property of Quaternions. The first result is equivalent to:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Q=\left[\begin{array}{c}cos(\frac{Y}{2})\\\left(\begin{array}{c}0\\sin(\frac{Y}{2})\\0\end{array}\right)\end{array}\right]\left(\left[\begin{array}{c}cos(\frac{P}{2})\\\left(\begin{array}{c}sin(\frac{P}{2})\\0\\0\end{array}\right)\end{array}\right]\left[\begin{array}{c}cos(\frac{R}{2})\\\left(\begin{array}{c}0\\0\\sin(\frac{R}{2})\end{array}\right)\end{array}\right]\right)"/>
+
+#### Create a Matrix from a Quaternion
+It was shown in a previous lesson how to convert Euler angles to a rotation matrix. It should then be possible to convert a Quaternion to a rotation matrix. The final equation is what is important:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_Q=\left[\begin{array}{ccc}1-2(Q_{y}^2+Q_{z}^2)&2(Q_xQ_y-Q_wQ_z)&2(Q_xQ_z+Q_wQ_y)\\2(Q_xQ_y+Q_wQ_z)&1-2(Q_{x}^2+Q_{z}^2)&2(Q_yQ_z-Q_wQ_x)\\2(Q_xQ_z-Q_wQ_y)&2(Q_yQ_z+Q_wQ_x)&1-2(Q_{x)^2+Q_{y}^2\end{array}\right]"/>
+
+For example, use the following Quaternion and create a matrix:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q=\left[\begin{array}{c}0.95154852\\\left(\begin{array}{c}0.18930786\\0.03813458\\0.23929834\end{array}\right)\end{array}\right]"/>
+
+First verify that this is a unit Quaternion:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{Q}\Vert=\sqrt{0.95154852^2+0.18930786^2+0.03813458^2+0.23929834^2}=1"/>
+
+Next calculate the individual matrix elements:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{11}=1-2(0.03813458^2+0.23929834^2)\approx{0.8826}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{12}=2((0.18930786)(0.03813458)-(0.95154852)(0.2392834))\approx{-0.4410}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{13}=2((0.18930786)(0.2392834)+(0.95154852)(0.03813458))\approx{0.1632}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{21}=2((0.18930786)(0.03813458)+(0.95154852)(0.23929834))\approx{0.4698}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{22}=1-2(0.18930786^2+0.23929834^2)\approx{0.8138}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{23}=2((0.03813458)(0.23929834)-(0.95154852)(0.18930786))\approx{-0.3420}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{31}=2((0.18930786)(0.23929834)-(0.95154852)(0.03813458))\approx{0.0180}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{32}=2((0.03813458)(0.23929834)+(0.95154852)(0.18930786))\approx{0.3785}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{33}=1-2(0.18930786^2+0.03813458^2)\approx{0.9254}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_Q=\left[\begin{array}{ccc}0.8826&-0.4408&0.1630\\0.4698&0.8138&-0.3420\\0.0180&0.3785&0.9254\end{array}\right]"/>
+
+![quaternion-to-matrix-math](files/quaternion-to-matrix-math.jpg)

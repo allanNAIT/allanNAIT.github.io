@@ -120,12 +120,12 @@ In a previous lesson, it was possible to extract Euler angles from a full rotati
 
 Where the following has been previously calculated:
 
-Previously in this lesson
--------------------------
-<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{23}=2(Q_{y}Q_{z}-Q_{w}Q_{x})"/>
-<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{22}=1-2(Q_{x}^2+Q_{z}^2)"/>
-<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{13}=2(Q_{x}Q_{z}+Q_{w}Q_{y})"/>
-<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{21}=2(Q_{x}Q_{y}+Q_{w}Q_{z})"/>
-<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{33}=1-2(Q_{x}^2+Q_{y}^2)"/>
+| Previously in this lesson |
+|---------------------------|
+| <img src="https://latex.codecogs.com/svg.latex?\large&space;M_{23}=2(Q_{y}Q_{z}-Q_{w}Q_{x})"/> |
+| <img src="https://latex.codecogs.com/svg.latex?\large&space;M_{22}=1-2(Q_{x}^2+Q_{z}^2)"/> |
+| <img src="https://latex.codecogs.com/svg.latex?\large&space;M_{13}=2(Q_{x}Q_{z}+Q_{w}Q_{y})"/> |
+| <img src="https://latex.codecogs.com/svg.latex?\large&space;M_{21}=2(Q_{x}Q_{y}+Q_{w}Q_{z})"/> |
+| <img src="https://latex.codecogs.com/svg.latex?\large&space;M_{33}=1-2(Q_{x}^2+Q_{y}^2)"/> |
 
 

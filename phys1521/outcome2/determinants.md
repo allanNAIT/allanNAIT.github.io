@@ -135,4 +135,4 @@ To find a cofactor matrix, such as <img src="https://latex.codecogs.com/svg.late
 * Eliminate the first row and the second column on the matrix
 * Calculate the determiniant of the resulting 2x2 matrix multiplied by -1:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;-C^{12}=\left|\begin{array}{cc}5&3\\1&4\end{array}\right|=-17"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;-C^{12}=-\left|\begin{array}{cc}5&3\\1&4\end{array}\right|=-17"/>

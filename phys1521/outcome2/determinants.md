@@ -116,8 +116,8 @@ As this equation involves dividing each element of the Adjoint Matrix by a deter
 
 In the previous example the determinant was computed to be 61:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;\vert{M}\vert=\left|\begin{array}{ccc}2&1&4\\5&2&3\\1&5&4\end{array}\right|=(2)(2)(4)+(5)(5)(4)+(1)(1)(3)-(1)(2)(4)-(5)(1)(4)-(2)(3)(5)"/>
-<img src="https://latex.codecogs.com/svg.latex?\large&space;=16+100+3-8-20-30=61"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\vert{M}\vert=\left|\begin{array}{ccc}2&1&4\\5&2&3\\1&5&4\end{array}\right|=(2)(2)(4)+(1)(3)(1)+(4)(5)(5)-(2)(3)(5)-(5)(1)(4)-(1)(2)(4)"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;=16+3+100-30-20-8=61"/>
 
 which is not zero, therefore the inverse of the given matrix can be computed.
 

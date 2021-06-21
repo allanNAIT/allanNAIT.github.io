@@ -97,10 +97,10 @@ The result of the inverse sine operation will yield results in the range of <img
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;M_{31}=-sin(Y)cos(P)"/>
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;sin(Y)=-\frac{M_{31}{cos(P)}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;sin(Y)=-\frac{M_{31}}{cos(P)}"/>
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;M_{33}=cos(Y)cos(P)"/>
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(Y)=\frac{M_{33}}{cos(P)}"/>
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;Y=tan^{-1}\left\left(\frac{sin(Y)}{cos(Y)}\right)=tan^{-1}\left(\frac{\frac{-M_{31}}{cos(P)}}{\frac{M_{33}}{cos(P)}}\right)"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Y=tan^{-1}\left(\frac{sin(Y)}{cos(Y)}\right)=tan^{-1}\left(\frac{\frac{-M_{31}}{cos(P)}}{\frac{M_{33}}{cos(P)}}\right)"/>

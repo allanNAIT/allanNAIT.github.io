@@ -53,4 +53,4 @@ Now that a simple 2D rotation matrix has been defined the next step is to expand
 
 For rotation about the x axis the matrix is:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{x}(\theta)=\left[\begin{array}1&0&0\\0&cos(20)&-sin(\theta)\\0&sin(\theta)&cos(\theta)\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{x}(\theta)=\left[\begin{array}{ccc}1&0&0\\0&cos(20)&-sin(\theta)\\0&sin(\theta)&cos(\theta)\end{array}\right]"/>

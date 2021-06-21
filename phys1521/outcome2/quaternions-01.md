@@ -36,6 +36,6 @@ There is no left hand or right-hand rule with Quaternions, only which axis is us
 #### Create a Quaternion from Euler Angles
 To begin with the rotation angle is halved (do not have to wonder why, it is the nature of how a Quaternion is constructed; complex numbers and such). Next represent each of the three axis rotations as quaternions:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;Y=\left[\begin{array}{c}cos(\frac{Y}{2})\\\left(\begin{array}{c}0&sin(\frac{Y}{2})\end{array}\right)\end{array}\right]"/> <img src="https://latex.codecogs.com/svg.latex?\large&space;P=\left[\begin{array}{c}cos(\frac{P}{2})\\\left(\begin{array}{c}sin(\frac{P}{2})\end{array}\right)\end{array}\right]"/> <img src="https://latex.codecogs.com/svg.latex?\large&space;R=\left[\begin{array}{c}cos(\frac{R}{2})\\\left(\begin{array}{c}0\\0\\sin(\frac{R}{2})\end{array}\right)\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Y=\left[\begin{array}{c}cos(\frac{Y}{2})\\\left(\begin{array}{c}0\\sin(\frac{Y}{2})\\0\end{array}\right)\end{array}\right]"/> <img src="https://latex.codecogs.com/svg.latex?\large&space;P=\left[\begin{array}{c}cos(\frac{P}{2})\\\left(\begin{array}{c}sin(\frac{P}{2})\\0\\0\end{array}\right)\end{array}\right]"/> <img src="https://latex.codecogs.com/svg.latex?\large&space;R=\left[\begin{array}{c}cos(\frac{R}{2})\\\left(\begin{array}{c}0\\0\\sin(\frac{R}{2})\end{array}\right)\end{array}\right]"/>
 
 

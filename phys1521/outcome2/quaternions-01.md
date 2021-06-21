@@ -77,7 +77,7 @@ There are other possible multiplication orders of the Quaternions, which produce
 #### Create a Matrix from a Quaternion
 It was shown in a previous lesson how to convert Euler angles to a rotation matrix. It should then be possible to convert a Quaternion to a rotation matrix. The final equation is what is important:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{Q}=\left[\begin{array}{ccc}1-2(Q_{y}^2+Q_{z}^2)&2(Q_{x}Q_{y}-Q_{w}Q_{z})&2(Q_{x}Q_{z}+Q_{w}Q_{y})\\2(Q_{x}Q_{y}+Q_{w}Q_{z})&1-2(Q_{x}^2+Q_{z}^2)&2(Q_{y}Q_{z}-Q_{w}Q_{x})\\2(Q_{x}Q_{z}-Q_{w}Q_{y})&2(Q_{y}Q_{z}+Q_{w}Q_{x})&9\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{Q}=\left[\begin{array}{ccc}1-2(Q_{y}^2+Q_{z}^2)&2(Q_{x}Q_{y}-Q_{w}Q_{z})&2(Q_{x}Q_{z}+Q_{w}Q_{y})\\2(Q_{x}Q_{y}+Q_{w}Q_{z})&1-2(Q_{x}^2+Q_{z}^2)&2(Q_{y}Q_{z}-Q_{w}Q_{x})\\2(Q_{x}Q_{z}-Q_{w}Q_{y})&2(Q_{y}Q_{z}+Q_{w}Q_{x})&1-2(Q_{x}^2+Q_{y}^2)\end{array}\right]"/>
 
 For example, use the following Quaternion and create a matrix:
 
@@ -115,3 +115,17 @@ Next calculate the individual matrix elements:
 Now that conversion of Euler angles to a Quaternion is done there should be a way to take a given Quaternion and calculate the initial Euler angles. This is only necessary for output to the game user; once the rotations are in Quaternion form it is best to stay in that form.
 
 In a previous lesson, it was possible to extract Euler angles from a full rotation matrix thus this technique will be adapted here. Note that the Gimbal Lock condition is not being addressed here.
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;P=sin^{-1}(-M_{23})"/> <img src="https://latex.codecogs.com/svg.latex?\large&space;Y=tan^{-1}\left(\frac{M_{13}}{M_{33}}\right)"/> <img src="https://latex.codecogs.com/svg.latex?\large&space;R=tan^{-1}\left(\frac{M_{21}}{M_22}\right)"/>
+
+Where the following has been previously calculated:
+
+Previously in this lesson
+-------------------------
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{23}=2(Q_{y}Q_{z}-Q_{w}Q_{x})"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{22}=1-2(Q_{x}^2+Q_{z}^2)"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{13}=2(Q_{x}Q_{z}+Q_{w}Q_{y})"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{21}=2(Q_{x}Q_{y}+Q_{w}Q_{z})"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{33}=1-2(Q_{x}^2+Q_{y}^2)"/>
+
+

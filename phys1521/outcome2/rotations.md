@@ -118,3 +118,28 @@ Next the calculation for the Roll angle needs to be done using cells M<sub>12</s
 <img src="https://latex.codecogs.com/svg.latex?\large&space;R=tan^{-1}\left(\frac{sin(R)}{cos(R)}\right)=tan^{-1}\left(\frac{\frac{-M_{12}}{cos(P)}}{\frac{M_{22}}{cos(P)}}\right)=tan^{-1}\left(\frac{-M_{12}}{M_{22}}\right)"/>
 
 In programming the correct function to use is the `ATAN2` function to give the correct angle.
+
+For example, the matrix below, calculate the Euler angles:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{RPY}=\left[\begin{array}{ccc}0.8826&-0.4698&0.3188\\0.5438&0.8138&-0.2049\\-0.1632&0.3420&0.9254\end{array}\right]"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;P=sin^{-1}(M_{32})=sin^{-1}(0.3420)\approx{20^{o}}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Y=tan^{-1}\left(\frac{-M_{31}}{M_{33}}\right)=tan^{-1}\left(\frac{0.1632}{0.9254}\right)\approx{10^{o}}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R=tan^{-1}=\left(\frac{-M_{12}}{M_{22}}\right)=tan^{-1}\left(\frac{0.4698}{0.8138}\right)\approx{30^{o}}"/>
+
+![matrix-to-euler](files/matrix-to-euler.jpg)
+
+So, what happens if cos(P) = 0? Obviously, division by zero is not possible. Yet when <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(P)=0"/> then <img src="https://latex.codecogs.com/svg.latex?\large&space;P\pm{90^{o}}"/>. In this situation, the result is Gimbal Lock; the object is either pointing straight up or straight down. In this Gimbal Lock the Yaw (heading) and Roll (bank) now rotate about the same axis (the y-axis). To solve for this now arbitrarily assign all rotations about the y-axis to Yaw (heading) and set Roll (bank) to zero. Now the following values are known:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;cos(P)=0"/>,<img src="https://latex.codecogs.com/svg.latex?\large&space;R=0"/>, <img src="https://latex.codecogs.com/svg.latex?\large&space;sin(R)=0"/>, and <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(R)=1"/>
+
+Substitute these values into the matrix to get:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R_{RPY}=\left[\begin{array}{ccc}cos(Y)&0&sin(Y)\\sin(Y)sin(P)&0&-cos(Y)sin(P)\\0&sin(P)&0\end{array}\right]"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Y=tan^{-1}\left(\frac{M_{13}}{M_{11}}\right)"/>
+
+## Exercises & Assignments
+Have students complete the [2D & 3D Rotations worksheet](matrix-worksheet-4.md). Once complete proceed to Moodle to complete Knowledge Check 08 - 2D & 3D Rotations (strongly recommended to be completed prior to attempting Lab 2).

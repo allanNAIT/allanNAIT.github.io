@@ -107,3 +107,18 @@ Example using the previous 2x2 matrices:
 <img src="https://latex.codecogs.com/svg.latex?\large&space;M^{-1}=\frac{1}{-23}\left[\begin{array}{cc}5&-2\\-4&-3\end{array}\right]=\left[\begin{array}{cc}-0.2174&0.0870\\0.1739&0.1304\end{array}\right]"/>
 
 ![inverse-2-x-2-calculation](files/inverse-2-x-2-calculation.jpg)
+
+For 3x3, and 4x4 matrices, the method used to calculate the inverse is called the Adjoint method. The creation of an Adjoint Matrix involves creating a new matrix which is made up of cofactors, calculating the determinant of each cofactor matrix, then transposing the matrix. Lastly the inverse of a matrix is computed as:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M^{-1}=\frac{adj(M)}{\vert{M}\vert}"/>
+
+As this equation involves dividing each element of the Adjoint Matrix by a determinant, if the determinant is zero the given matrix has no computable inverse.
+
+In the previous example the determinant was computed to be 61:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\vert{M}\vert=\left|\begin{array}{ccc}2&5&1\\1&2&5\\4&3&4\end{array}\right|=(2)(2)(4)+(5)(5)(4)+(1)(1)(3)-(1)(2)(4)-(5)(1)(4)-(2)(3)(5)"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;=16+100+3-8-20-30=61"/>
+
+which is not zero, therefore the inverse of the given matrix can be computed.
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;adj(M)={\left[\begin{array}{ccc}C^{11}&C^{12}&C^{13}\\C^{21}&C^{22}&C^{23}\\C^{31}&C^{32}&C^{33}\end{array}\right]}^T"/> with <img src="https://latex.codecogs.com/svg.latex?\large&space;{\eft[\begin{array}{ccc}+&-&+\\-&+&-\\+&-&+\end{array}\right]}^T"/>

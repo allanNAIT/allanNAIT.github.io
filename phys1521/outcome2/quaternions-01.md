@@ -38,4 +38,8 @@ To begin with the rotation angle is halved (do not have to wonder why, it is the
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Y=\left[\begin{array}{c}cos(\frac{Y}{2})\\\left(\begin{array}{c}0\\sin(\frac{Y}{2})\\0\end{array}\right)\end{array}\right]"/> <img src="https://latex.codecogs.com/svg.latex?\large&space;P=\left[\begin{array}{c}cos(\frac{P}{2})\\\left(\begin{array}{c}sin(\frac{P}{2})\\0\\0\end{array}\right)\end{array}\right]"/> <img src="https://latex.codecogs.com/svg.latex?\large&space;R=\left[\begin{array}{c}cos(\frac{R}{2})\\\left(\begin{array}{c}0\\0\\sin(\frac{R}{2})\end{array}\right)\end{array}\right]"/>
 
+Next step is to concatenate these three forms in the correct order, Roll, Pitch, Yaw (like the Euler Angle concatenation in the previous lesson). The multiplications are done right to left as follows:
 
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_1Q_2=\left[\begin{array}{cc}Q_{1w}&\left(\begin{array}{ccc}Q_{1x}&Q_{1y}&Q_{1z}\end{array}\right)\end{array}\right]\left[\begin{array}{cc}Q_{2w}&\left(\begin{array}{ccc}Q_{2x}&Q_{2y}&Q_{2z}\end{array}\right)\end{array}\right]"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;=\left[\begin{array}{c}Q_{1w}Q_{2w}-Q_{1x}Q_{2x}-Q_{1y}Q_{2y}-Q_{1z}Q_{2z}\\\left(\begin{array}{c}0\\sin(\frac{Y}{2})\\0\end{array}\right)\end{array}\right]"/>

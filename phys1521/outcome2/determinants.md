@@ -161,7 +161,17 @@ Now that the Adjoint matrix is computed the next step is to compute the inverse 
 
 Time to prove that <img src="https://latex.codecogs.com/svg.latex?\large&space;M\times{M^{-1}}=I"/>:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;\vert{M}\vert=\left[\begin{array}{ccc}2&1&4\\5&2&3\\1&5&4\end{array}\right]\times{\left[\begin{array}{ccc}\frac{-7}{61}&\frac{16}{61}&\frac{-5}{61}\\\frac{-17}{61}&\frac{4}{61}&\frac{14}{61}\\\frac{23}{61}&\frac{-9}{61}&\frac{-1}{61}\end{array}\right]}=\left[\begin{array}{ccc}\frac{-14-17+92}{61}&\frac{32+4-36}{61}&\frac{-10+14-4}{61}\\\frac{-35-34+69}{61}&\frac{80+8-27}{61}&\frac{-25+28-3}{61}\\\frac{-7-85+92}{61}&\frac{16+20-36}{61}&\frac{-5+70-4}{61}\end{array}\right]=\left[\begin{array}{ccc}1&0&0\\0&1&0\\0&0&1\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\left[\begin{array}{ccc}2&1&4\\5&2&3\\1&5&4\end{array}\right]\times{\left[\begin{array}{ccc}\frac{-7}{61}&\frac{16}{61}&\frac{-5}{61}\\\frac{-17}{61}&\frac{4}{61}&\frac{14}{61}\\\frac{23}{61}&\frac{-9}{61}&\frac{-1}{61}\end{array}\right]}=\left[\begin{array}{ccc}\frac{-14-17+92}{61}&\frac{32+4-36}{61}&\frac{-10+14-4}{61}\\\frac{-35-34+69}{61}&\frac{80+8-27}{61}&\frac{-25+28-3}{61}\\\frac{-7-85+92}{61}&\frac{16+20-36}{61}&\frac{-5+70-4}{61}\end{array}\right]=\left[\begin{array}{ccc}1&0&0\\0&1&0\\0&0&1\end{array}\right]"/>
 
 ![inverse-3-x-3-calculation](files/inverse-3-x-3-calculation.jpg)
 
+As an extension computing the inverse of a 4x4 matrix is also possible and is necessary when using the 4D homogeneous coordinate system. The one change that needs to be made is for the Adjoint matrix as shown below:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;adj(M)={\left[\begin{array}{cccc}C^{\{11\}}&-C^{\{12\}}&C^{\{13\}&-C^{\{14\}}\\-C^{\{21\}}&C^{\{22\}}&-C^{\{23\}&C^{\{24\}\\C^{\{31\}}&-C^{\{32\}}&C^{\{33\}&-C^{\{34\}}\\-C^{\{41\}}&C^{\{42\}}&-C^{\{43\}&C^{\{44\}\end{array}\right]}^T"/>
+
+With each of the cofactors needing to have a determinant of a 3x3 matrix.
+
+![inverse-4-x-4-calculation](files/inverse-4-x-4-calculation.jpg)
+
+## Exercises & Assignments
+Complete the [Determinants & Inverses worksheet](matrix-worksheet-3.md). Once complete proceed to Moodle to complete Knowledge Check 07 - Determinants & Inverses (strongly recommended to be completed prior to attempting Lab 2).

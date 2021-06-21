@@ -85,7 +85,7 @@ Considering the multiplication rules for matrices if a rotation were to take pla
 
 For example, given the vector, in homogeneous space, <img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{c}3\\4\\-1\\1\end{array}\right]"/> and the rotation angles of Roll=5<sup>o</sup>, Pitch=10<sup>o</sup>, and Yaw=10<sup>o</sup> calculate the individual rotation matrices, the product of the vectors with each matrix, the RPY matrix and the product of the vector and this matrix:
 
-![roll-pitch-yaw-math](files/roll-pitch-yaw-math/jpg)
+![roll-pitch-yaw-math](files/roll-pitch-yaw-math.jpg)
 
 The reverse of this operation, Matrix to Euler Angles, is also possible. The technique used here will restrict yaw and roll to ±180<sup>o</sup> and pitch to ±90<sup>o</sup>. An additional restraint is that there are no additional linear transforms in the matrix, such as shifting and scaling.
 
@@ -95,3 +95,12 @@ Examining the Euler-to-Matrix result it is easiest to start with the pitch angle
 
 The result of the inverse sine operation will yield results in the range of <img src="https://latex.codecogs.com/svg.latex?\large&space;\frac{-\pi}{2}"/> to <img src="https://latex.codecogs.com/svg.latex?\large&space;\frac{\pi}{2}"/> which is -90<sup>o</sup> to +90<sup>o</sup>, which is the desired range. Once P has been calculated the value <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(P)"/> can also be computed, if <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(P)\neq{0}"/>, using cell M<sub>31</sub>.
 
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{31}=-sin(Y)cos(P)"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;sin(Y)=-\frac{M_{31}{cos(P)}}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{33}=cos(Y)cos(P)"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;cos(Y)=\frac{M_{33}}{cos(P)}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Y=tan^{-1}\left(\frac{sin(Y)}{cos(Y)}\right)=tan^{-1}\left(\frac{{\frac{-M_{31}}{cos(P)}{\frac{M_{33}}{cos(P)\right)"/>

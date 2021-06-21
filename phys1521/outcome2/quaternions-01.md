@@ -51,3 +51,17 @@ Given this definition the multiplication of the three axis rotation quaternions 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Q=\left[\begin{array}{c}cos(\frac{Y}{2})cos(\frac{P}{2})\\\left(\begin{array}{c}cos(\frac{Y}{2})sin(\frac{P}{2})\\sin(\frac{Y}{2})cos(\frac{P}{2})\\-sin(\frac{Y}{2})sin(\frac{P}{2})\end{array}\right)\end{array}\right]\left[\begin{array}{c}cos(\frac{R}{2})\\\left(\begin{array}{c}0\\0\\sin(\frac{R}{2})\end{array}\right)\end{array}\right]"/>
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Q=\left[\begin{array}{c}cos(\frac{Y}{2})cos(\frac{P}{2})cos(\frac{R}{2})+sin(\frac{Y}{2})sin(\frac{P}{2})sin(\frac{R}{2})\\\left(\begin{array}{c}cos(\frac{Y}{2})sin(\frac{P}{2})cos(\frac{R}{2})+sin(\frac{Y}{2})cos(\frac{P}{2})sin(\frac{R}{2})\\sin(\frac{Y}{2})cos(\frac{P}{2})cos(\frac{R}{2})-cos(\frac{Y}{2})sin(\frac{P}{2})sin(\frac{R}{2})\\cos(\frac{Y}{2})cos(\frac{P}{2})sin(\frac{R}{2})-sin(\frac{Y}{2})sin(\frac{P}{2})cos(\frac{R}{2})\end{array}\right)\end{array}\right]"/>
+
+For example, if the Euler angles are Roll=30<sup>o</sup>, Pitch=20<sup>o</sup> and Yaw=10<sup>o</sup> then the following Quaternion is created, First start by getting the individual sine and cosine values of the respective half angles:
+
+Roll: <img src="https://latex.codecogs.com/svg.latex?\large&space;sin(\frac{30}{2})\approx{0.2588}"/> <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(\frac{30}{2})\approx{0.9659}"/>
+
+Pitch: <img src="https://latex.codecogs.com/svg.latex?\large&space;sin(\frac{20}{2})\approx{0.1736}"/> <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(\frac{20}{2})\approx{0.9848}"/>
+
+Yaw: <img src="https://latex.codecogs.com/svg.latex?\large&space;sin(\frac{10}{2})\approx{0.0872}"/> <img src="https://latex.codecogs.com/svg.latex?\large&space;cos(\frac{10}{2})\approx{0.9962}"/>
+
+Next substitute into the Quaternion multiplication expression:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q=\left[\begin{array}{c}(0.9962)(0.9848)(0.9659)+(0.0872)(0.1736)(0.2588)\\\left(\begin{array}{c}(0.9962)(0.1736)(0.9659)+(0.0872)(0.9848)(0.2588)\\(0.0872)(0.9848)(0.9659)-(0.9962)(0.1736)(0.2588)\\(0.9962)(0.9848)(0.2588)-(0.0872)(0.1736)(0.9659)\end{array}\right)\end{array}\right]\approx{\left[\begin{array}{c}0.9515\\\left(\begin{array}{c}0.1893\\0.0382\\0.2393\end{array}\right)\end{array}\right]"/>
+
+![quaternion-math](files/quaternion-math.jpg)

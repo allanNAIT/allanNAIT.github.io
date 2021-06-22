@@ -171,7 +171,7 @@ The other three elements of the Quaternion can be found in a similar manner by n
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{z}=\frac{\sqrt{-M_{11}-M_{22}+M_{33}+1}}{2}"/>
 
-This technique may not yield the correct results as there is no way to determine whether to use the positive, or the negative, root. The solution is to compare the absolute values of each of the traces. The largest absolute value trace will be the Q component to compute using the equations above. The other three Quaternion components will be calculated according to the sum and difference of the elements in the matrix that are diagonally opposite as shown below:
+This technique may not yield the correct results as there is no way to determine whether to use the positive, or the negative, root. The solution is to compare the absolute values of each of the traces. The largest absolute value trace will be the Q<sub>w</sub> component to compute using the equations above. The other three Quaternion components will be calculated according to the sum and difference of the elements in the matrix that are diagonally opposite as shown below:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;M_{12}+M_{21}=(2Q_xQ_y-2Q_wQ_z)+(2Q_xQ_y+Q_wQ_z)=4Q_xQ_y"/>
 
@@ -186,3 +186,13 @@ This technique may not yield the correct results as there is no way to determine
 <img src="https://latex.codecogs.com/svg.latex?\large&space;M_{32}-M_{23}=(2Q_yQ_z+2Q_wQ_x)-(2Q_yQ_z-2Q_wQ_x)=4Q_wQ_x"/>
 
 Using both the original equations along with the sum and difference equations the Quaternion components are calculated as follows:
+
+Largest Absolute Value | Other Components
+-----------------------|-----------------
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{w}=\frac{\sqrt{M_{11}+M_{22}+M_{33}+1}}{2}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_x=\frac{M_{32}-M_{23}}{4Q_w}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_y=\frac{M_{13}-M_{31}}{4Q_w}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_z=\frac{M_{21}-M_{12}}{4Q_w}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{x}=\frac{\sqrt{M_{11}-M_{22}-M_{33}+1}}{2}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_w=\frac{M_{32}-M_{23}}{4Q_x}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_y=\frac{M_{12}+M_{21}}{4Q_x}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_z=\frac{M_{31}+M_{13}}{4Q_x}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{y}=\frac{\sqrt{-M_{11}+M_{22}-M_{33}+1}}{2}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_w=\frac{M_{13}-M_{31}}{4Q_y}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_x=\fracM_{12}+M_{21}}{4Q_y}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_z=\frac{M_{23}+M_{32}}{4Q_y}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{z}=\frac{\sqrt{-M_{11}-M_{22}+M_{33}+1}}{2}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_w=\frac{M_{21}-M_{12}}{4Q_z}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_x=\frac{M_{31}+M_{13}}{4Q_z}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_y=\frac{M_{23}+M_{32}}{4Q_z}"/>
+
+
+

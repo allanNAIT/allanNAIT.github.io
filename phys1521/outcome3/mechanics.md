@@ -104,4 +104,4 @@ At this point it should be clear that the x-component of weight exceeds, in magn
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{F_{net}}\Vert=-336.5218+0+184.3677\approx{-151.1541N}"/>
 
-![forces-math-1](files/forces.math-1.jpg)
+![forces-math-1](files/forces-math-1.jpg)

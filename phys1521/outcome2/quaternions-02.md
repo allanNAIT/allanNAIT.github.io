@@ -56,7 +56,7 @@ Also `V` must be treated like a Quaternion (i.e., <img src="https://latex.codeco
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;T=2\times{\left[\begin{array}{c}Q_x\\Q_y\\Q_z\end{array}\right]}\times{\left[\begin{array}{c}V_x\\V_y\\V_z\end{array}\right]}"/>
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;V'=V+Q_w\times{T}+\left(\left[\begin{array}{c}Q_x\\Q_y\\Q_z\end{array}\right]}\times{\left[\begin{array}{c}T_x\\T_y\\T_z\end{array}\right]\right)"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V'=V+Q_w\times{T}+\left(\left[\begin{array}{c}Q_x\\Q_y\\Q_z\end{array}\right]}\times{\left[\begin{array}{c}T_x\\T_y\\T_z\end{array}\right]\right)}"/>
 
 The reference stated it was faster, thus the following comparison was done:
 

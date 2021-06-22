@@ -8,10 +8,10 @@ This lesson will extend the concepts learned in Lesson 3.1 to include how to get
 Modern mechanics has evolved from the classical mechanics of Sir Isaac Newton; the inclusion of the work by Albert Einstein, and others, has changed, somewhat, the work done by Sir Isaac Newton. The fundamentals of Newton’s work is summarized in his three laws.
 
 >**Newton's First Law**<br>Every body persists in a state of being at rest or of moving uniformly straight forward, except insofar as it is compelled to change its state by force impressed.
-
+>
 >**Newton's Second Law**<br>The acceleration of a body is proportional to (and in the same direction as) the net external force acting on the body, and inversely proportional to the mass of the body:<br>
-<img src="https://latex.codecogs.com/svg.latex?\large&space;F=mA"/>
-
+><img src="https://latex.codecogs.com/svg.latex?\large&space;F=mA"/>
+>
 >**Newton's Third Law**<br>To every action there is always an equal and opposite reaction. Or, the force of two bodies on each other are always equal and directed in opposite directions.
 
 So, looking at the 1<sup>st</sup> law why does an object not keep moving, it eventually comes to a stop, after it is compelled to move? Friction. Friction is an external force that opposes motion, but it was quite the statement in its day. Also, a force is required to move an object.

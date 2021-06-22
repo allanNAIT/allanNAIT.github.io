@@ -187,8 +187,8 @@ This technique may not yield the correct results as there is no way to determine
 
 Using both the original equations along with the sum and difference equations the Quaternion components are calculated as follows:
 
-Largest Absolute Value ||| Other Components
------------------------|||-----------------
+Largest Absolute Value | Other Components
+-----------------------|-----------------
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{w}=\frac{\sqrt{M_{11}+M_{22}+M_{33}+1}}{2}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_x=\frac{M_{32}-M_{23}}{4Q_w}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_y=\frac{M_{13}-M_{31}}{4Q_w}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_z=\frac{M_{21}-M_{12}}{4Q_w}"/>
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{x}=\frac{\sqrt{M_{11}-M_{22}-M_{33}+1}}{2}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_w=\frac{M_{32}-M_{23}}{4Q_x}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_y=\frac{M_{12}+M_{21}}{4Q_x}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_z=\frac{M_{31}+M_{13}}{4Q_x}"/>
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{y}=\frac{\sqrt{-M_{11}+M_{22}-M_{33}+1}}{2}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_w=\frac{M_{13}-M_{31}}{4Q_y}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_x=\frac{M_{12}+M_{21}}{4Q_y}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_z=\frac{M_{23}+M_{32}}{4Q_y}"/>
@@ -206,8 +206,33 @@ First calculate the absolute values of the trace diagonals:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;(Q_z)=-0.8862-0.8139+0.9254+1\approx{0.2253}"/>
 
-Now that these values are known, Q<sub>w></sub> has the largest absolute value (which will be typical for many of the examples used in this course) therefore the three remaining elements of the Quaternion are calculated as:
+Now that these values are known, Q<sub>w</sub> has the largest absolute value (which will be typical for many of the examples used in this course) therefore the three remaining elements of the Quaternion are calculated as:
 
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_w=\frac{\sqrt{3.6219}}{2}\approx{0.9515}"/>
 
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_x=\frac{0.3785-(-0.3421)}{4(0.9515)}\approx{0.1893}"/>
 
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_y=\frac{0.1631-(0.0181)}{4(0.9515)}\approx{0.0381}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_z=\frac{0.4697-(-0.4408)}{4(0.9515)}\approx{0.2392}"/>
+
+![matrix-to-q-math](files/matrix-to-q-math.jpg)
+
+### Quaternion Dot Product
+Like vectors, a Dot Product can be calculated as:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_1\cdot{Q_2}=\left[\begin{array}{c}W_1\\X_1\\Y_1\\Z_1\end{array}\right]\cdot{\left[\begin{array}{c}W_2\\X_2\\Y_2\\Z_2\end{array}\right]}=(W_1W_2)+(X_1X_2)+(Y_1Y_2)+(Z_1Z_2)"/>
+
+What does this mean? It means it is possible to calculate the angle between two quaternions. In Lesson 1.3 we learned:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\theta=cos^{-1}\left(\frac{A\cdot{B}}{\Vert{A}\Vert\times\Vert{B}\Vert}\right)"/>
+
+Applying this to a quaternion, we would get:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\theta=cos^{-1}(Q_1\cdot{Q_2})"/>
+
+**Remember**: The magnitude of a quaternion is always 1.
+
+## Exercises & Assignments
+Complete the [Quaternions worksheet](quaternion-worksheet-1.md). Once complete proceed to Moodle to complete Knowledge Check 09 - Quaternions (strongly recommended to be completed prior to attempting Lab 2).
 

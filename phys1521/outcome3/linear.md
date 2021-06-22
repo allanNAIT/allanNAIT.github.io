@@ -171,4 +171,13 @@ Interesting result yet there is still the other formula so with a little substit
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{D}_y=\frac{-V_{iy}^2}{A}+\frac{1}{2}\left(\frac{V_{iy}^2}{A}\right)=\frac{-V_{iy}^2}{A}=\frac{-(5.00)^2}{(2)(-9.81)}\approx{1.274m}"/>
 
+However, the height calculated above is from the initial height of the platform, so the actual height is 9.2742m; notice that the calculation of time to reach the apex height was not used directly.
+
+![projectile-math](files/projectile-math.jpg)
+
+Exercises & Assignments
+Complete the [Linear Motion worksheet](linear-worksheet.md). Once complete proceed to Moodle to complete Knowledge Check 10 - Linear Motion (strongly recommended to be completed prior to attempting Lab 3).
+
+### [Outcome Home](outcome3.md)
+### [PHYS1521 Home](../)
 

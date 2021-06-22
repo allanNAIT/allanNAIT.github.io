@@ -27,6 +27,6 @@ If the rate of change of angle increases, or decreases, (i.e., ω changes), then
 
 We can now use the knowledge from Linear Motion to get the following equations:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;\omega_f=\omga_i+\alpha{t}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\omega_{f}=\omga_{i}+\alpha{t}"/>
 
 

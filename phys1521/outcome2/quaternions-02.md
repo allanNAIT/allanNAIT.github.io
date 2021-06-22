@@ -52,5 +52,18 @@ The product of two Quaternions is given by (given the two quaternions **A** and 
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;AB=(A_rB_r-A_{xyz}\cdot{B_{xyz}},A_rB_{xyz}+B_rA_{xyz}+A_{xyz}\times{B_{xyz}})"/>
 
+Also `V` must be treated like a Quaternion (i.e., <img src="https://latex.codecogs.com/svg.latex?\large&space;V_q=(0,V)"/>). The second reference goes through all the detail to get a faster method using the following steps:
 
+<img src="https://latex.codecogs.com/svg.latex?\large&space;T=2\times{\left[\begin{array}{c}Q_x\\Q_y\\Q_z\end{array}\right]}\times{\left[\begin{array}{c}V_x\\V_y\\V_z\end{array}\right]}"/>
 
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V'=V+Q_w\tims{T}+\left(\left[\begin{array}{c}Q_x\\Q_y\\Q_z\end{array}\right]\timnes{\left[\begin{array}{c}T_x\\T_y\\T_z\end{array}\right]}\right)"/>
+
+The reference stated it was faster, thus the following comparison was done:
+
+![vector-x-q-compare](files/vector-x-q-compare.jpg)
+
+## Exercises & Assignments
+Compare some previous calculations with this new method. This is the recommended approach for some of the calculations for Lab 2.
+
+### [Outcome Home](outcome2.md)
+### [PHYS1521 Home](../)

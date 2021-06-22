@@ -169,6 +169,6 @@ Interesting result yet there is still the other formula so with a little substit
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{D}_y=\frac{-V_{iy}}{A}V_{iy}+\frac{1}{2}A\left(\frac{-V_{iy}}{A}\right)^2"/>
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{D}_y=\frac{-V_{iy}^2}{A}+\frac{1}{2}\left(\frac{V_{iy}^2}{A}/right)=\frac{-V_{iy}^2}{A}=\frac{-(5.00)^2}{(2)(-9.81)}\approx{1.274m}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{D}_y=\frac{-V_{iy}^2}{A}+\frac{1}{2}\left(\frac{V_{iy}^2}{A}\right)=\frac{-V_{iy}^2}{A}=\frac{-(5.00)^2}{(2)(-9.81)}\approx{1.274m}"/>
 
 

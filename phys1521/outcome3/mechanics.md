@@ -26,3 +26,47 @@ Finally, the 3<sup>rd</sup> law. This law will come into play in almost every si
 
 One thing that is important in real world physics is that the continued application of an applied force, over a very large period, does not result in speeds greater than the speed of light. Additionally, as Einstein formulated, and what has been learned so far, everything is relative to a certain view of the world, game world or real world.
 
+## Simple Forces
+### Key Concepts
+The key concepts for this part of the lesson are:
+* Calculation of net force
+* Calculation of acceleration on a body
+
+### Lesson
+As an application of the 1<sup>st</sup> and 3<sup>rd</sup> laws consider an object sitting at rest on a table, or other suitable platform. What is known about this object? It has _mass_, and therefore **weight** (please note that _mass_ and **weight** are different). All force values must be vectors; examining the 2<sup>nd</sup> law it should be obvious that this is a vector multiplied by a _scalar_, which results in a vector.
+
+![forces-01](files/forces-01.jpg)
+
+The value of **-981N** is the result of the 1<sup>st</sup> law:<br>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Weight=mass\times{Gravity}"/>
+
+The other value, **981N**, balances out weight, <img src="https://latex.codecogs.com/svg.latex?\large&space;-981+981=0"/>. What is this force? This is the equal and opposite force of gravity (3<sup>rd</sup> law) called **Normal Force** (F<sub>N</sub>); F<sub>N</sub> is a reactive force in that it is the _surface pushing back_, _assuming it does not bend or break_, and will increase and decrease depending on the weight of the object resting on the surface.
+
+Consider the scenario shown in the figure below in which an external force is applied to the object.<br>
+![forces-02](files/forces-02.jpg)
+
+In this scenario what would have to exist for the block to move? _The applied force must overcome friction_. How can the amount, magnitude, of friction be determined? _The value of friction depends on the surfaces involved and whether the object is initially at rest or initially moving_. It is important here to make mention that Friction, like Normal Force, is a reactive force, and will increase to a maximum value before the object will be able to move.
+
+The two types of Friction are static (the object is not moving) and kinetic (the object is already in motion). The notations will be F<sub>s</sub> and F<sub>k</sub> respectively, and are calculated as:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;F_s=\mu_sF_N"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;F_k=\mu_kF_N"/>
+
+Refer to an internet source, for some standard values of μ.
+
+As an example, using the scenario shown in the figure above, with <img src="https://latex.codecogs.com/svg.latex?\large&space;F_{applied}=250N"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;\mu_s=0.2"/> calculate F<sub>net</sub>:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;F_s=(0.2)(981)=196.2N"/>
+
+The direction of this vector must be opposite the relative motion of the surfaces, or <img src="https://latex.codecogs.com/svg.latex?\large&space;F_s=-196.2N"/>. Next calculate the net force. To do this correctly **all** external forces must be used and used as vectors.
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;F_{net}=W+F_N+F_s+F_{applied}=\left[\begin{array}{c}0\\-981\end{array}\right]+\left[\begin{array}{c}981\\0\end{array}\right]+\left[\begin{array}{c}-196.2\\0\end{array}\right]+\left[\begin{array}{c}250\\0\end{array}\right]=\left[\begin{array}{c}53.8\\0\end{array}\right]N"/>
+
+Questions:
+* Why do friction and applied force have no y-component?
+* What if the applied force was only 150N?
+* What is the acceleration on this object?
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;A=\frac{F_{net}}{m}=\frac{1}{100}\left[\begin{array}{c}53.8\\0\end{array}\right]=\left[\begin{array}{c}0.538\\0\end{array}\right]m/s^2"/>
+
+
+

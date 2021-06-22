@@ -130,10 +130,16 @@ Where the following has been previously calculated:
 
 Now with substitution:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;P=sin^{-1}(2(Q_{y}Q_{z}-Q_{w}Q_{x}))"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;P=sin^{-1}(-2(Q_{y}Q_{z}-Q_{w}Q_{x}))"/>
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;Y=tan^{-1}\left(\frac{-2(Q_{x}Q_{z}+Q_{w}Q_{y})}{1-2(Q_{x}^2+Q_{y}^2}\right)"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Y=tan^{-1}\left(\frac{2(Q_{x}Q_{z}+Q_{w}Q_{y})}{1-2(Q_{x}^2+Q_{y}^2}\right)"/>
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;R=tan^{-1}\left(\frac{2(Q_{x}Q_{y}+Q_{w}Q_{z}}{1-2(Q_{x}^2+Q_{z}^2)}\right)"/>
 
 Using the Quaternion calculated previously calculate the original Euler angles:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;P=sin^{-1}(-2((0.0382)(0.2393)-(0.9515)(0.1893)))\approx{20^{o}}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Y=tan^{-1}\left(\frac{2((0.1893)(0.2393)+(0.9515)(0.0382))}{1-2(0.1893^2+0.0382^2)}\right)\approx{10^{o}}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;R=tan^{-1}\left(\frac{2((0.1893)(0.0382)+(0.9515)(0.2393))}{1-2(0.1893^2+0.2393^2)}\right)\approx{30^{o}}"/>

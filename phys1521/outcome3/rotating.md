@@ -45,3 +45,51 @@ Doing some substitution, we can determine the relationship between angular veloc
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;V_t=\frac{\Delta{\theta}\cdot{r}}{t}=\omega{r}"/>
 
+Thus, the greater the radius of rotation, the greater the tangential velocity.
+
+#### Example
+Given an object, rotating at a constant speed of 3600 RPM, and the radius of rotation is 10cm, calculate the tangential velocity of the object.
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\omega=\frac{3600}{60}=60rev/s"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\frac{1rev}{s}=2\pi{rad/s}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\omega=120\pi{\frac{rad}{s}\approx{376.9911rad/s}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V_t=120\pi\times{0.1}\approx{37.6991m/s}"/>
+
+#### Centripetal Acceleration
+The formula for centripetal acceleration is derived from what we already know of linear and rotational motion:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;a=\frac{\Delta{V_t}}{t}=\omega^2r"/>
+
+#### Example
+Using the same example as above, calculate the centripetal acceleration of the object.
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;a=(120\pi)^2\times{0.1}\approx{14212.2303m/s^2}"/>
+
+![centripetal-math](files/centripetal-math.jpg)
+
+#### Centripetal Force
+The most common effect of centripetal force is in a centrifuge. It is not always obvious, but centripetal force is towards the center of rotation (centripetal means center seeking).
+
+![rotating-3](files/rotating-3.jpg)
+
+This figure shows that the motion felt, tangential velocity, is always perpendicular to the radius of rotation. Yet, for the object to rotate, and not fly off into space, there needs to be some _entity_ that keeps the rotation in a circular path. This is Centripetal Force. (There will be more on forces in the next lesson, but, for now, just think that some _force_ must exist to make this all work.)
+
+The formula for Centripetal Force is:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;F_c=\frac{mV_{t}^2}{r}"/>
+
+#### Example
+Calculate the centripetal force on the object, using the rotation as per the previous examples, if its mass is 25 g.
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;F_c=\frac{0.025\times{(37.6991)^2}}{0.1}\approx{355.3055N}"/>
+
+![centripetal-force-math](files/centripetal-force-math.jpg)
+
+## Exercises & Assignments
+Complete the [Rotational Motion worksheet](rotating-worksheet.md). Once complete proceed to Moodle to complete Knowledge Check 11 - Rotational Motion (strongly recommended to be completed prior to attempting Lab 3).
+
+### [Outcome Home](outcome3.md)
+### [PHYS1521 Home](../)

@@ -172,3 +172,17 @@ The other three elements of the Quaternion can be found in a similar manner by n
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{z}=\frac{\sqrt{-M_{11}-M_{22}+M_{33}+1}}{2}"/>
 
 This technique may not yield the correct results as there is no way to determine whether to use the positive, or the negative, root. The solution is to compare the absolute values of each of the traces. The largest absolute value trace will be the Q component to compute using the equations above. The other three Quaternion components will be calculated according to the sum and difference of the elements in the matrix that are diagonally opposite as shown below:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{12}+M_{21}=(2Q_xQ_y-2Q_wQ_z)+(2Q_xQ_y+Q_wQ_z)=4Q_xQ_y"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{21}-M_{12}=(2Q_xQ_y+2Q_wQ_z)-(2Q_xQ_y-2Q_wQ_z)=4Q_wQ_z"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{31}+M_{13}=(2Q_xQ_z-2Q_wQ_y)+(2Q_xQ_z+2Q_wQ_y)=4Q_xQ_z"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{13}-M_{31}=(2Q_xQ_z+2Q_wQ_y)-(2Q_xQ_z-2Q_wQ_y)=4Q_wQ_y"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{23}+M_{32}=(2Q_yQ_z-2Q_wQ_x)+(2Q_yQ_z+2Q_wQ_x)=4Q_yQ_z"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M_{32}-M_{23}=(2Q_yQ_z+2Q_wQ_x)-(2Q_yQ_z-2Q_wQ_x)=4Q_wQ_x"/>
+
+Using both the original equations along with the sum and difference equations the Quaternion components are calculated as follows:

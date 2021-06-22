@@ -27,10 +27,21 @@ If the rate of change of angle increases, or decreases, (i.e., ω changes), then
 
 We can now use the knowledge from Linear Motion to get the following equations:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;\omega_{f}=\omga_{i}+\alpha{t}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\omega_f=\omega_i+\alpha{t}"/>
 
-formula
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{\theta}=\omega_it+\frac{1}{2}\alpha{t^2}"/>
 
 #### Tangential Velocity
-What about the physical velocity, i.e., the velocity felt at a point on a circle? In the figure, below, we see a possible scenario:
+What about the _physical_ velocity, i.e., the velocity felt at a point on a circle? In the figure, below, we see a possible scenario:<br>
+![rotating-2](files/rotating-2.jpg)
+
+Here we see that arc<sub>1</sub> is smaller in length than arc<sub>2</sub>, which should tell us that, physically, P<sub>2</sub> is travelling faster than P<sub>1</sub>; it may not be obvious, but V<sub>t1</sub> has a smaller magnitude than V<sub>t2</sub>. This physical speed is Tangential Velocity. The formula for this is:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V_t=\frac{\Delta{arc}}{t}"/>
+
+Doing some substitution, we can determine the relationship between angular velocity and tangential velocity:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{\theta}=\frac{\Delta{arc}}{r}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V_t=\frac{\Delta{\theta}\cdot{r}}{t}=\omega{r}"/>
 

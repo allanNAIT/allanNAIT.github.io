@@ -143,3 +143,32 @@ Using the Quaternion calculated previously calculate the original Euler angles:
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Y=tan^{-1}\left(\frac{2((0.1893)(0.2393)+(0.9515)(0.0382))}{1-2(0.1893^2+0.0382^2)}\right)\approx{10^{o}}"/>
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;R=tan^{-1}\left(\frac{2((0.1893)(0.0382)+(0.9515)(0.2393))}{1-2(0.1893^2+0.2393^2)}\right)\approx{30^{o}}"/>
+
+As a verification that the math works use the results from Euler to Quaternion and then apply them to Quaternion to Euler:
+
+![quaternion-to-euler-math](files/quaternion-to-euler-math.jpg)
+
+![q-to-e-note](files/q-to-e-note.jpg)
+
+#### Create a Quaternion from a Matrix
+To accomplish creating a Quaternion from a Matrix all that is required is to go backwards from the Quaternion to Matrix equation. In doing there is an important aspect of a matrix, called a **trace**, which is the sum of the diagonal elements of the matrix. Start with the first diagonal:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;tr(M)=M_{11}+M_{22}+M_{33}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;tr(M)=1-2Q_{y}^2-2Q_{z}^2+1-2Q_{x}^2-2Q_{z}^2+1-2Q_{x}^2-2Q_{y}^2"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;tr(M)=3-4(Q_{x}^2+Q_{y}^2+Q_{z}^2)"/>
+
+The result is that:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{w}=\frac{\sqrt{M_{11}+M_{22}+M_{33}+1}}{2}"/>
+
+The other three elements of the Quaternion can be found in a similar manner by negating two of the three of the elements in the trace:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{x}=\frac{\sqrt{M_{11}-M_{22}-M_{33}+1}}{2}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{y}=\frac{\sqrt{-M_{11}+M_{22}-M_{33}+1}}{2}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{z}=\frac{\sqrt{-M_{11}-M_{22}+M_{33}+1}}{2}"/>
+
+This technique may not yield the correct results as there is no way to determine whether to use the positive, or the negative, root. The solution is to compare the absolute values of each of the traces. The largest absolute value trace will be the Q component to compute using the equations above. The other three Quaternion components will be calculated according to the sum and difference of the elements in the matrix that are diagonally opposite as shown below:

@@ -105,3 +105,30 @@ At this point it should be clear that the x-component of weight exceeds, in magn
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{F_{net}}\Vert=-336.5218+0+184.3677\approx{-151.1541N}"/>
 
 ![forces-math-1](files/forces-math-1.jpg)
+
+Questions:
+* Does this answer seem reasonable?
+* What about the ***True Vector Form*** values in the screenshot?
+* Could an applied force be calculated to prevent the object from moving down the ramp?
+* Could an applied force be calculated to move the object up the ramp?
+* What is the acceleration of the object down the ramp?
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{A}\Vert=\left(\frac{1}{100}\right)(-151.1541)\approx{-1.5115m/s^2}"/>
+
+![forces-math-2](files/forces-math-2.jpg)
+
+The ***True Vector Form** values are not relative to the incline, but relative to the ground.
+
+Another scenario would be:<br>
+![forces-05](files/forces-05.jpg)
+
+How would you solve this type of scenario?<br>
+![forces-math-3](files/forces-math-3.jpg)
+
+![forces-note](files/forces-note.jpg)
+
+Exercises & Assignments
+Complete the [Linear Mechanics worksheet](mechanics-worksheet.md). Once completed, proceed to Moodle to complete Knowledge Check 12 - Linear Mechanics (strongly recommended to be completed prior to attempting Lab 3).
+
+### [Outcome Home](outcome3.md)
+### [PHYS1521 Home](../)

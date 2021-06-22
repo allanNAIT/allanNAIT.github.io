@@ -194,5 +194,20 @@ Largest Absolute Value ||| Other Components
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{y}=\frac{\sqrt{-M_{11}+M_{22}-M_{33}+1}}{2}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_w=\frac{M_{13}-M_{31}}{4Q_y}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_x=\frac{M_{12}+M_{21}}{4Q_y}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_z=\frac{M_{23}+M_{32}}{4Q_y}"/>
 <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{z}=\frac{\sqrt{-M_{11}-M_{22}+M_{33}+1}}{2}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_w=\frac{M_{21}-M_{12}}{4Q_z}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_x=\frac{M_{31}+M_{13}}{4Q_z}"/> | <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_y=\frac{M_{23}+M_{32}}{4Q_z}"/>
 
+Previously there was an example to convert a Quaternion to a matrix so use this computed matrix to recalculate the Quaternion:
+
+First calculate the absolute values of the trace diagonals:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;(Q_w)=0.8826+0.8139+0.9254+1\approx{3.6219}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;(Q_x)=0.8826-0.8139-0.9254+1\approx{0.1433}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;(Q_y)=-0.8862+0.8139-0.9254+1\approx{0.0023}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;(Q_z)=-0.8862-0.8139+0.9254+1\approx{0.2253}"/>
+
+Now that these values are known, Q<sub>w></sub> has the largest absolute value (which will be typical for many of the examples used in this course) therefore the three remaining elements of the Quaternion are calculated as:
+
+
 
 

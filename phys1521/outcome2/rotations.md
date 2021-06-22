@@ -143,3 +143,7 @@ Substitute these values into the matrix to get:
 
 ## Exercises & Assignments
 Have students complete the [2D & 3D Rotations worksheet](matrix-worksheet-4.md). Once complete proceed to Moodle to complete Knowledge Check 08 - 2D & 3D Rotations (strongly recommended to be completed prior to attempting Lab 2).
+
+### [Outcome Home](outcome2.md)
+### [PHYS1521 Home](../)
+

@@ -59,7 +59,7 @@ As an example, using the scenario shown in the figure above, with <img src="http
 
 The direction of this vector must be opposite the relative motion of the surfaces, or <img src="https://latex.codecogs.com/svg.latex?\large&space;F_s=-196.2N"/>. Next calculate the net force. To do this correctly **all** external forces must be used and used as vectors.
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;F_{net}=W+F_N+F_s+F_{applied}=\left[\begin{array}{c}0\\-981\end{array}\right]+\left[\begin{array}{c}981\\0\end{array}\right]+\left[\begin{array}{c}-196.2\\0\end{array}\right]+\left[\begin{array}{c}250\\0\end{array}\right]=\left[\begin{array}{c}53.8\\0\end{array}\right]N"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;F_{net}=W+F_N+F_s+F_{applied}=\left[\begin{array}{c}0\\-981\end{array}\right]+\left[\begin{array}{c}0\\981\end{array}\right]+\left[\begin{array}{c}-196.2\\0\end{array}\right]+\left[\begin{array}{c}250\\0\end{array}\right]=\left[\begin{array}{c}53.8\\0\end{array}\right]N"/>
 
 Questions:
 * Why do friction and applied force have no y-component?
@@ -68,5 +68,40 @@ Questions:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\frac{F_{net}}{m}=\frac{1}{100}\left[\begin{array}{c}53.8\\0\end{array}\right]=\left[\begin{array}{c}0.538\\0\end{array}\right]m/s^2"/>
 
+Consider the scenario shown in the figure below, where the object is at rest on an inclined surface.<br>
+![forces-03](files/forces-03.jpg)
 
+Note that weight is always perpendicular to the ground, not the surface the object is resting on, and Normal Force is always perpendicular to the surface the object is resting on. As the surface, not the ground, is responsible for providing F<sub>N</sub>. The weight vector needs to be split into its components, relative to the surface, not the ground as shown in the figure below.<br>
+![forces-04](files/forces-04.jpg)
 
+_Note: It can be proven that the angle θ of the incline is the same angle of the right triangle formed by the components of weight._
+
+Question now is whether the object is moving or not. In this initial state which direction is friction? _It will be up the ramp regardless of the whether the object is moving or not_. Using the same object, and friction coefficient as before, but now have the ramp angle at 10<sup>o</sup> calculate net force. First calculate weight.
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Wsin\theta=(100)(-981)(sin(10))\approx{-170.3498N}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Wcos\theta=(100)(-981)(cos(10))\approx{-966.0964N}"/>
+
+Next calculate <img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{F_N}\Vert"/>:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{F_N}\Vert=-Wcos(10)\approx{966.0964N}"/>
+
+Next the maximum friction:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{F_s}\Vert=(0.2)(966.0964)\approx{193.2993N}"/>
+
+Determine if the object is moving. It is clear that <img src="https://latex.codecogs.com/svg.latex?\large&space;\vert{-170.3489}\vert{<\vert{193.2193}\vert}"/> therefore the object is at rest; the x-component of gravity was not sufficient to overcome friction, therefore <img src="https://latex.codecogs.com/svg.latex?\large&space;F_{net}=0N"/>. What would happen if the incline angle were increased to 20<sup>o</sup>?
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Wsin\theta=(100)(-981)(sin(20))\approx{-335.5218N}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;Wcos\theta=(100)(-981)(cos(20))\approx{-921.8385N}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{F_N}\Vert=-Wcos(20)\approx{921.8385N}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{F_s}\Vert=(0.2)(921.8385)\approx{184.3677N}"/>
+
+At this point it should be clear that the x-component of weight exceeds, in magnitude, the maximum value of friction, therefore the object will be moving down the ramp:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Vert{F_{net}}\Vert=-336.5218+0+184.3677\approx{-151.1541N}"/>
+
+![forces-math-1](files/forces.math-1.jpg)

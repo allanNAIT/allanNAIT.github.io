@@ -87,4 +87,41 @@ So far it was possible to compute final velocity and displacement under constant
 
 This equation is derived from the equation <img src="https://latex.codecogs.com/svg.latex?\large&space;ax^2+bx+c=0"/>. Rewriting our equation for displacement to <img src="https://latex.codecogs.com/svg.latex?\large&space;\frac{1}{2}At^2+V_it-\Delta{D}=0"/> appropriate substitutions can be made into the Quadratic Formula to get:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;t=\frac{-V_i\pm{\sqrt{V_{i}^2-4(\frac{1}{2}A)(-\Delta{D})}}}{2(\frac{1}{2}A)}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;t=\frac{-V_i\pm{\sqrt{V_{i}^2-4(\frac{1}{2}A)(-\Delta{D})}}}{2(\frac{1}{2}A)}=\frac{-V_i\pm{\sqrt{V_{i}^2-2(A)(-\Delta{D})}}}{A}"/>
+
+There is one more rearrangement of this equation that may be useful in the future:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;A=2\left(\frac{\Delta{D}-V_it}{t^2}\right)"/>
+
+Now there is a problem, which root is used, the +’ve or the –‘ve root? At this point it is best to do the calculations for both roots and determine which value of t makes sense. For example, if the ball bearing falls from the top of the building to the ground below, 50m, how long would it take to fall?
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V_{i}^2-2(A)(-\Delta{D})=0-(2)(-9.81)(50)=981"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;t=\frac{0+\sqrt{981}}{-9.81}\approx{-3.1928s}"/>
+
+**OR**
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;t=\frac{0-\sqrt{981}}{-9.81}\approx{3.1928s}"/>
+
+![linear-math-2](files/linear-math-2.jpg)
+
+Questions:
+* Why is ∆D negative?
+* Which root?
+* Is it now possible to calculate the velocity of the ball bearing just as it hits the sidewalk?
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V_f=V_i+At=0+(-9.81)(3.1928)
+\approx{-31.3209m/s}"/>
+
+![linear-math-3](files/linear-math-3.jpg)
+
+Questions:
+* Why is the final velocity negative?
+* Why does the mass of the ball not factor into this scenario?
+* What would happen if air resistance were factored in?
+
+All of this is great, but this is simply dropping an object which is hardly a common experience in a video game, especially a first-person shooter, or any game in which involves projectiles. Additionally, it would be possible to toss the ball upwards first, throw it straight down, or throw it at any possible angle and velocity. How would any of these conditions affect the motion of the ball bearing?
+
+Come up with ideas to solve projectile motion before going into any detail. Draw the first scenario as shown in the below. Do not draw the trajectory unless the students have not figured this path out. In this type of problem there is an additional requirement to find out how far the projectile travelled horizontally before reaching the ground.
+
+![projectile-1](files/projectile-1.jpg)

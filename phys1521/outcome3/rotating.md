@@ -29,4 +29,8 @@ We can now use the knowledge from Linear Motion to get the following equations:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\omega_{f}=\omga_{i}+\alpha{t}"/>
 
+formula
+
+#### Tangential Velocity
+What about the physical velocity, i.e., the velocity felt at a point on a circle? In the figure, below, we see a possible scenario:
 

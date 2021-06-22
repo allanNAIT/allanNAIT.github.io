@@ -125,3 +125,50 @@ All of this is great, but this is simply dropping an object which is hardly a co
 Come up with ideas to solve projectile motion before going into any detail. Draw the first scenario as shown in the below. Do not draw the trajectory unless the students have not figured this path out. In this type of problem there is an additional requirement to find out how far the projectile travelled horizontally before reaching the ground.
 
 ![projectile-1](files/projectile-1.jpg)
+
+The solution to this type of problem is to split the motion into its two components, vertical (y) and horizontal (x). In doing this the velocity vector is <img src="https://latex.codecogs.com/svg.latex?\large&space;V_i=\left[\begin{array}{c}10\\0\end{array}\right]m/s"/> and accleration is <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{c}0\\-9.81\end{array}\right]m/s^2"/>. In the previous example it was possible to calculate the time it took the ball bearing to reach the ground. This time was for the vertical component of the motion (there was no horizontal motion in the previous example). In this scenario the time is the same for both the vertical and the horizontal motion, therefore once this time is calculated it is possible to calculate the distance travelled.
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;t=\sqrt{\frac{(2)(\Delta{D}_y)}{A_y}}=\sqrt{\frac{(2)(-8)}{-9.81}}\approx{1.2771s}"/>
+
+In the horizontal motion there is no acceleration therefore:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{D}_x=V_xt=(10)(1.2771)\approx{12.771s}"/>
+
+Now use the figure below:<br>
+![projectile-2](files/projectile-2.jpg)
+
+In this scenario, the initial velocity has both an x-component and a y-component; <img src="https://latex.codecogs.com/svg.latex?\large&space;V_i=\left[\begin{array}{c}10cos\theta\\10sin\theta\end{array}\right]m/s"/>. How does this change the calculations? Once again, the time it takes the ball bearing to fall to the ground vertically is the same time the ball bearing travels horizontally. Yet now the ball bearing travels upwards to a point where its vertical velocity reaches 0, then proceeds to fall to the ground. As in the previous scenario the calculation of time is the first step; recall from a previous example that the equation to calculate time when the initial velocity is not 0 is:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;t=\frac{-V_i\pm{\sqrt{V_{i}^2-4(\frac{1}{2}A)(-\Delta{D})}}}{2(\frac{1}{2}A)}=\frac{-V_i\pm{\sqrt{V_{i}^2-2(A)(-\Delta{D})}}}{A}"/>
+
+Given θ=30<sup>o</sup> calculate the time of travel of the ball bearing, the distance travelled horizontally and the maximum height of the projectile.
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V_i=\left[\begin{array}{c}10cos(30)\\10sin(30)\end{array}\right]m/s\approx{\left[\begin{array}{c}8.66\\5.00\end{array}\right]m/s}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;t=\frac{-5+\sqrt{5^2-2(-9.81)(8)}}{-9.81}\approx{-0.8654s}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;t=\frac{-5-\sqrt{5^2-2(-9.81)(8)}}{-9.81}\approx{1.8847s}"/>
+
+Obviously, the value of t used will be 1.8847s. In the horizontal direction:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{D}_x=V_xt=(8.66)(1.8847)\approx{16.3221m}"/>
+
+What about max height? At the peak of the trajectory path the y-component of velocity is 0 therefore some formula is required to calculate this. Starting from what is known:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V(t)=V_i+At"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{D}=V_it+\frac{1}{2}At^2"/>
+
+Using the first of the motion formulas the value of t to get to the apex is:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;t_a=\frac{-V_{iy}}{A}=\frac{-8.66}{-9.81}\approx{0.9516s}"/>
+
+Interesting result yet there is still the other formula so with a little substitution:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{D}_y=V(t_a)=t_aV_{iy}+\frac{1}{2}At_{a}^2"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{D}_y=\frac{-V_{iy}}{A}V_{iy}+\frac{1}{2}A\left(\frac{-V_{iy}}{A}\right)^2"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{D}_y=\frac{-V_{iy}^2}{A}+\frac{1}{2}\left(\frac{V_{iy}^2}{A}/right)=\frac{-V_{iy}^2}{A}=\frac{-(5.00)^2}{(2)(-9.81)}\approx{1.274m}"/>
+
+

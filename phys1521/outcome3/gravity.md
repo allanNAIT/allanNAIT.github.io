@@ -19,7 +19,7 @@ This has very little to do with game programming unless a developer is creating 
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;F=mA=m_2\left(G\frac{m_1}{r^2}\right)"/>
 
-Note that in the original equation d represented the distance between the centers of the two bodies so now only the radius, r, is used. As a result, gravity is to be calculated as <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left(G\frac{m_1}{r^2})"/>
+Note that in the original equation d represented the distance between the centers of the two bodies so now only the radius, r, is used. As a result, gravity is to be calculated as <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left(G\frac{m_1}{r^2}\right)"/>
 
 ## Exercises & Assignments
 Complete the [Gravitational Forces worksheet](gravity-worksheet.md). Once completed, and the [Springs Worksheet](springs-worksheet.md) is completed, proceed to Moodle to complete Knowledge Checks 13 (strongly recommended to be completed prior to attempting Lab 3).

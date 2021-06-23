@@ -78,8 +78,34 @@ This gives the centers of each circular object as <img src="https://latex.codeco
 
 To know that these two circular objects are in contact, calculate the distance between the centers of the objects. If this distance is exactly the sum of the two radii, then they are contacting in exactly one point.
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;(sum radii)^2=(1+1)^2=4"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;(sumOfRadii)^2=(1+1)^2=4"/>
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;(distance between centers)^2=(x_B-x_A)^2+(y_B-y_A)^2=(0.6+0.6)^2+(-1-0.6)^2=4"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;(distanceBetweenCenters)^2=(x_B-x_A)^2+(y_B-y_A)^2=(0.6+0.6)^2+(-1-0.6)^2=4"/>
 
 Now that a collision is possible, consider the initial velocities of the objects are <img src="https://latex.codecogs.com/svg.latex?\large&space;V_{Ai}=\left[\begin{array}{c}3\\1\end{array}\right]m/s"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;V_{Bi}=\left[\begin{array}{c}2\\3\end{array}\right]m/s"/>
+
+![collision-2](files/collision-2.jpg)
+
+The first step is to define the vector that is the tangent of the intersection point. First, draw a line between the centers of the circles:
+
+![collision-3](files/collision-3.jpg)
+
+Next, the tangent line of the collision, perpendicular to the line between the centers, is computed as the vector difference of the centers of the circles and normalized.
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;n=A_{center}-B_{center}=\left[\begin{array}{c}-0.6\\0.6\end{array}\right]-\left[\begin{array}{c}0.6\\-1\end{array}\right]=\left[\begin{array}{c}-1.2\\1.6\end{array}\right]"/>
+
+The next step (not shown graphically) is to calculate the optimization of the collision. This is several computations:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;a1=V_{Ai}\cdot{\Hat{n}}=-1"/>&nbsp;&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;a2=V_{Bi}\cdot{\Hat{n}}=1.2"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;optimized=\frac{2(a1-a2)}{m_A+m_B}\approx{-1.4667}"/>
+
+With ***optimized*** calculated the final velocities of the circular objects are calculated as follows:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V_{Af}=V_{Ai}-(optimized\times{m_B})\times{\Hat{n}}\approx{\left[\begin{array}{c}1.24\\3.3467\end{array}\right]m/s}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V_{Bf}=V_{Bi}+(optimized\times{m_A})\times{\Hat{n}}\approx{\left[\begin{array}{c}2.88\\1.8267\end{array}\right]m/s}"/>
+
+![collision-3](files/collision-3.jpg)
+
+Do the results make sense? The lighter object has a greater relative change in velocity than the heavier object.

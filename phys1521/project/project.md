@@ -38,9 +38,9 @@ As two or more students are working as a team then only one student needs to upl
 
 #### File Naming Conventions
 In each file naming convention, replace # with your team number:
-Report:	**Team#_ProjectReport.docx**
-PowerPoint: **Team#_Presentation.pptx**
-Application: **Team#_SolutionName.ZIP** (replace SolutionName with your project’s name)
+* Report: **Team#_ProjectReport.docx**
+* PowerPoint: **Team#_Presentation.pptx**
+* Application: **Team#_SolutionName.ZIP** (replace SolutionName with your project’s name)
 
 ## Suggested Research Topics
 The following is a list of possible research topics (students may propose any topic not in the list):

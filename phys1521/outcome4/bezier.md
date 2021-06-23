@@ -33,11 +33,11 @@ The second form can be written in matrix form:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;y(t)=c_{2,0}+c_{2,1}t+c_{2,2}t^2+c_{2,3}t^3"/>
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;C=\left[\begin{array}{cccc}c_{1,0}&c_{1,1}&c_{1,2}&c_{1,3}\\c_{2,0}&c_{2,1}&c_{2,2}&c_{2,3}\end{array}\right]"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;t=\left[\begin{array}{c}t^0\\t^1\\t^2\\t^3\end{array}\right]=\left[\begin{array}{c}1\\t\t^2\\t^3\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;C=\left[\begin{array}{cccc}c_{1,0}&c_{1,1}&c_{1,2}&c_{1,3}\\c_{2,0}&c_{2,1}&c_{2,2}&c_{2,3}\end{array}\right]"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;t=\left[\begin{array}{c}t^0\\t^1\\t^2\\t^3\end{array}\right]=\left[\begin{array}{c}1\\t\\t^2\\t^3\end{array}\right]"/>
 
 The matrices **C** and **t** can be multiplied:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;cp(t)=Ct=\left[\begin{array}{cccc}c_{1,0}&c_{1,1}&c_{1,2}&c_{1,3}\\c_{2,0}&c_{2,1}&c_{2,2}&c_{2,3}\end{array}\right]\left[\begin{array}{c}1\\t\t^2\\t^3\end{array}\right]=\left[\begin{array}{c}c_{1,0}+c_{1,1}t+c_{1,2}t^2+c_{1,3}t^3\\c_{2,0}+c_{2,1}t+c_{2,2}t^2+c_{2,3}t^3\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;cp(t)=Ct=\left[\begin{array}{cccc}c_{1,0}&c_{1,1}&c_{1,2}&c_{1,3}\\c_{2,0}&c_{2,1}&c_{2,2}&c_{2,3}\end{array}\right]\left[\begin{array}{c}1\\t\\t^2\\t^3\end{array}\right]=\left[\begin{array}{c}c_{1,0}+c_{1,1}t+c_{1,2}t^2+c_{1,3}t^3\\c_{2,0}+c_{2,1}t+c_{2,2}t^2+c_{2,3}t^3\end{array}\right]"/>
 
 ![bezier-note-1](files/bezier-note-1.jpg)
 

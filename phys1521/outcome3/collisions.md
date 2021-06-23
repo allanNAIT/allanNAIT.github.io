@@ -59,11 +59,11 @@ After the last video, can you explain why the sample questions assumed perfectly
 
 This equation is for perfectly elastic collisions; collisions where no loss of momentum (and thus velocity, or no change in mass) due to friction or objects compressing during the collision. In a pool game simulation, the programmer would almost always use this as there is very little inelasticity of the collisions of pool balls. However, it the game involved something like a beach ball, or other soft, “spongy” ball, there would need to be another form of this equation as the balls during collision would compress then expand back to _normal_ after the collision. This effect is inelasticity and is often seen in bouncing balls in real life.
 
-The factor that needs to be included in the calculations is the **Coefficient of Restitution** <img src="https://latex.codecogs.com/svg.latex?\large&space;\epsilon"/>; <img src="https://latex.codecogs.com/svg.latex?\large&space;0\leq{\epsilon}\leq{1}"/>. When ε=0 the collision is perfectly inelastic (object remain as one larger object after the collision), and when <img src="https://latex.codecogs.com/svg.latex?\large&space;\epsilon=0"/> the collision is perfectly elastic (no deformations of the objects during the collision). Anywhere in between the objects are deformed to some degree during the collision.
+The factor that needs to be included in the calculations is the **Coefficient of Restitution** <img src="https://latex.codecogs.com/svg.latex?\large&space;\varepsilon"/>; <img src="https://latex.codecogs.com/svg.latex?\large&space;0\leq{\varepsilon}\leq{1}"/>. When ε=0 the collision is perfectly inelastic (object remain as one larger object after the collision), and when <img src="https://latex.codecogs.com/svg.latex?\large&space;\varepsilon=0"/> the collision is perfectly elastic (no deformations of the objects during the collision). Anywhere in between the objects are deformed to some degree during the collision.
 
 To solve problems with partially elastic collisions it is necessary to treat each object’s collision separately as each object has its own ε value. The equation shown below, which has the value k as the collision response impulse:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;k=\frac{(\epsilon+1)(V_1-V_2)}{\left(\frac{1}{m_1}+\frac{1}{m_2}\right)(n\cdot{n})}"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;k=\frac{(\varepsilon+1)(V_1-V_2)}{\left(\frac{1}{m_1}+\frac{1}{m_2}\right)(n\cdot{n})}"/>
 
 It is important to note that **n** is the normal of the collision point.
 

@@ -59,7 +59,7 @@ After the last video, can you explain why the sample questions assumed perfectly
 
 This equation is for perfectly elastic collisions; collisions where no loss of momentum (and thus velocity, or no change in mass) due to friction or objects compressing during the collision. In a pool game simulation, the programmer would almost always use this as there is very little inelasticity of the collisions of pool balls. However, it the game involved something like a beach ball, or other soft, “spongy” ball, there would need to be another form of this equation as the balls during collision would compress then expand back to _normal_ after the collision. This effect is inelasticity and is often seen in bouncing balls in real life.
 
-The factor that needs to be included in the calculations is the **Coefficient of Restitution** <img src="https://latex.codecogs.com/svg.latex?\large&space;\varepsilon"/>; <img src="https://latex.codecogs.com/svg.latex?\large&space;0\leq{\varepsilon}\leq{1}"/>. When ε=0 the collision is perfectly inelastic (object remain as one larger object after the collision), and when <img src="https://latex.codecogs.com/svg.latex?\large&space;\varepsilon=0"/> the collision is perfectly elastic (no deformations of the objects during the collision). Anywhere in between the objects are deformed to some degree during the collision.
+The factor that needs to be included in the calculations is the **Coefficient of Restitution** <img src="https://latex.codecogs.com/svg.latex?\large&space;\varepsilon"/>; <img src="https://latex.codecogs.com/svg.latex?\large&space;0\leq{\varepsilon}\leq{1}"/>. When <img src="https://latex.codecogs.com/svg.latex?\large&space;\varepsilon=0"/> the collision is perfectly inelastic (object remain as one larger object after the collision), and when <img src="https://latex.codecogs.com/svg.latex?\large&space;\varepsilon=0"/> the collision is perfectly elastic (no deformations of the objects during the collision). Anywhere in between the objects are deformed to some degree during the collision.
 
 To solve problems with partially elastic collisions it is necessary to treat each object’s collision separately as each object has its own ε value. The equation shown below, which has the value k as the collision response impulse:
 
@@ -68,3 +68,18 @@ To solve problems with partially elastic collisions it is necessary to treat eac
 It is important to note that **n** is the normal of the collision point.
 
 A more interesting case, which is quite common in video games such as a game of pool or billiards, is that of two objects colliding. Often these objects do not collide in a direct path, but more often collide in glancing blows (see the [Gamasutra reference](#references) for more details). For this begin with two circular objects, A with a mass of 1 kg and B with a mass of 2 kg. The equation for the circles at (very near) to the collision point are:
+
+A: <img src="https://latex.codecogs.com/svg.latex?\large&space;(x+0.6)^2+(y-0.6)^2=1"/>
+
+B: <img src="https://latex.codecogs.com/svg.latex?\large&space;(x-0.6)^2+(y+1)^2=1"/>
+
+This gives the centers of each circular object as <img src="https://latex.codecogs.com/svg.latex?\large&space;A_c=(-0.6,0.6)"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;B_c=(0.6,-1)"/> as shown in the figure below:<br>
+![collision-1](files/collision-1.jpg)
+
+To know that these two circular objects are in contact, calculate the distance between the centers of the objects. If this distance is exactly the sum of the two radii, then they are contacting in exactly one point.
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;(sum radii)^2=(1+1)^2=4"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;(distance between centers)^2=(x_B-x_A)^2+(y_B-y_A)^2=(0.6+0.6)^2+(-1-0.6)^2=4"/>
+
+Now that a collision is possible, consider the initial velocities of the objects are <img src="https://latex.codecogs.com/svg.latex?\large&space;V_{Ai}=\left[\begin{array}{c}3\\1\end{array}\right]m/s"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;V_{Bi}=\left[\begin{array}{c}2\\3\end{array}\right]m/s"/>

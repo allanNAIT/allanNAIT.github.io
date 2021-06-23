@@ -5,7 +5,7 @@ title: Linear Mechanics
 ## Introduction
 This lesson will extend the concepts learned in Lesson 3.1 to include how to get object moving and what happens when they are moving. To accomplish use this introduction of Newton’s Laws.
 
-Modern mechanics has evolved from the classical mechanics of Sir Isaac Newton; the inclusion of the work by Albert Einstein, and others, has changed, somewhat, the work done by Sir Isaac Newton. The fundamentals of Newton’s work is summarized in his three laws.
+Modern mechanics has evolved from the classical mechanics of Sir Isaac Newton; the inclusion of the work by Albert Einstein, and others, has changed, somewhat, the work done by Sir Isaac Newton. The fundamentals of Newton’s work are summarized in his three laws.
 
 >**Newton's First Law**<br>Every body persists in a state of being at rest or of moving uniformly straight forward, except insofar as it is compelled to change its state by force impressed.
 >
@@ -65,8 +65,33 @@ Questions:
 * Why do friction and applied force have no y-component?
 * What if the applied force was only 150N?
 * What is the acceleration on this object?
-
 <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\frac{F_{net}}{m}=\frac{1}{100}\left[\begin{array}{c}53.8\\0\end{array}\right]=\left[\begin{array}{c}0.538\\0\end{array}\right]m/s^2"/>
+
+
+Consider the scenario shown in the figure below, where the applied force is at an angle.<br>
+![forces-06](files/forces-06.jpg)
+
+Given F<sub<applied</sub>=250N@30<sup>o</sup>:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;F_{applied}=\left[\begin{array}{c}F_{applied}cos\theta\\F_{applied}sin\theta\end{array}\right]=\left[\begin{array}{c}250cos(30)\\250sin(30)\end{array}\right]\approx{\left[\begin{array}{c}216.5064\\125.0000\end{array}\right]N}"/>
+
+As there is a vertical component to the applied force, F<sub>N</sub> is now calculated as:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;F_N=-W+F_{applied}sin\theta=-981+125=856N"/>
+
+Now calculate the max friction as:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;F_s=\mu{F_N}=-(0.2)(856)=-171.2N"/>
+
+Finally, calculate the net applied force:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;F_{net}=W+F_N+F_s+F_{applied}=\left[\begin{array}{c}0\\-981\end{array}\right]+\left[\begin{array}{c}0\\856\end{array}\right]+\left[\begin{array}{c}0\\-171.2\end{array}\right]+\left[\begin{array}{c}216.5064\\125.0000\end{array}\right]=\left[\begin{array}{c}45.3064\\0\end{array}\right]N"/>
+
+Questions:
+* Why is net force reduced?
+* What is the acceleration on the object?
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;A=\frac{F_{net}}{m}=\frac{1}{100}\left[\begin{array}{c}45.3064\\0\end{array}\right]=\left[\begin{array}{c}0.4531\\0\end{array}\right]m/s^2"/>
 
 Consider the scenario shown in the figure below, where the object is at rest on an inclined surface.<br>
 ![forces-03](files/forces-03.jpg)

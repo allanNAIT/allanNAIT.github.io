@@ -107,5 +107,78 @@ There is a lot of math to solve this type of equation, but what is important is 
 
 Using the code, shown in the listings below, and plotting the results using Excel, gives the following, shown in the figure below (**note that the results for ζ = 0 are not as expected, likely due to using Euler Integration, not a precise method, but it does show that no equilibrium is reached**):
 
+```csharp
+namespace SpringDampingTest
+{
+    public class SpringDamper
+    {
+        // Properties
+        public double position { get; set; }        // stretched position of the spring
+        public double setPoint { get; set; }        // rest position of the spring
+        public double velocity { get; set; }        // velocity of the spring
+        public double dampCoefficient { get; set; } // damping coefficient
+        public double springConstant { get; set; }  // spring constant, k
 
+        // Constructors
+        public SpringDamper() { }//eom
+
+        public SpringDamper(double position, double setPoint, double velocity, double dampCoefficient, double springConstant)
+        {
+            this.position = position;
+            this.setPoint = setPoint;
+            this.velocity = velocity;
+            this.dampCoefficient = dampCoefficient;
+            this.springConstant = springConstant;
+        }//eom
+
+        // Class Method
+        public void Update(double deltaTime)
+        {
+            double error = position - setPoint;
+            double acceleration = -1 * error * springConstant - dampCoefficient * velocity;
+            // Euler Integration
+            velocity += acceleration * deltaTime;
+            position += velocity * deltaTime;
+        }//eom
+    }//eoc
+}//eon
+```
+
+```csharp
+namespace SpringDampingTest
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double pI = 1;
+            double sP = 0;
+            double vI = 0;
+            double c = 1.0;
+            double k = 1.0;
+            double mass = 1;
+            double zeta;
+            SpringDamper sd = new SpringDamper(pI, sP, vI, c, k);
+            zeta = c / (2 * Math.Sqrt(mass * k));
+            Console.WriteLine("k = {0}, mass = {1}, c = {2}", k, mass, c);
+            Console.WriteLine("Zeta = " + zeta);
+            Console.WriteLine("position, time, velocity");
+            for (int dt = 0; dt <= 100; dt++)
+            {
+                sd.Update(dt / 100.0);
+                Console.WriteLine(Math.Round(sd.position, 8) + "," + dt / 100.0 + "," + Math.Round(sd.velocity, 8));
+            }//end for
+            Console.ReadLine();
+        }//eom
+    }//eoc
+}//eon
+```
+
+![spring-damping-test](files/spring-damping-test.jpg)
+
+## Exercises & Assignments
+Complete the [Springs Worksheet](springs-worksheet.md). Once completed, and the [Gravity Worksheet](gravity-worksheet.md) is completed, proceed to Moodle to complete Knowledge Checks 13 (strongly recommended to be completed prior to attempting Lab 3).
+
+### [Outcome Home](outcome3.md)
+### [PHYS1521 Home](../)
 

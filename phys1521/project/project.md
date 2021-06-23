@@ -42,7 +42,7 @@ In each file naming convention, replace # with your team number:
 * PowerPoint: **Team#_Presentation.pptx**
 * Application: **Team#_SolutionName.ZIP** (replace SolutionName with your project’s name)
 
-## Suggested Research Topics
+### Suggested Research Topics
 The following is a list of possible research topics (students may propose any topic not in the list):
 * Rotational Motion (advanced)
 * Gears and Pulleys
@@ -53,7 +53,7 @@ The following is a list of possible research topics (students may propose any to
 * Springs (advanced)
 * Buoyancy
 
-## Suggested Application Projects
+### Suggested Application Projects
 The following is a list of possible applications of concepts taught in PHYS1521 (students may propose any application not in the list):
 * Demonstration of Projectile Motion
 * Demonstration of a “Roller Coaster”

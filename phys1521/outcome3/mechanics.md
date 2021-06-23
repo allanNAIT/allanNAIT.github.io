@@ -71,7 +71,7 @@ Questions:
 Consider the scenario shown in the figure below, where the applied force is at an angle.<br>
 ![forces-06](files/forces-06.jpg)
 
-Given F<sub<applied</sub>=250N@30<sup>o</sup>:
+Given F<sub>applied</sub>=250N@30<sup>o</sup>:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;F_{applied}=\left[\begin{array}{c}F_{applied}cos\theta\\F_{applied}sin\theta\end{array}\right]=\left[\begin{array}{c}250cos(30)\\250sin(30)\end{array}\right]\approx{\left[\begin{array}{c}216.5064\\125.0000\end{array}\right]N}"/>
 

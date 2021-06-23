@@ -5,6 +5,10 @@ title: Matrix Math
 ## Introduction
 Along with Vectors, Matrices form the foundation of the math used by game engines. In Algebra matrices are taught so that students can solve a system of linear equations. In game programming matrices are used for transformation of objects (shifting, scaling, shearing, and rotation) in 2D and 3D coordinate spaces. Before the transformation topics can be covered an understanding, or review, of matrices is required.
 
+## References
+* [Matrix Tutorial](http://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/#Translation_matrices){:target="_blank"}
+* [Transforms (Direct3D 9)](https://msdn.microsoft.com/en-us/library/windows/desktop/bb206269%28v=vs.85%29.aspx){:target="_blank"}
+
 ## Definition and Notation
 ### Key Concepts
 The key concepts for this part of the lesson are:

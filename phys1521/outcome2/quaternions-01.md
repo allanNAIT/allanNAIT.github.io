@@ -5,6 +5,9 @@ title: Quaternions Pt. 1
 ## Introduction
 Previously the rotations in 3D used Euler angles. Although this approach works there are other methods of storing rotation information. One such technique is using a Quaternion; another is using Rotors which are not covered in this course.
 
+## Reference
+* [Maths - Conversion Quaternion to Euler](http://www.euclideanspace.com/maths/geometry/rotations/conversions/quaternionToEuler/index.htm){:target="_blank"}
+
 ## Quaternions
 ### Key Concepts
 The key concepts of this part of the lesson are:

@@ -5,6 +5,10 @@ title: Rotate Vector by Quaternion
 ## Introduction
 Previously we were able to convert Euler angles to a Quaternion, and a Quaternion to a Matrix. In game programming we want fast 3D rotations, thus this lesson outlines how to rotate a vector by a Quaternion.
 
+## References
+* [Faster Quaternion-Vector Multiplication](https://blog.molecular-matters.com/2013/05/24/a-faster-quaternion-vector-multiplication/){:target="_blank"}
+* [Rotating a Vector by a Quaternion](https://fgiesen.wordpress.com/2019/02/09/rotating-a-single-vector-using-a-quaternion/){:target="_blank"}
+
 ## Matrix Method
 ### Key Concepts
 The key concepts of this part of the lesson are:

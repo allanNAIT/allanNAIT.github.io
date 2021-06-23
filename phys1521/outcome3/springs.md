@@ -64,3 +64,48 @@ For the second part of this example, the velocity, use the formula:
 Here A is known (stretched length, or amplitude of the oscillation, NOT gravity) and:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\omega=2\pi{Freq}=\left(\sqrt{\frac{1250}{2.5}}\right)\approx{22.3607rad/s}"/>
+
+Also, <img src="https://latex.codecogs.com/svg.latex?\large&space;sin(\omega{t}+\theta_o)=\pm{1}"/> therefore <img src="https://latex.codecogs.com/svg.latex?\large&space;v(t)=-A\omega"/> where <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\vert{l_{rest}-l}\vert"/>
+
+**Note**: the <img src="https://latex.codecogs.com/svg.latex?\large&space;-A"/> above depends on the direction the spring is moving.
+
+Next substitute:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;v(t)=-A\omega=(1.25)\left(\sqrt{\frac{1250}{2.5}}\right)\approx{27.9508m/s}"/>
+
+![springs-math-1](files/springs-math-1.jpg)
+
+## Spring Damping (Optional)
+In many scenarios it is necessary to control the frequency, especially for “virtual springs”. In these cases, the equation of motion is written as:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;x(t)=Acos(2\pi{Ft}+\theta_o)"/>
+
+As springs will not oscillate forever, there are two interesting forces with springs, **driving force** and **damping force**.
+
+**Driving Force**: this force acts as an input to the system to cause the motion to begin and is generally similar to applied force.
+
+**Damping Force**: this force acts like friction but does not depend on a Normal Force, instead it is defined as:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;F_d=-c\dot{x}"/>
+
+From this, applying Newton’s Laws:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\ddot{x}=\frac{F_{net}}{m}=-\frac{k}{m}x-\frac{c}{m}\dot{x}"/>
+
+Rewriting this, knowing that <img src="https://latex.codecogs.com/svg.latex?\large&space;\omega=\sqrt{\frac{k}{m}}"/> the damping ration can be defined as:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\zeta=\frac{c}{2\sqrt{mk}}=\frac{c}{2m\omega_o}"/>
+
+There is a lot of math to solve this type of equation, but what is important is the value of ζ (zeta) as shown in the table below:
+
+\zeta | Condition | Result
+------|-----------|-------
+<img src="https://latex.codecogs.com/svg.latex?\large&space;= 0"/> | Not damped | No change in oscillations; never reaches equilibrium
+<img src="https://latex.codecogs.com/svg.latex?\large&space;>0"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;<1"/> | Underdampled | Reach equilibrium fastest but oscillates in doing so
+<img src="https://latex.codecogs.com/svg.latex?\large&space;= 1"/> | Critically damped | Reach equilibrium as fast as possible
+<img src="https://latex.codecogs.com/svg.latex?\large&space;>1"/> | Over damped | Reach equilibrium at a slower rate than critical damping
+
+Using the code, shown in the listings below, and plotting the results using Excel, gives the following, shown in the figure below (**note that the results for ζ = 0 are not as expected, likely due to using Euler Integration, not a precise method, but it does show that no equilibrium is reached**):
+
+
+

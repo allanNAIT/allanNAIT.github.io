@@ -12,7 +12,7 @@ title: Catmull-Rom Spline Exercises
 3. Predict what would happen if, using the original points, the following swaps were made:
     <ol type="a">
         <li>P<sub>1</sub> and P<sub>3</sub> were swapped</li>
-        <li>P<sub>1</sub> and P<sub>2</sub> were swapped
+        <li>P<sub>1</sub> and P<sub>2</sub> were swapped</li>
     </ol>
 
 ### [Splines Home](splines.md)

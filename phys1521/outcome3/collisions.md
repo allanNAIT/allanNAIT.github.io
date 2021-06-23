@@ -106,6 +106,26 @@ With ***optimized*** calculated the final velocities of the circular objects are
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;V_{Bf}=V_{Bi}+(optimized\times{m_A})\times{\Hat{n}}\approx{\left[\begin{array}{c}2.88\\1.8267\end{array}\right]m/s}"/>
 
-![collision-3](files/collision-3.jpg)
+![collision-4](files/collision-4.jpg)
 
 Do the results make sense? The lighter object has a greater relative change in velocity than the heavier object.
+
+As was learned previously, momentum **must** be conserved in a collision unless there is an external force, which there is not in this scenario:
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;P_i=m_A\times{V_{Ai}}+m_B\times{V_{Bi}}=1\times{\left[\begin{array}{c}3\\1\end{array}\right]}+2\times{\left[\begin{array}{c}2\\3\end{array}\right]}=\left[\begin{array}{c}7\\7\end{array}\right]kgm/s"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\large&space;P_f=m_A\times{V_{Af}}+m_B\times{V_{Bf}}=1\times{\left[\begin{array}{c}1.24\\3.3467\end{array}\right]}+2\times{\left[\begin{array}{c}2.88\\1.8267\end{array}\right]}=\left[\begin{array}{c}7\\7.0001\end{array}\right]kgm/s"/>
+
+The slight differences in the answers from what was predicted are due to rounding errors. The computer calculated values are shown below:<br>
+![circle-collision-math](files/circle-collision-math.jpg)
+
+This works similarly in 3D:<br>
+![sphere-collision-math](files/sphere-collision-math.jpg)
+
+**Question**: What would happen if the collisions were not perfectly elastic?
+
+## Exercises & Assignments
+Complete the [Impulse & Momentum worksheet](collision-worksheet.md). Once completed, proceed to Moodle to complete Knowledge Check 14 (strongly recommended to be completed prior to attempting Lab 3).
+
+### [Outcome Home](outcome3.md)
+### [PHYS1521 Home](../)

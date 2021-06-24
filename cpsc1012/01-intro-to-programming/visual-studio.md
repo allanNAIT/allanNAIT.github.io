@@ -12,6 +12,9 @@ There are several versions of Visual Studio available. The one that is recommend
 ### Workloads
 Visual Studio allows you to customize your working environmnet through various workloads. For this course, the basic installation should be all that you need. If you enroll in more advanced programming courses, such as CPSC1517 and DMIT2018, your instructor may require you to add additional workspaces for that course.
 
+To add workloads use the **Tools** menu option:<br>![vs-tools](files/vs-tools.jpg) and click on the first item, **Get Tools and Features...**. This will bring up the **Visual Studio Installer**:<br>
+![vs-installer](files/vs-installer.jpg)
+
 ### Configuration Options
 1. From the **Tools** menu, select **Options**
 2. The first option selected is normally **Environment: General**. Here you can select your theme:<br>![vs-options-01](files/vs-options-01.jpg)

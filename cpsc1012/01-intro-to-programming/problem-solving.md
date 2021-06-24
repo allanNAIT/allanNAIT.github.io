@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introduction to Programming - Problem Solving
+title: Problem Solving Process
 ---
 
 ## Introduction

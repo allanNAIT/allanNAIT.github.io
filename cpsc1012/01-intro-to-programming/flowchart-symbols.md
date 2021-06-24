@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Flowcharting Sysmbols
+title: Flowcharting Symbols
 ---
-## Flowcharting Symbols
+## Symbols
 
 Symbol | Name | Symbol | Name
 -------|------|--------|-----

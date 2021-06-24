@@ -89,3 +89,21 @@ Repeat for the second part, do not forget the `+` symbol, and add the `= 0`.
 The equations can be very complex so try to recreate the equation below:<br>
 ![fourth-equation](files/fourth-equation.png)
 
+So far you have used parenthesis, exponents, and fractions, along with basic math symbols. In a more complex equation (shown below) you will see square roots and both super and subscripts, and a strange looking bracket:<br>
+![fifth-equation](files/fifth-equation.png)
+
+Refer to a previous part of this document (showing where some of the symbols are located) and see if you can recreate this equation.
+
+Now that you have some of the basics you should also understand that you can format the text of an equation, color, font, etc., as shown in the equation below:<br>
+![sixth-equation](files/sixth-equation.png)
+
+Formatting text does take additional time but does help in highlighting the steps involved in solving an equation. Try it for yourself.
+
+## Limitations
+The equations you create in Word 2010 are not backwardly compatible with previous versions of Word, nor are they generally compatible with other document processors. It is also very difficult to transfer the equations to a web page unless you embed the Word document as a file. There are some online Word compatible editors that will allow you to create equations but their compatibility with the desktop version of Word is not guaranteed.
+
+How do you transfer your equations? One method is to use OneNote (the method used to create the images of the equations, and screenshots, used in this document). There are other tools, such as [Snagit from TechSmith](http://www.techsmith.com/snagit.html){:target="_blank"} that will also work.
+
+If you have a little more cash to spend you could purchase a standalone equation editor such as [MathMagic](http://www.mathmagic.com/){:target="_blank"}.
+
+### [PHYS1521 Home](index.md)

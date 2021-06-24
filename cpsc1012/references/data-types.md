@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sequence - Data Types
+title: Data Types in C#
 ---
 
 ## Introduction

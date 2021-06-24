@@ -4,11 +4,14 @@ title: Sequence Structure
 ---
 
 ## Introduction
-Put topic introduction here
-
-## Topics
-* [Data Types](data-types.md)
-* [Arithmetic](arithmetic.md)
+This section introduces you to some fundamental coding practices and workflows. You will be introduced to the **C#** programming language through small Console Applicaitons. You will learn about the following:
 * [Input/Output](input-output.md)
+* [Math in C#](arithmetic.md)
+* [Some simple string processing](strings.md)
+
+These concepts will be used throughout this course.
+
+## References
+* [Data Types](data-types.md)
 
 ### [CPSC1012 Home](../)

@@ -16,6 +16,7 @@ This problem is outlined in the [Problem Solving Process](../01-intro-to-program
 ![example-problem-2](files/example-problem-2.jpg)
 3. Add the comment structure inside the `static void Main(string[] args)` method:<br>
 ![example-problem-3](files/example-problem-3.jpg)
+4. The remaining steps coming soon.
 
 ### References
 Please refer to the [Data Types in C#](../references/data-types.md) reference for the types of data that you will be using in this course.

@@ -114,8 +114,42 @@ If you have the **Output** window in Visual Studio, you can examine it to see so
 ![output-window](files/output-window.jpg)
 
 It is not very useful, but it does show you that you ran your code in debug mode, and that Visual Studio created a file called **FirstConsoleApplication.exe** which is created in the following folder:<br>
-![debug-location](files/debug-location.md)
+![debug-location](files/debug-location.jpg)
 
+### Optional Output Code
+There are two different means of outputting text and the value of the variable. Which one you use is a personal preference.
+
+#### Paramaterized String Output
+Below your original output code, `Console.WriteLine("Your name is " + yourName);` add the following code line:
+
+```csharp
+Console.WriteLine("Your name is {0}", yourName);
+```
+
+The `{0}` represents the first variable after the comma. If you had multiple variables to display on one code line you would have the parameters as `{0}` `{1}` `{2}` and so on. _Note these paramters are for just the code line you are writing; subsequent code lines, with parameters, restart the numbering sequence._
+
+Run your code again to see:<br>![console-running-3](files/console-running-3.jpg)
+
+The two output lines should exactly the same. This way avoids have to use the `+` symbol to concatenate, or _join_, complex output statements.
+
+#### Interpolated String
+Add the following code line below your last `Console.WriteLine()` code:
+
+```csharp
+Console.WriteLine($"Your name is {yourName}");
+```
+
+Here the `$` symbol tells the compiler to treat the string in `Console.WriteLine()` as a literal string, and thus `{yourName}` is automatically read. Run your code again to see the following:<br>![console-running-4](files/console-running-4.jpg)
+
+You can now use the variable name instead of a parameter count. The choice of which method is up to you.
+
+## The Difference Between `Write` and `WriteLine`
+Did you notice that the code has both `Console.Write()` and `Console.WriteLine()`? What is the difference? In your `//input` section you used `Console.Write()`. The user input was entered on the same console line as the prompt. This is the **preferred** method of inputting data.
+
+In your `//output` section you used `Console.WriteLine()`. Notice that each output statement was shown on separate console output lines. This is the **preferred** method of outputting data.
+
+## Summary
+Congratulate yourself! You successfully created your first Console application.
 
 ### [Sequence Home](02-sequence.md)
 ### [CPSC1012 Home](../)

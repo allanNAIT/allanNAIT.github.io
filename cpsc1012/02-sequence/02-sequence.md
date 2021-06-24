@@ -11,7 +11,4 @@ This section introduces you to some fundamental coding practices and workflows. 
 
 These concepts will be used throughout this course.
 
-## References
-* [Data Types](data-types.md)
-
 ### [CPSC1012 Home](../)

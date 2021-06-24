@@ -43,11 +43,11 @@ The first this to do is add the required comment block at the top of your code. 
 
 ```csharp
 /* 
-Purpose:		Demonstrate simple input & output in a Console application	 
-Input:			your name	
-Output:			your name 
-Written By: 	authorname
-Last Modified:	modifieddate 
+Purpose:        Demonstrate simple input & output in a Console application	 
+Input:          your name	
+Output:         your name 
+Written By:     authorname
+Last Modified:  modifieddate 
 */
 ```
 
@@ -68,7 +68,53 @@ static void Main(string[] args)
 }
 ```
 
+This structure outlines what we need to do in your application. You will write code from _top to bottom_ in this **Main** _method_.
 
+Below the `//declare variable(s)` comment add the following:
+
+```csharp
+string yourName;
+```
+
+Below the `//input` comment add the following:
+
+```csharp
+Console.Write("Enter your name: ");
+yourName = Console.ReadLine();
+```
+
+There is no processing in this simple application, thus you do not need to add anything below the `//process` comment.
+
+Below the `//output` comment add the following:
+
+```csharp
+Console.WriteLine("Your name is " + yourName);
+```
+
+This will write out the value of the variable, `yourName` to the console window, preceeded by some _hard-coded_ text. The `+` sign is not addition, but a **concatenation**, or _joining_, operation.
+
+Below the `//program ends` comment add a line that reads:
+
+```csharp
+Console.ReadLine();
+```
+
+### Running Your Code
+The last line of code you entered is only necessary when running your code in **debug** mode, which is the mode your code runs when you press the **Start** button. (_The **Start** button has a keyboard shortcut of **F5**._) If you did not add that code line, you would need to start your code by using **Ctrl+F5** to skip debugging; it is strongly encouraged to use debugging mode until you are fully confident in your code.
+
+Press the **Start** button, or **F5** to run your code (my resulting console colours are different for instructional purposes):<br>![console-running-1](files/console-running-1.jpg)
+
+Test this by entering your name at the prompt and see if your results look like that shown below:<br>
+![console-running-2](files/console-running-2.jpg)
+
+You will need to press **Enter** to close the console window.
+
+### Back in Visual Studio
+If you have the **Output** window in Visual Studio, you can examine it to see something like:<br>
+![output-window](files/output-window.jpg)
+
+It is not very useful, but it does show you that you ran your code in debug mode, and that Visual Studio created a file called **FirstConsoleApplication.exe** which is created in the following folder:<br>
+![debug-location](files/debug-location.md)
 
 
 ### [Sequence Home](02-sequence.md)

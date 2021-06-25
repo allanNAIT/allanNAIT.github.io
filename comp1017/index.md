@@ -3,6 +3,7 @@ layout: page
 title: COMP1017
 last_modified: true
 ---
+{{ page.date | date: "%b %d, %Y" }}
 ![comp1017-icon.png](comp1017-icon.png) **Web Fundamentals I**
 
 ## Introduction

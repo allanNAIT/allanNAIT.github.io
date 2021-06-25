@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: post
 title: COMP1017
 ---
 This was published on {{ page.date }}.
+
 ![comp1017-icon.png](comp1017-icon.png) **Web Fundamentals I**
 
 ## Introduction

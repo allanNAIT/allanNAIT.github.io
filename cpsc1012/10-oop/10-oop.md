@@ -2,9 +2,10 @@
 layout: page
 title: Object Oriented Programming (OOP)
 ---
+## Introduction
+This page is under construction...
 
-
-## Under Construction
-This site is under construction
+## Coding Topics
+TBD...
 
 ### [CPSC1012 Home](../)

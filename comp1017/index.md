@@ -3,7 +3,7 @@ layout: page
 title: COMP1017
 date: {{ page.date | date: "%b %d, %Y" }}
 ---
-{{ page.date | date: "%b %d, %Y" }}
+{ page.date | date: "%b %d, %Y" }
 ![comp1017-icon.png](comp1017-icon.png) **Web Fundamentals I**
 
 ## Introduction

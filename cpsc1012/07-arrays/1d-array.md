@@ -26,7 +26,68 @@ Declare mark[25] As double | double | 25 | `double[] mark = new double[25];`
 Declare name[100] As string | string | 100 | `string[] name = new string[100];`
 Declare gender[75] As char | char | 75 | `char[] gender = new char[75];`
 
+## Load Data Into an Array
+There are several ways to load data:
+1. Declare the array with known data
+2. User/Program entered data
+3. From an external source such as a file (covered later)
 
+Except for declaring the array with known data, the loading of data into an array involves looping; therefore, the size becomes very important
+
+### Default Array Values
+Each type of array, once declared, has default values for each element:<br>
+![default-array-values](files/default-array-values.jpg)
+
+### Logical (filled) Size vs. Physical Size
+* An array can be either completely full of data, or be only partially filled
+* When an array is declared, given both size and data type, the computer only allocates a block of memory but does not give the elements any data; we must do that manually or programmatically
+* Physical Size: the physical, declared, size of the array
+* Logical (filled) Size: the number of elements with actual, known, data
+* `Logical Size <= Physical Size`
+
+### Manually Load Data
+We can declare, and initialize, an array with pre-defined, known, data as shown below:
+
+```csharp
+string[] dayOfWeek = {"SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"};
+```
+
+OR
+
+```csharp
+int[] monthNumber = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
+```
+
+**Question**: How many elements are in each of these arrays?
+
+### Program Generated Array
+Load an array with consecutive integer values:
+
+```csharp
+// program generated array
+int[] someNumbers = new int[10];
+for (int index = 0; index < 10; index++)
+{
+    someNumbers[index] = index;
+}
+```
+
+**Question**: What does the data in this array look like?
+
+### User Entered Data
+You can have the user enter the data (the example below assumes the existence of the `GetInteger()` method:
+
+```csharp
+// user entered data
+int[] userEntered = new int[5];
+for (int index = 0; index < 5; index++)
+{
+ userEntered[index] = GetInteger("Enter an integer number: ");
+}
+```
+
+## Coding Practice
+Coming soon...
 
 ### [Arrays Home](07-arrays.md)
 ### [CPSC1012 Home](../)

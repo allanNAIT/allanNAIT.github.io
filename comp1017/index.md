@@ -1,6 +1,8 @@
 ---
 layout: page
 title: COMP1017
+author: Allan Anderson
+date: 2021-06-25 9:21
 ---
 ![comp1017-icon.png](comp1017-icon.png) **Web Fundamentals I**
 

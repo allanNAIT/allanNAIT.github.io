@@ -1,7 +1,7 @@
 ---
 layout: page
 title: COMP1017
-{% last_modified_at %}
+last_modified: true
 ---
 ![comp1017-icon.png](comp1017-icon.png) **Web Fundamentals I**
 

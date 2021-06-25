@@ -11,21 +11,23 @@ The **boolean test** uses one or more of the following relational operators:
 
 Relational Operator | Meaning
 --------------------|--------
-`<` | Less than
-`<=` | Less than or equal to
-`>` | Greater than
-`>=` | Greater than or equal to
-`!=` | No equal to
-`==` | Equal to
+**`<`** | Less than
+**`<=`** | Less than or equal to
+**`>`** | Greater than
+**`>=`** | Greater than or equal to
+**`!=`** | No equal to
+**`==`** | Equal to
+
+_**Note**: The **`=`** symbol is an **assignment opertor!_
 
 ## Logical Operators
 The **boolean test** uses zero or more of the following logical operators:
 
 Logical Operator | Meaning
 -----------------|--------
-`&&` | A logical `AND`; both sides of the expression **MUST** be true for the condition to be true
-`||` | A logical `OR`; if either side of the expression is true, the condition is true
-`!` | A logical `NOT`; negates the logical result, i.e., if the condition is TRUE, then it will negate it to be a FALSE
+**`&&`** | A logical `AND`; both sides of the expression **MUST** be true for the condition to be true
+**`||`** | A logical `OR`; if either side of the expression is true, the condition is true
+**`!`** | A logical `NOT`; negates the logical result, i.e., if the condition is TRUE, then it will negate it to be a FALSE
 
 ## Coding Topics
 You will learn about the following:

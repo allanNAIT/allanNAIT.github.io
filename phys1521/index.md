@@ -2,7 +2,7 @@
 layout: page
 title: PHYS1521
 ---
-![phys1521-icon.png](phys1521-icon.png) Math and Physics for Games
+![phys1521-icon.png](phys1521-icon.png) **Math and Physics for Games**
 
 ## Topics
 ### [Outcome 0](outcome0/outcome0.md) - Introductory Material

@@ -3,7 +3,6 @@ subtitle: A resource for students
 author: Allan Anderson
 email: aanderson@nait.ca
 minima:
-  last_modified_at:
   date_format: "%b %-d, %Y"
 github_username: bandit412
 description: A collection of notes and resources for my DMIT courses. This site is unofficial. For official resources for each course, got to https://moodle.nait.ca/.

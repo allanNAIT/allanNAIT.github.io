@@ -93,7 +93,7 @@ This calculates the average mark per course.
 `HAVING` is like the `WHERE` clause, except it applies its criteria after `GROUP BY`. For example:
 
 ```sql
-SELECT CourseID, AVG(Mark) as AverageMark
+SELECT CourseID, AVG(Mark) AS AverageMark
 FROM Registration
 GROUP BY CourseID
 WHERE AVG(Mark) > 80
@@ -102,7 +102,7 @@ WHERE AVG(Mark) > 80
 However, the following will work:
 
 ```sql
-SELECT CourseID, AVG(Mark) as AverageMark
+SELECT CourseID, AVG(Mark) AS AverageMark
 FROM Registration
 GROUP BY CourseID
 HAVING AVG(Mark) > 80

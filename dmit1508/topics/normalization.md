@@ -35,7 +35,7 @@ The database design must reflect the business policies (rules) of the organizati
 Consider the database design for an assignment tracking application for a consulting firm. The database will record information about the firm’s consultants, clients and which consultants are assigned to work with a given client. The firm may have a business policy that a client can be served by many different consultants based on a match between the type of service the client requests and the specialty of the consultant. The database design shown below would reflect this business policy.<br>
 ![normalization-sample-erd-1](images/normalization-sample-erd-1.png)
 
-The business policy results in a many to many relationship between clients and consultants (one consultant can serve many clients and a single client can receive services from many consultants). This causes the normalization process to create the Assignment table with a primary key of `ClientId`, `ConsultantId` and `StartDate`; the combination of `ClientId`, `ConsultantId` and `StartDate` uniquely identifies an individual assignment.
+The business policy results in a many to many relationship between clients and consultants (one consultant can serve many clients and a single client can receive services from many consultants). This causes the normalization process to create the `Assignment` table with a primary key of `ClientId`, `ConsultantId` and `StartDate`; the combination of `ClientId`, `ConsultantId` and `StartDate` uniquely identifies an individual assignment.
 
 If a different business policy were in place the normalization process would produce a different database design. Suppose the policy was that a client is permanently assigned to one consultant who will provide all services requested by the client. This results in a one-to-many relationship between consultants and clients (a client works with a single consultant, but a single consultant can work with many clients). The following database design would emerge:<br>
 ![normalization-sample-erd-2](images/normalization-sample-erd-2.png)
@@ -47,5 +47,7 @@ The normalization process lets us systematically break down large tables to many
 
 We shall now work through an example view and apply the rules of first, second and third normal forms to produce a schema for the view in third normal form. We start with a source document of some sort, which describes the data required by the view, and use it to define a single table that contains all the data required by the view. We then apply the rules of normalization (first, second then third normal form) to break the single table into many smaller, related tables.
 
+#### Example: Employee Workload
+The employee workload is a display, which lets a manager determine the department an employee is assigned to within the company and the projects the employee is currently working on. This information helps the manager assign employees to new projects that are taken on by the company. A sample employee workload screen layout is shown below:
 
 ### [DMIT1508 Home](../)

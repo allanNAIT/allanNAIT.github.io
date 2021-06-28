@@ -48,6 +48,17 @@ The normalization process lets us systematically break down large tables to many
 We shall now work through an example view and apply the rules of first, second and third normal forms to produce a schema for the view in third normal form. We start with a source document of some sort, which describes the data required by the view, and use it to define a single table that contains all the data required by the view. We then apply the rules of normalization (first, second then third normal form) to break the single table into many smaller, related tables.
 
 #### Example: Employee Workload
-The employee workload is a display, which lets a manager determine the department an employee is assigned to within the company and the projects the employee is currently working on. This information helps the manager assign employees to new projects that are taken on by the company. A sample employee workload screen layout is shown below:
+The employee workload is a display, which lets a manager determine the department an employee is assigned to within the company and the projects the employee is currently working on. This information helps the manager assign employees to new projects that are taken on by the company. A sample employee workload screen layout is shown below:<br>
+![employee-workload-view](images/employee-workload-view.png)
+
+##### Business Rules
+1.	An employee works for a single department in the company.
+2.	A department can have many employees working for it simultaneously.
+3.	A single department develops a project.
+4.	A department can develop many projects simultaneously.
+5.	An employee can be assigned to a maximum of 4 projects simultaneously.
+6.	A project can have many employees working on it simultaneously.
+7.	Employee Id, Department Number and Project Number uniquely identify employees, departments, and projects, respectively.
+
 
 ### [DMIT1508 Home](../)

@@ -40,7 +40,7 @@ The business policy results in a many to many relationship between clients and c
 If a different business policy were in place the normalization process would produce a different database design. Suppose the policy was that a client is permanently assigned to one consultant who will provide all services requested by the client. This results in a one-to-many relationship between consultants and clients (a client works with a single consultant, but a single consultant can work with many clients). The following database design would emerge:<br>
 ![normalization-sample-erd-2](images/normalization-sample-erd-2.png)
 
-Note that the assignment table is no longer required to track which consultant is assigned to which client as there will only be one consultant working with a given client.
+Note that the `Assignment` table is no longer required to track which consultant is assigned to which client as there will only be one consultant working with a given client.
 
 ### The Rules of the Normal Forms
 The normalization process lets us systematically break down large tables to many smaller ones. We typically apply the normalization process to each view (subset of data, which facilitates one specific task) in the application. This provides a database design for each individual view. The views are then merged to produce a single logical design for the entire database that accommodates the requirements of all the individual views.

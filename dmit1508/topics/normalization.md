@@ -62,5 +62,10 @@ The employee workload is a display, which lets a manager determine the departmen
 
 Before applying the rules of normalization, you should have a clear understanding of the entities, relationships, and candidate keys in the view.
 
+**Entities**:      `Employee`, `Department`, `Project`
+
+**Relationships**: `Employee:Department`
+                          `N:1`
+
 
 ### [DMIT1508 Home](../)

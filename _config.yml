@@ -11,7 +11,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 header_pages:
  #- anap1525/index.md
  - comp1017/index.md
- - cpsc1012/index.md
+ #- cpsc1012/index.md
  - dmit1508/index.md
  - dmit1530/index.md
  - phys1521/index.md

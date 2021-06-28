@@ -28,6 +28,7 @@ Began teaching at NAIT in 2002; prior to working at NAIT Allan spent 18 years in
 ## Other Course Taught
 * ANAP1525
 * CMIS1014
+* CPSC1012
 * DMIT1001
 * DMIT1518
 * DMIT2000

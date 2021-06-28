@@ -51,7 +51,7 @@ We shall now work through an example view and apply the rules of first, second a
 The employee workload is a display, which lets a manager determine the department an employee is assigned to within the company and the projects the employee is currently working on. This information helps the manager assign employees to new projects that are taken on by the company. A sample employee workload screen layout is shown below:<br>
 ![employee-workload-view](images/employee-workload-view.png)
 
-##### Business Rules
+**Business Rules**
 1.	An employee works for a single department in the company.
 2.	A department can have many employees working for it simultaneously.
 3.	A single department develops a project.
@@ -59,6 +59,8 @@ The employee workload is a display, which lets a manager determine the departmen
 5.	An employee can be assigned to a maximum of 4 projects simultaneously.
 6.	A project can have many employees working on it simultaneously.
 7.	Employee Id, Department Number and Project Number uniquely identify employees, departments, and projects, respectively.
+
+Before applying the rules of normalization, you should have a clear understanding of the entities, relationships, and candidate keys in the view.
 
 
 ### [DMIT1508 Home](../)

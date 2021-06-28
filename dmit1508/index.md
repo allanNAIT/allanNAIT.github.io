@@ -5,6 +5,7 @@ title: DMIT1508
 ![dmit1508-icon.png](dmit1508-icon.png) **Database Fundamentals**
 
 ## Main Topics
+* [Normalization](topics/normalization.md)
 * [Data Definition Langauge (DDL)](topics/ddl.md)
   * [Basic Table Definition](topics/ddl.md/#basic)
   * [CREATE TABLE Syntax](topics/ddl.md/#create)

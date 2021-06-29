@@ -62,11 +62,13 @@ The employee workload is a display, which lets a manager determine the departmen
 
 Before applying the rules of normalization, you should have a clear understanding of the entities, relationships, and candidate keys in the view.
 
-|---|---
+| :--- | :----: 
 | **Entities** | `Employee`, `Department`, `Project`
 | **Relationships** | 1. `Employee : Department`<br>`N : 1`
-| &nbsp; | `Department : Project`<br>`1 : N`
-| &nbsp; | `Employee : Project`<br>`N : M`
+| &nbsp; | 2. `Department : Project`<br>`1 : N`
+| &nbsp; | 3. `Employee : Project`<br>`N : M`
+| **Candidate keys** | `Employee Id`,<br>`Department Number`,<br>`Project Number`
 
+We can now apply the normalization process to produce the schema (database design) for the view.
 
 ### [DMIT1508 Home](../)

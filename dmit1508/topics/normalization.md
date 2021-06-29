@@ -64,8 +64,9 @@ Before applying the rules of normalization, you should have a clear understandin
 
 |---|---
 | **Entities** | `Employee`, `Department`, `Project`
-| **Relationships** | `Employee:Department`<br>
-|  |  `N:1`
+| **Relationships** | 1. `Employee : Department`<br>`N : 1`
+| &nbsp; | `Department : Project`<br>`1 : N`
+| &nbsp; | `Employee : Project`<br>`N : M`
 
 
 ### [DMIT1508 Home](../)

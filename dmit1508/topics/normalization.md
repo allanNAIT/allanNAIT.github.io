@@ -64,9 +64,7 @@ Before applying the rules of normalization, you should have a clear understandin
 
 |---|----
 | **Entities** | `Employee`, `Department`, `Project`
-| **Relationships** | 1. `Employee : Department` = `N : 1`
-| &nbsp; | 2. `Department : Project` = `1 : N`
-| &nbsp; | 3. `Employee : Project`= `N : M`
+| **Relationships** | 1. `Employee : Department` = `N : 1`<br>2. `Department : Project` = `1 : N`<br>3. `Employee : Project`= `N : M`
 | **Candidate Keys** | `Employee Id`, `Department Number`, `Project Number`
 
 We can now apply the normalization process to produce the schema (database design) for the view.

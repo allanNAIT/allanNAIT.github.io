@@ -57,16 +57,16 @@ title: SAD Introduction
 * Provide reliable cost and benefit information.
 
 
-| **Phase** | **Step** | **Technique** | **Deliverable** |
-------------|----------|---------------|-----------------|
+**Phase** | **Step** | **Technique** | **Deliverable**
+----------|----------|---------------|----------------
 **Planning**
 <br><br><br>
 **Focus**:<br>
-* Why build this system?
-* How to structure the project?
+* Why build this system?<br>
+* How to structure the project?<br>
 <br><br>
 **Primary outputs**:<br>
-* System request with feasibility study
+* System request with feasibility study<br>
 * Project plan | Identify opportunity<br>Analyze feasibility | Project identification<br>
 Technical feasibility<br>
 Economic feasibility<br>

@@ -3,7 +3,9 @@ layout: page
 title: DFD Rules
 ---
 
-## Rules: Avoid “Black Holes”, “Miracles” and “Grey Holes”
+## Rules:
+Avoid “Black Holes”, “Miracles” and “Grey Holes”
+
 ### Black Holes:
 Process has Input but no Output Order Data.
 

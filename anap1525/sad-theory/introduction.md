@@ -59,7 +59,7 @@ title: SAD Introduction
 
 **Phase** | **Step** | **Technique** | **Deliverable**
 ----------|----------|---------------|----------------
-**Planning**<br><br><br>**Focus**:<br>Why build this system?<br>How to structure the project?<br><br>**Primary outputs**:<br>System request with feasibility study<br>Project plan | Identify opportunity<br>Analyze feasibility <br><br><br><br>Develop work plan<br><br><br><br>Staff project| Project identification<br>Technical feasibility<br>Economic feasibility<br>Organizational feasibility<br><br><br> | System request  **Feasibility study**
+**Planning**<br><br><br><br>**Focus**:<br>Why build this system?<br>How to structure the project?<br><br>**Primary outputs**:<br>System request with feasibility study<br>Project plan | Identify opportunity<br>Analyze feasibility <br><br><br><br>Develop work plan<br><br><br><br>Staff project| Project identification<br>Technical feasibility<br>Economic feasibility<br>Organizational feasibility<br><br><br> | System request<br>**Feasibility study**
 
 ## System Development Tools/Techniques
 ### 1. Modeling (DFD, ERD, UML)

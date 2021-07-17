@@ -26,7 +26,7 @@ Context level DFD decomposes to **System level DFD**.
 
 If you need to continue breaking down processes eventually you reach **Process Level DFD**. The Decomposition process is the same as it was for breaking down Context level to System Level.
 * A single higher-level process is broken into smaller more detailed processes.
-* If the process the current process originated from system level for example. Process 1.0 would break down into 1.1, 1.2, 1.3 etc. Process 2.0 would break down into 2.1, 2.2, 2.3 etc.
+* If the process the current process originated from system level for example. Process 1.0 would break down into 1.1, 1.2, 1.3, etc. Process 2.0 would break down into 2.1, 2.2, 2.3, etc.
 * Process level does not show any additional External entities or data stores, it only reveals more details of the steps within the process and any decisions it may make.
 
 

@@ -35,7 +35,7 @@ Process has insufficient Input for the Output it generates.
         <li>Should be easy to understand, easy to absorb, easy to read and pleasing to the eye</li>
         <li>Should fit comfortably on an 8.5 by 11-inch sheet of paper</li>
         <li>Generally, not more than 6 - 8 processes per page</li>
-        <li>Context diagram shows one process that represents the entire system and highlights the interfaces between the system and the external entities</li>
+        <li><a href="context.md">Context diagram</a> shows one process that represents the entire system and highlights the interfaces between the system and the external entities</li>
     </ol>
 4. Redraw the DFD as many times as necessary for aesthetics:<br>
     <ol type="a">

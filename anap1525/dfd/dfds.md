@@ -9,7 +9,7 @@ Data Flow Diagrams are a network representation of a system. Referred to as Bubb
 The Four symbols used to represent any system at any level of detail are:
 
 ### External Entity
-External entities -sources or destinations of data outside the specified system boundary
+Sources or destinations of data outside the specified system boundary
 * Only used to describe person, group of people, an outside agency, a department, can be another system with which your system communicates that provides data to the system but do not provide details on how it is acquired, or receives data from the system but do not provide details on how it is used.
 * They are also referred to as Sources or Sinks of data.
 * Must be outside the control of the system being modeled.
@@ -30,7 +30,7 @@ Shows data movement in and out of stores, processes, external entities
 * Name represents the meaning or content of the data that is moving along the flow.
 * Carries only one type of data.
 * Shows direction; an arrowhead indicated the direction the data is traveling.
-* Can diverge -duplicate copies of a packet of data are sent to different parts of the system or a complex packet of data is being split into several more elementary data packets, each being sent to different parts of the system.
+* Can diverge - duplicate copies of a packet of data are sent to different parts of the system or a complex packet of data is being split into several more elementary data packets, each being sent to different parts of the system.
 * Dataflows can converge -several elementary packets of data are joining together to form a more complex, aggregate packet of data.
 
 ### Data Store 

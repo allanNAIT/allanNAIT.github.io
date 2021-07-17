@@ -47,6 +47,32 @@ title: SAD Introduction
 * Review implementation, refine design, implement improvements
 * Maintenance of system for remainder of useful life
 
+## Systems Development Guidelines
+ * Follow your overall development plan
+* Ensure that the users are involved from the beginning so that you get “buy in” and you fully understand their system requirements
+* Listen, listen and listen!!
+* Identify your major milestones for project review and assessment.
+* Establish interim checkpoints between the major milestones to ensure that your project remains on schedule.
+* Keep flexible with the parameters of your plan
+* Provide reliable cost and benefit information.
+
+
+**Phase** | **Step** | **Technique** | **Deliverable**
+----------+----------+---------------+----------------
+**Planning**
+<br><br><br>
+**Focus**:<br>
+* Why build this system?
+* How to structure the project?
+<br><br>
+**Primary outputs**:<br>
+* System request with feasibility study
+* Project plan | Identify opportunity<br>Analyze feasibility | Project identification<br>
+Technical feasibility<br>
+Economic feasibility<br>
+Organizational feasibility<br> | System request<br>
+**Feasibility study**
+
 ## System Development Tools/Techniques
 ### 1. Modeling (DFD, ERD, UML)
 * Graphical representation

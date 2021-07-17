@@ -57,8 +57,8 @@ title: SAD Introduction
 * Provide reliable cost and benefit information.
 
 
-**Phase** | **Step** | **Technique** | **Deliverable**
-----------+----------+---------------+----------------
+| **Phase** | **Step** | **Technique** | **Deliverable** |
+------------+----------+---------------+-----------------+
 **Planning**
 <br><br><br>
 **Focus**:<br>

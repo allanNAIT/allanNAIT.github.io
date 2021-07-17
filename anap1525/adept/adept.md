@@ -18,7 +18,7 @@ title: ADEPT Analysis
 * **Defined**: are the major steps for performing the business process.
 * **Business Process**:
   * **Defined**: are related steps that combine to complete the business process that was designed to create value for both internal and external customers.
-  * [i.e., Accounts Payable is a business process whose sole function may be to track the payables to various creditors and provide information in the form of reports].
+  * i.e., Accounts Payable is a business process whose sole function may be to track the payables to various creditors and provide information in the form of reports.
   * From our perspective, this part of the analysis can form the basis of our DFD's (Data Flow Diagrams) and Use Cases.
 
 ## Data

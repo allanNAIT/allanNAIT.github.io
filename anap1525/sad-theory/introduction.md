@@ -59,7 +59,10 @@ title: SAD Introduction
 
 **Phase** | **Step** | **Technique** | **Deliverable**
 ----------|----------|---------------|----------------
-**Planning**<br><br><br><br>**Focus**:<br>Why build this system?<br>How to structure the project?<br><br>**Primary outputs**:<br>System request with feasibility study<br>Project plan | Identify opportunity<br>Analyze feasibility <br><br><br><br>Develop work plan<br><br><br><br>Staff project| Project identification<br>Technical feasibility<br>Economic feasibility<br>Organizational feasibility<br><br>Time estimation<br>Task identification<br>Work breakdown structure<br>PERT chart<br>Gantt chart<br>Scope management<br><br>Project staffing<br>Project charter<br><br><br> | System request<br>**Feasibility study**
+**Planning**<br><br><br><br>**Focus**:<br>Why build this system?<br>How to structure the project?<br><br>**Primary outputs**:<br>System request with feasibility study<br>Project plan | Identify opportunity<br>Analyze feasibility <br><br><br><br>Develop work plan<br><br><br><br>Staff project| Project identification<br>Technical feasibility<br>Economic feasibility<br>Organizational feasibility<br><br>Time estimation<br>Task identification<br>Work breakdown structure<br>PERT chart<br>Gantt chart<br>Scope management<br><br>Project staffing<br>Project charter<br><br>CASE repository Standards<br>Documentation<br>Time boxing<br>Risk management
+ | System request<br>**Feasibility study**<br><br><br><br>**Project plan**<br>
+—Work plan<br><br><br><br>
+
 
 
 

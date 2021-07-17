@@ -18,3 +18,7 @@ title: ANAP1525
 * [Golden Links Member System](exercises/golden-links.md)
 * [CSAW Broadcast Scheduling System](exercises/csaw.md)
 * [Invoice Porcessing System](exercises/invoices.md)
+* [Peek Magazine Inc. Subscription Handling System - easy](exercises/peek.md)
+* [Eider-Won Order Processing System - easy](exercises/eider-won.md)
+* [Umbra's Vehicle Maintenance System](exercises/umbra.md)
+* [Muther Truckers Ltd. - Maintenance System](exercises/truckers.md)

@@ -38,7 +38,7 @@ put picture here | **Order** = [Personal Customer Number, Corporate Account Numb
 
 **Document Example** | **Data Structure**
 ---------------------|-------------------
-put picture here | **Claim** = Policy Number + Policyholder Name + Policyholder Address +0 { Dependent Name + Dependent's Relationship } N +1 { Expense Description + Service Provider + Expense Amount } N
+put picture here | **Claim** = Policy Number + Policyholder Name + Policyholder Address +0{Dependent Name + Dependent's Relationship}N + 1{Expense Description + Service Provider + Expense Amount}N
 
 ## Optional and Reusable Attributes
 
@@ -46,5 +46,9 @@ put picture here | **Claim** = Policy Number + Policyholder Name + Policyholder 
 ---------------------|-------------------
 put picture here | **Claim** = Policy Number + Policy Date = Date + Policyholder Name + Policyholder Address +(Spouse Name + Date of Birth = Date) + ...<br>**Date** = Month + Day + Year
 
+## Example Creation of a Data Dictionary
+* Start with an entity on an ERD.
+* Document the attributes, but keep an eye for potential reuse of data structures.
+* Fully break down one data structure before moving to a new entity from the ERD.
 
 ### [ANAP1525 Home](../)

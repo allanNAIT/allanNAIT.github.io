@@ -8,19 +8,19 @@ Avoid “Black Holes”, “Miracles” and “Grey Holes”
 
 ### Black Holes:
 Process has Input but no Output Order Data.
-[black-hole](files/black-hole.png)
+![black-hole](files/black-hole.png)
 
 ### White Hole or Miracle:
 Process has Output but no Input.
-[miracle](files/miracle.png)
+![miracle](files/miracle.png)
 
 ### Gray Hole:
 Process has insufficient Input for the Output it generates.
-[gray-hole](files/gray-hole.png)
+![gray-hole](files/gray-hole.png)
 
 **Incorrect Data Flows** | **Correct Data Flows**
 -------------------------|-----------------------
-[incorrect-data-flows](files/incorrect-data-flows.png) | [correct-data-flows](files/correct-data-flows.png)
+![incorrect-data-flows](files/incorrect-data-flows.png) | ![correct-data-flows](files/correct-data-flows.png)
 
 ## Guidelines for Constructing DFDs:
 1. Choose meaningful names for processes, flows, stores, and entities:<br>

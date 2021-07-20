@@ -27,17 +27,17 @@ Customer says “No.”
 The above business rule must be satisfied. So the clerk responds “Just a moment while I make a reservation for you.  Then we can get you checked in.”
 
 ## Properties of a Good Business Rule
-* **ATOMIC** - Cannot be decomposed without losing meaning. (No use of “and”, “or”, “but”.)
-* **DECLARATIVE** – It explains “how to”, where and when the rule is imposed.
-* **PRECISE** - Has only one interpretation.
-* **JUSTIFIED** - Supports the objectives of the  business.
+* **ATOMIC** - Cannot be decomposed without losing meaning. (No use of “and”, “or”, “but”.)
+* **DECLARATIVE** – It explains “how to”, where and when the rule is imposed.
+* **PRECISE** - Has only one interpretation.
+* **JUSTIFIED** - Supports the objectives of the  business.
 * **AUTHORIZED** – Someone relevant to the business is empowered to create the rule.  (i.e., the janitor does not have authority to create a rule on how orders are received.)
 
 ## Business Rule Examples
-* Everyone  that appears to be under the age of 25 years needs to have their ID checked.
-* We only ship complete orders.
-* Before a work order can be completed, a customer’s information must be collected.
-* Any customer that owes more than $5,000.00 cannot place new orders.
+* Everyone  that appears to be under the age of 25 years needs to have their ID checked.
+* We only ship complete orders.
+* Before a work order can be completed, a customer’s information must be collected.
+* Any customer that owes more than $5,000.00 cannot place new orders.
 * All vehicles require a visual inspection for damage before being released to the customer.
 
 ## Five Steps for Creatinga Business Rule Collection

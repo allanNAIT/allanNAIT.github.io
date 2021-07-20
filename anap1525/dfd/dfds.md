@@ -17,6 +17,10 @@ Sources or destinations of data outside the specified system boundary
 * People, organizations or systems that are DOING the work on the data, are part of the system and are NOT DOCUMENTED as External entities for that process.
 * Relationships between external entities are not shown. These are not part of the system. If they are, then show the entities as processes.
 
+Symbol:<br>
+[entity-symbol](files/entity-symbol.png)
+
+
 ### Data Flow
 Shows data movement in and out of stores, processes, external entities
 * Label on the flow refers to the content moving along the dataflow.
@@ -33,6 +37,9 @@ Shows data movement in and out of stores, processes, external entities
 * Can diverge - duplicate copies of a packet of data are sent to different parts of the system or a complex packet of data is being split into several more elementary data packets, each being sent to different parts of the system.
 * Dataflows can converge -several elementary packets of data are joining together to form a more complex, aggregate packet of data.
 
+Symbol:<br>
+[flow-symbol](files/flow-symbol.png)
+
 ### Data Store 
 Data stores document data when it is not being moved or processed. It can be a database, file folder, filing cabinet or shoe box.
 * Label is the same as the Entity name given on an ERD.
@@ -44,6 +51,9 @@ Data stores document data when it is not being moved or processed. It can be a d
 * Flow to a data store - interpreted as a write or an update, or a delete.
 * The store is changed as a result of the flow entering the store. It is the process connected to the other end of the flow that is responsible for making the change to the store.
 
+Symbol:<br>
+[data-store-symbol](files/data-store-symbol.png)
+
 ### Processes
 Transforms incoming data flow(s) to outgoing data flow(s). Common synonyms are: bubble, function, transformation
 * Typically, label is given an action (starts with a verb) name that briefly describes what happens to the data.
@@ -51,6 +61,9 @@ Transforms incoming data flow(s) to outgoing data flow(s). Common synonyms are: 
 * Only the Context or top-level process is named after the system.
 * Transforms inputs into outputs.
 * Shows how one or more inputs are changed into an output.
+
+Symbol:<br>
+[process-symbol](files/process-symbol.png)
 
 ## Topics
 * [DFD Rules](rules.md)

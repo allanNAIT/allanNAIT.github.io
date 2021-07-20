@@ -15,13 +15,23 @@ The Elements of an ERD are:
 ### Entities
 * Must balance with other diagrams – same name in system and process DFD
 * An entity is a real-world item or concept that exists on its own. 
-* Entities are equivalent to database tables in a relational database, each row of the table represents an instance of that entity.
+* Entities are equivalent to database tables in a relational database, each row of the table represents an instance of that entity.<br>
+![entity](files/entity.png)
 
 ### Relationships
 * A relationship is the association that describes the interaction between entities. 
 * **Cardinality** refers to the number of instances of one entity that are associated with an instance of another entity. 
 * In general, there may be one-to-one, one-to-many, or many-to-many relationships. 
 * **Ordinality** relates to whether an entity is mandatory or optional with another associated entity.
+
+**Symbol** | ** Meaning**
+-----------|-------------
+![zero-to-one](files/zero-to-one.png) | Zero or One<br>an optional relationship
+![one](files/one.png) | One
+![one-only-one](files/one-only-one.png) | One and Only One
+![zero-or-many](files/zero-or-many.png) | Zero or Ma y<br>an optional relationship
+![one-or-many](files/one-or-many.png) | One or Many
+![many](files/many.png) | Many
 
 * Description of the relationship between two entities
 * Verbs are expected here
@@ -59,5 +69,7 @@ PK must be Unique, Stable, and NOT NULL.
 * Employee review
   * Must be associated to an employee
   * Is created by a manager
+
+![erd-sample](files/erd-sample.png)
 
 ### [ANAP1525 Home](../)

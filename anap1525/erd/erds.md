@@ -24,7 +24,7 @@ The Elements of an ERD are:
 * In general, there may be one-to-one, one-to-many, or many-to-many relationships. 
 * **Ordinality** relates to whether an entity is mandatory or optional with another associated entity.
 
-**Symbol** | ** Meaning**
+**Symbol** | **Meaning**
 -----------|-------------
 ![zero-to-one](files/zero-to-one.png) | Zero or One<br>an optional relationship
 ![one](files/one.png) | One

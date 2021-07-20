@@ -26,25 +26,25 @@ Adds details that are not typically included in DFDs, ERDs, or other documentati
 
 **Document Example** | **Data Structure**
 ---------------------|-------------------
-![document-example-1](files/document-examnple-1.jpg) | **Wage And Tax Statement** = Taxpayer Identification Number + Taxpayer Name + Taxpayer Address + Wages, Tips And Compensation + Federal Tax Withheld + ...
+![document-example-1](files/document-example-1.jpg) | **Wage And Tax Statement** = Taxpayer Identification Number + Taxpayer Name + Taxpayer Address + Wages, Tips And Compensation + Federal Tax Withheld + ...
 
 ## Selection Data Structure
 
 **Document Example** | **Data Structure**
 ---------------------|-------------------
-![document-example-2](files/document-examnple-2.jpg) | **Order** = [Personal Customer Number, Corporate Account Number ] + Order Date + ...
+![document-example-2](files/document-example-2.jpg) | **Order** = [Personal Customer Number, Corporate Account Number ] + Order Date + ...
 
 ## Repetition Data Structure
 
 **Document Example** | **Data Structure**
 ---------------------|-------------------
-![document-example-3](files/document-examnple-3.jpg)  | **Claim** = Policy Number + Policyholder Name + Policyholder Address +0{Dependent Name + Dependent's Relationship}N + 1{Expense Description + Service Provider + Expense Amount}N
+![document-example-3](files/document-example-3.jpg)  | **Claim** = Policy Number + Policyholder Name + Policyholder Address +0{Dependent Name + Dependent's Relationship}N + 1{Expense Description + Service Provider + Expense Amount}N
 
 ## Optional and Reusable Attributes
 
 **Document Example** | **Data Structure**
 ---------------------|-------------------
-![document-example-4](files/document-examnple-4.jpg) | **Claim** = Policy Number + Policy Date = Date + Policyholder Name + Policyholder Address +(Spouse Name + Date of Birth = Date) + ...<br>**Date** = Month + Day + Year
+![document-example-4](files/document-example-4.jpg) | **Claim** = Policy Number + Policy Date = Date + Policyholder Name + Policyholder Address +(Spouse Name + Date of Birth = Date) + ...<br>**Date** = Month + Day + Year
 
 ## Example Creation of a Data Dictionary
 * Start with an entity on an ERD.

@@ -7,15 +7,15 @@ title: DFD Rules
 Avoid “Black Holes”, “Miracles” and “Grey Holes”
 
 ### Black Holes:
-Process has Input but no Output Order Data.
+Process has Input but no Output Order Data.<br>
 ![black-hole](files/black-hole.png)
 
 ### White Hole or Miracle:
-Process has Output but no Input.
+Process has Output but no Input.<br>
 ![miracle](files/miracle.png)
 
 ### Gray Hole:
-Process has insufficient Input for the Output it generates.
+Process has insufficient Input for the Output it generates.<br>
 ![gray-hole](files/gray-hole.png)
 
 **Incorrect Data Flows** | **Correct Data Flows**

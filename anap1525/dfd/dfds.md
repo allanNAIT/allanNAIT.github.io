@@ -18,8 +18,7 @@ Sources or destinations of data outside the specified system boundary
 * Relationships between external entities are not shown. These are not part of the system. If they are, then show the entities as processes.
 
 Symbol:<br>
-[entity-symbol](files/entity-symbol.png)
-
+![entity-symbol](files/entity-symbol.png)
 
 ### Data Flow
 Shows data movement in and out of stores, processes, external entities
@@ -38,7 +37,7 @@ Shows data movement in and out of stores, processes, external entities
 * Dataflows can converge -several elementary packets of data are joining together to form a more complex, aggregate packet of data.
 
 Symbol:<br>
-[flow-symbol](files/flow-symbol.png)
+![flow-symbol](files/flow-symbol.png)
 
 ### Data Store 
 Data stores document data when it is not being moved or processed. It can be a database, file folder, filing cabinet or shoe box.
@@ -52,7 +51,7 @@ Data stores document data when it is not being moved or processed. It can be a d
 * The store is changed as a result of the flow entering the store. It is the process connected to the other end of the flow that is responsible for making the change to the store.
 
 Symbol:<br>
-[data-store-symbol](files/data-store-symbol.png)
+![data-store-symbol](files/data-store-symbol.png)
 
 ### Processes
 Transforms incoming data flow(s) to outgoing data flow(s). Common synonyms are: bubble, function, transformation
@@ -63,7 +62,7 @@ Transforms incoming data flow(s) to outgoing data flow(s). Common synonyms are: 
 * Shows how one or more inputs are changed into an output.
 
 Symbol:<br>
-[process-symbol](files/process-symbol.png)
+![process-symbol](files/process-symbol.png)
 
 ## Topics
 * [DFD Rules](rules.md)

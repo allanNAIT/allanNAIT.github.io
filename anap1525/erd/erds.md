@@ -29,7 +29,7 @@ The Elements of an ERD are:
 ![zero-to-one](files/zero-to-one.png) | Zero or One<br>an optional relationship
 ![one](files/one.png) | One
 ![one-only-one](files/one-only-one.png) | One and Only One
-![zero-or-many](files/zero-or-many.png) | Zero or Ma y<br>an optional relationship
+![zero-or-many](files/zero-or-many.png) | Zero or Many<br>an optional relationship
 ![one-or-many](files/one-or-many.png) | One or Many
 ![many](files/many.png) | Many
 

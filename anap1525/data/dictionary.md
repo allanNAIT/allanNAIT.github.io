@@ -51,6 +51,6 @@ Adds details that are not typically included in DFDs, ERDs, or other documentati
 * Document the attributes, but keep an eye for potential reuse of data structures.
 * Fully break down one data structure before moving to a new entity from the ERD.
 
-[example-erd](files/example-erd.png)
+![example-erd](files/example-erd.png)
 
 ### [ANAP1525 Home](../)

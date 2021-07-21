@@ -1,5 +1,5 @@
 ---
-layout: pagr
+layout: page
 title: User Interface Design
 ---
 

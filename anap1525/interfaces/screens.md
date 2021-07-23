@@ -107,5 +107,13 @@ There are 10 elements of screen design:
 * Spatial arrangement adequate
 ![grouping-3](files/grouping-3.png)
 
+## Examples
+![example-1](files/example-1.jpg)<br>
+**Question**: What is wrong, or can be improved?
+
+![example-2](files/example-2.jpg)
+**Note**: Notice the improvements make this firm easier to use.
+
+
 ### [Interfaces Home](interfaces.md)
 ### [ANAP1525 Home](../)

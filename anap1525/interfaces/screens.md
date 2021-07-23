@@ -30,6 +30,10 @@ title: Screen Design
       color: goldenrod;
       
   }
+
+  .blue{
+      color: blue;
+  }
 </style>
 
 ## Visual Processing
@@ -210,6 +214,46 @@ Users want:
 * Use color purposefully
   * Use sparingly or it loses its effectiveness
   * Combine color with redundant highlighting
+
+![colurs-1](files/colours-1.jpg)
+
+* Be aware of color blindness
+  * Blue-green, red-green
+  * 9% men, 2% of women
+* Use colors consistently
+  * Red: always warning (?)
+  * Green: always good (?)
+* Use cultural color meanings
+  * Red, yellow, green, blue, black 
+* Use light backgrounds for main areas
+  * Off-whites and light grays
+  * Increases contrast
+
+![colours-2](files/colours-2.jpg)<br>vs.<br>![colours-3](files/colours-3.jpg)
+
+* Avoid <span class="red">red</span> and <span class="blue">blue</span> combinations
+  * Avoid blue text
+![colours-4](files/colours-4.jpg)
+
+* Avoid light text on dark
+![colours-5](files/colours-5.jpg)
+
+### Choosing Graphics
+* Use graphics for a purpose
+  * Icons
+  * Button Images
+  * Descriptive graphics
+    * Picture of house in a real estate application
+* Use graphics for international use
+  * Sometimes better than particular language
+  * Meaning same for everyone
+* Use standard graphics
+  * Already tested with users
+    * Know that meaning is understood across user population
+  * Guidelines
+    * Windows
+    * Mac
+    * UNIX
 
 
 ### [Interfaces Home](interfaces.md)

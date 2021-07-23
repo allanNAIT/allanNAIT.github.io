@@ -2,6 +2,34 @@
 layout: page
 title: Screen Design
 ---
+<style>
+  .sans{
+      font-family: Arial;
+      font-size: 2.5rem;
+      font-weight: bold;
+  }
+
+  .orange{
+      color: #FF8C00;
+      font-weight: bold;
+  }
+
+  .red{
+      color: red;
+  }
+
+  .green1{
+      color: green;
+  }
+
+  .green2{
+      color: #20b2aa;
+  }
+
+  .yellow{
+      color: yellow;
+  }
+</style>
 
 ## Visual Processing
 * Anything that is seen by our eyes must be processed
@@ -112,7 +140,76 @@ There are 10 elements of screen design:
 **Question**: What is wrong, or can be improved?
 
 ![example-2](files/example-2.jpg)
-**Note**: Notice the improvements make this firm easier to use.
+**Note**: Notice the improvements make this form easier to use.
+
+## Screen Design
+Users want:
+* Orderly, clean, clutter-free appearance
+* Obvious indication of what is being shown and 	what should be done
+* Expected information located where it should be
+* Plain, simple English (Language)
+
+### Text
+* Fundamental goal is clarity and simplicity
+  * Noticeable and disguisable
+  * Interpretable and attractive
+  * No translations, external references to documents
+  * Be consistent
+
+* Guidelines
+  * Used mixed-case for:
+    * Control captions
+    * Data
+    * Text
+    * Messages
+    * Instructional information
+    * Menu & button descriptions
+  * Use upper-case or capitalization for
+    * Title
+    * Section & sub-section headings
+
+### Fonts
+* Use a <span class="sans">sans serif font</span>
+  * Easier to read
+* Which is easier to read?
+![font-choice](files/font-choice.jpg)
+
+* Use simple readable fonts
+  * Sans serif (e.g., Arial, Helvetica)
+  * Times Roman (serif)
+* Use no more than <span class="orange">two</span> families
+  * Assign separate <span class="orange">purpose</span> to each family
+  * Allow one to <span class="orange">dominate</span>
+    * Headings, subheadings, etc.
+
+* Use no more than:
+  * Two styles of the same family (e.g., standard and italic)
+  * Two weights
+    * Regular and bold
+
+* Use no more than <span class="orange">three</span> sizes
+  * Usually 12 pt. for menus
+  * 10 pt. for windows
+  * Minimum is 8 pt.
+* Never change established type sizes to squeeze in text!
+* Always consider the visual capabilities of the users.
+
+**8-point font** | **12-point font**
+-----------------|------------------
+![font-size-1](files/font-size-1.jpg) | ![font-size-2](files/font-size-2.jpg)
+
+### Fonts & Colours
+* <span class="red">Avoid</span> <span class="green1">using</span> <span class="yellow">colored</span> <span class="green2">fonts</span>
+* Use bold for **emphasis**
+  * Do not use color: users typically assume color is a cue for text with a different or specific purpose, such as hyperlink.
+* Avoid changing font size
+  * Does not get attention, is distracting
+* Use color to get <span class="red">attention</span>
+  * Use when it is critical that users notice a certain part of the screen
+  * <span class="red">STATUS</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="green1">STATUS</span>
+* Use color purposefully
+  * Use sparingly or it loses its effectiveness
+  * Combine color with redundant highlighting
 
 
 ### [Interfaces Home](interfaces.md)

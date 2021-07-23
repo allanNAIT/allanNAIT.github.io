@@ -206,7 +206,7 @@ Users want:
 * Avoid changing font size
   * Does not get attention, is distracting
 * Use color to get <span class="red">attention</span>
-  * Use when it is critical that users notice a certain part of the screen<br>&nbsp;&nbsp;**<span class="red">STATUS</span>**&nbsp;&nbsp;&nbsp;&nbsp;**<span class="green1">STATUS</span>**
+  * Use when it is critical that users notice a certain part of the screen<br>&nbsp;&nbsp;**<span class="red">STATUS</span>**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**<span class="green1">STATUS</span>**
 * Use color purposefully
   * Use sparingly or it loses its effectiveness
   * Combine color with redundant highlighting

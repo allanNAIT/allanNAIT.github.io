@@ -255,6 +255,10 @@ Users want:
     * Mac
     * UNIX
 
+### Duplication
+
+-------|------
+1st Amount: $12.34<br>2nd Amount: $23.45<br>3rd Amount: $34.56<br>4th Amount: $45.67 | ![duplication](files/duplication.jpg)
 
 ### [Interfaces Home](interfaces.md)
 ### [ANAP1525 Home](../)

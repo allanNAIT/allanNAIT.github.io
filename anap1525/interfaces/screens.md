@@ -85,8 +85,27 @@ There are 10 elements of screen design:
 ![simplicity-1](files/simplicity-1.png)<br>Only four alignments need to be processed | ![simplicity-2](files/simplicity-2.png)<br>A total of nine alignments need to be processed
 
 ### Groupings
+* Provide functional groupings by associated elements
+  * Create spatial groupings, evenly spaced
+  * Allow 1/8 to 1/4 inch between
+* Visually reinforcing groupings
+  * Provide adequate separation between groupings through white space
+  * Provide line borders around groups
 
+#### Simple Grouping
+* Similar elements aligned vertically
+* Vertical distance between similar objects small
+![grouping-1](files/grouping-1.png)
 
+#### Boxed Grouping
+* Boxes add additional complexity to form
+* Spatial arrangement adequate
+![grouping-2](files/grouping-2.png)
+
+#### Background Grouping
+* Color adds additional visual complexity
+* Spatial arrangement adequate
+![grouping-3](files/grouping-3.png)
 
 ### [Interfaces Home](interfaces.md)
 ### [ANAP1525 Home](../)

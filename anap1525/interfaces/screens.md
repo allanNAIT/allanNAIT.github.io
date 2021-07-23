@@ -27,7 +27,7 @@ title: Screen Design
   }
 
   .yellow{
-      color: yellow;
+      color: gold;
   }
 </style>
 

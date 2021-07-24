@@ -66,5 +66,16 @@ title: Graphical Design C.R.A.P.
 
 ![proximity-2](files/proximity-2.jpg)
 
+### Economy of Visual Elements
+* minimize number of controls
+* include only those that are necessary
+  * eliminate, or relegate others to secondary windows
+* minimize clutter 
+  * so information is not hidden
+
+---|---
+![economy-3](files/economy-3.png) | ![economy-4](files/economy-4.png)
+![wrong](files/wrong.png) | ![check](files/check.png)
+
 ### [Interfaces Home](interfaces.md)
 ### [ANAP1525 Home](../)

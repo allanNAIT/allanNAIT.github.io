@@ -43,9 +43,9 @@ title: Graphical Design C.R.A.P.
   * element repetition
   * organization
 
-![grids-1](files/grids-1.jpg)<br>
-![grids-2](files/grids-2.jpg)<br>
-![grids-3](files/grids-3.jpg)
+![grids-1](files/grids-1.jpg)<br><br>
+![grids-2](files/grids-2.jpg)<br><br>
+![grids-3](files/grids-3.jpg)<br>
 
 ## Proximity
 * groups related elements

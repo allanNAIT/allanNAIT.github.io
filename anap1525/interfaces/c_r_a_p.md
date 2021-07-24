@@ -8,6 +8,7 @@ title: Graphical Design C.R.A.P.
 * brings out dominant elements
 * mutes lesser elements
 * creates dynamism
+
 **R**epetition
 * repeat design throughout the interface
 * consistency
@@ -15,6 +16,7 @@ title: Graphical Design C.R.A.P.
 **A**lignment
 * visually connects elements
 * creates a visual flow
+
 **P**roximity
 * groups related elements
 * separates unrelated ones

@@ -2,30 +2,57 @@
 layout: page
 title: Graphical Design C.R.A.P.
 ---
-<style>
-  .large{
-      font-size: 1.5 rem;
-  }
-</style>
 
-## <span style="large">C</span>ontrast
+## Contrast
 * make different things different
 * brings out dominant elements
 * mutes lesser elements
 * creates dynamism
 
-## <span style="large">R</span>epetition
+## Repetition
 * repeat design throughout the interface
 * consistency
 * creates unity 
 
-## <span style="large">A</span>lignment
+### Visual Consistency
+* Internal consistency
+  * elements follow same conventions and rules
+  * set of application-specific grids enforce this
+* External consistency
+  * follow platform and interface style conventions
+  * use platform and widget-specific grids
+* Deviate only when it provides a clear benefit to user
+
+![repettition-1](files/repetition-1.jpg)
+
+## Alignment
 * visually connects elements
 * creates a visual flow
 
-## <span style="large">P</span>roximity
+### Grids
+* Horizontal and vertical lines to locate window components
+  * aligns related components
+* Organization
+  * contrast for dominant elements
+  * element groupings by proximity
+  * organizational structure
+  * alignment
+* Consistency
+  * location
+  * format
+  * element repetition
+  * organization
+
+![grids-1](files/grids-1.jpg)<br>
+![grids-2](files/grids-2.jpg)<br>
+![grids-3](files/grids-3.jpg)
+
+## Proximity
 * groups related elements
 * separates unrelated ones
+
+
+
 
 
 ### [Interfaces Home](interfaces.md)

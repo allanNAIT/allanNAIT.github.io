@@ -51,9 +51,20 @@ title: Graphical Design C.R.A.P.
 * groups related elements
 * separates unrelated ones
 
+### Relating Screen Elements
+* proximal clusters 
+* alignment
+* white (negative) space
+* explicit structure
 
+![proximity-1](files/proximity-1.jpg)
 
+### Navigational Clues
+* provide initial focus
+* direct attention as appropriate to important  2ndary, or peripheral items as appropriate
+* order should follow a user’s conceptual model of sequences
 
+![proximity-2](files/proximity-2.jpg)
 
 ### [Interfaces Home](interfaces.md)
 ### [ANAP1525 Home](../)

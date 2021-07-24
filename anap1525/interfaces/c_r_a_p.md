@@ -13,6 +13,7 @@ title: Graphical Design C.R.A.P.
 * repeat design throughout the interface
 * consistency
 * creates unity 
+
 **A**lignment
 * visually connects elements
 * creates a visual flow

@@ -229,7 +229,9 @@ Users want:
   * Off-whites and light grays
   * Increases contrast
 
-![colours-2](files/colours-2.jpg)<br>vs.<br>![colours-3](files/colours-3.jpg)
+**Light Mode** | **Dark Mode**
+---------------|--------------
+![colours-2](files/colours-2.jpg) | ![colours-3](files/colours-3.jpg)
 
 * Avoid <span class="red">red</span> and <span class="blue">blue</span> combinations
   * Avoid blue text

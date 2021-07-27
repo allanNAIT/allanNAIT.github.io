@@ -23,7 +23,7 @@ title: Graphical Design C.R.A.P.
   * use platform and widget-specific grids
 * Deviate only when it provides a clear benefit to user
 
-![repettition-1](files/repetition-1.jpg)
+![repetition-1](files/repetition-1.jpg)
 
 ## Alignment
 * visually connects elements

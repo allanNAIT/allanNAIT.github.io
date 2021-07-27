@@ -69,7 +69,7 @@ The following general principles are important for output design:
 * The user should be allowed to test the screens and recommend changes. 
 
 **Sample Report Customization Prototype Screen**<br>
-![reports-06(files/reports-06.jpg)
+![reports-06](files/reports-06.jpg)
 
 **Sample Report Prototype Screen**<br>
 ![reports-07](files/reports-07.jpg)

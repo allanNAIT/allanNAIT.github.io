@@ -10,4 +10,8 @@ This unit introduced you to LINQ which is a technique to query a database, This 
 * [1.2.0 - LINQ Basic](1_2_0.md)
 * [1.3.0 - LINQ Advanced](1_3_0.md)
 
+## Exercises
+* [Exercise 1.2.1 - LINQ Basic](1_2_1.md)
+* [Exercsie 1.3.1 - LINQ Advanced](1_3_1.md)
+
 ### [DMIT2018 Home](../)

@@ -10,5 +10,10 @@ This unit introduces you to Visual Studio and the creation of a Visual Studio so
 * [2.1.0 - Create Solution](2_1_0.md)
 * [2.2.0 - Customize VS Solution](2_2_0.md)
 
+## Exercises
+* [2.1.1 - Solution Setup](2_1_1.md)
+* [2.2.1 - Website Customization](2_2_1.md)
+* [2.3.1 - Entity Framework](2_3_1.md)
+
 
 ### [DMIT2018 Home](../)

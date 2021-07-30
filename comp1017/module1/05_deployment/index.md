@@ -7,7 +7,7 @@ _Note: This account is ONLY for NAIT schoolwork. Do not use it for hosting files
 ## Account Information
 **Login**: username (your NAIT username).<br>
 **Temporary Password**: student ID number.<br>
-**Admin Panel**: [https://dmitstudent.ca:10000](https://dmitstudent.ca:10000)<br>
+**Admin Panel**: [https://dmitstudent.ca:10000](https://dmitstudent.ca:10000){:target="_blank"}<br>
 **URL**: [http://username.dmitstudent.ca](http://username.dmitstudent.ca)<br>
 
 **Day 1** - Login to your Admin Panel to change your password:
@@ -20,7 +20,7 @@ _Note: Admin Panel security alert (browser): Do not worry about this. Just click
 ## Deploying a Website Via FTP
 The simplest way to upload your website to a web server is via file transfer protocol (FTP). FTP allows you to establish a connection with a server and to then transfer files to that server. The key here for us will be making sure we upload our website content to the correct folder.
 
-## Connecting with an FTP Client - FileZilla [https://filezilla-project.org/](https://filezilla-project.org/)
+## Connecting with an FTP Client - FileZilla [https://filezilla-project.org/](https://filezilla-project.org/){:target="_blank"}
 Open FileZilla on your machine. If you do not have the program, it can be downloaded free of charge from their website. Please ensure that you install the client only. We will create and save a new connection using FileZilla’s “Site Manager”, that way we will not have to enter all of the FTP credentials every time we wish to connect.
 
 **Host**: dmitstudent.ca<br>
@@ -49,7 +49,7 @@ Press the Connect button and input your NAIT student password when prompted. You
 
 Once connected, you should see something like:<br>![filezilla_connected.jpg](files/filezilla_connected.jpg)
 
-The client program window displays a lot of information. The FileZilla homepage ([https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_(en)](https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_(en))) provides some good documentation on how to use the program.
+The client program window displays a lot of information. The FileZilla homepage ([https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_(en)](https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_(en)){:target="_blank"}) provides some good documentation on how to use the program.
 
 ## Uploading Your Project Folders to dmitstudent
 Once connected, you will see your local machine on the left-side panel and the remote server on the right-side panel. You can use the FileZilla client just like a normal file explorer window, which means you can simply drag-and-drop your folders/files in the client.

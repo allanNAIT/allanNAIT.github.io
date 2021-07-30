@@ -61,6 +61,6 @@ Make a copy of your **demo-css-selectors** project and name the copy **css-selec
 
 Complete and submit your lab following the instructions on Moodle.
 
-### [Module Home](../module2.md)
+### [Module Home](../)
 
 ### [Home](../../)

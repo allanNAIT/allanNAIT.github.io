@@ -8,14 +8,14 @@ This module is intended to give you a base level knowledge of using CSS to const
 
 ## Lessons
 
-### [11 - Intro to CSS](11-css-intro/css-intro.md)
-### [12 - CSS Selectors](12-css-selectors/css-selectors.md)
-### [13A - Cascade Specificity](13a-specificity/specificity.md)
-### [13B - Box Model](13b-box-model/box-model.md)
-### [14 - Page Layout](14-page-layout/page-layout.md)
-### [15 - Flexbox I](15-flexbox-i/flexbox-i.md)
-### [16 - Flexbox II](16-flexbox-ii/flexbox-ii.md)
-### [17 - Layout with Content](17-content-layout/content-layout.md)
-### [18 - Module 2 Assignment](18-module2-assignment/assignment2.md)
+### [11 - Intro to CSS](11-css-intro/)
+### [12 - CSS Selectors](12-css-selectors/)
+### [13A - Cascade Specificity](13a-specificity/)
+### [13B - Box Model](13b-box-model/)
+### [14 - Page Layout](14-page-layout/)
+### [15 - Flexbox I](15-flexbox-i/)
+### [16 - Flexbox II](16-flexbox-ii/)
+### [17 - Layout with Content](17-content-layout/)
+### [18 - Module 2 Assignment](18-module2-assignment/)
 
 ### [COMP1017 Home](../)

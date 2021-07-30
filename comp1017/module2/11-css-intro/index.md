@@ -77,6 +77,6 @@ Download the **ex-selecting-elements.zip** file from Moodle and extract the cont
 
 When completed, show your web page to your instructor.
 
-### [Module Home](../module2.md)
+### [Module Home](../)
 
 ### [COMP1017 Home](../../)

@@ -56,6 +56,6 @@ There is no related exercise for this walkthrough.
 ## Lab
 Download the **lab-page-layout.zip** file from Moodle. The completed web page should look like the **compted.jpg** file supplied. Submit this as per the instructions on Moodle.
 
-### [Module Home](../module2.md)
+### [Module Home](../)
 
 ### [COMP1017 Home](../../)

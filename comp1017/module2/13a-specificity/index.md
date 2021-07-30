@@ -45,6 +45,6 @@ You can follow along with your instructor to complete this build and/or you can 
 ## Exercise Instructions
 There is no related exercise for this walkthrough.
 
-### [Module Home](../module2.md)
+### [Module Home](../)
 
 ### [Home](../../)

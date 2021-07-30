@@ -50,6 +50,6 @@ Complete the exercises as per the instructions on Moodle. Remember to calculate 
 ## Lab Instructions
 Complete the Lab for this lesson and submit as per the instructions on Moodle.
 
-### [Module Home](../module2.md)
+### [Module Home](../)
 
 ### [Home](../../)

@@ -17,4 +17,4 @@ In this module you will learn how to set up a basic website development framewor
 * [09 - Page Navigation](09_page_nav/)
 * [10 - Module 1 Assignment](10-module1-assignment/)
 
-### [COMP1017 Home](../)
+#### [COMP1017 Home](../)

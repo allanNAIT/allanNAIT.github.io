@@ -144,4 +144,4 @@ DELETE FROM Payment
 WHERE Amount < (SELECT AVG(Amount) FROM Payment)
 ```
 
-### [DMIT1508 Home](../)
+#### [DMIT1508 Home](../)

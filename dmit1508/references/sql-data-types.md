@@ -47,5 +47,5 @@ Data Type | Description
 `DATETIMEOFFSET` | The same as datetime2 with the addition of a time zone offset
 `TIMESTAMP` | Stores a unique number that gets updated every time a row gets created or modified. The timestamp value is based upon an internal clock and does not correspond to real time. Each table may have only one timestamp variable
 
-### [References Home](references.md)
-### [DMIT1508 Home](../)
+#### [References Home](index.md)
+#### [DMIT1508 Home](../)

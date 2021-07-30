@@ -37,5 +37,5 @@ title: DMIT1508
   * [SQL Transactions](topics/transactions.md)
 * [SQL Triggers](topics/triggers.md)
 
-## [References](references/references.md)
+## [References](references/)
 

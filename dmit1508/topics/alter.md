@@ -158,4 +158,4 @@ To drop a non-clustered index:
 DROP INDEX IX_CourseID ON Marks
 ```
 
-### [DMIT1508 Home](../)
+#### [DMIT1508 Home](../)

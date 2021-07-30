@@ -55,5 +55,5 @@ As you apply the rules of normalization to each view you will uncover more attri
 
 Entities that have the same primary key must be merged into one table. Consider the example where you normalized 2 views and uncovered the following entities.
 
-### [References Home](references.md)
-### [DMIT1508 Home](../)
+#### [References Home](index.md)
+#### [DMIT1508 Home](../)

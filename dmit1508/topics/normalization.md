@@ -69,4 +69,4 @@ Before applying the rules of normalization, you should have a clear understandin
 
 We can now apply the normalization process to produce the schema (database design) for the view.
 
-### [DMIT1508 Home](../)
+#### [DMIT1508 Home](../)

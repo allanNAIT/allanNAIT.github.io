@@ -173,4 +173,4 @@ CREATE TABLE CourseChanges(
 ### Practice Q #7
 Create a trigger to **enforce referential integrity between the `Agent` and `MovieCharacter` table**.
 
-### [DMIT1508 Home](../)
+#### [DMIT1508 Home](../)

@@ -110,5 +110,5 @@ Add the style rules as follows:
 * [Photoshop Refresher](files/dmit1530-week-01-photoshop-refresher.pdf){:target="_blank"}
 * [Emmet Cheatsheet](files/emmet-cheatsheet.pdf){:target="_blank"}
 
-### [Module Home](../module1.md)
+### [Module Home](../)
 ### [DMIT1530 Home](../../)

@@ -99,6 +99,6 @@ For extra practice you will add content and styling rules to get the output show
     </ol>
 3.	Refresh your browser to see the final output. Additionally, use your browser’s developer tools to see the results at different screen widths.
 
-### [Module Home](../module1.md)
+### [Module Home](../)
 ### [DMIT1530 Home](../../)
 

@@ -114,5 +114,5 @@ More properties of flexbox will be demonstrated in the next demo.
 ### References
 * [How to Use Flexbox](files/how-to-use-flexbox.pdf){:target="_blank"}
 
-### [Module Home](../module1.md)
+### [Module Home](../)
 ### [DMIT1530 Home](../../)

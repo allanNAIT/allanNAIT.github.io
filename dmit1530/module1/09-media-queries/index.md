@@ -61,5 +61,5 @@ Notice that no matter how wide we make the browser window, the menu is locked at
 ## Summary
 More media query examples will be demonstrated in the next demo.
 
-### [Module Home](../module1.md)
+### [Module Home](../)
 ### [DMIT1530 Home](../../)

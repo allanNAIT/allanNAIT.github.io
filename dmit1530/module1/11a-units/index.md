@@ -23,5 +23,5 @@ Notice the font size does not change in the lower levels of the nested list.
 ### Resources
 * [Font Sizing with rems](font-sizing-with-rems.pdf){:target="_blank"}
 
-### [Module Home](../module1.md)
+### [Module Home](../)
 ### [DMIT1530 Home](../../)

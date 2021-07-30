@@ -146,5 +146,5 @@ You can follow along with your instructor to complete this build and/or you can 
     </ol>
 5.	Test the results in your browser; use different browser widths to see the full effects.
 
-### [Module Home](../module2.md)
+### [Module Home](../)
 ### [DMIT1530 Home](../../)

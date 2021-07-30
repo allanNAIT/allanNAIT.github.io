@@ -163,6 +163,6 @@ Note: When the browser is resized, the menu will start to wrap to the next row.
 
 **Question**: In step 7.g, the vertical scrollbar was seen but after all the style rules were applied it was still there, why?
 
-### [Lesson Home](16-17-responsive-nav.md)
-### [Module Home](../module2.md)
+### [Lesson Home](index.md)
+### [Module Home](../)
 ### [DMIT1530 Home](../../)

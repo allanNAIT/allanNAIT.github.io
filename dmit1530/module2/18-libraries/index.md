@@ -7,5 +7,5 @@ title: SVG Elements, Attributes, and Free Libraries
 The references for this lesson can be found on Moodle:<br>
 ![moodle-links.jpg](files/moodle-links.jpg)
 
-### [Module Home](../module2.md)
+### [Module Home](../)
 ### [DMIT1530 Home](../../)

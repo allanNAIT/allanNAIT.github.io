@@ -46,6 +46,6 @@ You can follow along with your instructor to complete this build and/or you can 
     </ol>
 4.	Now refresh your browser and explore the changes.
 
-### [Lesson Home](16-17-responsive-nav.md)
-### [Module Home](../module2.md)
+### [Lesson Home](index.md)
+### [Module Home](../)
 ### [DMIT1530 Home](../../)

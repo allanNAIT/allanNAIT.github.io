@@ -77,5 +77,5 @@ title: Graphical Design C.R.A.P.
 ![economy-3](files/economy-3.png) | ![economy-4](files/economy-4.png)
 ![wrong](files/wrong.png) | ![check](files/check.png)
 
-### [Interfaces Home](interfaces.md)
+### [Interfaces Home](index.md)
 ### [ANAP1525 Home](../)

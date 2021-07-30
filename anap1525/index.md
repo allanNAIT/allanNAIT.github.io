@@ -8,7 +8,7 @@ title: ANAP1525
 * [SAD Theory](sad-theory/)
 * [ADEPT Analysis](adept/)
 * [Data Flow Diagrams](dfd/)
-* [Entity Relationship Diagrams](erd/erds.md)
+* [Entity Relationship Diagrams](erd/)
 * [Data Dictionary](data/dictionary.md)
 * [User Interfaces](interfaces/interfaces.md)
 

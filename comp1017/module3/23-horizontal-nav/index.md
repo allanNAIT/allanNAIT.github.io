@@ -88,6 +88,5 @@ Download the documents for the Lab from Moodle to get the following files:
 
 Complete the lab as per the instructions on Moodle.
 
-### [Module Home](../)
-
-### [COMP1017 Home](../../)
+#### [Module Home](../)
+#### [COMP1017 Home](../../)

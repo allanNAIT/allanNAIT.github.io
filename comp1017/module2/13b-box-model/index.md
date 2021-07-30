@@ -46,6 +46,5 @@ There is no related exercise for this walkthrough.
 
 For each of the classes applied, do the math to see the actual size the sections take up on a web page.
 
-### [Module Home](../)
-
-### [COMP1017 Home](../../)
+#### [Module Home](../)
+#### [COMP1017 Home](../../)

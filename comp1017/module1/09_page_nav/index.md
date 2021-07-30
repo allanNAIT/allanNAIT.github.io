@@ -105,6 +105,5 @@ Note: all web pages are in the same directory and thus use the same navigation m
 Download the **simple-navigation-exercise.zip** file from Moodle and extract its contents. Examine the copy.docx file and create a web project that looks like:<br>
 ![ex-index.jpg](files/ex-index.jpg)&nbsp;![ex-about.jpg](files/ex-about.jpg)&nbsp;![ex-booking.jpg](files/ex-booking.jpg)
 
-### [Module Home](../)
-
-### [COMP1017 Home](../../)
+#### [Module Home](../)
+#### [COMP1017 Home](../../)

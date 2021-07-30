@@ -33,6 +33,5 @@ Running your web page in the browser shuould look like:
 
 **There are two recommended editing tools for this course, Visual Studio Code and Sublime Text.**
 
-### [Module Home](../)
-
-### [COMP1017 Home](../../)
+#### [Module Home](../)
+#### [COMP1017 Home](../../)

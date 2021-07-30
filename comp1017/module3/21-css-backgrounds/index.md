@@ -70,6 +70,5 @@ There are no exercises related to this demo.
 ## Lab
 Submit your completed las as per the instructions on Moodle.
 
-### [Module Home](../)
-
-### [COMP1017 Home](../../)
+#### [Module Home](../)
+#### [COMP1017 Home](../../)

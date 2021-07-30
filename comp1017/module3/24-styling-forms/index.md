@@ -80,7 +80,5 @@ Before adding style rules to your styles.css file, the web page should look like
 ## Exercise Instructions
 Download the **ex-contact-form.zip** file from Moodle. The ZIP file contains instructions in the file, **ex-contact-form.pdf**, and the Photoshop file, **form-design-comp.psd**, which will aid you in completing this exercise. Complete this exercise as per the instructions on Moodle.
 
-
-### [Module Home](../)
-
-### [COMP1017 Home](../../)
+#### [Module Home](../)
+#### [COMP1017 Home](../../)

@@ -59,6 +59,5 @@ There are three exercises related to this demo; the first one is this demo. Down
 
 Complete the exercises as per the instructions on Moodle. Remember to calculate the `<div>` widths using the Box Model.
 
-### [Module Home](../)
-
-### [Home](../../)
+#### [Module Home](../)
+#### [COMP1017 Home](../../)

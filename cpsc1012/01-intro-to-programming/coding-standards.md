@@ -31,5 +31,5 @@ There are three rules that you will follow for commenting:
 ![other-commnenting-1](files/other-commenting-1.jpg)
 3. **Commented Code**: It is a bad practice to have code lines commented out. This indicates that you have experimented, or used a Trial-and-Error method, to solve the problem. It also can add confusion and adds size to your code files. If your submitted assignments have code commented out, you will receive a deduction in your mark.
 
-### [Introduction Home](01-intro-to-programming.md)
+### [Introduction Home](index.md)
 ### [CPSC1012 Home](../)

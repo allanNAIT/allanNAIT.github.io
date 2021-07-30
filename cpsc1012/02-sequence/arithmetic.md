@@ -21,5 +21,5 @@ This problem is outlined in the [Problem Solving Process](../01-intro-to-program
 ### References
 Please refer to the [Data Types in C#](../references/data-types.md) reference for the types of data that you will be using in this course.
 
-### [Sequence Home](02-sequence.md)
+### [Sequence Home](index.md)
 ### [CPSC1012 Home](../)

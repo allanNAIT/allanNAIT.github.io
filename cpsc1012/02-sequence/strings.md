@@ -23,5 +23,5 @@ Create a C# Console application called **StringsDemo**.<br>
 ![example-problem-3](files/example-problem-3.jpg)
 3. The remaining steps coming soon.
 
-### [Sequence Home](02-sequence.md)
+### [Sequence Home](index.md)
 ### [CPSC1012 Home](../)

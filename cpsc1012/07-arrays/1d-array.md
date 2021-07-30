@@ -89,5 +89,5 @@ for (int index = 0; index < 5; index++)
 ## Coding Practice
 Coming soon...
 
-### [Arrays Home](07-arrays.md)
+### [Arrays Home](index.md)
 ### [CPSC1012 Home](../)

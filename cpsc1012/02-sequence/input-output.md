@@ -151,5 +151,5 @@ In your `//output` section you used `Console.WriteLine()`. Notice that each outp
 ## Summary
 Congratulate yourself! You successfully created your first Console application.
 
-### [Sequence Home](02-sequence.md)
+### [Sequence Home](index.md)
 ### [CPSC1012 Home](../)

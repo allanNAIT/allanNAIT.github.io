@@ -6,5 +6,5 @@ title: Decision Structures - Switch
 ## Introduction
 Put topic introduction here.
 
-### [Decisions Home](03-decsions.md)
+### [Decisions Home](index.md)
 ### [CPSC1012 Home](../)

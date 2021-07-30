@@ -6,7 +6,7 @@ title: ANAP1525
 
 ## Topics
 * [SAD Theory](sad-theory/)
-* [ADEPT Analysis](adept/adept.md)
+* [ADEPT Analysis](adept/)
 * [Data Flow Diagrams](dfd/dfds.md)
 * [Entity Relationship Diagrams](erd/erds.md)
 * [Data Dictionary](data/dictionary.md)

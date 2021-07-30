@@ -51,6 +51,6 @@ You can follow along with your instructor to complete this build and/or you can 
 ## Exercise Instructions
 There are no exercises related to this demo.
 
-### [Module Home](../module3.md)
+### [Module Home](../)
 
 ### [COMP1017 Home](../../)

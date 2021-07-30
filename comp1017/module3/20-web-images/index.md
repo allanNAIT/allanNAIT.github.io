@@ -102,6 +102,6 @@ You can follow along with your instructor to complete this build and/or you can 
 ## <a id="exercise">Exercise Instructions</a>
 Download the **ex-web-imageformats.zip** file from Moodle and extract to a folder called **ex-web-image-formats**. You can use either Photoshop or photpea.com to extract the images from the **design-comp.psd** file. Use the submission instructions on Moodle.
 
-### [Module Home](../module3.md)
+### [Module Home](../)
 
 ### [COMP1017 Home](../../)

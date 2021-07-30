@@ -16,7 +16,7 @@ The following software is **required** for this course and needs to be installed
 * GroceryList
 * others TBD
 
-## Creating Databases from Backup
+## <a ID="restore">Creating Databases from Backup</a>
 These notes apply to the eStore database.
 1. Download the **eStore.bak** file from Moodle.
 2. Open SQL Server Management Studio (SSMS) and connect to your database server.

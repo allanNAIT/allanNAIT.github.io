@@ -4,7 +4,7 @@ title: Entity Relationship Diagrams (ERD)
 ---
 
 ## Definition and Purpose
-* An entity-relationship diagram (ERD) is a data modeling technique that graphically illustrates an information system’s entities and the relationships between those entities. 
+* An entity-relationship diagram ([ERD](https://www.lucidchart.com/pages/er-diagrams){:target="_blank"}) is a data modeling technique that graphically illustrates an information system’s entities and the relationships between those entities. 
 * An ERD is a conceptual and representational model of data used to represent the entity framework infrastructure. 
 
 The Elements of an ERD are:

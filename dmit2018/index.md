@@ -7,14 +7,14 @@ title: DMIT2018 (HUST)
 These notes are for a modified version of the DMIT2018 course taught at HUST in Harbin, China.
 
 ## Topics
-* [Unit 1 - LINQ](unit1/linq.md)
-* [Unit 2 - Visual Studio Solution](unit2/vs-solution.md)
-* [Unit 3 - Data Setup](unit3/data-setup.md)
-* [Unit 4 - System Setup](unit4.system-setup.md)
-* [Unit 5 - Web Forms](unit5/web-forms.md)
-* [Unit 6 - CRUD](unit6/crud.md)
-* [Unit 7 - Security](unit7/security.md)
-* [Unit 8 - OLTP](unit8/oltp.md)
+* [Unit 1 - LINQ](unit1/)
+* [Unit 2 - Visual Studio Solution](unit2/)
+* [Unit 3 - Data Setup](unit3/)
+* [Unit 4 - System Setup](unit4/)
+* [Unit 5 - Web Forms](unit5/)
+* [Unit 6 - CRUD](unit6/)
+* [Unit 7 - Security](unit7/)
+* [Unit 8 - OLTP](unit8/)
 
 ## Databases
 Put a list of databases here

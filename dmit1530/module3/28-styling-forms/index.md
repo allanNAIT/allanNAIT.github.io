@@ -114,5 +114,5 @@ You can follow along with your instructor to complete this build and/or you can 
         </li>
     </ol>
 
-### [Module Home](../module3.md)
+### [Module Home](../)
 ### [DMIT1530 Home](../../)

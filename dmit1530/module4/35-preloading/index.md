@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bootstrap
+title: Images - Resolution Switching & Preloading
 ---
 <style>
     .css-class{
@@ -13,5 +13,5 @@ title: Bootstrap
     }
 </style>
 
-### [Module Home](../module4.md)
+### [Module Home](../)
 ### [DMIT1530 Home](../../)

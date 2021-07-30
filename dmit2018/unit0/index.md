@@ -20,9 +20,9 @@ The following software is **required** for this course and needs to be installed
 These notes apply to the eStore database.
 1. Download the **eStore.bak** file from Moodle.
 2. Open SQL Server Management Studio (SSMS) and connect to your database server.
-3. Right-click Databases and select Restore Database… from the menu:
-4. On the restore Database screen, select Device and click on the `[…]` icon to search for the backup file you downloaded:
-5. Click the **Add** button to bring up the **Locate Backup File** wizard:
+3. Right-click Databases and select Restore Database… from the menu:<br>![restore-01](files/restore-01.jpg)
+4. On the restore Database screen, select Device and click on the `[…]` icon to search for the backup file you downloaded:<br>![restore-02](files/restore-02.jpg)
+5. Click the **Add** button to bring up the **Locate Backup File** wizard:<br>![restore-03](files/restore-03.jpg)
 6. Navigate to find the backup file (you need to know where you saved the file):
 7. Select the **eStore.bak** file and press **OK**
 8. On the **Select backup devices** screen just press **OK**:

@@ -4,7 +4,7 @@ title: Data Flow Diagrams (DFD)
 ---
 
 ## Introduction
-Data Flow Diagrams are a network representation of a system. Referred to as Bubble Charts, Bubble Diagrams, Process Model, Work Flow Diagrams or Function Models. DFDs are tools for modeling the functions (processes) in a system. Data flow diagrams do not show decisions or timing of events.
+[Data Flow Diagrams](https://www.lucidchart.com/pages/data-flow-diagram){:target="_blank"} are a network representation of a system. Referred to as Bubble Charts, Bubble Diagrams, Process Model, Work Flow Diagrams or Function Models. DFDs are tools for modeling the functions (processes) in a system. Data flow diagrams do not show decisions or timing of events.
 
 The Four symbols used to represent any system at any level of detail are:
 

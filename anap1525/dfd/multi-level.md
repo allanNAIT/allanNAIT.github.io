@@ -52,5 +52,5 @@ Process B decomposition<br>
 
 *Note the 2.0 and 1.0 symbols on the two diagrams. They connect the same dataflow going out of and into scope of each diagram respectively.*
 
-### [DFD Home](index.md)
-### [ANAP1525 Home](../)
+#### [DFD Home](index.md)
+#### [ANAP1525 Home](../)

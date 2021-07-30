@@ -55,5 +55,5 @@ For each event on the risk list:
 * Discard silly or risks that no longer apply.
 * Remember this process continues through the entire project.
 
-### [Theory Home](index.md)
-### [ANAP1525 Home](../)
+#### [Theory Home](index.md)
+#### [ANAP1525 Home](../)

@@ -115,5 +115,5 @@ title: Information Systems
 * The **project manager** role ensures that the project is completed on time and within budget and that the system delivers the expected value to the organization.
 
 
-### [Theory Home](index.md)
-### [ANAP1525 Home](../)
+#### [Theory Home](index.md)
+#### [ANAP1525 Home](../)

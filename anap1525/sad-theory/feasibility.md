@@ -53,5 +53,5 @@ This refers to whether a project can be implemented in an acceptable time frame.
 * Will an accelerated schedule propose any risks?
 * Will a project manager be appointed?
 
-### [Theory Home](index.md)
-### [ANAP1525 Home](../)
+#### [Theory Home](index.md)
+#### [ANAP1525 Home](../)

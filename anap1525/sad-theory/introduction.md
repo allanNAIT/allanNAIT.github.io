@@ -84,7 +84,7 @@ title: SAD Introduction
 * Benefits
 * Disadvantages
 
-### 3. CASE Tools (Computer Aided Systems Engineering)
+### 3. [CASE Tools](https://www.geeksforgeeks.org/computer-aided-software-engineering-case/){:target="_blank"} (Computer Aided Systems Engineering)
 * Powerful software to assist systems analysts to develop and maintain information systems
 * Benefits
   * Easier to build software
@@ -94,7 +94,7 @@ title: SAD Introduction
 ### 4. Other Tools/Techniques
 * Structured Analysis
 * Object Oriented Analysis
-* Joint Application Development [(JAD)](https://searchsoftwarequality.techtarget.com/definition/JAD):{target="_blank"}
+* Joint Application Development [(JAD)](https://searchsoftwarequality.techtarget.com/definition/JAD){:target="_blank"}
 
 ### [Theory Home](index.md)
 ### [ANAP1525 Home](../)

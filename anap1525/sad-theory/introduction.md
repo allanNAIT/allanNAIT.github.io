@@ -20,12 +20,16 @@ title: SAD Introduction
 * Identify and prioritize proposed system
 * Define scope and boundary of problem
 
+![sdlc-1](files/sdlc-1.jpg)
+
 ### System Analysis
 * Build a logical model of the system
 * Analyze current problems, causes and effects
 * Define business requirements
 * Inputs: Facts and requirements
 * Outputs: Business requirements document
+
+![sdlc-2](files/sdlc-2.jpg)
 
 ### System Design
 * Design the solution that meets business requirements:
@@ -36,6 +40,8 @@ title: SAD Introduction
 * Inputs: Business requirements document
 * Outputs: Technical design document
 
+![sdlc-3](files/sdlc-3.jpg)
+
 ### System Implementation
 * Create new improved information system
 * Input – technical design document
@@ -43,9 +49,13 @@ title: SAD Introduction
 * Develop conversion strategy
   * Parallel, direct cutover, phased, pilot
 
+![sdlc-4](files/sdlc-4.jpg)
+
 ### System Operation and Support
 * Review implementation, refine design, implement improvements
 * Maintenance of system for remainder of useful life
+
+![sdlc-5](files/sdlc-5.jpg)
 
 ## Systems Development Guidelines
  * Follow your overall development plan
@@ -55,11 +65,6 @@ title: SAD Introduction
 * Establish interim checkpoints between the major milestones to ensure that your project remains on schedule.
 * Keep flexible with the parameters of your plan
 * Provide reliable cost and benefit information.
-
-
-**Phase** | **Step** | **Technique** | **Deliverable**
-----------|----------|---------------|----------------
-**Planning**<br><br><br>**Focus**:<br>Why build this system?<br>How to structure the project?<br><br><br>**Primary outputs**:<br>- System request with feasibility study<br>- Project plan<br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp; | Identify opportunity<br>Analyze feasibility <br><br><br><br>Develop work plan<br><br><br><br><br><br><br>Staff project<br><br><br><br>Control and direct project<br><br><br><br><br><br><br><br>&nbsp;| Project identification<br>Technical feasibility<br>Economic feasibility<br>Organizational feasibility<br><br>Time estimation<br>Task identification<br>Work breakdown structure<br>PERT chart<br>Gantt chart<br>Scope management<br><br>Project staffing<br>Project charter<br><br>CASE repository Standards<br>Documentation<br>Time boxing<br>Risk management | System request<br>**Feasibility study**<br><br><br><br>**Project plan**<br>—Work plan<br><br><br><br><br><br><br><br><br><br>&nbsp;|
 
 ## System Development Tools/Techniques
 ### 1. Modeling (DFD, ERD, UML)

@@ -61,5 +61,5 @@ Process has insufficient Input for the Output it generates.<br>
         <li>A store at the highest level serves as an interface between two or more processes; show it at EVERY lower-level that further describes those processes</li>
     </ol>
 
-### [DFD Home](dfds.md)
+### [DFD Home](index.md)
 ### [ANAP1525 Home](../)

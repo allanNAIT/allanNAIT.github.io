@@ -10,6 +10,6 @@ This file is required reading as it will be discussed in class.
 ## [Search Engine Optimization (SEO) Starter Guide](files/search-engine-optimization-starter-guide.pdf){:target="_blank"}
 This file is optional as we do not cover SEO in this course.
 
-### [Module Home](../module1.md)
+### [Module Home](../)
 
 ### [COMP1017 Home](../../)

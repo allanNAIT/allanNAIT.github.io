@@ -116,6 +116,6 @@ NOTE: It really does not matter which order the <code>&lt;thead&gt;</code>, <cod
 ## Exercise Instructions
 Download the **ex-markup2.zip** file from Moodle and extract its contents. Examine the copy.docx file for the content and the images in the images folder (you need to rename the images semantically) that will be added to your web page. When you have finished, show your web page to your instructor.
 
-### [Module Home](../module1.md)
+### [Module Home](../)
 
 ### [COMP1017 Home](../../)

@@ -61,6 +61,6 @@ You can follow along with your instructor to complete this build and/or you can 
 ## Exercise Instructions
 Now that your first web page was successful with the walkthrough with your instructor, now it is time for you to practice on your own (you can ask for advice if you are stuck). Download the **ex-markup.zip file** from Moodle and extract its contents to a work folder of your choice (remember where this is for future reference). Inside the ZIP file you will find a **copy.txt** file which hold the contents of the web page, a **layout.jpg** file which shows what the final product should look like, and a folder called **images**. You MUST rename the images semantically when adding them to your **img** folder. When finished, show your completed web page to your instructor.
 
-### [Module Home](../module1.md)
+### [Module Home](../)
 
 ### [COMP1017 Home](../../)

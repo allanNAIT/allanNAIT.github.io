@@ -34,6 +34,6 @@ For your layout, each of the second level headings denote that the content below
 ## Exercise Instructions
 Download the **document-outline-ex.zip** file from Moodle and extract its contents. Make sure you semantically rename the image. Your web page needs to have `<header>`, `<main>`, and `<footer>` sections. You will also need to organize your `<main>` into `<section>`s. You must validate your HTML and create a valid document outline:
 
-### [Module Home](../module1.md)
+### [Module Home](../)
 
 ### [COMP1017 Home](../../)

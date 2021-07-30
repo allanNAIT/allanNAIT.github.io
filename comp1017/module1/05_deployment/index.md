@@ -70,6 +70,6 @@ For example, if your username is ‘ssmith1’ the URL would be as follows:
 That is it! When submitting URL’s for lab and assignments, it is best to copy/paste the URL's
 from your browser after you have checked your work.
 
-### [Module Home](../module1.md)
+### [Module Home](../)
 
 ### [COMP1017 Home](../../)

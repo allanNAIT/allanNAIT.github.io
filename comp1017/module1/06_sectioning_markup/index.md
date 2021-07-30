@@ -49,6 +49,6 @@ You can follow along with your instructor to complete this build and/or you can 
 ## Exercise Instructions
 Download the **ex-document-structure.zip** file from Moodle and extract its contents. Make sure you semantically rename the image. The completed.jpg file is not to be added to your **img** folder. Your web page needs to have `<header>`, `<main>`, and `<footer>` sections. When you are finished, show your web page to your instructor.
 
-### [Module Home](../module1.md)
+### [Module Home](../)
 
 ### [COMP1017 Home](../../)

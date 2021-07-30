@@ -40,6 +40,6 @@ Download the **lab-document-outline.zip** file from Moodle and extract its conte
 
 Follow the instructions and submission requirements posted on Moodle.
 
-### [Module Home](../module1.md)
+### [Module Home](../)
 
 ### [COMP1017 Home](../../)

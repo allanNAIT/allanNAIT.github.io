@@ -2,7 +2,7 @@
 layout: page
 title: DMIT2018 (HUST)
 ---
-
+![dmit2018-icon.png](dmit2018-icon.png) **Intermediate Appliation Development**
 ## Introduction
 These notes are for a modified version of the DMIT2018 course taught at HUST in Harbin, China.
 

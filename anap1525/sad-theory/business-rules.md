@@ -47,5 +47,5 @@ The above business rule must be satisfied. So the clerk responds “Just a momen
 4.  Determine the data-rule dependencies
 5.  Determine inter-rule relationships
 
-### [Theory Home](theory.md)
+### [Theory Home](index.md)
 ### [ANAP1525 Home](../)

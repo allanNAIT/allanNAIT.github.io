@@ -91,5 +91,5 @@ title: SAD Introduction
 * Object Oriented Analysis
 * Joint Application Development
 
-### [Theory Home](theory.md)
+### [Theory Home](index.md)
 ### [ANAP1525 Home](../)

@@ -2,6 +2,7 @@
 layout: page
 title: Module 1 - Document Structure
 ---
+## Introduction
 In this module you will learn how to set up a basic website development framework. Using this framework you will learn how to create a  valid HTML5 web document. Once you have a valid document, we will then set about learning the basic HTML markup elements so that you can take existing content and mark-up the contents with the most appropriate markup elements. Once you master this skill, you will then turn your focus to web document structure. You will use HTML5 sectioning elements to create clear and concise document outlines, which will help you create a clear document structure.
 
 ## Lessons

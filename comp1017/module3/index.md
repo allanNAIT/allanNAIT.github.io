@@ -1,4 +1,8 @@
-# Module 3 - Styling Content With CSS
+---
+layout: page
+title: Module 3 - Styling Content With CSS
+---
+## Introduction
 In this module students will learn how to mark up content using the new HTML5 W3C spec as a guide, what it means to outline their HTML code and what semantic markup is all about.
 
 ## Lessons

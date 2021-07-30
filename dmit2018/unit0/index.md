@@ -11,10 +11,11 @@ The following software is **required** for this course and needs to be installed
 * [LINQPad](https://www.linqpad.net/Download.aspx){:target="_blank"}
 
 ## Databases
-* eStore
-* CeeDeeMusic
-* GroceryList
-* others TBD
+* eStore - used for in-class lessons and demos
+* CeeDeeMusic - used for some exercises
+* GroceryList - used for some exercises
+* others TBD - used for some exercises
+* Project database TDB
 
 ## <a ID="restore">Creating Databases from Backup</a>
 These notes apply to the eStore database.

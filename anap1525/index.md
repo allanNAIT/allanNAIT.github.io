@@ -10,7 +10,7 @@ title: ANAP1525
 * [Data Flow Diagrams](dfd/)
 * [Entity Relationship Diagrams](erd/)
 * [Data Dictionary](data/)
-* [User Interfaces](interfaces/interfaces.md)
+* [User Interfaces](interfaces/)
 
 ## Exercises
 * [C.U. Textbook Inventory System](exercises/textbooks.md)

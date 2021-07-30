@@ -9,7 +9,7 @@ title: ANAP1525
 * [ADEPT Analysis](adept/)
 * [Data Flow Diagrams](dfd/)
 * [Entity Relationship Diagrams](erd/)
-* [Data Dictionary](data/dictionary.md)
+* [Data Dictionary](data/)
 * [User Interfaces](interfaces/interfaces.md)
 
 ## Exercises

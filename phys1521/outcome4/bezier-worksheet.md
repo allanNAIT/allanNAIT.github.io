@@ -19,5 +19,5 @@ title: Bézier Curve Exercises
     </ol>
 
 ### [Bézier Home](bezier.md)
-### [Outcome Home](outcome4.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

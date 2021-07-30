@@ -178,6 +178,6 @@ However, the height calculated above is from the initial height of the platform,
 Exercises & Assignments
 Complete the [Linear Motion worksheet](linear-worksheet.md). Once complete proceed to Moodle to complete Knowledge Check 10 - Linear Motion (strongly recommended to be completed prior to attempting Lab 3).
 
-### [Outcome Home](outcome3.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)
 

@@ -175,3 +175,6 @@ With each of the cofactors needing to have a determinant of a 3x3 matrix.
 
 ## Exercises & Assignments
 Complete the [Determinants & Inverses worksheet](matrix-worksheet-3.md). Once complete proceed to Moodle to complete Knowledge Check 07 - Determinants & Inverses (strongly recommended to be completed prior to attempting Lab 2).
+
+### [Outcome Home](index.md)
+### [PHYS1521 Home](../)

@@ -24,5 +24,5 @@ Note that in the original equation d represented the distance between the center
 ## Exercises & Assignments
 Complete the [Gravitational Forces worksheet](gravity-worksheet.md). Once completed, and the [Springs Worksheet](springs-worksheet.md) is completed, proceed to Moodle to complete Knowledge Checks 13 (strongly recommended to be completed prior to attempting Lab 3).
 
-### [Outcome Home](outcome3.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

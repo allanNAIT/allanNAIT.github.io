@@ -22,5 +22,5 @@ Add and subtract the following pairs of vectors and convert the results to polar
 2. A = 10@300 and B = 20@75
 
 ### [Vector Math Home](vector-math.md)
-### [Outcome Home](outcome1.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

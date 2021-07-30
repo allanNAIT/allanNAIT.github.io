@@ -112,5 +112,5 @@ Now to prove the magnitude of the normalized vector is 1.
 ## Exercises & Assignments
 Have students complete the [Vector Exercises Part 1 worksheet](vector-worksheet-1.md). Once complete proceed to Moodle to complete Knowledge Check 02 - Vectors Pt. 1 (Conversion) (strongly recommended to be completed prior to attempting Lab 1).
 
-### [Outcome Home](outcome1.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

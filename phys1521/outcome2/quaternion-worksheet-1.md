@@ -15,5 +15,5 @@ Give the Quaternion above compute the Euler angles.
 Given the matrix calculated above create the Quaternion.
 
 ### [Quaternions Home](quaternions-01.md)
-### [Outcome Home](outcome2.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

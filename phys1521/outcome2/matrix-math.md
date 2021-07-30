@@ -136,5 +136,5 @@ With this knowledge, it should be noted that multiplication of a vector and a ma
 ## Exercises & Assignments
 Have students complete the [Matrix Math worksheet](matrix-worksheet-1.md). Once complete proceed to Moodle to complete Knowledge Check 05 - Matrix Math (strongly recommended to be completed prior to attempting Lab 2).
 
-### [Outcome Home](outcome2.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

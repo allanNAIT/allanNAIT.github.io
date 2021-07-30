@@ -15,5 +15,5 @@ title: Rotational Motion Exercises
 2. Given ω=5.4 m/s calculate the tangential velocities (m/s) of two objects one at a radius of 1.25m and the other at 2.85m.
 
 ### [Rotational Motion Home](rotating.md)
-### [Outcome Home](outcome3.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

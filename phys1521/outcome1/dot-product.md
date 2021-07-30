@@ -49,5 +49,5 @@ Have students complete the [Vector Exercises Part 2 worksheet](vector-worksheet-
 
 
 
-### [Outcome Home](outcome1.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

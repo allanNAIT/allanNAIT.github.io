@@ -16,5 +16,5 @@ title: Catmull-Rom Spline Exercises
     </ol>
 
 ### [Splines Home](splines.md)
-### [Outcome Home](outcome4.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

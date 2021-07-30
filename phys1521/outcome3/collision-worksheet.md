@@ -17,5 +17,5 @@ A: (-2.5, 3.5, 1.1), radius = 0.25m, mass=0.55kg, and <img src="https://latex.co
 B: (1.4, -2.4, -1.1), radius=0.10m, mass=0.35kg, and <img src="https://latex.codecogs.com/svg.latex?\large&space;V_{Bi}=\left[\begin{array}{c}0.2\\-2.5\\1.1\end{array}\right]m/s"/>
 
 ### [Impulse & Collisions Home](collisions.md)
-### [Outcome Home](outcome3.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

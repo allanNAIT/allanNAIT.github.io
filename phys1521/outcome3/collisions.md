@@ -127,5 +127,5 @@ This works similarly in 3D:<br>
 ## Exercises & Assignments
 Complete the [Impulse & Momentum worksheet](collision-worksheet.md). Once completed, proceed to Moodle to complete Knowledge Check 14 (strongly recommended to be completed prior to attempting Lab 3).
 
-### [Outcome Home](outcome3.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

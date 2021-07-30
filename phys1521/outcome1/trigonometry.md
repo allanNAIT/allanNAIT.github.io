@@ -67,5 +67,5 @@ Therefore, <img src="https://latex.codecogs.com/svg.latex?\large&space;1 degree=
 ## Exercises & Assignments
 Complete the [Trigonometry worksheet](trig-worksheet.md). Once complete proceed to Moodle to complete Knowledge Check 01 - Trigonometry (strongly recommended to be completed prior to attempting Lab 1).
 
-### [Outcome Home](outcome1.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

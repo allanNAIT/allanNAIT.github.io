@@ -91,5 +91,5 @@ Calculate the centripetal force on the object, using the rotation as per the pre
 ## Exercises & Assignments
 Complete the [Rotational Motion worksheet](rotating-worksheet.md). Once complete proceed to Moodle to complete Knowledge Check 11 - Rotational Motion (strongly recommended to be completed prior to attempting Lab 3).
 
-### [Outcome Home](outcome3.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

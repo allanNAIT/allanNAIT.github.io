@@ -155,5 +155,5 @@ How would you solve this type of scenario?<br>
 Exercises & Assignments
 Complete the [Linear Mechanics worksheet](mechanics-worksheet.md). Once completed, proceed to Moodle to complete Knowledge Check 12 - Linear Mechanics (strongly recommended to be completed prior to attempting Lab 3).
 
-### [Outcome Home](outcome3.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

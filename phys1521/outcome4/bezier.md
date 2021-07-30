@@ -235,6 +235,6 @@ What about in 3D? The same rules apply. The figure below illustrates a 3D Bézie
 ## Exercises & Assignments
 Complete the [Bézier Curve worksheet](bezier-worksheet.md) using the [CurveSplineWorksheet application](https://github.com/allanNAIT/allanNAIT.github.io/releases){:target="_blank"} (also found in the Additional Resources folder on Moodle). (Knowledge Check for this lesson is part of Knowledge Check 15 - Curves & Splines.)
 
-### [Outcome Home](outcome4.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)
 

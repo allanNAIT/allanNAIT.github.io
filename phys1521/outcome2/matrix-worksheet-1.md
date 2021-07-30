@@ -21,5 +21,5 @@ Given <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin
 6.	B<sup>T</sup>
 
 ### [Matrix Math Home](matrix-math.md)
-### [Outcome Home](outcome2.md)
+### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

@@ -32,4 +32,4 @@ title: CPSC1012
 * [Collection Classes](09-collection-classes/)
 * [Object Oreiented Programming (OOP)](10-oop/)
 
-## [References](references/references.md)
+## [References](references/)

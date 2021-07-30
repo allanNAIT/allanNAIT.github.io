@@ -27,5 +27,5 @@ In **C#** arrays will **always** use zero-based indexing. This means the first e
 * [Parallel Arrays](parallel.md)
 * [2D Arrays](2d-array.md)
 
-### [CPSC1012 Home](../)
+#### [CPSC1012 Home](../)
 

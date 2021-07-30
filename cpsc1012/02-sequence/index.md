@@ -12,4 +12,4 @@ You will learn about the following:
 * [Math in C#](arithmetic.md)
 * [Some simple string processing](strings.md)
 
-### [CPSC1012 Home](../)
+#### [CPSC1012 Home](../)

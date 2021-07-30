@@ -80,5 +80,5 @@ Index operations in a loop:<br>
 15.	Variables must have meaningful names.
 16.	Variables can be set to int, double, char, string, bool, or DateTime.
 
-### [Introduction Home](index.md)
-### [CPSC1012 Home](../)
+#### [Introduction Home](index.md)
+#### [CPSC1012 Home](../)

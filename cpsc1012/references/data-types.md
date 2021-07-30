@@ -33,5 +33,5 @@ decimal | ±1.0 x 10<sup>-28</sup> to ±7.9228 x 10<sup>28</sup> | 28-29 digits 
 ### The String Type
 The **`string`** type represents a sequence of zero or more Unicode characters. `string` is an alias for `System.String` in .NET. The maximum size of a String object in memory is 2 GB, or about 1 billion characters.
 
-### [Sequence Home](02-sequence.md)
-### [CPSC1012 Home](../)
+#### [References Home](index.md)
+#### [CPSC1012 Home](../)

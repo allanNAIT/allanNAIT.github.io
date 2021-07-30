@@ -20,5 +20,5 @@ Create a simple calculator. Your calculator will accept two numbers inputted by 
 
 _This problem will be worked through in class._
 
-### [Introduction Home](index.md)
-### [CPSC1012 Home](../)
+#### [Introduction Home](index.md)
+#### [CPSC1012 Home](../)

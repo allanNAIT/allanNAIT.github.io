@@ -12,4 +12,4 @@ This section covers introductory material required before you write your first p
 * [Coding Standards](coding-standards.md)
 * [Flowcharting Symbols](flowchart-symbols.md)
 
-### [CPSC1012 Home](../)
+#### [CPSC1012 Home](../)

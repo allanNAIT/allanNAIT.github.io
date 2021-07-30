@@ -51,5 +51,5 @@ This window will show you all the files currently associated with your project. 
 #### Other Windows
 You can add other windows, or restore missing windows by using the **View** menu item:<br>![vs-other-windows](files/vs-other-windows.jpg)
 
-### [Introduction Home](01-intro-to-programming.md)
+### [Introduction Home](index.md)
 ### [CPSC1012 Home](../)

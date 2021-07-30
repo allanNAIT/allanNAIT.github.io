@@ -94,7 +94,7 @@ title: SAD Introduction
 ### 4. Other Tools/Techniques
 * Structured Analysis
 * Object Oriented Analysis
-* Joint Application Development (JAD)
+* Joint Application Development [(JAD)](https://searchsoftwarequality.techtarget.com/definition/JAD):{target="_blank"}
 
 ### [Theory Home](index.md)
 ### [ANAP1525 Home](../)

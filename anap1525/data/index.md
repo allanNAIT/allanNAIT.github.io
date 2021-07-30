@@ -4,7 +4,7 @@ title: Data Dictionary
 ---
 
 ## Purpose
-Adds details that are not typically included in DFDs, ERDs, or other documentation. There are many types of data dictionaries available and they focus on different jobs.
+Adds details that are not typically included in [DFDs](../dfd/), [ERDs](../edr/), or other documentation. There are many types of data dictionaries available and they focus on different jobs.
 
 ## Terms
 * **Data Attribute**: is the smallest piece of data that has meaning to the end-users and the business.

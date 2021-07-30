@@ -88,6 +88,6 @@ You can follow along with your instructor to complete this build and/or you can 
     </ol>
 8.	All done? What else could be done?
 
-### [Lesson Home](index.md)
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Lesson Home](index.md)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)

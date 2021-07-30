@@ -21,6 +21,6 @@ Calculate the angle between each of the following pairs of vectors (the Dot Prod
 2. <img src="https://latex.codecogs.com/svg.latex?\large&space;C=\left[\begin{array}{c}-5 \\ 1\end{array}\right]"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;D=\left[\begin{array}{c}-4 \\ 1\end{array}\right]"/>
 3. <img src="https://latex.codecogs.com/svg.latex?\large&space;E=10@10.5"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;F=5@105.5"/>
 
-### [Dot Product Home](dot-product.md)
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
+#### [Dot Product Home](dot-product.md)
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

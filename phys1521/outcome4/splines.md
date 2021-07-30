@@ -77,5 +77,5 @@ What about 3D? The same rules apply. The figure below illustrates a Catmull-Rom 
 ## Exercises & Assignments
 Complete the [Catmull-Rom worksheet](spline-worksheet.md) using the [CurveSplineWorksheet application](https://github.com/allanNAIT/allanNAIT.github.io/releases){:target="_blank"} (also found in the Additional Resources folder on Moodle). Once complete proceed to Moodle to complete Knowledge Check 15 - Curves & Splines (strongly recommended to be completed prior to attempting Lab 4).
 
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

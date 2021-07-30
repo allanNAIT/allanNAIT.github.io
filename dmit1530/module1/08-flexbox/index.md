@@ -79,5 +79,5 @@ You can follow along with your instructor to complete this build and/or you can 
 ### Resources
 * [Flexbox Resoources](files/flexbox-resources.zip)
 
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)

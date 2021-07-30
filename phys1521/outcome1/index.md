@@ -10,4 +10,4 @@ This topic covers basic trigonometry and the mathematics of 2D and 3D vectors.
 * [1.3 - Dot Product](dot-product.md)
 * [1.4 - Cross Product](cross-product.md)
 
-### [PHSY1521 Home](../)
+#### [PHSY1521 Home](../)

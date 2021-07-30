@@ -12,4 +12,4 @@ This topic covers the mathematics of matrices and quaternions.
 * [2.5 - Quaternions](quaternions-01.md)
 * [2.6 - Rotate Vector by Quaternion](quaternions-02.md)
 
-### [PHSY1521 Home](../)
+#### [PHSY1521 Home](../)

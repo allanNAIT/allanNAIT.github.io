@@ -47,7 +47,5 @@ How does this work in 3D? In 3D the angles are not represented the same way as i
 ## Exercises & Assignments
 Have students complete the [Vector Exercises Part 2 worksheet](vector-worksheet-2.md). Once complete proceed to Moodle to complete Knowledge Check 03 - Vectors Pt. 2 (Dot Product) (strongly recommended to be completed prior to attempting Lab 1).
 
-
-
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

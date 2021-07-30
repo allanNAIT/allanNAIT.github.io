@@ -21,6 +21,6 @@ For all questions use the basic right triangle as shown below:<br>
 13.	Given adjacent = 4 and hypotenuse = 5 then opposite = **??** and θ = **??**<sup>o</sup>.
 14.	Given adjacent = 4 and hypotenuse = 6 then opposite = **??** and θ = **??**<sup>o</sup>.
 
-### [Lesson Home](trigonometry.md)
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
+#### [Lesson Home](trigonometry.md)
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

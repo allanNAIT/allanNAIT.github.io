@@ -34,5 +34,5 @@ Download the ZIP file and extract its contents to the **demo-favicons** folder.
 That is all there is to it … you can try this with your own png icons.
 9.	To complete this lesson, open the [Meta Description](https://moz.com/learn/seo/meta-description#:~:text=The%20meta%20description%20is%20an,can%20influence%20click-through%20rates.){:target="_blank"} web link and review the reference.
 
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)

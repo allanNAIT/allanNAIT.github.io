@@ -10,5 +10,5 @@ This lesson will include additional concepts related to Linear Mechanics.
 * [Springs](springs.md)
 * [Momentum & Collisions](collisions.md)
 
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

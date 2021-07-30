@@ -15,6 +15,6 @@ title: Catmull-Rom Spline Exercises
         <li>P<sub>1</sub> and P<sub>2</sub> were swapped</li>
     </ol>
 
-### [Splines Home](splines.md)
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
+#### [Splines Home](splines.md)
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

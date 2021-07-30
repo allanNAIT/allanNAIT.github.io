@@ -18,6 +18,6 @@ title: Bézier Curve Exercises
         <li>Cubic Bézier Curve</li>
     </ol>
 
-### [Bézier Home](bezier.md)
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
+#### [Bézier Home](bezier.md)
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

@@ -69,5 +69,5 @@ The reference stated it was faster, thus the following comparison was done:
 ## Exercises & Assignments
 Compare some previous calculations with this new method. This is the recommended approach for some of the calculations for Lab 2.
 
-### [Outcome Home](index.md)
+##### [Outcome Home](index.md)
 ### [PHYS1521 Home](../)

@@ -12,6 +12,6 @@ Calculate the surface normal for each of the sets of vectors below (using the va
 1.	A, B, C
 2.	A, C, D
 
-### [Cross Product Home](cross-product.md)
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
+#### [Cross Product Home](cross-product.md)
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

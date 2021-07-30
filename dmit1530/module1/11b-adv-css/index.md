@@ -157,5 +157,5 @@ You can follow along with your instructor to complete this build and/or you can 
 ## Activity
 For extra practice, open the [**css-selectors-activity.pdf**](files/css-selectors-activity.pdf){:target="_blank"} file and complete the activity.
 
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)

@@ -50,7 +50,7 @@ You can follow along with your instructor to complete this build and/or you can 
 5.	You should now see the snowflake fixed near the bottom of the web page and fixed at a set distance on the right. When you resize the browser, you should be able to see:<br>
 ![sticky-05.jpg](files/sticky-05.jpg)
 
-### [Lesson Home](index.md)
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Lesson Home](index.md)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)
 

@@ -7,5 +7,5 @@ title: Responsive Navigation & Positioning
 * [Responsive Navigation](responsive-nav.md)
 * [Positioning](positioning.md)
 
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)

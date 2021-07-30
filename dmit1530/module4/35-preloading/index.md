@@ -13,5 +13,5 @@ title: Images - Resolution Switching & Preloading
     }
 </style>
 
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)

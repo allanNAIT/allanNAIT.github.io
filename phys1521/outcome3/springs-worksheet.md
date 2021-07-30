@@ -8,6 +8,6 @@ title: Spring Exercises Worksheet
 ## Springs – Using Spring Constant
 1. Using the spring constant calculated above, and the same mass and stretched length, calculate the frequency of oscillation (Hz) and the velocity of the mass at the rest length of the spring.
 
-### [Springs Home](springs.md)
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
+#### [Springs Home](springs.md)
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

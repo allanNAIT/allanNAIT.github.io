@@ -8,4 +8,4 @@ This topic covers the basics of curves and splines.
 * [4.1 - Bézier Curves](bezier.md)
 * [4.2 - Catmull-Rom Splines](splines.md)
 
-### [PHSY1521 Home](../)
+#### [PHSY1521 Home](../)

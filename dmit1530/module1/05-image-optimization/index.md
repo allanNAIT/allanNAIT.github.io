@@ -97,5 +97,5 @@ You can follow along with your instructor to complete this build and/or you can 
 ### Resopurces
 * [Choosing the Right Image](files/choosing-the-right-image.pdf){:target="_blank"}
 
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)

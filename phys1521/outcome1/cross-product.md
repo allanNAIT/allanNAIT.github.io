@@ -94,6 +94,5 @@ As we can choose any of the three points as a reference point, selecting a diffe
 ## Exercises & Assignments
 Complete the [Vector Exercises Part 3](vector-worksheet-3.md) worksheet. Once complete proceed to Moodle to complete Knowledge Check 04 - Vectors Pt. 3 (Cross Product) (strongly recommended to be completed prior to attempting Lab 1).
 
-
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

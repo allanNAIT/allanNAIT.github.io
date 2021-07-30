@@ -106,4 +106,4 @@ How do you transfer your equations? One method is to use OneNote (the method use
 
 If you have a little more cash to spend you could purchase a standalone equation editor such as [MathMagic](http://www.mathmagic.com/){:target="_blank"}.
 
-### [PHYS1521 Home](index.md)
+#### [PHYS1521 Home](index.md)

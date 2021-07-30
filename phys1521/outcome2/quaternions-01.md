@@ -239,5 +239,5 @@ Applying this to a quaternion, we would get:
 ## Exercises & Assignments
 Complete the [Quaternions worksheet](quaternion-worksheet-1.md). Once complete proceed to Moodle to complete Knowledge Check 09 - Quaternions (strongly recommended to be completed prior to attempting Lab 2).
 
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

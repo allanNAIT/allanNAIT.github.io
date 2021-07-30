@@ -121,5 +121,5 @@ You can follow along with your instructor to complete this build and/or you can 
     </ol>
 8.	Refresh your browser to see the desired output at both narrow and wide browser widths.
 
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)

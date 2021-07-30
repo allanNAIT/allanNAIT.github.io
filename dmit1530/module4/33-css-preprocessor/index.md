@@ -14,5 +14,5 @@ These reference links are also on Moodle:
 * [Stylus: Expressive, Dynamic, Robust CSS](https://stylus-lang.com/){:target="_blank"}
 * [PostCSS: A tool for transforing CSS with JavaScript](https://postcss.org/){:target="_blank"}
 
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)

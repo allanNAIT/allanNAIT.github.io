@@ -62,4 +62,4 @@ You may encounter some other symbols such as:
 * <img src="https://latex.codecogs.com/svg.latex?\large&space;\cong"/> which means approximately equal to
 * <img src="https://latex.codecogs.com/svg.latex?\large&space;\therefore"/> which is gemnerally used for therefore
 
-### [PHYS1521 Home](index.md)
+#### [PHYS1521 Home](index.md)

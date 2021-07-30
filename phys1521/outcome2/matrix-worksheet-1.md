@@ -20,6 +20,6 @@ Given <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin
 5.	A<sup>T</sup>
 6.	B<sup>T</sup>
 
-### [Matrix Math Home](matrix-math.md)
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
+#### [Matrix Math Home](matrix-math.md)
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

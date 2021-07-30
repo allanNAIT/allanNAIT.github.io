@@ -93,7 +93,5 @@ For example a point on an object is 2D space, <img src="https://latex.codecogs.c
 ## Exercises & Assignments
 Complete the [Matrix Transforms worksheet](matrix-worksheet-2.md). Once complete proceed to Moodle to complete Knowledge Check 06 - Matrix Transforms (strongly recommended to be completed prior to attempting Lab 2).
 
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
-
-
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

@@ -10,6 +10,6 @@ title: Gravitational Forces Exercises
 1. Calculate the gravity of Venus which has a mass of 4.8675×10<sup>24</sup>kg and a radius of 6,052 km. Compare your calculated results with a Google search.
 2. Calculate the gravity of a celestial body which has a mass of 8.675×10<sup>23</sup>kg and a radius of 7250 km.
 
-### [Gravity Home](gravity.md)
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
+#### [Gravity Home](gravity.md)
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

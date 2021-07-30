@@ -13,6 +13,6 @@ title: Matrix Determinants & Inverses
 ## 4 x 4 Matrices
 1. Given <img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{cccc}4&0&0&-2\\0&-3&0&3\\0&0&1&6\\0&0&0&1\end{array}\right]"/> compute its determinant and inverse (A<sup>-1</sup>).
 
-### [Determinants & Inverses Home](determinants.md)
-### [Outcome Home](index.md)
-### [PHYS1521 Home](../)
+#### [Determinants & Inverses Home](determinants.md)
+#### [Outcome Home](index.md)
+#### [PHYS1521 Home](../)

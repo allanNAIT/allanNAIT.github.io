@@ -103,5 +103,5 @@ You can follow along with your instructor to complete this build and/or you can 
     </ol>
 8.	You should now experiment with different browser widths to see the full effect of the styling and media queries.
 
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)

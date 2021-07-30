@@ -7,6 +7,6 @@ There are two parts to this lesson:
 * [Sticky & Fixed Positions](sticky-fixed.md)
 * [Scrolling Techniques](scrolling.md)
 
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)
 

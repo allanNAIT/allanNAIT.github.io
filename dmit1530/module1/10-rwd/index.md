@@ -92,5 +92,5 @@ You can follow along with your instructor to complete this build and/or you can 
 ## Exercise
 Open the **flexbox-exercise-instructions.docx** file on Moodle and follow the instructions to complete the exercise for this lesson.
 
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)

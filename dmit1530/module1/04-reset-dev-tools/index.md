@@ -77,5 +77,5 @@ You need to customize the content to match the summary of the web page.
 * [Frameworks](files/dmit1530-week-02-frameworks.pdf){:target="_blank"}
 * [Box Sizing](files/dmit1530-week-02-box-sizing.pdf){:target="_blank"}
 
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)

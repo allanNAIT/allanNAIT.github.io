@@ -88,5 +88,5 @@ You will be using GitHub for submitting assignments in this course. The assignme
 * [Git Command Line](files/dmit1530-week-03-command-line-cheat-sheet.pdf){:target="_blank"}
 * [Git Terminology](files/dmit 1530-week-03-git-terminology.pdf){:target="_blank"}
 
-### [Module Home](../)
-### [DMIT1530 Home](../../)
+#### [Module Home](../)
+#### [DMIT1530 Home](../../)

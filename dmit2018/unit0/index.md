@@ -33,4 +33,5 @@ These notes apply to the eStore database.
 
 To restore the other databases, use the steps above and select the appropriate `*.bak` file.
 
+#### [Appendices](appendices.md)
 #### [DMIT2018 Home](../)

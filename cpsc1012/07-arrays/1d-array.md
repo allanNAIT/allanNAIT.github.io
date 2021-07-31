@@ -82,7 +82,7 @@ You can have the user enter the data (the example below assumes the existence of
 int[] userEntered = new int[5];
 for (int index = 0; index < 5; index++)
 {
- userEntered[index] = GetInteger("Enter an integer number: ");
+    userEntered[index] = GetInteger("Enter an integer number: ");
 }
 ```
 

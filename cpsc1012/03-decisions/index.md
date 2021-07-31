@@ -18,7 +18,7 @@ Relational Operator | Meaning
 **`!=`** | No equal to
 **`==`** | Equal to
 
-_**Note**: The **`=`** symbol is an **assignment opertor**!_
+_**Note**: The single **`=`** symbol is an **assignment opertor**!_
 
 ## Logical Operators
 The **boolean test** uses zero or more of the following logical operators:

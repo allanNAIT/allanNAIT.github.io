@@ -4,7 +4,7 @@ title: Sequence - Input/Output
 ---
 <style>
     .monospace{
-        font-family: Coutier New;
+        font-family: Courier New;
     }
 </style>
 

@@ -37,5 +37,6 @@ title: DMIT1508
   * [SQL Transactions](topics/transactions.md)
 * [SQL Triggers](topics/triggers.md)
 
-## [References](references/)
+#### [Code Samples](code-samples.md)
 
+## [References](references/)

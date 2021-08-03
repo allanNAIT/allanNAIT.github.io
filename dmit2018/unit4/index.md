@@ -3,7 +3,7 @@ layout: page
 title: System Setup
 ---
 ## Introduction
-This unit introduces you to the system setup, specifically, Business Logic (controller) classes.
+This unit introduces you to the system setup, specifically, Business Logic Layer(BLL), i.e., Ccontroller classes.
 
 ## Topics
 * [4.1.0 - View Models](4_1_0.md)

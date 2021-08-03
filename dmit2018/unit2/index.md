@@ -14,8 +14,4 @@ This unit introduces you to Visual Studio and the creation of a Visual Studio so
 * [2.1.1 - Solution Setup](2_1_1.md)
 * [2.2.1 - Website Customization](2_2_1.md)
 
-<<<<<<< Updated upstream:dmit2018/unit2/index.md
 #### [DMIT2018 Home](../)
-=======
-### [DMIT2018 Home](../)
->>>>>>> Stashed changes:dmit2018/unit2/vs-solution.md

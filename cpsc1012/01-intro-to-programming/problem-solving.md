@@ -18,7 +18,7 @@ The best workflow when learning how to program is to ***NOT*** open your coding 
 ### Example Problem
 Create a simple calculator. Your calculator will accept two numbers inputted by a user, perform the four basic arithmetic operations (+, -, ×, ÷), and display the results.
 
-_This problem will be worked through in class._
+_This problem will be [worked through](../02-sequence/arithmetic.md) in class._
 
 #### [Introduction Home](index.md)
 #### [CPSC1012 Home](../)

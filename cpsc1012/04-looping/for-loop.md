@@ -25,6 +25,9 @@ for(int number = 1; number <= mySquare; number ++)
 }
 ```
 
+### For-Loop Code Explained
+In this loop, you initialize a `local-scope` variable, `number`, to start at **1**. Next, this variable is tested against `mySquare` to see if is in range (`number <= mySquare`), if it is, then the code enters the loop, if not, the loop exits. If the code is in the loop, the code below `//loop code goes here` will execute. Once all the code executes, then the increment, `number ++` executes. After the increment/change, the variable `number` is once again tested against `mySquare`. This process is repeated un the test fails, the variable `number`, is out of range and the loop exits.
+
 ## Sum Of Squares
 A sample flowchart for the problem above is:<br>
 ![flowchart_sum_squares](files/flowchart_sum_squares.jpg)

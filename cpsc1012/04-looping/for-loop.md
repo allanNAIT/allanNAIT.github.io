@@ -19,14 +19,14 @@ For example, given the problem:<br>
 Using this problem the **for-loop** code could look like:
 
 ```csharp
-for(int number = 1; number <= mySquare; number ++)
+for(int start = 1; start <= mySquare; start ++)
 {
     //loop code goes here
 }
 ```
 
 ### For-Loop Code Explained
-In this loop, you initialize a `local-scope` variable, `number`, to start at **1**. Next, this variable is tested against `mySquare` to see if is in range (`number <= mySquare`), if it is, then the code enters the loop, if not, the loop exits. If the code is in the loop, the code below `//loop code goes here` will execute. Once all the code executes, then the increment, `number ++` executes. After the increment/change, the variable `number` is once again tested against `mySquare`. This process is repeated un the test fails, the variable `number`, is out of range and the loop exits.
+In this loop, you initialize a `local-scope` variable, `start`, to start at **1**. Next, this variable is tested against `mySquare` to see if is in range (`start <= mySquare`), if it is, then the code enters the loop, if not, the loop exits. If the code is in the loop, the code below `//loop code goes here` will execute. Once all the code executes, then the increment, `start ++` executes. After the increment/change, the variable `start` is once again tested against `mySquare`. This process is repeated un the test fails, the variable `start`, is out of range and the loop exits.
 
 ## Sum Of Squares
 A sample flowchart for the problem above is:<br>

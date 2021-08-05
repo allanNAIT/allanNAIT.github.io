@@ -4,7 +4,49 @@ title: Looping Structures - For Loop
 ---
 
 ## Introduction
-Put topic introduction here.
+For problems that can use loops over a definite number of iterations, the preferred structure is called a **for-loop**.
+
+```csharp
+for(init; test; change)
+{
+    //loop code goes here
+}
+```
+
+For example, given the problem:<br>
+>Find the sum of the squares of the integers from 1 to mySquare, where mySquare is input by the user, e.g., user enters 4 then the code returns 30 (1x1 + 2x2 + 3x3 + 4x4 = 30).
+
+Using this problem the **for-loop** code could look like:
+
+```csharp
+for(int number = 1; number <= mySquare; number ++)
+{
+    //loop code goes here
+}
+```
+
+## Sum Of Squares
+A sample flowchart for the problem above is:<br>
+![flowchart_sum_squares](files/flowchart_sum_squares.jpg)
+
+Follow the steps below to solve/code this problem:
+1. Create a new Visual Studio solution called **SumOfSquares**.
+2. Add the code comment block (replace **authorname** with your name, and **modifieddate** with the date you write this code):
+3. Add the comment structure inside the `static void Main(string[] args)` method:
+4. Modify the `//declare variable(s)` code to look like:
+5. Next, modify the `//input` block of code to look like:
+6. Next, modify the `//process` block to look like:
+7. Next, modify the `//output` block to look like:
+8. Finally, as you will be running your code in **Debug** mode, modify the `//program ends` block to look like:
+
+### Testing
+The sample outputs below are from sample runs of the completed solution:
+#### Invalid Input:
+![sum_squares_01](files/sum_squares_01.jpg)
+#### Invalid Range:
+![sum_squares_02](files/sum_squares_02.jpg)
+#### Correct Output:
+![sum_squares_03](files/sum_squares_03.jpg)
 
 #### [Looping Home](index.md)
 #### [CPSC1012 Home](../)

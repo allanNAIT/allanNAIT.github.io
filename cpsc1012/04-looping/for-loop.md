@@ -26,11 +26,11 @@ for(int start = 1; start <= mySquare; start ++)
 ```
 
 ### For-Loop Code Explained
-In this loop, you initialize a `local-scope` variable, `start`, to start at **1**. Next, this variable is tested against `mySquare` to see if is in range (`start <= mySquare`), if it is, then the code enters the loop, if not, the loop exits. If the code is in the loop, the code below `//loop code goes here` will execute. Once all the code executes, then the increment, `start ++` executes. After the increment/change, the variable `start` is once again tested against `mySquare`. This process is repeated un the test fails, the variable `start`, is out of range and the loop exits.
+In this loop, you initialize a **local-scope** variable, `start`, to start at **1**. Next, this variable is tested against `mySquare` to see if is in range (`start <= mySquare`), if it is, then the code enters the loop, if not, the loop exits. If the code is in the loop, the code below `//loop code goes here` will execute. Once all the code executes, then the increment, `start ++` executes. After the increment/change, the variable `start` is once again tested against `mySquare`. This process is repeated un the test fails, the variable `start`, is out of range and the loop exits.
 
 ## Sum Of Squares
 A sample flowchart for the problem above is:<br>
-![flowchart_sum_squares](files/flowchart_sum_squares.jpg)
+![flowchart-sum-squares](files/flowchart-sum-squares.jpg)
 
 Follow the steps below to solve/code this problem:
 1. Create a new Visual Studio solution called **SumOfSquares**.
@@ -45,11 +45,11 @@ Follow the steps below to solve/code this problem:
 ### Testing
 The sample outputs below are from sample runs of the completed solution:
 #### Invalid Input:
-![sum_squares_01](files/sum_squares_01.jpg)
+![sum-squares-01](files/sum-squares-01.jpg)
 #### Invalid Range:
-![sum_squares_02](files/sum_squares_02.jpg)
+![sum-squares-02](files/sum-squares-02.jpg)
 #### Correct Output:
-![sum_squares_03](files/sum_squares_03.jpg)
+![sum-squares-03](files/sum-squares-03.jpg)
 
 #### [Looping Home](index.md)
 #### [CPSC1012 Home](../)

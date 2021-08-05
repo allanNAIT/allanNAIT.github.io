@@ -26,7 +26,7 @@ for(int start = 1; start <= mySquare; start ++)
 ```
 
 ### For-Loop Code Explained
-In this loop, you initialize a **local-scope** variable, `start`, to start at **1**. Next, this variable is tested against `mySquare` to see if is in range (`start <= mySquare`), if it is, then the code enters the loop, if not, the loop exits. If the code is in the loop, the code below `//loop code goes here` will execute. Once all the code executes, then the increment, `start ++` executes. After the increment/change, the variable `start` is once again tested against `mySquare`. This process is repeated un the test fails, the variable `start`, is out of range and the loop exits.
+In this loop, you initialize a [**local-scope** variable](#scope), `start`, to start at **1**. Next, this variable is tested against `mySquare` to see if is in range (`start <= mySquare`), if it is, then the code enters the loop, if not, the loop exits. If the code is in the loop, the code below `//loop code goes here` will execute. Once all the code executes, then the increment, `start ++` executes. After the increment/change, the variable `start` is once again tested against `mySquare`. This process is repeated un the test fails, the variable `start`, is out of range and the loop exits.
 
 ## Sum Of Squares
 A sample flowchart for the problem above is:<br>
@@ -50,6 +50,19 @@ The sample outputs below are from sample runs of the completed solution:
 ![sum-squares-02](files/sum-squares-02.jpg)
 #### Correct Output:
 ![sum-squares-03](files/sum-squares-03.jpg)
+
+## <a ID="scope">Variable Scope</a>
+When you initialize a variable, like `int start =1` in the previous example, the variable `start` is **not** available to any code outside the **for-loop**. You could rewrite the **for-loop** code to be:
+
+```chsarp
+int start = 1;
+for(;start <= mySquare; start++)
+{
+    //loop code goes here
+}
+```
+
+In this code sample, the variable `start` is initialized before the **for-loop** and thus is available to the code after the **for-loop**. _Also notice the change in the **for-loop** syntax._
 
 #### [Looping Home](index.md)
 #### [CPSC1012 Home](../)

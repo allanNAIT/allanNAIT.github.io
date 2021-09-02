@@ -6,16 +6,12 @@ The following file is required for this lesson:
 *[demo-web-image-formats.zip](files/demo-web-image-formats.zip)
 
 ## <a id="intro">Introduction</a>
-This lesson does not produce a web page only extracted images from a Photoshop file. If you do not have Photoshop on your computer, you can use the online tool at [photopea.com](https://www.photopea.com/){:target="_blank"}. If you take further web courses in DMIT, you are encouraged to purchase the [Creative Cloud Suite from Adobe](https://www.adobe.com/ca/creativecloud/buy/students.html?promoid=P79NQTWV&mv=other){:target="_blank"}.
-
-This walkthrough is in two parts:
-* [Part 1 – Using Photoshop](#part1)
-* [Part 2 – Using photopea.com](#part2)
+This lesson does not produce a web page only extracted images from a Photoshop file. If you take further web courses in DMIT, you are encouraged to purchase the [Creative Cloud Suite from Adobe](https://www.adobe.com/ca/creativecloud/buy/students.html?promoid=P79NQTWV&mv=other){:target="_blank"}.
 
 ## Demo Instructions
 You can follow along with your instructor to complete this build and/or you can use this document as a guide in completing the demo build. Download the **demo-web-image-formats.zip** file and extract its contents to a folder called **demo-web-image-formats**. Open the **demo.psd** file in either Photoshop or the online tool.
 
-## Steps – <a id="part1">Part 1: Using Photoshop</a>
+## Steps
 1.	Open the demo.psd file in Photoshop:<br>
 ![photoshop-01.jpg](files/jpg-photoshop/photoshop-01.jpg)
 2.	Make note of what you see in the **Layers Panel**:<br>
@@ -69,37 +65,7 @@ You can follow along with your instructor to complete this build and/or you can 
 26.	Repeat steps 23 &amp; 24 for each of the other social media icons. As you already have a selection circle around the first icon, just use the cursor to move the selection circle to the next icon as all the icons need to be the same size. When finished, you should have:<br>
 ![photoshop-31.jpg](files/jpg-photoshop/photoshop-31.jpg)
 
-### [Exercise Instructions](#exercise)
-
-### [Lesson Home](#intro)
-
-## Steps – <a id="part2">Part 2: Using photopea.com</a>
-1.	Open the demo.psd file using the online tool ([photopea.com](https://www.photopea.com/){:target="_blank"}).<br>
-![photopea-01.jpg](files/jpg-photopea/photopea-01.jpg)
-2.	If you have not read the steps for [Part 1](#part1), please read them now and many of the commands and techniques are the same.
-3.	Using the _eye_ icon hide all but the **The Yoga Bolog-jpg** layer. When the layer image is selected, copy the image to the clipboard.
-4.	Select File --> New from the menu to bring up the **New Project** window. Knowing the image type, you can keep the background as white, then click on **Create**:<br>
-![photopea-02.jpg](files/jpg-photopea/photopea-02.jpg)
-5.	Paste the image into this new file:<br>
-![photopea-03.jpg](files/jpg-photopea/photopea-03.jpg)
-6.	To save/export this file, select **Export** as from the menu and select **JPG** as the file type:<br>
-![photopea-04.jpg](files/jpg-photopea/photopea-04.jpg)
-7.	The **Save for web** window will have additional options, but just keep the defaults. Save the file to the folder created earlier, with the same name as used in the Photoshop section of this document.
-8.	For the other image in the **Header** layer, note that it is a full colour image with transparency, thus you will create a new project with a transparent background:<br>
-![photopea-05.jpg](files/jpg-photopea/photopea-05.jpg)
-9.	Once created, copy the image from the clipboard into this new project:<br>
-![photopea-06.jpg](files/jpg-photopea/photopea-06.jpg)
-10.	The images in the **Blog post I** and **Blog post II** are extracted and saved in a like manner as done with Photoshop.
-11.	For the **social media icons** images, you will use the **Ellipse Select** tool which is set by right-clicking on the **Rectangular Select** tool:<br>
-![photopea-07.jpg](files/jpg-photopea/photopea-07.jpg)
-12.	Select an icon from the image, copy to clipboard, create a new project with a transparent background, and paste in the copied image:<br>
-![photopea-08.jpg](files/jpg-photopea/photopea-08.jpg)
-13.	Export using the same technique as before.
-14.	Repeat step 12 for the remaining images in the layer. Once again, you can use the cursor to move the selection circle to the other images you need to extract.
-
-### [Lesson Home](#intro)
-
-## <a id="exercise">Exercise Instructions</a>
+## Exercise Instructions
 Download the **ex-web-imageformats.zip** file from Moodle and extract to a folder called **ex-web-image-formats**. You can use either Photoshop or photpea.com to extract the images from the **design-comp.psd** file. Use the submission instructions on Moodle.
 
 ##### [Module Home](../)

@@ -5,7 +5,7 @@ title: 20 - Web Image Formats
 The following file is required for this lesson:
 *[demo-web-image-formats.zip](files/demo-web-image-formats.zip)
 
-## <a id="intro">Introduction</a>
+## Introduction
 This lesson does not produce a web page only extracted images from a Photoshop file. If you take further web courses in DMIT, you are encouraged to purchase the [Creative Cloud Suite from Adobe](https://www.adobe.com/ca/creativecloud/buy/students.html?promoid=P79NQTWV&mv=other){:target="_blank"}.
 
 ## Demo Instructions

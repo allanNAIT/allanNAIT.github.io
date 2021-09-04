@@ -14,7 +14,7 @@ permalink: /about/
 **Office Location**: W309 - HP Centre
 
 ## Fall 2021 Teaching Schedule
-![fall2021-schedule](images/fall2021-schedule.png)
+![fall2021-schedule](images/fall-schedule.png)
 
 ## Education & Qualifications
 B. Sc. - University of Saskatchewan (1977)<br>

@@ -28,7 +28,7 @@ Data Type | Description
 `SMALLINT` | Allows whole numbers between -32,768 and 32,767
 `INT` | Allows whole numbers between -2,147,483,648 and 2,147,483,647
 `BIGINT` | Allows whole numbers between -9,223,372,036,854,775,808 and 9,223,372,036,854,775,807
-`DECIMAL(p,s)` | Fixed precision and scal numbers<br>Allows numbers from -10^38 +1 to 10^38 –1<br>The `p` parameter indicates the maximum total number of digits that can be stored (both to the left and to the right of the decimal point). `p` must be a value from `1` to `38`. Default is `18`.<br>The `s` parameter indicates the maximum number of digits stored to the right of the decimal point. `s` must be a value from `0` to `p`. Default value is `0`
+`DECIMAL(p,s)` | Fixed precision and scale numbers<br>Allows numbers from -10^38 +1 to 10^38 –1<br>The `p` parameter indicates the maximum total number of digits that can be stored (both to the left and to the right of the decimal point). `p` must be a value from `1` to `38`. Default is `18`.<br>The `s` parameter indicates the maximum number of digits stored to the right of the decimal point. `s` must be a value from `0` to `p`. Default value is `0`
 `NUMERIC(p,s)` | Fixed precison and scale numbers<br>Allows numbers from -10^38 +1 to 10^38 –1.<br>The `p` parameter indicates the maximum total number of digits that can be stored (both to the left and to the right of the decimal point). `p` must be a value from `1` to `38`. Default is `18`.<br>The `s` parameter indicates the maximum number of digits stored to the right of the decimal point. `s` must be a value from `0` to `p`. Default value is `0`
 `SMALLMONEY` | Monetary data from -214,748.3648 to 214,748.3647
 `MONEY` | Monetary data from -922,337,203,685,477.5808 to 922,337,203,685,477.5807

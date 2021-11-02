@@ -126,7 +126,7 @@ WHERE Type = 'TR'
 To see the source code of a trigger:
 
 ```sql
-SP_HELPTEXT TriggerName
+EXEC SP_HELPTEXT TriggerName
 ```
 
 ## <a ID="practice">Practice</a>

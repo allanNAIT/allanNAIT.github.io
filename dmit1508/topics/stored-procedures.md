@@ -32,29 +32,29 @@ DECLARE
 ### Assigning Values
 
 ```sql
-DECLARE @FirstName varchar(40)
+DECLARE @FirstName VARCHAR(40)
 SET @FirstName = 'Allan'
 ```
 
 ```sql
-DECLARE @FirstName varchar(40),
-        @LastName varchar(40)
+DECLARE @FirstName VARCHAR(40),
+        @LastName VARCHAR(40)
 SELECT  @FirstName = 'Allan',
         @LastName = 'Anderson'
 ```
 
 ```sql
-DECLARE @FirstName varchar(40)
-SELECT  @FirstName = StaffFirstName 
+DECLARE @FirstName VARCHAR(40)
+SELECT  @FirstName = FirstName 
 FROM Staff 
 WHERE StaffID = 1
 ```
 
 ```sql
-DECLARE @FirstName varchar(40),
-        @LastName varchar(40)
-SELECT  @FirstName = StaffFirstName,
-        @LastName = StaffLastName
+DECLARE @FirstName VARCHAR(40),
+        @LastName VARCHAR(40)
+SELECT  @FirstName = FirstName,
+        @LastName = LastName
     FROM Staff
     WHERE StaffID = 1
 ```
@@ -78,7 +78,7 @@ ELSE
 **Example**:
 
 ```sql
-DECLARE @Total int, @Result varchar(10)
+DECLARE @Total INT, @Result VARCHAR(10)
 SET @Total = 100
 IF @Total = 100
     BEGIN
@@ -165,7 +165,7 @@ EXEC sp_helptext ProcedureName
 ### Parameters
 
 ```sql
-CREATE PROCEDURE LookupStudent (@StudentID int) AS
+CREATE PROCEDURE LookupStudent (@StudentID INT) AS
 SQL statements
 RETURN
 ```
@@ -188,7 +188,7 @@ EXEC LookupStudent 2001234
 **Example**:
 
 ```sql
-CREATE PROCEDURE LookupStudent (@StudentID int = NULL)
+CREATE PROCEDURE LookupStudent (@StudentID INT = NULL)
 AS
 IF @StudentID IS NULL
     BEGIN

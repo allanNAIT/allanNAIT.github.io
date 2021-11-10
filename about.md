@@ -16,6 +16,9 @@ permalink: /about/
 ## Fall Teaching Schedule
 ![fall2021-schedule](images/fall-schedule.png)
 
+## Winter Teaching Schedule
+![winter2022-schedule](images/winter-schedule.png)
+
 ## Education & Qualifications
 B. Sc. - University of Saskatchewan (1977)<br>
 B. Ed. - University of Saskatchewan (1980)<br>

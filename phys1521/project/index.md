@@ -61,4 +61,12 @@ The following is a list of possible applications of concepts taught in PHYS1521 
 * Demonstration of Applied Forces
 * Demonstration of Collisions
 
+## Project Repositories
+If you, or your team, requires a GitHub repository for your course project on [PHYS-1521](https://github.com/phys-1521){:target="_blank"}, send an email to your instructor with the following information:
+
+* Team member(s)
+* GitHub account name(s)
+
+Please note that your repository will be **private** and will remain visible for upt to 1 year after its creation.
+
 #### [PHYS1521 Home](../)

@@ -24,8 +24,7 @@ Triggers can help us to
 3. Automate an operation (backup, archive)
 4. Create an audit trail
 
-![trigger-logic-01.png](images/trigger-logic-01.png)<br>
-![trigger-logic-02.png](images/trigger-logic-02.png)
+![trigger-logic.png](images/dml-trigger-logic.jpg)
 
 ## <a ID="temp">Temporary Tables</a>
 Two temporary tables are created and used by the server when executing a DML operation.

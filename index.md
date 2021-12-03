@@ -3,9 +3,7 @@ layout: page
 title: Welcome to my GitHub Pages
 ---
 ## A Resource for Students!
-<!--
 <a href="anap1525/"><img src="anap1525/anap1525-icon.png" alt="anap1525" title="ANAP1525"></a>&nbsp;
--->
 <a href="comp1017/"><img src="comp1017/comp1017-icon.png" alt="comp1017" title="COMP1017"></a>&nbsp;
 <!--
 <a href="cpsc1012/"><img src="cpsc1012/cpsc1012-icon.png" alt="cpsc1012" title="CPSC1012"></a>&nbsp;

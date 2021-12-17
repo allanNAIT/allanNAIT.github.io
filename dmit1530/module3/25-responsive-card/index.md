@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Picture Element + WebP
+title: Responsive Card
 ---
 <style>
     .css-class{
@@ -14,52 +14,12 @@ title: Picture Element + WebP
 </style>
 
 The following files are required for this lesson:
-* [demo-picture-element.zip](files/demo-picture-element.zip)
 * [demo-responsive-card-component.zip](files/demo-responsive-card-component.zip)
-
-## Introduction
-This lesson has two components:
-* [Picture Element](#picture)
-* [Picture Element with Webp](#webp)
 
 ## Demo Instructions
 You can follow along with your instructor to complete this build and/or you can use this document as a guide in completing the demo build.
 
 ## Steps:
-### <a ID="picture">Picture Element</a>
-1.	Download the **demo-picture-element.zip** file and extract its contents to a folder named **demo-picture-element**.
-2.	The completed output should look like when you resize your browser:<br>
-![picture-01.jpg](files/picture-01.jpg)<br>
-**Note**: At a larger resolution, the images will be larger.
-3.	The first step is to add the picture element to index.html:<br>
-    <ol type="a">
-        <li>Add the following code just before <span class="html-class">&lt;/section&gt;</span>:<br>
-        <img src="files/picture-index-01.jpg" alt="picture-index-01"><br>
-        <b>Note</b>: The <span class="html-class">&lt;picture&gt;</span> element has a <em>built-in</em> media query to swap out the image when the browser width reaches the breakpoint.
-    </ol>
-
-### <a ID="webp">Picture Element with Webp</a>
-1. Download the **demo-picture-webp-main.zip** file and extract its contents to a folder named **demo-picture-webp-main**.
-2.	The completed output should look like:<br>
-    <ol type="a">
-        <li>Google Chrome:<br>
-        <img src="files/webp-chrome.jpg" alt="webp-chrome">
-        </li>
-        <li>Edge:<br>
-        <img src="files/webp-edge.jpg" alt="webp-edge">
-        </li>
-        <li>Internet Explorer:<br>
-        <img src="files/webp-ie.jpg" alt="webp-ie">
-        </li>
-        <li>Firefox:<br>
-        <img src="files/webp-firefox.jpg" alt="webp-firefox">
-        </li>
-        <li>Safari:<br>
-        <img src="files/webp-safari.jpg" alt="webp-chrome">
-        </li>
-    </ol>
-
-## Steps - <a ID="card">Part 2</a>: Responsive Card
 1. Download the **demo-responsive-card-component.zip** file and extract its contents to a folder named **demo-responsive-card-component**.
 2.	The completed output should look like:<br>
     <ol type="a">

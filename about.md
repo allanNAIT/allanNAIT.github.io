@@ -10,7 +10,7 @@ permalink: /about/
 **Name**: Allan Anderson<br>
 **Email**: aanderson@nait.ca<br>
 **Phone**: 780-378-5275<br>
-**Office Hours**: 08:00 - 15:30<br>
+**Office Hours**: 08:00 - 16:00<br>
 **Office Location**: W309 - HP Centre
 
 ## Fall Teaching Schedule

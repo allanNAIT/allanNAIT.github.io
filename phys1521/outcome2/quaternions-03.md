@@ -13,7 +13,7 @@ Given <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{1}=(w_{1},V
 Reversing the order of multiplication gives us:<br>
 <img src="https://latex.codecogs.com/svg.image?Q_{2}\times{Q_{1}}=(w_{2}w_{1}-V_{2}\cdot{V_{1}},w_{2}V_{1}&plus;w_{1}V_{2}&plus;V_{2}\times{V_{1}})" title="Q_{2}\times{Q_{1}}=(w_{2}w_{1}-V_{2}\cdot{V_{1}},w_{2}V_{1}+w_{1}V_{2}+V_{2}\times{V_{1}})" />.
 
-The non-communative part of these two equations is<img src="https://latex.codecogs.com/svg.latex?\large&space;V_{1}\times{V_{2}}\neq{V_{2}\times{V_{1}}}"/> (they are in opposite directions refer to the [Vector Cross Product](../outcome1/cross-product.md)).
+The non-communative part of these two equations is <img src="https://latex.codecogs.com/svg.latex?\large&space;V_{1}\times{V_{2}}\neq{V_{2}\times{V_{1}}}"/> (they are in opposite directions refer to the [Vector Cross Product](../outcome1/cross-product.md)).
 
 ## Sample Calculations
 Here are the results of a sample calculation of multiplying two Quaternions:<br>

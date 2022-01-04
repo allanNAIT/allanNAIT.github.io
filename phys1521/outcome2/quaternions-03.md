@@ -8,10 +8,10 @@ Although not covered in the notes on Moodle, this topic may be of interest for t
 
 ## Multiplying Two Quaternions
 Given <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{1}=(w_{1},V_{1})"/>, where <img src="https://latex.codecogs.com/svg.latex?\large&space;V_{1}=(x_{1},y_{1},z_{1})"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{2}=(w_{2},V_{2})"/> where <img src="https://latex.codecogs.com/svg.latex?\large&space;V_{2}=(x_{2},y_{2},z_{2})"/>, the multiplication of Quaternions follows:<br>
-<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{1}\times{Q_{2}}=(w_{1}w_{2}-V_{1}\cdot{V_{2}},w_{1}V_{2}+w_{2}V_{1}+V_{1}\times{V_{2}})"/>.
+<img src="https://latex.codecogs.com/svg.image?Q_{1}\times{Q_{2}}=(w_{1}w_{2}-V_{1}\cdot{V_{2}},w_{1}V_{2}&plus;w_{2}V_{1}&plus;V_{1}\times{V_{2}})" title="Q_{1}\times{Q_{2}}=(w_{1}w_{2}-V_{1}\cdot{V_{2}},w_{1}V_{2}+w_{2}V_{1}+V_{1}\times{V_{2}})" />.
 
 Reversing the order of multiplication gives us:<br>
-<img src="https://latex.codecogs.com/svg.latex?\large&space;Q_{2}\times{Q_{1}}=(w_{2}w_{1}-V_{2}\cdot{V_{1}},w_{2}V_{1}+w_{1}V_{2}+V_{2}\times{V_{1}})"/>.
+<img src="https://latex.codecogs.com/svg.image?Q_{2}\times{Q_{1}}=(w_{2}w_{1}-V_{2}\cdot{V_{1}},w_{2}V_{1}&plus;w_{1}V_{2}&plus;V_{2}\times{V_{1}})" title="Q_{2}\times{Q_{1}}=(w_{2}w_{1}-V_{2}\cdot{V_{1}},w_{2}V_{1}+w_{1}V_{2}+V_{2}\times{V_{1}})" />.
 
 The non-communative part of these two equations is<img src="https://latex.codecogs.com/svg.latex?\large&space;V_{1}\times{V_{2}}\neq{V_{2}\times{V_{1}}}"/> (they are in opposite directions refer to the [Vector Cross Product](../outcome1/cross-product.md)).
 

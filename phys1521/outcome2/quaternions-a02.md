@@ -17,10 +17,10 @@ Given that <img src="https://latex.codecogs.com/svg.image?ijk=-1" title="ijk=-1"
 <img src="https://latex.codecogs.com/svg.image?-jk=-i" title="-jk=-i" /> or <br>
 <img src="https://latex.codecogs.com/svg.image?jk=i" title="jk=i" />
 
-The same math can be applied to different combinations of multiplying each side of the origianl expression to get the results shown in the table below:
+The same math can be applied to different combinations of multiplying each side of the original expression, <img src="https://latex.codecogs.com/svg.image?ijk=-1" title="ijk=-1" />, to get the results shown in the table below:
 
 |   | i | j | k |
-|---|---|---|---|
+|---| :---: | :---: | :---: |
 | i | -1 | k | -j |
 | j | -k | -1 | i |
 | k | j | -i | -1 |

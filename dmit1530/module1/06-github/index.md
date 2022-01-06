@@ -86,6 +86,9 @@ C:\Work\_DMIT1530\1212_A02\hello-git>
 * Resulting web page:<br>
 ![git-03.jpg](files/git-03.jpg)
 
+## Netlify
+Students can easily push to a server from GitHub using [Netlify (free signup)](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/){:target="_blank"}. This is optional, but encouraged if you want to see your web site live.
+
 ## Summary
 You will be using GitHub for submitting assignments in this course. The assignments will be set up using GitHub Classroom; the assignment details for each submission will be give in the assignment specifications.
 

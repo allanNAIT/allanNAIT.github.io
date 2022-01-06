@@ -9,6 +9,13 @@ The following file is required for this lesson:
 ## Demo Instructions
 You can follow along with your instructor to complete this build and/or you can use this document as a guide in completing the demo build. **You will need a [GitHub](https://github.com){:target="_blank"} account for this lesson**.
 
+**Note**: Students might have to set up their name and email configuration to make a commit.
+
+```
+git config --global user.name "John Doe"
+git config --global user.email "johndoe@example.com"
+```
+
 ## Steps
 1.	Download the **hello-git.zip** file from Moodle and extract its contents to a folder named **hello-git**.
 2.	Open **index.html** in your browser to see something like:<br>

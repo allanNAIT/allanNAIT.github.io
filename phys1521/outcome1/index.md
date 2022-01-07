@@ -9,5 +9,6 @@ This topic covers basic trigonometry and the mathematics of 2D and 3D vectors.
 * [1.2 - Vector Math](vector-math.md)
 * [1.3 - Dot Product](dot-product.md)
 * [1.4 - Cross Product](cross-product.md)
+* [Addendum - 3D Pythagorean Proof](pythagorean-3d.md)
 
 #### [PHSY1521 Home](../)

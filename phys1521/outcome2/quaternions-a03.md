@@ -30,7 +30,7 @@ This expands to:<br>
 
 Where <img src="https://latex.codecogs.com/svg.image?q=cos\left&space;(&space;\frac{\theta}{2}&space;\right&space;)&plus;sin\left&space;(&space;\frac{\theta}{2}&space;\right&space;)(U_xi&plus;U_yj&plus;U_zk)" title="q=cos\left ( \frac{\theta}{2} \right )+sin\left ( \frac{\theta}{2} \right )(U_xi+U_yj+U_zk)" />.
 
-_Note: this last equation looks similar to the Quaternion equation used in this course._
+_Note: this last equation has similarities to the Quaternion equation used in this course._
 
 ## Exercises & Assignments
 There are no exercises or assignments associated with this Addendum.

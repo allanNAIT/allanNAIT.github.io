@@ -13,5 +13,6 @@ This topic covers the mathematics of matrices and quaternions.
 * [2.6 - Rotate Vector by Quaternion](quaternions-02.md)
 * [Addendum - Muliplication of Quaternions](quaternions-a01.md)
 * [Addendum - Complex Numbers](quaternions-a02.md)
+* [Addendum - Quaternions and the Cubic Formula](quaternions-a03.md)
 
 #### [PHSY1521 Home](../)

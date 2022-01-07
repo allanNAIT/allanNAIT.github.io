@@ -11,6 +11,11 @@ In algebra you are aware of the **Quadratic Formula** <img src="https://latex.co
 The proof that you can use the Pythagorean Theorem in 3D space is illustrated in the figure below.
 ![pythagorean-3d-proof](files/pythagorean-3d-proof.jpg)
 
+Using just the x and y axis, the hypotenuse of the triangle, which forms the base of the triangle with the z-axis, is: <img src="https://latex.codecogs.com/svg.image?\sqrt{x^2&plus;y^2}" title="\sqrt{x^2+y^2}" />
+
+Therefore, to find the hpotenuse of the triangle to the z-axis we get:<br>
+<img src="https://latex.codecogs.com/svg.image?\sqrt{(\sqrt{x^2&plus;y^2})^2&plus;z^2}=\sqrt{x^2&plus;y^2&plus;z^2}" title="\sqrt{(\sqrt{x^2+y^2})^2+z^2}=\sqrt{x^2+y^2+z^2}" />
+
 ## Exercises & Assignments
 There are no exercises or assignments associated with this addendum.
 

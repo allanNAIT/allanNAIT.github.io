@@ -15,7 +15,12 @@ What is not taught is the solution to the **Cubic Formula** <img src="https://la
 
 Where <img src="https://latex.codecogs.com/svg.image?\xi=1,\frac{-1&plus;\sqrt{-3}}{2},\frac{-1-\sqrt{-3}}{2}" title="\xi=1,\frac{-1+\sqrt{-3}}{2},\frac{-1-\sqrt{-3}}{2}" />.
 
-Because complex numbers exist in a plane, multiplication of complex numbers yields a rotation in a 4D hypersphere. A 4D hypersphere has a 3D surface.
+Because complex numbers exist in a plane, multiplication of complex numbers yields a rotation in a 4D hypersphere. 
+### 4D Hypersphere
+Uses the equation <img src="https://latex.codecogs.com/svg.image?a^2&plus;b^2&plus;c^2&plus;d^2=1" title="a^2+b^2+c^2+d^2=1" />; a 4D hypersphere has a 3D surface.
+
+In geometric terms a circle is <img src="https://latex.codecogs.com/svg.image?s^1" title="s^1" />, a sphere is <img src="https://latex.codecogs.com/svg.image?s^2" title="s^1" />, and a hypersphere is <img src="https://latex.codecogs.com/svg.image?s^1" title="s^3" />.
+
 
 ## Example
 Given a point <img src="https://latex.codecogs.com/svg.image?(x,y,z)" title="(x,y,z)" /> around an axis of a unit vector <img src="https://latex.codecogs.com/svg.image?[U_x,U_y,U_z]" title="[U_x,U_y,U_z]" /> and an angle <img src="https://latex.codecogs.com/svg.image?\theta" title="\theta" /> results in <img src="https://latex.codecogs.com/svg.image?(x',y',z')" title="(x',y',z')" />.

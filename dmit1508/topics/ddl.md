@@ -349,15 +349,15 @@ CREATE TABLE Supplier (
 CREATE TABLE PurchaseOrder (
 	OrderNumber      INT IDENTITY (1,1)   NOT NULL
 	    CONSTRAINT PK_PurchaseOrder PRIMARY KEY CLUSTERED,
-	OrderDate		     SMALLDATETIME		    NOT NULL,
-	DateReceived		 SMALLDATETIME		    NOT NULL,
-	SupplierId		   INT			            NOT NULL
-        CONSTRAINT FK_PurchaseOrderToSupplier
-        REFERENCES Supplier (SupplierId),
-	SubTotal	      	MONEY			          NOT NULL
-        CONSTRAINT CK_SubTotalMustBePositive CHECK (Subtotal > 0),
-	GST		   	        MONEY			          NOT NULL
-        CONSTRAINT CK_GSTMustBePositive CHECK (GST > 0),
+	OrderDate        SMALLDATETIME        NOT NULL,
+	DateReceived     SMALLDATETIME        NOT NULL,
+	SupplierId       INT                  NOT NULL
+      CONSTRAINT FK_PurchaseOrderToSupplier
+      REFERENCES Supplier (SupplierId),
+	SubTotal         MONEY                NOT NULL
+      CONSTRAINT CK_SubTotalMustBePositive CHECK (Subtotal > 0),
+	GST              MONEY                NOT NULL
+      CONSTRAINT CK_GSTMustBePositive CHECK (GST > 0),
 	Total AS Subtotal + GST,
 	CONSTRAINT CK_DateReceivedMustBeOnOrAfterOrderDate
         CHECK (DateReceived >= OrderDate)

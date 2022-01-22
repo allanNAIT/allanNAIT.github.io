@@ -59,36 +59,36 @@ We can write the table creation SQL as follows:
 ```sql
 -- Create the Customers table
 CREATE TABLE Customers (
-	CustomerNumber	        INT IDENTITY(1,1)	NOT NULL,
-	LastName		VARCHAR(100)		NOT NULL,
-	FirstName		VARCHAR(100)		NOT NULL,
-	Phone			CHAR(8)		        NULL
+	CustomerNumber    INT IDENTITY(1,1)    NOT NULL,
+	LastName          VARCHAR(100)         NOT NULL,
+	FirstName         VARCHAR(100)         NOT NULL,
+	Phone             CHAR(8)              NULL
 )
 
 -- Create the Orders table
 CREATE TABLE Orders (
-	OrderNumber		INT IDENTITY(1,1)	NOT NULL,
-	OrderDate		SMALLDATETIME		NOT NULL,
-	CustomerNumber	        INT			NOT NULL,
-	Subtotal		MONEY			NOT NULL,
-	GST			MONEY			NOT NULL,
-	Total 	 		MONEY			NOT NULL
+	OrderNumber      INT IDENTITY(1,1)    NOT NULL,
+	OrderDate        SMALLDATETIME        NOT NULL,
+	CustomerNumber   INT                  NOT NULL,
+	Subtotal         MONEY                NOT NULL,
+	GST              MONEY                NOT NULL,
+	Total            MONEY                NOT NULL
 )
 
 -- Create the Items table
 CREATE TABLE Items (
-	ItemNumber		INT IDENTITY(1,1)	NOT NULL,
-	Description	        VARCHAR(100)		NOT NULL,
-	CurrentPrice	        SMALLMONEY		NOT NULL
+	ItemNumber       INT IDENTITY(1,1)    NOT NULL,
+	Description      VARCHAR(100)         NOT NULL,
+	CurrentPrice     SMALLMONEY           NOT NULL
 )
 
 -- Create the ItemsOnOrder table
 CREATE TABLE ItemOnOrder (
-	OrderNumber		INT			NOT NULL,
-	ItemNumber		INT			NOT NULL,
-	Quantity		SMALLINT		NOT NULL,	
-	Price			SMALLMONEY		NOT NULL,
-	Amount 			MONEY			NOT NULL
+	OrderNumber      INT                  NOT NULL,
+	ItemNumber       INT                  NOT NULL,
+	Quantity         SMALLINT             NOT NULL,	
+	Price            SMALLMONEY           NOT NULL,
+	Amount           MONEY                NOT NULL
 )
 ```
 
@@ -168,9 +168,10 @@ Example:
 
 ```sql
 CREATE TABLE Student (
-    StudentId 	CHAR(9)		NOT NULL CONSTRAINT PK_Student PRIMARY KEY CLUSTERED,
-    LastName    VARCHAR(20)	NOT NULL,
-    FirstName   VARCHAR(15)	NOT NULL)
+    StudentId      CHAR(9)		          NOT NULL 
+        CONSTRAINT PK_Student PRIMARY KEY CLUSTERED,
+    LastName       VARCHAR(20)          NOT NULL,
+    FirstName      VARCHAR(15)          NOT NULL)
 ```
 
 #### Primary Key Syntax: (table-level constraint)
@@ -180,9 +181,9 @@ Example:
 
 ```sql
 CREATE TABLE Marks (
-    StudentId 	CHAR(9)		NOT NULL,
-    CourseId	CHAR(6)		NOT NULL,
-    Mark	SMALLINT	NULL,
+    StudentId      CHAR(9)	    	      NOT NULL,
+    CourseId	     CHAR(6)		          NOT NULL,
+    Mark	         SMALLINT	            NULL,
     CONSTRAINT PK_Marks PRIMARY KEY CLUSTERED (StudentId, CourseId))
 ```
 
@@ -233,11 +234,10 @@ CONSTRAINT FK_ConstraintName
 
 ```sql
 CREATE TABLE RegionInCountry (
-	CountryId	SMALLINT		NOT NULL
-		CONSTRAINT FK_RegionInCountryToCountry
-		    REFERENCES Country (CountryId),
-	RegionId	SMALLINT		NOT NULL,
-	Name		VARCHAR(100) 	        NOT NULL,
+	CountryId	       SMALLINT		          NOT NULL
+	    CONSTRAINT FK_RegionInCountryToCountry REFERENCES Country (CountryId),
+	RegionId	       SMALLINT		          NOT NULL,
+	Name		         VARCHAR(100) 	      NOT NULL,
 	CONSTRAINT	PK_CountryId_RegionId
 	    PRIMARY KEY CLUSTERED (CountryId, RegionId)
 )
@@ -247,10 +247,10 @@ CREATE TABLE RegionInCountry (
 
 ```sql
 CREATE TABLE StoreInRegion (
-	CountryId	SMALLINT		NOT NULL,	
-	RegionId	SMALLINT		NOT NULL,	
-	StoreId		SMALLINT		NOT NULL,
-	Phone		VARCHAR(100) 	        NOT NULL,
+	CountryId	       SMALLINT		          NOT NULL,	
+	RegionId	       SMALLINT		          NOT NULL,	
+	StoreId		       SMALLINT		          NOT NULL,
+	Phone		         VARCHAR(100) 	      NOT NULL,
 	CONSTRAINT	PK_CountryId_RegionId_StoreId 
 	    PRIMARY KEY CLUSTERED (CountryId, RegionId, StoreId),
 	CONSTRAINT	FK_StoreInRegionToRegionInCountry
@@ -263,9 +263,6 @@ CREATE TABLE StoreInRegion (
 ![fk-exercise-erd.png](images/fk-exercise-erd.png)
 1. Modify the script that defines the `Employee`, `Project` and `EmployeeOnProject` tables to include the necessary `Foreign Key` constraint definitions.  
 2. Create the `Department` table as a stand-alone table for now (no relationships to other tables).  Use the `IDENTITY` property for the `DepartmentNumber`.    
-
-
-
 
 ### <a ID="check">CHECK Constraints</a>
 The `CHECK` constraint enables you to specify what values are acceptable (i.e., define a `DOMAIN`).
@@ -339,10 +336,10 @@ If the expression is `Word LIKE 'ABC '` and the value of `Word` is “ABC” the
 
 ```sql
 CREATE TABLE Supplier (
-	SupplierId	INT IDENTITY (1, 1)	NOT NULL
+	SupplierId	      INT IDENTITY (1, 1)	NOT NULL
 	    CONSTRAINT PK_Supplier PRIMARY KEY CLUSTERED,
-	Name		VARCHAR(100)		NOT NULL,	
-	Phone		CHAR(14)	        NOT NULL
+	Name		          VARCHAR(100)		    NOT NULL,	
+	Phone		          CHAR(14)	          NOT NULL
         CONSTRAINT CK_Phone
         CHECK (Phone LIKE '([0-9][0-9][0-9]) [0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]')
 )
@@ -350,16 +347,16 @@ CREATE TABLE Supplier (
 
 ```sql
 CREATE TABLE PurchaseOrder (
-	OrderNumber		INT IDENTITY (1,1)		NOT NULL
+	OrderNumber		   INT IDENTITY (1,1)		NOT NULL
 	    CONSTRAINT PK_PurchaseOrder PRIMARY KEY CLUSTERED,
-	OrderDate		SMALLDATETIME		        NOT NULL,
-	DateReceived		SMALLDATETIME		        NOT NULL,
-	SupplierId		INT			        NOT NULL
+	OrderDate		     SMALLDATETIME		    NOT NULL,
+	DateReceived		 SMALLDATETIME		    NOT NULL,
+	SupplierId		   INT			            NOT NULL
         CONSTRAINT FK_PurchaseOrderToSupplier
         REFERENCES Supplier (SupplierId),
-	SubTotal		MONEY			        NOT NULL
+	SubTotal	      	MONEY			          NOT NULL
         CONSTRAINT CK_SubTotalMustBePositive CHECK (Subtotal > 0),
-	GST			MONEY			        NOT NULL
+	GST		   	        MONEY			          NOT NULL
         CONSTRAINT CK_GSTMustBePositive CHECK (GST > 0),
 	Total AS Subtotal + GST,
 	CONSTRAINT CK_DateReceivedMustBeOnOrAfterOrderDate
@@ -407,18 +404,18 @@ CONSTRAINT DF_ConstraintName
 
 ```sql
 CREATE TABLE PurchaseOrder (
-    OrderNumber      INT IDENTITY (1,1)     NOT NULL
+    OrderNumber    INT IDENTITY (1,1)   NOT NULL
         CONSTRAINT PK_PurchaseOrder PRIMARY KEY CLUSTERED,
-    OrderDate        SMALLDATETIME          NOT NULL
+    OrderDate      SMALLDATETIME        NOT NULL
         CONSTRAINT DF_OrderDate DEFAULT GETDATE(),
-    DateReceived     SMALLDATETIME          NOT NULL,
-    SupplierId       INT                    NOT NULL
+    DateReceived   SMALLDATETIME        NOT NULL,
+    SupplierId     INT                  NOT NULL
         CONSTRAINT FK_PurchaseOrderToSupplier
         REFERENCES Supplier (SupplierId),
-    SubTotal         MONEY                  NOT NULL
+    SubTotal       MONEY                NOT NULL
         CONSTRAINT CK_SubTotalMustBePositive
         CHECK (Subtotal > 0),
-    GST              MONEY                  NOT NULL
+    GST            MONEY                NOT NULL
         CONSTRAINT CK_GSTMustBePositive CHECK (GST > 0),
 	Total AS Subtotal + GST,
     CONSTRAINT CK_DateReceivedMustBeOnOrAfterOrderDate 

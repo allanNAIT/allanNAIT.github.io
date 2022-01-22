@@ -91,8 +91,7 @@ Update the `Course` table and set the `Cost` of DMIT170 to be the same as DMIT25
 
 ```sql
 UPDATE Course
-SET Cost = (SELECT Cost FROM Course
-            WHERE CourseID = 'DMIT254')
+SET Cost = (SELECT Cost FROM Course WHERE CourseID = 'DMIT254')
 WHERE CourseID = 'DMIT170'
 ```
 
@@ -101,9 +100,9 @@ Update `CourseHours`, `MaxStudents`, and `Cost` columns for `CourseID` DMIT 101:
 ```sql
 UPDATE Course
 SET
-    CourseHours = 4,
-    MaxStudents = 5,
-    Cost = 300
+  CourseHours = 4,
+  MaxStudents = 5,
+  Cost = 300
 WHERE CourseID = 'DMIT101'
 ```
 
@@ -111,7 +110,7 @@ WHERE CourseID = 'DMIT101'
 The `DELETE` statement removes rows from a table.
 
 ```sql
-DELETE [FROM]	TableName
+DELETE [FROM] TableName
 [WHERE … ]
 ```
 

@@ -229,18 +229,18 @@ Syntax:
 
 ```sql
 CONSTRAINT FK_ConstraintName
-	[FOREIGN KEY (Column1[, ... Column16] ]
-	REFERENCES TableName (Column1 [, ... Column16] )
+  [FOREIGN KEY (Column1[, ... Column16] ]
+  REFERENCES TableName (Column1 [, ... Column16] )
 ```
 **RegionInCountry Example**: Using the ERD show earlier:
 
 ```sql
 CREATE TABLE RegionInCountry (
-	CountryId        SMALLINT             NOT NULL
+  CountryId        SMALLINT             NOT NULL
     CONSTRAINT FK_RegionInCountryToCountry REFERENCES Country (CountryId),
-	RegionId         SMALLINT             NOT NULL,
-	Name             VARCHAR(100)         NOT NULL,
-	CONSTRAINT PK_CountryId_RegionId PRIMARY KEY CLUSTERED (CountryId, RegionId)
+  RegionId         SMALLINT             NOT NULL,
+  Name             VARCHAR(100)         NOT NULL,
+  CONSTRAINT PK_CountryId_RegionId PRIMARY KEY CLUSTERED (CountryId, RegionId)
 )
 ```
 
@@ -248,15 +248,15 @@ CREATE TABLE RegionInCountry (
 
 ```sql
 CREATE TABLE StoreInRegion (
-	CountryId        SMALLINT             NOT NULL,	
-	RegionId         SMALLINT             NOT NULL,	
-	StoreId          SMALLINT             NOT NULL,
-	Phone            VARCHAR(100)         NOT NULL,
-	CONSTRAINT	PK_CountryId_RegionId_StoreId 
-	    PRIMARY KEY CLUSTERED (CountryId, RegionId, StoreId),
-	CONSTRAINT	FK_StoreInRegionToRegionInCountry
-	    FOREIGN KEY (CountryId, RegionId)
-	    REFERENCES RegionInCountry (CountryId, RegionId)
+  CountryId        SMALLINT             NOT NULL,	
+  RegionId         SMALLINT             NOT NULL,	
+  StoreId          SMALLINT             NOT NULL,
+  Phone            VARCHAR(100)         NOT NULL,
+  CONSTRAINT	PK_CountryId_RegionId_StoreId 
+    PRIMARY KEY CLUSTERED (CountryId, RegionId, StoreId),
+  CONSTRAINT	FK_StoreInRegionToRegionInCountry
+    FOREIGN KEY (CountryId, RegionId)
+    REFERENCES RegionInCountry (CountryId, RegionId)
 )
 ```
 
@@ -337,31 +337,31 @@ If the expression is `Word LIKE 'ABC '` and the value of `Word` is “ABC” the
 
 ```sql
 CREATE TABLE Supplier (
-	SupplierId	      INT IDENTITY (1, 1)	NOT NULL
-	    CONSTRAINT PK_Supplier PRIMARY KEY CLUSTERED,
-	Name              VARCHAR(100)        NOT NULL,	
-	Phone             CHAR(14)            NOT NULL
-        CONSTRAINT CK_Phone
-        CHECK (Phone LIKE '([0-9][0-9][0-9]) [0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]')
+  SupplierId       INT IDENTITY (1, 1)  NOT NULL
+    CONSTRAINT PK_Supplier PRIMARY KEY CLUSTERED,
+  Name              VARCHAR(100)        NOT NULL,	
+  Phone             CHAR(14)            NOT NULL
+    CONSTRAINT CK_Phone
+    CHECK (Phone LIKE '([0-9][0-9][0-9]) [0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]')
 )
 ```
 
 ```sql
 CREATE TABLE PurchaseOrder (
-	OrderNumber      INT IDENTITY (1,1)   NOT NULL
-	    CONSTRAINT PK_PurchaseOrder PRIMARY KEY CLUSTERED,
-	OrderDate        SMALLDATETIME        NOT NULL,
-	DateReceived     SMALLDATETIME        NOT NULL,
-	SupplierId       INT                  NOT NULL
-      CONSTRAINT FK_PurchaseOrderToSupplier
-      REFERENCES Supplier (SupplierId),
-	SubTotal         MONEY                NOT NULL
-      CONSTRAINT CK_SubTotalMustBePositive CHECK (Subtotal > 0),
-	GST              MONEY                NOT NULL
-      CONSTRAINT CK_GSTMustBePositive CHECK (GST > 0),
-	Total AS Subtotal + GST,
-	CONSTRAINT CK_DateReceivedMustBeOnOrAfterOrderDate
-        CHECK (DateReceived >= OrderDate)
+  OrderNumber      INT IDENTITY (1,1)   NOT NULL
+    CONSTRAINT PK_PurchaseOrder PRIMARY KEY CLUSTERED,
+  OrderDate        SMALLDATETIME        NOT NULL,
+  DateReceived     SMALLDATETIME        NOT NULL,
+  SupplierId       INT                  NOT NULL
+    CONSTRAINT FK_PurchaseOrderToSupplier
+    REFERENCES Supplier (SupplierId),
+  SubTotal         MONEY                NOT NULL
+    CONSTRAINT CK_SubTotalMustBePositive CHECK (Subtotal > 0),
+  GST              MONEY                NOT NULL
+    CONSTRAINT CK_GSTMustBePositive CHECK (GST > 0),
+  Total AS Subtotal + GST,
+  CONSTRAINT CK_DateReceivedMustBeOnOrAfterOrderDate
+    CHECK (DateReceived >= OrderDate)
 )
 ```
 
@@ -389,7 +389,7 @@ Syntax:
 
 ```sql
 CONSTRAINT DF_ConstraintName
-    DEFAULT  constant | function | NULL
+  DEFAULT  constant | function | NULL
 ```
 
 **Examples**:
@@ -405,22 +405,22 @@ CONSTRAINT DF_ConstraintName
 
 ```sql
 CREATE TABLE PurchaseOrder (
-    OrderNumber    INT IDENTITY (1,1)   NOT NULL
-        CONSTRAINT PK_PurchaseOrder PRIMARY KEY CLUSTERED,
-    OrderDate      SMALLDATETIME        NOT NULL
-        CONSTRAINT DF_OrderDate DEFAULT GETDATE(),
-    DateReceived   SMALLDATETIME        NOT NULL,
-    SupplierId     INT                  NOT NULL
-        CONSTRAINT FK_PurchaseOrderToSupplier
-        REFERENCES Supplier (SupplierId),
-    SubTotal       MONEY                NOT NULL
-        CONSTRAINT CK_SubTotalMustBePositive
-        CHECK (Subtotal > 0),
-    GST            MONEY                NOT NULL
-        CONSTRAINT CK_GSTMustBePositive CHECK (GST > 0),
-	Total AS Subtotal + GST,
-    CONSTRAINT CK_DateReceivedMustBeOnOrAfterOrderDate 
-        CHECK (DateReceived >= OrderDate)
+  OrderNumber      INT IDENTITY (1,1)   NOT NULL
+    CONSTRAINT PK_PurchaseOrder PRIMARY KEY CLUSTERED,
+  OrderDate        SMALLDATETIME        NOT NULL
+    CONSTRAINT DF_OrderDate DEFAULT GETDATE(),
+  DateReceived     SMALLDATETIME        NOT NULL,
+  SupplierId       INT                  NOT NULL
+    CONSTRAINT FK_PurchaseOrderToSupplier
+    REFERENCES Supplier (SupplierId),
+  SubTotal         MONEY                NOT NULL
+    CONSTRAINT CK_SubTotalMustBePositive
+    CHECK (Subtotal > 0),
+  GST              MONEY                NOT NULL
+    CONSTRAINT CK_GSTMustBePositive CHECK (GST > 0),
+  Total AS Subtotal + GST,
+  CONSTRAINT CK_DateReceivedMustBeOnOrAfterOrderDate 
+    CHECK (DateReceived >= OrderDate)
 )
 ```
 

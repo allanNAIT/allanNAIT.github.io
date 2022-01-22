@@ -236,12 +236,12 @@ CONSTRAINT FK_ConstraintName
 
 ```sql
 CREATE TABLE RegionInCountry (
-	CountryId	       SMALLINT		          NOT NULL
-	    CONSTRAINT FK_RegionInCountryToCountry REFERENCES Country (CountryId),
-	RegionId	       SMALLINT		          NOT NULL,
-	Name		         VARCHAR(100) 	      NOT NULL,
+	CountryId        SMALLINT             NOT NULL
+    CONSTRAINT FK_RegionInCountryToCountry REFERENCES Country (CountryId),
+	RegionId         SMALLINT             NOT NULL,
+	Name             VARCHAR(100)         NOT NULL,
 	CONSTRAINT	PK_CountryId_RegionId
-	    PRIMARY KEY CLUSTERED (CountryId, RegionId)
+    PRIMARY KEY CLUSTERED (CountryId, RegionId)
 )
 ```
 

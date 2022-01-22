@@ -106,7 +106,7 @@ SET
 WHERE CourseID = 'DMIT101'
 ```
 
-## <a ID="delete>DELETE</a>
+## <a ID="delete">DELETE</a>
 The `DELETE` statement removes rows from a table.
 
 ```sql

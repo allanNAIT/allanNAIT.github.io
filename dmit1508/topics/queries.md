@@ -17,14 +17,14 @@ Queries are used to retrieve data from the database. We can choose which columns
 
 ```sql
 SELECT [ALL | DISTINCT] ColumnList	
-    [INTO [NewTableName]]
-[FROM TableName] 
-[INNER, FULL OUTER, LEFT OUTER, RIGHT OUTER JOIN]
-[WHERE clause] 
-[GROUP BY clause] 
-[HAVING clause] 
-[ORDER BY clause] 
-[COMPUTE clause]
+  [INTO [NewTableName]]
+  [FROM TableName] 
+  [INNER, FULL OUTER, LEFT OUTER, RIGHT OUTER JOIN]
+  [WHERE clause] 
+  [GROUP BY clause] 
+  [HAVING clause] 
+  [ORDER BY clause] 
+  [COMPUTE clause]
 ```
 
 ### Simple Queries
@@ -38,8 +38,8 @@ What if we only want to return certain records?
 
 ```sql
 SELECT FirstName, LastName 
-FROM STUDENT
-WHERE City = 'Edmonton'
+  FROM STUDENT
+  WHERE City = 'Edmonton'
 ```
 
 ### Search Criteria Operators
@@ -83,8 +83,8 @@ The `GROUP BY` clause is used with aggregate functions to provide subtotals. For
 
 ```sql
 SELECT CourseID, AVG(Mark) AS AverageMark
-FROM Registration
-GROUP BY CourseID
+  FROM Registration
+  GROUP BY CourseID
 ```
 
 This calculates the average mark per course.
@@ -94,18 +94,18 @@ This calculates the average mark per course.
 
 ```sql
 SELECT CourseID, AVG(Mark) AS AverageMark
-FROM Registration
-GROUP BY CourseID
-WHERE AVG(Mark) > 80
+  FROM Registration
+  GROUP BY CourseID
+  WHERE AVG(Mark) > 80
 ```
 
 However, the following will work:
 
 ```sql
 SELECT CourseID, AVG(Mark) AS AverageMark
-FROM Registration
-GROUP BY CourseID
-HAVING AVG(Mark) > 80
+  FROM Registration
+  GROUP BY CourseID
+  HAVING AVG(Mark) > 80
 ```
 
 ### ORDER BY
@@ -113,8 +113,8 @@ The `ORDER BY` clause sorts by one or more columns, in `ASC`ending or `DESC`endi
 
 ```sql
 SELECT FirstName, LastName
-FROM Student
-ORDER BY FirstName ASC, LastName DESC
+  FROM Student
+  ORDER BY FirstName ASC, LastName DESC
 ```
 
 ### String Functions
@@ -159,9 +159,9 @@ How do we connect data in one table to its related record(s) in another?
 
 ```sql
 SELECT field1, field2, … 
-FROM table1
-[INNER, FULL OUTER, …] JOIN table2
-ON table1.joinfield = table2.joinfield
+  FROM table1
+  [INNER, FULL OUTER, …] JOIN table2
+  ON table1.joinfield = table2.joinfield
 ```
 
 ### Types of JOINs
@@ -176,13 +176,13 @@ ON table1.joinfield = table2.joinfield
 
 ```sql
 SELECT field1, field2, … 
-FROM table1
-INNER JOIN table2
-ON table1.joinfield = table2.joinfield
-INNER JOIN table3
-ON table.joinfield = table3.joinfield
-INNER JOIN table4
-ON table.joinfield = table4.joinfield
+  FROM table1
+  INNER JOIN table2
+  ON table1.joinfield = table2.joinfield
+  INNER JOIN table3
+  ON table.joinfield = table3.joinfield
+  INNER JOIN table4
+  ON table.joinfield = table4.joinfield
 …
 ```
 

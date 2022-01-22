@@ -59,10 +59,10 @@ We can write the table creation SQL as follows:
 ```sql
 -- Create the Customers table
 CREATE TABLE Customers (
-	CustomerNumber    INT IDENTITY(1,1)    NOT NULL,
-	LastName          VARCHAR(100)         NOT NULL,
-	FirstName         VARCHAR(100)         NOT NULL,
-	Phone             CHAR(8)              NULL
+	CustomerNumber    INT IDENTITY(1,1)   NOT NULL,
+	LastName          VARCHAR(100)        NOT NULL,
+	FirstName         VARCHAR(100)        NOT NULL,
+	Phone             CHAR(8)             NULL
 )
 
 -- Create the Orders table
@@ -240,8 +240,7 @@ CREATE TABLE RegionInCountry (
     CONSTRAINT FK_RegionInCountryToCountry REFERENCES Country (CountryId),
 	RegionId         SMALLINT             NOT NULL,
 	Name             VARCHAR(100)         NOT NULL,
-	CONSTRAINT	PK_CountryId_RegionId
-    PRIMARY KEY CLUSTERED (CountryId, RegionId)
+	CONSTRAINT PK_CountryId_RegionId PRIMARY KEY CLUSTERED (CountryId, RegionId)
 )
 ```
 

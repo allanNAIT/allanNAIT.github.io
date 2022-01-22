@@ -64,8 +64,7 @@ Syntax:
 
 ```sql
 CREATE TRIGGER TriggerName
-    ON TableName
-    FOR [UPDATE][,] [INSERT][,] [DELETE]
+  ON TableName FOR [UPDATE][,] [INSERT][,] [DELETE]
 AS
     -- SQL statements go here
 RETURN
@@ -76,8 +75,7 @@ To create a trigger for the `INSERT` and `UPDATE` operations associated with the
 
 ```sql
 CREATE TRIGGER TR_Staff_Insert_Update
-    ON Staff 
-    FOR INSERT, UPDATE
+  ON Staff FOR INSERT, UPDATE
 AS
     -- SQL statements go here
 RETURN
@@ -87,8 +85,7 @@ To create a trigger for the `DELETE` operation associated with the `Student` tab
 
 ```sql
 CREATE TRIGGER TR_Student_Delete
-    ON Student 
-    FOR DELETE	
+  ON Student FOR DELETE	
 AS
     -- SQL statements go here
 RETURN
@@ -100,8 +97,7 @@ RETURN
 DROP TRIGGER TriggerName
 
 ALTER TRIGGER TriggerName
-    ON TableName
-    FOR [UPDATE][,] [INSERT][,] [DELETE]	
+  ON TableName FOR [UPDATE][,] [INSERT][,] [DELETE]	
 AS
     -- SQL statements
 RETURN
@@ -158,12 +154,12 @@ Create a trigger to Log when changes are made to the `CourseCost` in the `Course
 
 ```sql
 CREATE TABLE CourseChanges(
-    LogID           INT IDENTITY(1,1)  NOT NULL
-        CONSTRAINT PK_CourseChanges PRIMARY KEY CLUSTERED,
-    ChangeDate      DATETIME           NOT NULL,
-    OldCourseCost   MONEY              NOT NULL,
-    NewCourseCost   MONEY              NOT NULL,
-    CourseID        CHAR(7)            NOT NULL
+  LogID            INT IDENTITY(1,1)    NOT NULL
+    CONSTRAINT PK_CourseChanges PRIMARY KEY CLUSTERED,
+  ChangeDate       DATETIME             NOT NULL,
+  OldCourseCost    MONEY                NOT NULL,
+  NewCourseCost    MONEY                NOT NULL,
+  CourseID         CHAR(7)              NOT NULL
 )
 ```
 

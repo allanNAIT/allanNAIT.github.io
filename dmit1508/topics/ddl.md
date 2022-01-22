@@ -347,7 +347,7 @@ CREATE TABLE Supplier (
 
 ```sql
 CREATE TABLE PurchaseOrder (
-	OrderNumber		   INT IDENTITY (1,1)		NOT NULL
+	OrderNumber      INT IDENTITY (1,1)   NOT NULL
 	    CONSTRAINT PK_PurchaseOrder PRIMARY KEY CLUSTERED,
 	OrderDate		     SMALLDATETIME		    NOT NULL,
 	DateReceived		 SMALLDATETIME		    NOT NULL,

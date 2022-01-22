@@ -183,8 +183,8 @@ Example:
 ```sql
 CREATE TABLE Marks (
   StudentId        CHAR(9)              NOT NULL,
-  CourseId       CHAR(6)                NOT NULL,
-  Mark           SMALLINT               NULL,
+  CourseId         CHAR(6)              NOT NULL,
+  Mark             SMALLINT             NULL,
   CONSTRAINT PK_Marks PRIMARY KEY CLUSTERED (StudentId, CourseId)
 )
 ```

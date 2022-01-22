@@ -59,36 +59,36 @@ We can write the table creation SQL as follows:
 ```sql
 -- Create the Customers table
 CREATE TABLE Customers (
-	CustomerNumber    INT IDENTITY(1,1)   NOT NULL,
-	LastName          VARCHAR(100)        NOT NULL,
-	FirstName         VARCHAR(100)        NOT NULL,
-	Phone             CHAR(8)             NULL
+  CustomerNumber    INT IDENTITY(1,1)   NOT NULL,
+  LastName          VARCHAR(100)        NOT NULL,
+  FirstName         VARCHAR(100)        NOT NULL,
+  Phone             CHAR(8)             NULL
 )
 
 -- Create the Orders table
 CREATE TABLE Orders (
-	OrderNumber      INT IDENTITY(1,1)    NOT NULL,
-	OrderDate        SMALLDATETIME        NOT NULL,
-	CustomerNumber   INT                  NOT NULL,
-	Subtotal         MONEY                NOT NULL,
-	GST              MONEY                NOT NULL,
-	Total            MONEY                NOT NULL
+  OrderNumber      INT IDENTITY(1,1)    NOT NULL,
+  OrderDate        SMALLDATETIME        NOT NULL,
+  CustomerNumber   INT                  NOT NULL,
+  Subtotal         MONEY                NOT NULL,
+  GST              MONEY                NOT NULL,
+  Total            MONEY                NOT NULL
 )
 
 -- Create the Items table
 CREATE TABLE Items (
-	ItemNumber       INT IDENTITY(1,1)    NOT NULL,
-	Description      VARCHAR(100)         NOT NULL,
-	CurrentPrice     SMALLMONEY           NOT NULL
+  ItemNumber       INT IDENTITY(1,1)    NOT NULL,
+  Description      VARCHAR(100)         NOT NULL,
+  CurrentPrice     SMALLMONEY           NOT NULL
 )
 
 -- Create the ItemsOnOrder table
 CREATE TABLE ItemOnOrder (
-	OrderNumber      INT                  NOT NULL,
-	ItemNumber       INT                  NOT NULL,
-	Quantity         SMALLINT             NOT NULL,	
-	Price            SMALLMONEY           NOT NULL,
-	Amount           MONEY                NOT NULL
+  OrderNumber      INT                  NOT NULL,
+  ItemNumber       INT                  NOT NULL,
+  Quantity         SMALLINT             NOT NULL,	
+  Price            SMALLMONEY           NOT NULL,
+  Amount           MONEY                NOT NULL
 )
 ```
 
@@ -169,7 +169,7 @@ Example:
 ```sql
 CREATE TABLE Student (
   StudentId        CHAR(9)              NOT NULL 
-    CONSTRAINT PK_Student PRIMARY KEY CLUSTERED,
+   CONSTRAINT PK_Student PRIMARY KEY CLUSTERED,
   LastName         VARCHAR(20)          NOT NULL,
   FirstName        VARCHAR(15)          NOT NULL
 )

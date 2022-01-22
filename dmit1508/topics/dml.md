@@ -23,6 +23,7 @@ SELECT ... }
 If the statement supplies data that does not comply with constraints, or the data is incompatible with the data type of the column, the statement **fails**.
 
 **Example**:
+
 ![staff-table.pnf](images/staff-table.png)
 
 Given the staff table as defined here, we would add a new staff record like this:
@@ -115,6 +116,7 @@ DELETE [FROM] TableName
 ```
 
 **Examples**:
+
 ![club-table.png](images/club-table.png)
 
 Delete all records in the `Club` table:

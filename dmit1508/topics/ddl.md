@@ -338,8 +338,8 @@ If the expression is `Word LIKE 'ABC '` and the value of `Word` is “ABC” the
 CREATE TABLE Supplier (
 	SupplierId	      INT IDENTITY (1, 1)	NOT NULL
 	    CONSTRAINT PK_Supplier PRIMARY KEY CLUSTERED,
-	Name		          VARCHAR(100)		    NOT NULL,	
-	Phone		          CHAR(14)	          NOT NULL
+	Name              VARCHAR(100)        NOT NULL,	
+	Phone             CHAR(14)            NOT NULL
         CONSTRAINT CK_Phone
         CHECK (Phone LIKE '([0-9][0-9][0-9]) [0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]')
 )

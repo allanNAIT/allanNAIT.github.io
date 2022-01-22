@@ -23,11 +23,11 @@ The `ALTER TABLE` statement is used to:
 ```sql
 [ WITH { CHECK | NOCHECK } ]
 {
-    [ { CHECK | NOCHECK } CONSTRAINT  ConstraintName]
+  [ { CHECK | NOCHECK } CONSTRAINT  ConstraintName]
     | [ ADD ColumnName column_properties [column_constraints ]
     | [ ADD TableConstraint] 
     | [ ( ALTER ColumnName
-        { datatype {NULL|NOT NULL} | IDENTITY (seed, increment) 
+      { datatype {NULL|NOT NULL} | IDENTITY (seed, increment) 
         | DROP DEFAULT | SET DEFAULT expression} ) ]
     | [ DROP COLUMN ColumnName]
     | [ DROP CONSTRAINT ConstraintName]
@@ -40,16 +40,16 @@ To add a `Semester` to the `Marks` table:
 
 ```sql
 ALTER TABLE Marks
-    ADD Semester	CHAR(1)	NULL
+  ADD Semester     CHAR(1)              NULL
 ```
 
 To add the `Semester` column to the `Marks` table and make it a `FK` referencing the `Schedule` table:
 
 ```sql
 ALTER TABLE Marks
-    ADD Semester	CHAR(1)	NULL
-        CONSTRAINT FK_MarksToSchedule
-        REFERENCES Schedule (Semester)
+  ADD Semester     CHAR(1)              NULL
+    CONSTRAINT FK_MarksToSchedule
+    REFERENCES Schedule (Semester)
 ```
 
 ### Important Notes:
@@ -61,7 +61,7 @@ To add a `FK` constraint to the existing `CourseID` column in the `Marks` table,
 
 ```sql
 ALTER TABLE Marks
-    ADD CONSTRAINT FK_CourseId 
+  ADD CONSTRAINT FK_CourseId 
     FOREIGN KEY (CourseId) 
     REFERENCES Courses (CourseId)
 ```
@@ -70,38 +70,36 @@ To add a check constraint to the existing `PhoneNo` column in the `Students` tab
 
 ```sql
 ALTER TABLE Students
-    ADD CONSTRAINT CK_PhoneNo
-        CHECK (PhoneNo LIKE
-        '([0-9][0-9][0-9]) [0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]')
+  ADD CONSTRAINT CK_PhoneNo
+    CHECK (PhoneNo LIKE '([0-9][0-9][0-9]) [0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]')
 ```
 
 To add a default constraint to the existing `OrderDate` column in the `Sales` table to default to the current date:
 
 ```sql
 ALTER TABLE Sales
-    ADD	CONSTRAINT DF_OrderDate 
-    DEFAULT GETDATE() FOR OrderDate
+  ADD CONSTRAINT DF_OrderDate DEFAULT GETDATE() FOR OrderDate
 ```
 
 To disable the check constraint named `CK_PhoneNo` in the `Students` table:
 
 ```sql
 ALTER TABLE Marks
-    NOCHECK CONSTRAINT CK_PhoneNo
+  NOCHECK CONSTRAINT CK_PhoneNo
 ```
 
 To enable the default constraint named `CK_PhoneNo` in the `Students` table:
 
 ```sql
 ALTER TABLE Students
-    CHECK CONSTRAINT CK_PhoneNo
+  CHECK CONSTRAINT CK_PhoneNo
 ```
 
 To delete the default constraint named `DF_Mark` from the `Marks` table:
 
 ```sql
 ALTER TABLE Marks
-    DROP CONSTRAINT DF_Mark
+  DROP CONSTRAINT DF_Mark
 ```
 
 ## <a ID="indexes">Indexes</a>

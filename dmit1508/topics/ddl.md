@@ -32,11 +32,11 @@ title: Data Definition Language (DDL)
 
 ```sql
 CREATE TABLE TableName (
-    Column1 DATATYPE [IDENTITY [(seed, increment)]] | [NULL | NOT NULL] [<column constraints>],
-    Column2 DATATYPE [IDENTITY [(seed, increment)]] | [NULL | NOT NULL] [<column constraints>],
-    Column3 DATATYPE [IDENTITY [(seed, increment)]] | [NULL | NOT NULL] [<column constraints>],
+  Column1 DATATYPE [IDENTITY [(seed, increment)]] | [NULL | NOT NULL] [<column constraints>],
+  Column2 DATATYPE [IDENTITY [(seed, increment)]] | [NULL | NOT NULL] [<column constraints>],
+  Column3 DATATYPE [IDENTITY [(seed, increment)]] | [NULL | NOT NULL] [<column constraints>],
     ...  
-    [<table constraints>]
+  [<table constraints>]
 ) 
 ```
 
@@ -44,9 +44,9 @@ OR
 
 ```sql
 CREATE TABLE TableName (
-    Column1 DATATYPE,
-    Column2 DATATYPE,
-    Column3 DATATYPE,
+  Column1 DATATYPE,
+  Column2 DATATYPE,
+  Column3 DATATYPE,
     ...  
 ) 
 ```
@@ -168,10 +168,10 @@ Example:
 
 ```sql
 CREATE TABLE Student (
-    StudentId      CHAR(9)              NOT NULL 
-        CONSTRAINT PK_Student PRIMARY KEY CLUSTERED,
-    LastName       VARCHAR(20)          NOT NULL,
-    FirstName      VARCHAR(15)          NOT NULL
+  StudentId        CHAR(9)              NOT NULL 
+    CONSTRAINT PK_Student PRIMARY KEY CLUSTERED,
+  LastName         VARCHAR(20)          NOT NULL,
+  FirstName        VARCHAR(15)          NOT NULL
 )
 ```
 
@@ -182,10 +182,10 @@ Example:
 
 ```sql
 CREATE TABLE Marks (
-    StudentId      CHAR(9)              NOT NULL,
-    CourseId       CHAR(6)              NOT NULL,
-    Mark           SMALLINT             NULL,
-    CONSTRAINT PK_Marks PRIMARY KEY CLUSTERED (StudentId, CourseId)
+  StudentId        CHAR(9)              NOT NULL,
+  CourseId       CHAR(6)                NOT NULL,
+  Mark           SMALLINT               NULL,
+  CONSTRAINT PK_Marks PRIMARY KEY CLUSTERED (StudentId, CourseId)
 )
 ```
 

@@ -252,9 +252,9 @@ CREATE TABLE StoreInRegion (
   RegionId         SMALLINT             NOT NULL,	
   StoreId          SMALLINT             NOT NULL,
   Phone            VARCHAR(100)         NOT NULL,
-  CONSTRAINT	PK_CountryId_RegionId_StoreId 
+  CONSTRAINT PK_CountryId_RegionId_StoreId 
     PRIMARY KEY CLUSTERED (CountryId, RegionId, StoreId),
-  CONSTRAINT	FK_StoreInRegionToRegionInCountry
+  CONSTRAINT FK_StoreInRegionToRegionInCountry
     FOREIGN KEY (CountryId, RegionId)
     REFERENCES RegionInCountry (CountryId, RegionId)
 )

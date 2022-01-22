@@ -23,9 +23,9 @@ title: SQL Stored Procedures
 
 ```sql
 DECLARE 
-    @VariableName datatype,
-    @VariableName datatype,
-    @VariableName datatype
+  @VariableName datatype,
+  @VariableName datatype,
+  @VariableName datatype
 ...
 ```
 
@@ -46,8 +46,8 @@ SELECT  @FirstName = 'Allan',
 ```sql
 DECLARE @FirstName VARCHAR(40)
 SELECT  @FirstName = FirstName 
-FROM Staff 
-WHERE StaffID = 1
+  FROM Staff 
+  WHERE StaffID = 1
 ```
 
 ```sql
@@ -55,8 +55,8 @@ DECLARE @FirstName VARCHAR(40),
         @LastName VARCHAR(40)
 SELECT  @FirstName = FirstName,
         @LastName = LastName
-    FROM Staff
-    WHERE StaffID = 1
+  FROM Staff
+  WHERE StaffID = 1
 ```
 
 ## <a ID="flowcontrol">Flow Control</a>

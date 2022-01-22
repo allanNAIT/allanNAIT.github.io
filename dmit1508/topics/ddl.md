@@ -168,10 +168,11 @@ Example:
 
 ```sql
 CREATE TABLE Student (
-    StudentId      CHAR(9)		          NOT NULL 
+    StudentId      CHAR(9)              NOT NULL 
         CONSTRAINT PK_Student PRIMARY KEY CLUSTERED,
     LastName       VARCHAR(20)          NOT NULL,
-    FirstName      VARCHAR(15)          NOT NULL)
+    FirstName      VARCHAR(15)          NOT NULL
+)
 ```
 
 #### Primary Key Syntax: (table-level constraint)
@@ -181,10 +182,11 @@ Example:
 
 ```sql
 CREATE TABLE Marks (
-    StudentId      CHAR(9)	    	      NOT NULL,
-    CourseId	     CHAR(6)		          NOT NULL,
-    Mark	         SMALLINT	            NULL,
-    CONSTRAINT PK_Marks PRIMARY KEY CLUSTERED (StudentId, CourseId))
+    StudentId      CHAR(9)              NOT NULL,
+    CourseId       CHAR(6)              NOT NULL,
+    Mark           SMALLINT             NULL,
+    CONSTRAINT PK_Marks PRIMARY KEY CLUSTERED (StudentId, CourseId)
+)
 ```
 
 **Practice**:<br>

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Module 3 - Web Component Styling Pt. B
+title: Module 3 - Web Component Styling
 ---
 
 The second part of the module will continue with building and styling parts, or components, of a web site. Students will learn the style and structure for complex, responsive forms. We will explore other components such as cards and images within different layouts.

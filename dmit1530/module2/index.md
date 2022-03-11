@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Module 2 - Web Component Styling Pt. A
+title: Module 2 - Responsive Navigation
 ---
 
 In the first part of the module we will focus on web fonts and font styling with CSS. Students will learn how to build functional, responsive navigation that hides behind a toggle icon for small mobile screens, but displays as regular horizontal navigation for wider screens. And lastly, we will explore display positioning properties to alter the position of individual elements.

@@ -21,7 +21,7 @@ Additionally, like basic numbers (scalar values), mathematical operations should
 
 As this course is for game programming the fundamental representation of a vector will be mathematical. There are two forms, as shown below, which represent the same vector:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{ccc}2 & 3 & -1\end{array}\right]"/>&nbsp;(Horizontal or row form, [seen on Knowledge Chechs])
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{ccc}2 & 3 & -1\end{array}\right]"/>&nbsp;(Horizontal or row form, [seen on Knowledge Checks])
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{c}2 \\ 3 \\ -1\end{array}\right]"/>&nbsp;(Vertical or column form [used in this course])
 
@@ -29,7 +29,7 @@ The form used depends does not matter unless multiplying a matrix by a vector (f
 
 There is a loose relationship between a vector and point in either a 2D or 3D coordinate system. Typically, a vector is in the form:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{ccc}V_{x} & V_{y} & V_{z}\end{array}\right]"/>&nbsp;<b>OR</b><img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{c}V_{x} \\ V_{y} \\ V_{z}\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{ccc}V_{x} & V_{y} & V_{z}\end{array}\right]"/>&nbsp;<b>&nbsp;OR&nbsp;</b><img src="https://latex.codecogs.com/svg.latex?\large&space;V=\left[\begin{array}{c}V_{x} \\ V_{y} \\ V_{z}\end{array}\right]"/>
 
 As either of these forms can be used it would make sense that a vector can be represented graphically using a 2D or 3D coordinate system. It is important to note here that the location of a vector in either a 2D or 3D coordinate system is purely arbitrary; that is the same vector can be drawn graphically in different locations on a coordinate system but still be the same vector.
 
@@ -51,7 +51,7 @@ What about A - B? <img src="https://latex.codecogs.com/svg.latex?\large&space;A-
 It is important that students understand the result is simply the addition, or subtraction, of individual vector components. Mathematically <img src="https://latex.codecogs.com/svg.latex?\large&space;A+B=B+A"/> and <img src="https://latex.codecogs.com/svg.latex?\large&space;A-B\neq{B-A}"/>.
 
 ### Scaling
-In mathematics you learned that <img src="https://latex.codecogs.com/svg.latex?\large&space;2x3=6"/> (and other multiplication facts). Does the following make sense:
+In mathematics you learned that <img src="https://latex.codecogs.com/svg.latex?\large&space;2\times{3}=6"/> (and other multiplication facts). Does the following make sense:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;2\times{\left[\begin{array}{c}3 \\ -1\end{array}\right]=\left[\begin{array}{c}6 \\ -2\end{array}\right]}"/>
 

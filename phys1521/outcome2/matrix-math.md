@@ -24,9 +24,9 @@ c\left[\begin{array}{ccc}2&-2&1\\1&0&0.5\\0&-1&1\end{array}\right]"/>
 
 Typically, like vectors, the identifier of a matrix will be a capital letter. To access individual elements of the matrix we use subscripts such as shown below:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;B=\left[\begin{array}{ccc}B_{11}&B_{12}&B_{13}\\B_{21}&B_{22}&B_{23}\\B_{31}&B_{32}&B_{33}\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M=\left[\begin{array}{ccc}M_{11}&M_{12}&M_{13}\\M_{21}&M_{22}&M_{23}\\M_{31}&M_{32}&M_{33}\end{array}\right]"/>
 
-Where an element such as **B<sub>12</sub>** is read as **b one two**. This notation is 1-based, and this example shows the matrix that has the same number of rows as the number of columns, thus it is a square matrix.
+Where an element such as **M<sub>12</sub>** is read as **m one two**. This notation is 1-based, and this example shows the matrix that has the same number of rows as the number of columns, thus it is a square matrix.
 
 There is one special square matrix, called the **Identity Matrix** that always has the value of 1 on each element of its diagonal as shown in the example below:
 
@@ -52,11 +52,11 @@ There are a couple of basic math concepts that will not be formally covered but 
 #### Transposition
 Transposition is the flipping of a matrix on its diagonal. For example, a 4x3 matrix when transposed becomes a 3x4 matrix. The example below illustrates this:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{ccc}2&3&-2\\1&0&0.5\\4&6&0\\0&-1&1\end{array}\right]"/>&nbsp;<em>then</em>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;A^T=\left[\begin{array}{cccc}2&1&4&0\\3&0&6&-1\\-2&0.5&0&1\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M=\left[\begin{array}{ccc}2&3&-2\\1&0&0.5\\4&6&0\\0&-1&1\end{array}\right]"/>&nbsp;<em>then</em>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;M^T=\left[\begin{array}{cccc}2&1&4&0\\3&0&6&-1\\-2&0.5&0&1\end{array}\right]"/>
 
 Note how a row in A becomes a column in A<sup>T</sup> and vice versa. Most matrices in game programming are square matrices, either 2x2, 3x3, or 4x4, so use the following example:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;A=\left[\begin{array}{ccc}1&2&3\\4&5&6\\7&8&9\end{array}\right]"/>&nbsp;<em>then</em>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;A^T=\left[\begin{array}{ccc}1&4&7\\2&5&8\\3&6&9\end{array}\right]"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;M=\left[\begin{array}{ccc}1&2&3\\4&5&6\\7&8&9\end{array}\right]"/>&nbsp;<em>then</em>&nbsp;<img src="https://latex.codecogs.com/svg.latex?\large&space;M^T=\left[\begin{array}{ccc}1&4&7\\2&5&8\\3&6&9\end{array}\right]"/>
 
 Note that the values on the diagonal do not change during transposition. It is also possible to transpose a vector. Such a transposition will change a row vector into a column vector and vice versa.
 

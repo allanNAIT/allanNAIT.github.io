@@ -41,11 +41,10 @@ For each lab, there will be a test class created. The starting test class provid
 
 <ol type="a">
     <li>Leave the test data alone (i.e., <span class="comments">// Instructor Data - MUST NOT DELETE OR MODIFY</span>)</li>
-    <li>Leave the test data alone (i.e., <span class="comments">// Student Data - YOU NEED TO ADD YOUR DATA BELOW</span>)</li>
     <li>Leave the test data alone (i.e., <span class="comments">// Student Data - MUST CHANGE</span>)</li>
 </ol>
 
-The test methods provided are mostly incomplete; they should all pass because they do not test anything. You will need to code the test to test the constructors, class methods, and overload operators of the class. Some of test cases provided are complete, or need no modifications; DO NOT change that code.
+The test methods provided are mostly incomplete; they should all pass because they do not test anything. You will need to code the test to test the constructors, class methods, and overload operators of the class. Some of test cases provided are complete, or need no modifications; **DO NOT** change that code.
 
 ## Eng_Point2D.cs
 Examine the code in this class file. Does it have all the required components?
@@ -128,12 +127,19 @@ public static bool operator !=(Eng_Point2D a, Eng_Point2D b)
 }//eom
 ```
 
-There is one additional overload operator, which overrides the multiplication operator:
+There is one additional overload operator, which overrides the multiplication operator (Note: there are two versions, each multiplies in a specific order):
 
 ```csharp
+// This is for (s * p)
 public static Eng_Point2D operator *(double s, Eng_Point2D p)
 {
     return new Eng_Point2D(s * p.X, s * p.Y);
+}//eom
+
+// This is for (p * s)
+public static Eng_Point2D operator *(Eng_Point2D p, double s)
+{
+    return new Eng_Point2D(p.X * s, p.Y * s);
 }//eom
 ```
 

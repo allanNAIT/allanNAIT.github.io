@@ -42,7 +42,7 @@ For each lab, there will be a test class created. The starting test class provid
 
 <ol type="a">
     <li>Leave the test data alone (i.e., <span class="comments">// Instructor Data - MUST NOT DELETE OR MODIFY</span>)</li>
-    <li>Leave the test data alone (i.e., <span class="comments">// Student Data - MUST CHANGE</span>)</li>
+    <li>Change the provided test data (i.e., <span class="comments">// Student Data - MUST CHANGE</span>)</li>
 </ol>
 
 The test methods provided are mostly incomplete; they should all pass because they do not test anything. You will need to code the test to test the constructors, class methods, and overload operators of the class. Some of test cases provided are complete, or need no modifications; **DO NOT** change that code.

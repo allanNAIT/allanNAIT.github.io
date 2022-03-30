@@ -233,12 +233,12 @@ Which version is better? If you are modifying a class, and not using an overload
 
 ## Coding Conventions & Standards
 When coding your labs, you **MUST** adhere to the following conventions and standards:
-1.	All properties begin with an uppercase letter and must be PascalCased if the property name is a concatenation of two or more words.
+1.	All properties begin with an uppercase letter and must be PascalCased if the property name is a concatenation of two or more words. _You should use single letter property and parameter names whenever possible to simplify your code._
 2.	All properties will need a `{ get; set; }`
-3.	Constructors **MUST** set all the public properties of a class to valid values.
+3.	Constructors **MUST** set all the public properties of a class to valid values; _instructor coded constructors are the only exceptions._
 4.	Empty constructors **MUST** explicitly set property values, even if the value is 0.
-5.	Constructors **NEVER** return a value.
-6.	Class methods **DO NOT** (normally) take in external parameters.
+5.	Constructors **NEVER** return a value; _instructor coded constructors are the only exceptions._
+6.	Class methods **DO NOT** (normally) take in external parameters. When they do, you **DO NOT** need to pass in paramters for the given instance of the class (_Note: The method signatures are provided for you._)
 7.	**DO NOT** modify method code signature given for lab questions; just code the body of the method.
 
 #### [PHYS1521 Home](../)

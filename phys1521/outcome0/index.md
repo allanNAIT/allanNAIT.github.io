@@ -26,8 +26,9 @@ Each class will have an empty constructor, and one or more greedy constructors. 
 Each class will contain one or more class methods. The class methods will perform mathematical operations using the properties of the class to either:
 
 <ol type="a">
-    <li>Modify the instance of the class</li>
-    <li>Return a calculated value based on one or more of the properties of the class</li>
+    <li>Modify the instance of the class. i.e., change the values associated with one or more properties of the instance of the class.</li>
+    <li>Return a calculated value based on one or more of the properties of the class.</li>
+    <li>Return a calculated value based on the properties of the class instance and one or more external parameters.</li>
 </ol>
 
 ### Overload Operators

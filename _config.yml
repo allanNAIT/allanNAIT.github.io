@@ -22,3 +22,5 @@ header_pages:
 exclude:
   README.md
 theme: minima
+
+favicon: favicon.ico

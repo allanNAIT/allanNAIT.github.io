@@ -16,7 +16,7 @@ title: CPSC1012
   * [Some simple string processing](02-sequence/strings.md)
 * [Decision Structures](03-decisions/)
   * [If-Then-Else](03-decisions/if-then-else.md)
-  * [Switch Structure](03-descisions/switch.md)
+  * [Switch Structure](03-decisions/switch.md)
 * [Looping Structures](04-looping/)
   * [While Loop](04-looping/while.md)
   * [Do Loop](04-looping/do-loop.md)

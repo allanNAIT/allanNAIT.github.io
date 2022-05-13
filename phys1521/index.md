@@ -48,3 +48,5 @@ This is a required component for PHYS1521 in which you will, individually or as 
 * [Notation Standards](notation-standards.md)
 * [3D Pythagorean Proof](3d-pythagoras-proof.md)
 * [Equation Editor in MS Word](equation-editor.md)
+
+#### [Home](../)

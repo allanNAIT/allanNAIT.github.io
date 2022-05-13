@@ -9,7 +9,7 @@ This topic is essential for student project team success at completing the labs 
 ## Requirements Gathering
 This is done in the first pahse of SDCL. For analysis, you will be given a list of specifications that form the basis of this process.
 
-[Video](https://www.youtube.com/watch?v=uo98gmTYmxg){:target="_blank}
+[Video](https://www.youtube.com/watch?v=uo98gmTYmxg){:target="_blank"}
 
 In Lab 1 you will be looking at the movement of data and diagramming it. In Lab 2 you are developing a prototype.
 

@@ -29,20 +29,20 @@ Masters of Information Systems - University of Phoenix (2009)<br>
 Began teaching at NAIT in 2002; prior to working at NAIT Allan spent 18 years in the Canadian Forces reaching the rank of MCpl. Allan also spent two years teaching High School and Junior High School in rural communities in Saskatchewan.
 
 ## Courses I Have Taught in DMIT
-* ANAP1525
-* CMIS1014
-* COMP1017
-* CPSC1012
-* DMIT1001
-* DMIT1508
-* DMIT1518
-* DMIT1530
-* DMIT2000
-* DMIT2018 (HUST)
-* DMIT2028 (NAIT and HUST)
-* DMIT2501
-* PHYS1521
+* ANAP1525 - Systems Analysis and Design I
+* CMIS1014 - Systems Foundations
+* COMP1017 - Web Fundamentals I
+* CPSC1012 - Programming Fundamentals
+* DMIT1001 - Communications for Digital Media & IT
+* DMIT1508 - Database Fundamentals
+* DMIT1518 - IT System Administration
+* DMIT1530 - Web Fundamentals II
+* DMIT2000 - Advanced Communication for Digital Media and IT
+* DMIT2018 (HUST) - Intermediate Application Development
+* DMIT2028 (NAIT and HUST) - Systems Analysis and Design II
+* DMIT2501 - Portfolio Development
+* PHYS1521 - Math and Physics for Games
 
 ## Courses I Have Taught in BTech
-* BTM3500
-* BTM3510
+* BTM3500 - System Analysis & Design
+* BTM3510 - Database Management

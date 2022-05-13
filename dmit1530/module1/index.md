@@ -21,3 +21,4 @@ In this module, we will start off with a review of best practice techniques for 
 * [Assignment 1](14-assignment1/)
 
 #### [DMIT1530 Home](../)
+#### [Home](../)

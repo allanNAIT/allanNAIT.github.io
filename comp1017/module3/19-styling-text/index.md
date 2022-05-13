@@ -12,7 +12,7 @@ You can follow along with your instructor to complete this build and/or you can 
 1.	Download the **demo-styling-text.zip** file and extract its contents to a folder called **demo-styling-text**.
 2.	The result of this demo should look like:<br>
 ![styling-text-final.jpg](files/styling-text-final.jpg)
-3.	In your browser, navigate to [https://fonts.google.com/](https://fonts.google.com{:target="_blank"}
+3.	In your browser, navigate to [https://fonts.google.com/](https://fonts.google.com){:target="_blank"}
 4.	In the search field, enter **lato**.
 5.	Select the font that is displayed:<br>
 ![google-fonts-01.jpg](files/google-fonts-01.jpg)

@@ -6,10 +6,10 @@ title: ANAP1525
 
 ## Topics
 * [SAD Theory](sad-theory/)
+* [Client Interviews](interviews/)
 * [ADEPT Analysis](adept/)
 * [Data Flow Diagrams](dfd/)
 * [Entity Relationship Diagrams](erd/)
-* [Data Dictionary](data/)
 * [User Interfaces](interfaces/)
 
 ## Exercises

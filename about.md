@@ -46,3 +46,5 @@ Began teaching at NAIT in 2002; prior to working at NAIT Allan spent 18 years in
 ## Courses I Have Taught in BTech
 * BTM3500 - System Analysis & Design
 * BTM3510 - Database Management
+
+#### Home [../]

@@ -41,3 +41,4 @@ Began teaching at NAIT in 2002; prior to working at NAIT Allan spent 18 years in
 * DMIT2018 (HUST)
 * DMIT2028 (NAIT and HUST)
 * DMIT2501
+* PHYS1521

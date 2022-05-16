@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 25 - Module 3 Assignment
+title: 24 - Module 3 Assignment
 ---
 Follow the instructions on Moodle to complete this assignment.
 

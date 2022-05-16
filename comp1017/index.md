@@ -16,7 +16,7 @@ Here you will explore the basic structure of web pages, marking up content, depl
 Here you will explore layout styling using Cascading Stylesheets (CSS), the Box Model, and Flexbox.
 
 ### [Module 3 - Styling Content With CSS](module3/)
-Here you will explore content styling with CSS, web image formats, background images, styled navigation, and styling web forms.
+Here you will explore content styling with CSS, web image formats, background images, and styled navigation.
 
 ### [Module 4 - Web Site Build](module4/)
 Here you learn how to style an HTML form in CSS and will put all your knowledge together to build a complete web site.

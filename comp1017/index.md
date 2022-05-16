@@ -19,6 +19,6 @@ Here you will explore layout styling using Cascading Stylesheets (CSS), the Box 
 Here you will explore content styling with CSS, web image formats, background images, styled navigation, and styling web forms.
 
 ### [Module 4 - Web Site Build](module4/)
-Here you will put all your knowledge together to build a complete web site.
+Here you learn how to style an HTML form in CSS and will put all your knowledge together to build a complete web site.
 
 #### [Home](../)

@@ -4,7 +4,7 @@ title: Looping Structures - While Loop
 ---
 
 ## Introduction
-Put topic introduction here.
+This topic introduces you to some fundamental coding practices for while structure.
 
 #### [Looping Home](index.md)
 #### [CPSC1012 Home](../)

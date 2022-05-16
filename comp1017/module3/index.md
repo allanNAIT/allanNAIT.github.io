@@ -11,7 +11,6 @@ In this module students will learn how to mark up content using the new HTML5 W3
 * [21 - CSS Background Images](21-css-backgrounds/)
 * [22 - Veritcal Navigation](22-vertical-nav/)
 * [23 - Horizontal Navigation](23-horizontal-nav/)
-* [24 - Styling Forms](24-styling-forms/)
-* [25 - Module 3 Assignment](25-module3-assignment/)
+* [24 - Module 3 Assignment](24-module3-assignment/)
 
 #### [COMP1017 Home](../)

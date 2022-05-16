@@ -47,7 +47,28 @@ Even though you have coded a _solution_ to the problem does not mean the solutio
 
 | Scenario | Highest | Smallest | Y/N |
 | -------- | ------- | -------- | --- |
-| number1 = 1<br>number2 = 2<br>number3 = 3 | 3| 1 |  |
+| number1 = 1<br>number2 = 2<br>number3 = 3 | 3 | 1 |  |
+| number1 = 2<br>number2 = 3<br>number3 = 1 | 3 | 1 |  |
+| number1 = 3<br>number2 = 1<br>number3 = 2 | 3 | 1 |  |
+| number1 = 3<br>number2 = 2<br>number3 = 3 | 3 | 2 |  |
+
+_Question: Are there other scenarios that can be tested?_
+
+### Execute Solution
+When you execute the solution, you will test **all** the scenarios of your Test Plan. The results are shown below:<br>
+![high-small-number-test-1](files/high-small-number-test-1.jpg)<br>
+![high-small-number-test-2](files/high-small-number-test-2.jpg)<br>
+![high-small-number-test-3](files/high-small-number-test-3.jpg)<br>
+![high-small-number-test-4](files/high-small-number-test-4.jpg)
+
+From these results, return to your Test Plan:
+
+| Scenario | Highest | Smallest | Y/N |
+| -------- | ------- | -------- | --- |
+| number1 = 1<br>number2 = 2<br>number3 = 3 | 3 | 1 | Y |
+| number1 = 2<br>number2 = 3<br>number3 = 1 | 3 | 1 | Y |
+| number1 = 3<br>number2 = 1<br>number3 = 2 | 3 | 1 | Y |
+| number1 = 3<br>number2 = 2<br>number3 = 3 | 3 | 2 | Y |
 
 #### [Decisions Home](index.md)
 #### [CPSC1012 Home](../)

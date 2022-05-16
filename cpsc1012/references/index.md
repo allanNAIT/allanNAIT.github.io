@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CPSC References
+title: CPSC1012 References
 ---
 ## References
 * [Data Types in C#](data-types.md)

@@ -5,6 +5,7 @@ title: CPSC1012
 ![cpsc1012-icon.png](cpsc1012-icon.png) **Programming Fundamentals**
 
 ## Topics
+_NOTE: Many of the lessons are still under development. They will be added when completed._
 * [Introduction to Programming](01-intro-to-programming/)
   * [Problem Solving](01-intro-to-programming/problem-solving.md)
   * [Introduction to Visual Studio](01-intro-to-programming/visual-studio.md)

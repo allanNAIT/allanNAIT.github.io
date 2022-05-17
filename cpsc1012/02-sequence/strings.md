@@ -40,7 +40,9 @@ _Note: You can replace the `.ToUpper()` with `.ToLower()` to see the value of `N
 The output from this demo should look like:<br>
 ![string-demo-7](files/string-demo-7.jpg)
 
-_Note: It is important to note that the first character of a string is at position **0**._
+_Note: It is important to note that the first character of a string is at position **0**._<br>
+![string-positions](files/string-positions.jpg)
+
 
 #### [Sequence Home](index.md)
 #### [CPSC1012 Home](../)

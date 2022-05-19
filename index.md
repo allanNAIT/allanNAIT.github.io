@@ -3,7 +3,7 @@ layout: page
 title: Welcome to my GitHub Pages
 ---
 
-![favicon](images/mstile-150x150.png)
+![favicon](images/favicon-32x32.png)
 ## A Resource for Students!
 <a href="anap1525/"><img src="anap1525/anap1525-icon.png" alt="anap1525" title="ANAP1525"></a>&nbsp;
 <a href="comp1017/"><img src="comp1017/comp1017-icon.png" alt="comp1017" title="COMP1017"></a>&nbsp;

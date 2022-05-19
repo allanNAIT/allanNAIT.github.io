@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to my GitHub Pages ![](favicon.ico)
+title: Welcome to my GitHub Pages
 ---
 ## A Resource for Students!
 <a href="anap1525/"><img src="anap1525/anap1525-icon.png" alt="anap1525" title="ANAP1525"></a>&nbsp;

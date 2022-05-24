@@ -41,14 +41,11 @@ And the finished result looks like:<br>
 
 ## Exercise Instructions
 Download the **ex-selectors2.zip** file from Moodle and extract the contents into a folder called **ex-selectors2**. You are to create a stylesheet, **styles.css**, in your **css** folder. Link your stylesheet to your **index.html file**. The resulting web page should look like:<br>
-![ex-final-01.jpg](files/ex-final-01.jpg)<br>
-![ex-final-02.jpg](files/ex-final-02.jpg)
+![ex2-final](files/ex2-final.jpg)
 
 ## Lab Instructions
 Make a copy of your **demo-css-selectors** project and name the copy **css-selectors-lab**. Modify your **styles.css**, and any necessary changes to **index.html** to get the following results (the multiple screenshots are captured from a single web page):<br>
-![lab-final-01.jpg](files/lab-final-01.jpg)<br>
-![lab-final-02.jpg](files/lab-final-02.jpg)<br>
-![lab-final-03.jpg](files/lab-final-03.jpg)
+![lab-final](files/lab-final.jpg)
 
 Complete and submit your lab following the instructions on Moodle.
 

@@ -32,7 +32,7 @@ For each event on the risk list:
 
 ## What is the Probability?
 * Probability as High, Medium or Low.
-* Do mitigation for High and Medium elements first
+* Do mitigation for High and Medium elements first
 * You might want to mitigate Low risk items.
   * **Note**: If the probability of an event occurring is zero, then remove it from consideration. There is no reason to consider things that simply cannot happen (Enraged T-Rex eats the computer).
 

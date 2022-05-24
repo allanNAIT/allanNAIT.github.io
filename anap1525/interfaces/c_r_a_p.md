@@ -17,7 +17,7 @@ title: Graphical Design C.R.A.P.
 ### Visual Consistency
 * Internal consistency
   * elements follow same conventions and rules
-  * set of application-specific grids enforce this
+  * set of application-specific grids enforce this
 * External consistency
   * follow platform and interface style conventions
   * use platform and widget-specific grids
@@ -31,7 +31,7 @@ title: Graphical Design C.R.A.P.
 
 ### Grids
 * Horizontal and vertical lines to locate window components
-  * aligns related components
+  * aligns related components
 * Organization
   * contrast for dominant elements
   * element groupings by proximity
@@ -69,7 +69,7 @@ title: Graphical Design C.R.A.P.
 ### Economy of Visual Elements
 * minimize number of controls
 * include only those that are necessary
-  * eliminate, or relegate others to secondary windows
+  * eliminate, or relegate others to secondary windows
 * minimize clutter 
   * so information is not hidden
 

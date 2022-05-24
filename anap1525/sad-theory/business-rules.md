@@ -5,14 +5,14 @@ title: Business Rules
 
 ## Introduction
 * A business manages its own behavior through carefully selected and communicated rules
-* A business introduces change by changing its business rules
+* A business introduces change by changing its business rules
 * It is important for analysts to document these rules as they may affect information systems.
 
 ## What is a Business Rule?
 **DEFINED**:  A business rule, is a statement that influences the behavior of an organization.
-* It helps employees make decisions without having to ask a manager every time.
-* An information system should support and enforce these rules.
-* Good rules can help create new knowledge from existing information.  
+* It helps employees make decisions without having to ask a manager every time.
+* An information system should support and enforce these rules.
+* Good rules can help create new knowledge from existing information.
 * There is a good chance these rules are not written down.  So observe carefully.
 
 ## How does that work?
@@ -40,7 +40,7 @@ The above business rule must be satisfied. So the clerk responds “Just a momen
 * Any customer that owes more than $5,000.00 cannot place new orders.
 * All vehicles require a visual inspection for damage before being released to the customer.
 
-## Five Steps for Creatinga Business Rule Collection
+## Five Steps for Creating a Business Rule Collection
 1. Collect business ramblings
 2.  Translate these ramblings into business rules
 3.  Determine which of these rules are relevant to the project objectives 

@@ -67,7 +67,7 @@ title: SAD Introduction
 * Provide reliable cost and benefit information.
 
 ## System Development Tools/Techniques
-### 1. Modeling ([DFD](../dfd/), [ERD](../erd), [UML](https://www.uml.org/){:target="+blank"})
+### 1. Modeling ([DFD](../dfd/), [ERD](../erd), [UML](https://www.uml.org/){:target="_blank"})
 * Graphical representation
 * Business model
 * Object model

@@ -23,6 +23,7 @@ You can follow along with your instructor to complete this build and/or you can 
 ```html
 <p><img src="img/image name" alt="some alt text"/> … paragraph content</p>
 ```
+
 8. The last image uses the figure tag because it has a caption below it. The code for this looks like:<br>
 ```html
 <figure>
@@ -30,6 +31,7 @@ You can follow along with your instructor to complete this build and/or you can 
     <figcaption>caption text</figcaption>
 </figure>
 ```
+
 9. Save your work and preview the **index.html** page in your browser. It should look like the sample output shown previously. If there are major differences, review your code and make any necessary corrections and refresh the web page in your browser.
 
 ### Figure Demo - Exercise Instructions

@@ -17,7 +17,7 @@ You can follow along with your instructor to complete this build and/or you can 
 3. Create a copy of the **framework** folder which was built in a previous class (you can download this file, in a ZIP format, from Moodle if you have lost your copy).
 4. Rename the copy of the folder in step 3 to **figure-demo**.
 5. Examine the **copy.docx** file to make note of the HTML elements you may need for this build; it is a good idea to make a list of these elements, in the order that you need them, to make the markup easier.
-6. The final version should look like:<br>![figure-demo_browser.jpg](files/figure-demo_browser.jpg)
+6. The final version should look like:<br>![figure-demo_browser.jpg](files/figures-complete.jpg)
 7. Notice that three images are before a line of text. That code looks like:<br>
 
 ```html
@@ -47,7 +47,7 @@ You can follow along with your instructor to complete this build and/or you can 
 3. Create a copy of the **framework** folder which was built in a previous class (you can download this file, in a ZIP format, from Moodle if you have lost your copy).
 4. Rename the copy of the folder in step 3 to **image-links**.
 5. Examine the **copy.docx** file to make note of the HTML elements you will need for this build; it is a good idea to make a list of these elements, in the order that you need them, to make the markup easier.
-6. The result, only showing the first few paragraphs, should look like the following:<br>![image-links_browser.jpg](files/image-links_browser.jpg)<br>
+6. The result, only showing the first few paragraphs, should look like the following:<br>![image-links_browser.jpg](files/image-links-complete.jpg)<br>
 When you hover your mouse over the images, the cursor changes to indicate that the image acts like a hyperlink.
 7. Add all the code as you have done previously, including adding the images. When you add an image, it needs to be embedded inside an html hyperlink code like that as shown below:<br>
 
@@ -69,7 +69,7 @@ You can follow along with your instructor to complete this build and/or you can 
 3. Create a copy of the **framework** folder which was built in a previous class (you can download this file, in a ZIP format, from Moodle if you have lost your copy).
 4. Rename the copy of the folder in step 3 to **table**.
 5. Examine the **copy.docx** file to make note of the HTML elements you will need for this build; it is a good idea to make a list of these elements, in the order that you need them, to make the markup easier.
-6. The result should look like the following:<br>![table-demo_browser.jpg](files/table-demo_browser.jpg)
+6. The result should look like the following:<br>![table-demo_browser.jpg](files/table-complete.jpg)
 7. For the paragraph text, add as you have done previously.
 8. The table steps are outlined below:<br>
 

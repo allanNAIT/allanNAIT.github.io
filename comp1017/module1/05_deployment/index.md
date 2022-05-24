@@ -28,9 +28,9 @@ Open FileZilla on your machine. If you do not have the program, it can be downlo
 **Username**: same as default NAIT login<br>
 **Password**: the one you saved in the admin panel (best practice is to make this the same as your NAIT password)<br>
 
-1.	On the File drop-down menu select “Site Manager”.
-2.	Press the New Site button at the bottom of the left side and name it "Student-web”. Note: This will be done the first time you create the site. When you next connect you need only select the site name you created from the select entry navigation side.
-3.	On the “General tab”,<br>
+1. On the File drop-down menu select “Site Manager”.
+2. Press the New Site button at the bottom of the left side and name it "Student-web”. Note: This will be done the first time you create the site. When you next connect you need only select the site name you created from the select entry navigation side.
+3. On the “General tab”,<br>
     *  For Host: **dmitstudent.ca**
     *  For Protocol: **FTP – File Transfer Protocol**
     *  For Encryption: **Use explicit FTP over TLS if available**
@@ -55,15 +55,14 @@ Once connected, you will see your local machine on the left-side panel and the r
 **Important**<br>
 **All web files MUST be uploaded into the public_html folder.**
 
-If you did not set the default remote directory to <code>/public_html</code>, then double click on <code>public_html</code> to open that folder. Drag your project folder into that folder and FileZilla will begin to upload the files.<br>
+If you did not set the default remote directory to `/public_html`, then double click on `public_html`s to open that folder. Drag your project folder into that folder and FileZilla will begin to upload the files.<br>
 ![filezilla_transfer.jpg](files/filezilla_transfer.jpg)
 
 ## View Your Website Online
 The last thing to do now is to view your website on the web. Simply open your favourite web browser and enter the URL into the address bar. The URL will be ‘your username + hostname + the project name’. As long as your main project’s HTML document is named index.html, it should be served by the server automatically.
 
-For example, if your username is ‘ssmith1’ the URL would be as follows:
-
-<code>http://ssmith1.dmitstudent.ca/project</code>
+For example, if your username is ‘ssmith1’ the URL would be as follows:<br>
+`http://ssmith1.dmitstudent.ca/project`
 
 That is it! When submitting URL’s for lab and assignments, it is best to copy/paste the URL's
 from your browser after you have checked your work.

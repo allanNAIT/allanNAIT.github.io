@@ -14,8 +14,7 @@ You can follow along with your instructor to complete this build and/or you can 
 5. Examine the **copy.docx** file to make note of the HTML elements you may need for this build; it is a good idea to make a list of these elements, in the order that you need them, to make the markup easier.
 6. The final version should look like:<br>![structure_final.jpg](files/structure_final.jpg)
 <br>For your layout, the image will be in the `<header>` of the web page and the content from the copyright to the end will be in the `<footer>` of the web page.
-7. The structure of the web page, inside the `<body>` element will look like:
-<br>
+7. The structure of the web page, inside the `<body>` element will look like:<br>
 
 ```html:
 <header>

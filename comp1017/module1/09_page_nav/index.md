@@ -48,7 +48,7 @@ You can follow along with your instructor to complete this build and/or you can 
 | -------------- | ------------- |
 | ![sub-directory-index](files/sub-directory-index.jpg) | ![sub-directory-used](files/sub-directory-used.jpg)|
 
-    Notice the slight change in the text on each web page. Additionally, from the **used.html** web page you need to be able to navigate back to **index.html**.
+<br>Notice the slight change in the text on each web page. Additionally, from the **used.html** web page you need to be able to navigate back to **index.html**.
 6. Modify the index.html file to match the screenshot above. The structure of the navigation on this page looks like:
 
     ```html

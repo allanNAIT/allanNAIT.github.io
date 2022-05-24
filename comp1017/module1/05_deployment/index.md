@@ -31,13 +31,11 @@ Open FileZilla on your machine. If you do not have the program, it can be downlo
 1.	On the File drop-down menu select “Site Manager”.
 2.	Press the New Site button at the bottom of the left side and name it "Student-web”. Note: This will be done the first time you create the site. When you next connect you need only select the site name you created from the select entry navigation side.
 3.	On the “General tab”,<br>
-    <ol type="a">
-        <li>For Host: "dmitstudent.ca"</li>
-        <li>For Protocol: “FTP – File Transfer Protocol”</li>
-        <li>For Encryption, “Use explicit FTP over TLS if available”</li>
-        <li>Logon Type: “Ask for password”</li>
-        <li>User: your NAIT student account</li>
-    </ol>
+    *  For Host: **dmitstudent.ca**
+    *  For Protocol: **FTP – File Transfer Protocol**
+    *  For Encryption: **Use explicit FTP over TLS if available**
+    *  Login Type: **Ask for password**
+    *  User: **your NAIT student account**
 
 ![filezilla_sitemanager.jpg](files/filezilla_sitemanager.jpg)
 

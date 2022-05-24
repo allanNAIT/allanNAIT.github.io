@@ -82,27 +82,27 @@ You can follow along with your instructor to complete this build and/or you can 
             <tr>
                 <th>first column heading</th>
                 <th>second column heading</th>
-    .
-    .
+                .
+                .
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>first row, first cell</td>
                 <td>first row, second cell</td>
-    .
-    .
-    .
+                .
+                .
+                .
             </tr>
-    .
-    .
-    .
+           .
+           .
+           .
             <tr>
                 <td>last row, first cell</td>
                 <td>last row, second cell</td>
-    .
-    .
-    .
+                .
+                .
+                .
             </tr>
         </tbody>
         <tfoot>

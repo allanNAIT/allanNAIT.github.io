@@ -113,7 +113,6 @@ You can follow along with your instructor to complete this build and/or you can 
     </table> 
     ```
 
-<br>
     NOTE: It really does not matter which order the `<`thead>`, `<tbody>`, and `<tfoot>` are placed, but it is a convention to place them in this order for ease of readability and code debugging. Additionally, the **colspan** property essentially merges columns.
 9. When all the table data has been added, save your work, and open index.html in your web browser. If there are errors (most of the errors will be displayed as columns and rows not looking correctly which is due to inconsistent `<tr>` and `<td>` elements in your code), make any necessary corrections and refresh the web page.
 

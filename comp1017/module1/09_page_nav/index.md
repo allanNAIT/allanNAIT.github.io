@@ -17,11 +17,11 @@ You can follow along with your instructor to complete this build and/or you can 
 3. Create a copy of the **framework** folder which was built in a previous class (you can download this file, in a ZIP format, from Moodle if you have lost your copy).
 4. Rename the copy of the folder in step 3 to **same-directory-linking-demo**.
 5. Examine the **site-map.jpg** file to see how the hyperlinks will work.
-6. The final version should look like (Notice the slight change in the text on each web page. Additionally, from the **used.html** web page you need to be able to navigate back to **index.html**):<br>
+6. The final version should look like (Notice the slight change in the text on each web page. Additionally, from the **used.html** web page you need to be able to navigate back to **index.html**):
 
-| **index.html** | **used.html** |
-| -------------- | ------------- |
-| ![same-directory-index](files/same-directory-index.jpg) | ![same-directory-used](files/same-directory-used.jpg)|
+    | **index.html** | **used.html** |
+    | -------------- | ------------- |
+    | ![same-directory-index](files/same-directory-index.jpg) | ![same-directory-used](files/same-directory-used.jpg)|
 
 7. Modify the index.html file to match the screenshot above. The structure of the navigation on this page looks like:
 
@@ -43,9 +43,9 @@ You can follow along with your instructor to complete this build and/or you can 
 4. Examine the **site-map.jpg** file to see how the hyperlinks will work.
 5. The final version should look like (Notice the slight change in the text on each web page. Additionally, from the **used.html** web page you need to be able to navigate back to **index.html**):
 
-| **index.html** | **used.html** |
-| -------------- | ------------- |
-| ![sub-directory-index](files/sub-directory-index.jpg) | ![sub-directory-used](files/sub-directory-used.jpg)|
+    | **index.html** | **used.html** |
+    | -------------- | ------------- |
+    | ![sub-directory-index](files/sub-directory-index.jpg) | ![sub-directory-used](files/sub-directory-used.jpg)|
 
 6. Modify the index.html file to match the screenshot above. The structure of the navigation on this page looks like (Note: the second hyperlink points to a directory in the web project folder):
 
@@ -78,14 +78,13 @@ You can follow along with your instructor to complete this build and/or you can 
 4. Examine the **site-map.jpg** file to see how the hyperlinks will work.
 5. The final version should look like (Note: all web pages are in the same directory and thus use the same navigation menu):
 
-| **index.html** | **feature.html** | **used.html** |
-| -------------- | ---------------- | ------------- |
-| ![navigstion-index](files/navigation-index.jpg) | ![navigation-feature](files/navigation-feature.jpg) | ![navigation-used](files/navigation-used.jpg)|
+    | **index.html** | **feature.html** | **used.html** |
+    | -------------- | ---------------- | ------------- |
+    | ![navigstion-index](files/navigation-index.jpg) | ![navigation-feature](files/navigation-feature.jpg) | ![navigation-used](files/navigation-used.jpg)|
 
-| **new.html** | **shop.html** |
-| ------------ | ------------- |
-| ![navigation-new](files/navigation-new.jpg) | ![navigation-shop](files/navigation-shop.jpg) |
-
+    | **new.html** | **shop.html** |
+    | ------------ | ------------- |
+    | ![navigation-new](files/navigation-new.jpg) | ![navigation-shop](files/navigation-shop.jpg) |
 
 6. Modify the **index.html** to match the screenshot above.
 7. The navigation menu, which will be the same on each page, will look like:

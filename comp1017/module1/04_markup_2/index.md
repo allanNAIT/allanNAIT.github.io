@@ -12,7 +12,7 @@ The following files are required for this lesson:
 You can follow along with your instructor to complete this build and/or you can use this document as a guide in completing the demo build.
 
 ### Steps
-1. Download the **figure-demo.zip** file from Moodle.
+1. Download the [**figure-demo.zip**](files/figure-demo.zip) file from Moodle.
 2. Extract the contents which contain the copy text and the images (make sure you rename the images semantically) that will be added to the web page.
 3. Create a copy of the **framework** folder which was built in a previous class (you can download this file, in a ZIP format, from Moodle if you have lost your copy).
 4. Rename the copy of the folder in step 3 to **figure-demo**.

@@ -21,9 +21,10 @@ You can follow along with your instructor to complete this build and/or you can 
         <li>Need a paragraph, <code>&lt;p&gt; … &lt;/p&gt;</code>, for the first paragraph. Copy the text of the first paragraph into the paragraph you just created.</li>
         <li>For the second paragraph, the heading is a smaller font so we need to use a second level heading, <code>&lt;h2&gt; … &lt;/h2&gt;</code>, as there can only ever be one <code>&lt;h1&gt;</code> on a web page.</li>
         <li>Need a paragraph, <code>&lt;p&gt; … &lt;/p&gt;</code>, for the that paragraph. Copy the text of the first paragraph into the paragraph you just created.</li>
-        <li>Below the second paragraph is a hyperlink with the text being Download Trial Version and the link is in the square brackets.<br>This is a <code>&lt;a href="…add link url here …" target ="blank"&gt;Download Trial Version&lt;/a&gt;</code>.</li>
+        <li>Below the second paragraph is a hyperlink with the text being Download Trial Version and the link is in the square brackets.<br>This is a <code>&lt;a href="http://www.adobe.com/products/photoshop.html" target ="blank"&gt;Download Trial Version&lt;/a&gt;</code>.</li>
         <li>Next, we have an image to put on the web page. There is a second level heading just above the image. Remember that the code for the image is <code>&lt;img src="img/image file name" alt="some alt text" /&gt;</code>. Use the name of the image file, making sure that the name is sematic, and add an appropriate alternate text.</li>
-        <li>Below the image is another paragraph with a second level heading.</li>
+        <li>Below the image code is a citation using the &lt;cite&gt; element: &lt;cite&gt;https://www.adobe.com&lt;/cite&gt;.</li>
+        <li>Below the &lt;cite&gt; element is another paragraph with a second level heading.</li>
         <li>The next paragraph has an unordered list below it. Add the paragraph and its second level heading. Once added, add an unordered list below using the html code structure below:<br>
 
         ```html:

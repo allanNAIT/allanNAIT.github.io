@@ -25,19 +25,19 @@ You can follow along with your instructor to complete this build and/or you can 
         *  Divide the result by 2: **847 / 2 = 423.5**
 4. In the **css** folder add the following code to the **styles.css** file:
     *  Style the typography:<br>
-        <img src="files/css-styles-a.jpg" alt="typography">
+       ![css-styles-a](files/css-styles-a.jpg)
     *  Style the `.site-header` class:<br>
-        <img src="files/css-styles-b.jpg" alt=".site-header">
+       ![css-styles-b](files/css-styles-b.jpg)
     *  Style the `.site-header nav` class:<br>
-        <img src="files/css-styles-c.jpg" alt=".site-header nav">
+       ![css-styles-c](files/css-styles-c.jpg)
     *  Style the `.menu`:<br>
-        <img src="files/css-styles-d.jpg" alt=".menu">
+       ![css-styles-d](files/css-styles-d.jpg)
     *  Style the `<li>` in the `<nav>`:<br>
-         img src="files/css-styles-e.jpg" alt="li nav">
+       ![css-styles-e](files/css-styles-e.jpg)
     *  Style the `<main>` element:<br>
-        <img src="files/css-styles-f.jpg" alt="main">
+       ![css-styles-f](files/css-styles-f.jpg)
     *  Style the `<section>` elements in the `<main>`:<br>
-        <img src="files/css-styles-g.jpg" alt="main section">
+       ![css-styles-g](files/css-styles-g.jpg)
 5. Open the **index.html** file in your browser. If the result is different, make any necessary corrections, and refresh your browser.
 6. In your browser, open the developer tools and examine the widths of each of the <code>class="menu"</code>:<br>
 ![width-menu.jpg](files/width-menu.jpg)

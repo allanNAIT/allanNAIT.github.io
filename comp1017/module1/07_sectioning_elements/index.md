@@ -21,7 +21,7 @@ For your layout, each of the second level headings denote that the content below
     <section>
         <h2> … </h2>
         <p> … </p>
-        <p>` … </p>
+        <p> … </p>
     </section>
     ```
 

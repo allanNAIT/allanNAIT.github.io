@@ -36,7 +36,7 @@ You can follow along with your instructor to complete this build and/or you can 
 ![div-element-01.jpg](files/div-element-01.jpg)<br>
 ![div-element-02.jpg](files/div-element-02.jpg)<br>
 ![div-element-03.jpg](files/div-element-03.jpg)
-8. As an experiment, adjust the size in the main > div to:
+8. As an experiment, adjust the size in the `main > div` to:
     *  **width: 465px;**
     *  **width: 470px;**
 

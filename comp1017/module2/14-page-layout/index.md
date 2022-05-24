@@ -15,19 +15,19 @@ This walkthrough is done in two parts:
 You can follow along with your instructor to complete this build and/or you can use this document as a guide in completing the demo build.
 
 ## Steps – <a id="part1">Part 1</a>: Center Page Framework
-1.	Download the **demo-center-page-framework.zip** file and extract its contents to a folder called **center-page-framework**.
-2.	In the **css** folder add a stylesheet named **styles.css**.
-3.	In this file add the following code:<br>
+1. Download the **demo-center-page-framework.zip** file and extract its contents to a folder called **center-page-framework**.
+2. In the **css** folder add a stylesheet named **styles.css**.
+3. In this file add the following code:<br>
 ![center-page-styling.jpg](files/center-page-styling.jpg)
-4.	Open the **index.html** file and make the following change in the `<body>` which will use the class created in the stylesheet:<br>
+4. Open the **index.html** file and make the following change in the `<body>` which will use the class created in the stylesheet:<br>
 ![index-body.jpg](files/index-body.jpg)
-5.	Save this center-page framework as it will be used in future examples, exercises, labs, and assignments.
+5. Save this center-page framework as it will be used in future examples, exercises, labs, and assignments.
 
 ## Steps – <a id="part2">Part 2</a>: Demo Page Layout
-1.	Download the **demo-page-layout.zip** file and extract its contents into a folder named **demo-page-layout**.
-2.	The download contains an image of the completed web page:<br>
+1. Download the **demo-page-layout.zip** file and extract its contents into a folder named **demo-page-layout**.
+2. The download contains an image of the completed web page:<br>
 ![page-layout-wireframe.jpg](files/page-layout-wireframe.jpg)
-3.	The steps to achieve the above result require you to make the following additions to styles.css (the comments in the code below are optional but recommended)
+3. The steps to achieve the above result require you to make the following additions to styles.css (the comments in the code below are optional but recommended):
     *  Change the font styling:<br>
         <img src="files/css-styles-a.jpg" alt="font styling">
     *  Style the `<nav>` element:<br>
@@ -40,7 +40,7 @@ You can follow along with your instructor to complete this build and/or you can 
         <img src="files/css-styles-e.jpg" alt="main section styling">
     *  Style the `<footer>` element:<br>
         <img src="files/css-styles-f.jpg" alt="footer styling">
-4.	Save and run/refresh **index.html** in your browser. If your resulting web page does not look like the supplied wireframe, make any necessary code corrections, and refresh your browser.
+4. Save and run/refresh **index.html** in your browser. If your resulting web page does not look like the supplied wireframe, make any necessary code corrections, and refresh your browser.
 
 ## Exercise Instructions
 There is no related exercise for this walkthrough.

@@ -14,9 +14,9 @@ You can follow along with your instructor to complete this build and/or you can 
 6. The final version, only showing the first few sections, should look like:<br>
 ![outline-2-final.jpg](files/outline-2-final.jpg)<br>
 For your layout, each of the second level headings denote that the content below is in its own **section**. You will also be adding an **aside**, which has content that is not directly related to the main topic of the web page; it only adds extra information. You will also be using a **dictionary list** which can be seen on the bottom of the web page.
-7. The structure of an aside, inside the <main> element, with a dictionary list, will look like:<br>
+7. The structure of an aside, inside the <main> element, with a dictionary list, will look like:
 
-```html:
+    ```html:
     <aside>
         <h2> … </h2>
         <p> … </p>
@@ -27,7 +27,7 @@ For your layout, each of the second level headings denote that the content below
             .
         </dl>
     </aside>
-```
+    ```
 
 8. Validate your HTML using [https://validator.w3.org/](https://validator.w3.org/){:target="_blank"}. Correct any errors before proceeding.
 9. Check your document outline using [https://gsnedders.html5.org/outliner/](https://gsnedders.html5.org/outliner/){:target="_blank"}. Your outline should look like the following:<br>

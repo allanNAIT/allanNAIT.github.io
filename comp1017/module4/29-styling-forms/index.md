@@ -29,9 +29,9 @@ You can follow along with your instructor to complete this build and/or you can 
         *  A text area for the message:<br>
            ![index-code-e](files/index-code-e.jpg)
         *  A button to simulate submitting the form:<br>
-           ![index-code-f](files/index-code-f.jpg)
+           ![index-code-f](files/index-code-f.jpg)<br>
     Before adding style rules to your styles.css file, the web page should look like:<br>
-![form-initial.jpg](files/form-initial.jpg)<br>
+![form-initial.jpg](files/form-initial.jpg)
 7. Add the following styles to the **styles.css** file as shown below to style the form elements:
     *  Style the `<input>` and `<button>` elements:<br>
        ![css-styles-a](files/css-styles-a.jpg)

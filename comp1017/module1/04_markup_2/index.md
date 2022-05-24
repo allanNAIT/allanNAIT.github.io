@@ -20,13 +20,13 @@ You can follow along with your instructor to complete this build and/or you can 
 6. The final version should look like:<br>![figure-demo_browser.jpg](files/figure-demo_browser.jpg)
 7. Notice that three images are before a line of text. That code looks like:<br>
 
-```html:
+```html
 <p><img src="img/image name" alt="some alt text"/>… paragraph content</p>
 ```
 
 8. The last image uses the figure tag because it has a caption below it. The code for this looks like:<br>
 
-```html:
+```html
 <figure>
     <img src="img/image name" alt="some alt text" />
     <figcaption>caption text</figcaption>

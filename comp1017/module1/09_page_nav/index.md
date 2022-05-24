@@ -21,7 +21,7 @@ You can follow along with your instructor to complete this build and/or you can 
 **index.html**:<br>![samedir-index.jpg](files/samedir-index.jpg)<br>
 **used.html**:<br>![samedir-used.jpg](files/samedir-used.jpg)<br>
 Notice the slight change in the text on each web page. Additionally, from the **used.html** web page you need to be able to navigate back to **index.html**.
-7.	Modify the index.html file to match the screenshot above. The structure of the navigation on this page looks like:
+7.	Modify the index.html file to match the screenshot above. The structure of the navigation on this page looks like:<br>
 
 ```html:
     <ul>
@@ -43,7 +43,7 @@ Notice the slight change in the text on each web page. Additionally, from the **
 **index.html**:<br>![subdir-index.jpg](files/subdir-index.jpg)<br>
 **used.html**:<br>![subdir-used.jpg](files/subdir-used.jpg)<br>
 Notice the slight change in the text on each web page. Additionally, from the **used.html** web page you need to be able to navigate back to **index.html**.
-6.	Modify the index.html file to match the screenshot above. The structure of the navigation on this page looks like:
+6.	Modify the index.html file to match the screenshot above. The structure of the navigation on this page looks like:<br>
 
 ```html:
     <ul>
@@ -56,7 +56,7 @@ Notice the slight change in the text on each web page. Additionally, from the **
 Note: the second hyperlink points to a directory in the web project folder.
 7.	Create a folder in your web project called **used-items**. In this folder, create the **used.html** web page.
 8.	Copy the contents of **index.html** into **used-items.html**.
-9.	The navigation on this page needs to be:
+9.	The navigation on this page needs to be:<br>
 
 ```html:
     <ul>
@@ -84,7 +84,7 @@ Note: Examine the link to get back to index.html.
 **shop.html**:<br>![nav-shop.jpg](files/nav-shop.jpg)<br>
 Note: all web pages are in the same directory and thus use the same navigation menu.
 6.	Modify the **index.html** to match the screenshot above.
-7.	The navigation menu, which will be the same on each page, will look like:
+7.	The navigation menu, which will be the same on each page, will look like:<br>
 
 ```html:
     <ul>

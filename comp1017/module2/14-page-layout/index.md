@@ -28,26 +28,18 @@ You can follow along with your instructor to complete this build and/or you can 
 2.	The download contains an image of the completed web page:<br>
 ![page-layout-wireframe.jpg](files/page-layout-wireframe.jpg)
 3.	The steps to achieve the above result require you to make the following additions to styles.css (the comments in the code below are optional but recommended)
-    <ol type="a">
-        <li>Change the font styling:<br>
+    *  Change the font styling:<br>
         <img src="files/css-styles-a.jpg" alt="font styling">
-        </li>
-        <li>Style the &lt;nav&gt; element:<br>
+    *  Style the `<nav>` element:<br>
         <img src="files/css-styles-b.jpg" alt="nav styling">
-        </li>
-        <li>Style the &lt;header&gt; element:<br>
+    *  Style the `<header>` element:<br>
         <img src="files/css-styles-c.jpg" alt="header styling">
-        </li>
-        <li>Style the &lt;main&gt; element:<br>
+    *  Style the `<main>` element:<br>
         <img src="files/css-styles-d.jpg" alt="main styling">
-        </li>
-        <li>Style the &lt;section&gt; element inside the &lt;main&gt;:<br>
+    *  Style the `<section>`; element inside the `<main>`:<br>
         <img src="files/css-styles-e.jpg" alt="main section styling">
-        </li>
-        <li>Style the &lt;footer&gt; element:<br>
+    *  Style the `<footer>` element:<br>
         <img src="files/css-styles-f.jpg" alt="footer styling">
-        </li>
-    </ol>
 4.	Save and run/refresh **index.html** in your browser. If your resulting web page does not look like the supplied wireframe, make any necessary code corrections, and refresh your browser.
 
 ## Exercise Instructions

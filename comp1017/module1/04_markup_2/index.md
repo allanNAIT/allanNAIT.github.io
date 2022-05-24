@@ -50,9 +50,11 @@ You can follow along with your instructor to complete this build and/or you can 
 6. The result, only showing the first few paragraphs, should look like the following:<br>![image-links_browser.jpg](files/image-links_browser.jpg)<br>
 When you hover your mouse over the images, the cursor changes to indicate that the image acts like a hyperlink.
 7. Add all the code as you have done previously, including adding the images. When you add an image, it needs to be embedded inside an html hyperlink code like that as shown below:<br>
-```html:
+
+```html
 <a href="url related to image" target="blank"><img src="img/image name" alt="some alt text" /></a>
 ```
+
 8. You need to add at least three image links to your web page, save the file, and open index.html in your web browser. If the result does not look like the sample image shown previously, examine your code, make the necessary corrections, and refresh your page.
 
 ### Image Links - Exercise Instructions
@@ -71,7 +73,7 @@ You can follow along with your instructor to complete this build and/or you can 
 7. For the paragraph text, add as you have done previously.
 8. The table steps are outlined below:<br>
 
-```html:
+```html
 <table border="1">
     <thead>
         <tr>
@@ -109,8 +111,8 @@ You can follow along with your instructor to complete this build and/or you can 
 ```
 
 <br>
-NOTE: It really does not matter which order the <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, and <code>&lt;tfoot&gt;</code> are placed, but it is a convention to place them in this order for ease of readability and code debugging. Additionally, the <code>colspan</code> property essentially merges columns.
-9. When all the table data has been added, save your work, and open index.html in your web browser. If there are errors (most of the errors will be displayed as columns and rows not looking correctly which is due to inconsistent <code>&lt;tr&gt;</code> and <code>&lt;td&gt;</code> elements in your code), make any necessary corrections and refresh the web page.
+NOTE: It really does not matter which order the `<`thead>`, `<tbody>`, and `<tfoot>` are placed, but it is a convention to place them in this order for ease of readability and code debugging. Additionally, the **colspan** property essentially merges columns.
+9. When all the table data has been added, save your work, and open index.html in your web browser. If there are errors (most of the errors will be displayed as columns and rows not looking correctly which is due to inconsistent `<tr>` and `<td>` elements in your code), make any necessary corrections and refresh the web page.
 
 ## Exercise Instructions
 Download the **ex-markup2.zip** file from Moodle and extract its contents. Examine the copy.docx file for the content and the images in the images folder (you need to rename the images semantically) that will be added to your web page. When you have finished, show your web page to your instructor.

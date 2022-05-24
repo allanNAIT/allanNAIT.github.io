@@ -13,7 +13,7 @@ You can follow along with your instructor to complete this build and/or you can 
 2. The result of this demo should look like:<br>
 3. Open the **css-horizontal-menu.psd** file and examine the images, fonts, and layout properties of the file; the images are already extracted for you).
 4. You will need to following fonts from google fonts:
-    *  Ralewa
+    *  Raleway
     *  Alegreya (do not select Alegreya Sans)
 5. Add the links to those two fonts in the `<head>` of **index.html**. (These fonts will be added to your **styles.css** file later in this walkthrough.)
 6. Add the following code to **index.html** (_Note: the classes used below will need to be added to your **styles.css** file.):

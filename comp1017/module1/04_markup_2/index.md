@@ -19,20 +19,20 @@ You can follow along with your instructor to complete this build and/or you can 
 5. Examine the **copy.docx** file to make note of the HTML elements you may need for this build; it is a good idea to make a list of these elements, in the order that you need them, to make the markup easier.
 6. The final version should look like:<br>
 ![figures-complete](files/figures-complete.jpg)
-7. Notice that three images are before a line of text. That code looks like:<br>
+7. Notice that three images are before a line of text. That code looks like:
 
     ```html
     <p><img src="img/image name" alt="some alt text"/> … paragraph content</p>
     ```
 
-8. The last image uses the figure tag because it has a caption below it. The code for this looks like:<br>
+8. The last image uses the figure tag because it has a caption below it. The code for this looks like:
 
-```html
-<figure>
-    <img src="img/image name" alt="some alt text" />
-    <figcaption>caption text</figcaption>
-</figure>
-```
+    ```html
+    <figure>
+        <img src="img/image name" alt="some alt text" />
+        <figcaption>caption text</figcaption>
+    </figure>
+    ```
 
 9. Save your work and preview the **index.html** page in your browser. It should look like the sample output shown previously. If there are major differences, review your code and make any necessary corrections and refresh the web page in your browser.
 
@@ -50,11 +50,13 @@ You can follow along with your instructor to complete this build and/or you can 
 5. Examine the **copy.docx** file to make note of the HTML elements you will need for this build; it is a good idea to make a list of these elements, in the order that you need them, to make the markup easier.
 6. The result, only showing the first few paragraphs, should look like the following:<br>![image-links_browser.jpg](files/image-links-complete.jpg)<br>
 When you hover your mouse over the images, the cursor changes to indicate that the image acts like a hyperlink.
-7. Add all the code as you have done previously, including adding the images. When you add an image, it needs to be embedded inside an html hyperlink code like that as shown below:<br>
+7. Add all the code as you have done previously, including adding the images. When you add an image, it needs to be embedded inside an html hyperlink code like that as shown below:
 
-```html
-<a href="url related to image" target="blank"><img src="img/image name" alt="some alt text" /></a>
-```
+    ```html
+    <a href="url related to image" target="blank">
+        <img src="img/image name" alt="some alt text" />
+    </a>
+    ```
 
 8. You need to add at least three image links to your web page, save the file, and open index.html in your web browser. If the result does not look like the sample image shown previously, examine your code, make the necessary corrections, and refresh your page.
 
@@ -72,47 +74,47 @@ You can follow along with your instructor to complete this build and/or you can 
 5. Examine the **copy.docx** file to make note of the HTML elements you will need for this build; it is a good idea to make a list of these elements, in the order that you need them, to make the markup easier.
 6. The result should look like the following:<br>![table-demo_browser.jpg](files/table-complete.jpg)
 7. For the paragraph text, add as you have done previously.
-8. The table steps are outlined below:<br>
+8. The table steps are outlined below:
 
-```html
-<table border="1">
-    <thead>
-        <tr>
-            <th>first column heading</th>
-            <th>second column heading</th>
-.
-.
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>first row, first cell</td>
-            <td>first row, second cell</td>
-.
-.
-.
-        </tr>
-.
-.
-.
-        <tr>
-            <td>last row, first cell</td>
-            <td>last row, second cell</td>
-.
-.
-.
-        </tr>
-    </tbody>
-    <tfoot>
-        <tr>
-            <td colspan="# of columns to span">footer text</td>
-        </tr>
-    </tfoot>
-</table>
-```
+    ```html
+    <table border="1">
+        <thead>
+            <tr>
+                <th>first column heading</th>
+                <th>second column heading</th>
+    .
+    .
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>first row, first cell</td>
+                <td>first row, second cell</td>
+    .
+    .
+    .
+            </tr>
+    .
+    .
+    .
+            <tr>
+                <td>last row, first cell</td>
+                <td>last row, second cell</td>
+    .
+    .
+    .
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                 <td colspan="# of columns to span">footer text</td>
+            </tr>
+        </tfoot>
+    </table> 
+    ```
 
 <br>
-NOTE: It really does not matter which order the `<`thead>`, `<tbody>`, and `<tfoot>` are placed, but it is a convention to place them in this order for ease of readability and code debugging. Additionally, the **colspan** property essentially merges columns.
+    NOTE: It really does not matter which order the `<`thead>`, `<tbody>`, and `<tfoot>` are placed, but it is a convention to place them in this order for ease of readability and code debugging. Additionally, the **colspan** property essentially merges columns.
 9. When all the table data has been added, save your work, and open index.html in your web browser. If there are errors (most of the errors will be displayed as columns and rows not looking correctly which is due to inconsistent `<tr>` and `<td>` elements in your code), make any necessary corrections and refresh the web page.
 
 ## Exercise Instructions

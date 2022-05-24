@@ -21,6 +21,7 @@ You can follow along with your instructor to complete this build and/or you can 
 ![figures-complete](files/figures-complete.jpg)
 7. Notice that three images are before a line of text. That code looks like:
   - <br>
+  
 ```html
 <p><img src="img/image name" alt="some alt text"/> … paragraph content</p>
 ```

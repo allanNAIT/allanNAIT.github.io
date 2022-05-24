@@ -17,13 +17,13 @@ You can follow along with your instructor to complete this build and/or you can 
 3. Create a copy of the **framework** folder which was built in a previous class (you can download this file, in a ZIP format, from Moodle if you have lost your copy).
 4. Rename the copy of the folder in step 3 to **same-directory-linking-demo**.
 5. Examine the **site-map.jpg** file to see how the hyperlinks will work.
-6. The final version should look like:<br>
+6. The final version should look like:
 
 | **index.html** | **used.html** |
 | -------------- | ------------- |
 | ![same-directory-index](files/same-directory-index.jpg) | ![same-directory-used](files/same-directory-used.jpg)|
 
-<br>Notice the slight change in the text on each web page. Additionally, from the **used.html** web page you need to be able to navigate back to **index.html**.
+    Notice the slight change in the text on each web page. Additionally, from the **used.html** web page you need to be able to navigate back to **index.html**.
 7. Modify the index.html file to match the screenshot above. The structure of the navigation on this page looks like:
 
     ```html

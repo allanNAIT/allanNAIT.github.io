@@ -35,9 +35,9 @@ This problem can be solved using an `if-then-else` structure but as the type of 
 ![switch-demo-4](files/switch-demo-4.jpg)
 
 Inside the switch structure add the following tests:
-1.  Test for package A:<br>
+1. Test for package A:<br>
 ![switch-demo-5](files/switch-demo-5.jpg)
-2.  Test for package B:<br>
+2. Test for package B:<br>
 ![switch-demo-6](files/switch-demo-6.jpg)
 3. Test for package C and add a `default` case:<br>
 ![switch-demo-7](files/switch-demo-7.jpg)<br>

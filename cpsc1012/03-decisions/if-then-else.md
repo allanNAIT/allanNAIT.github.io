@@ -32,10 +32,10 @@ You will need the following code to get user input for this problem:<br>
 
 ### Process Steps
 The logic to solve this problem is shown below:
-1.  Compare `number` to `number2`; find the highest and smallest of the first two numbers:<br>
+1. Compare `number` to `number2`; find the highest and smallest of the first two numbers:<br>
 ![high-small-number-2](files/high-small-number-2.jpg)<br>
 _In this step we are not concered with the value of `number3`, that will come soon._
-2.  Now compare the `highest`, which was determined above, with `number3`:<br>
+2. Now compare the `highest`, which was determined above, with `number3`:<br>
 ![high-small-number-3](files/high-small-number-3.jpg)<br>
 _In this step we are not concerned with `smallest`, that will come soon._
 3. Finally, you will need to find the `smallest` value by comparing the `smallest` to `number3`:<br>

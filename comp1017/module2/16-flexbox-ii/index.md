@@ -19,13 +19,13 @@ You can follow along with your instructor to complete this build and/or you can 
     *  Calculate the width of the "black" `<div?`: Subtract left and right margins: **960 – 40 = 920**
 4. In the **css** folder add the following code to the **styles.css** file:
     *  Style the `<main>` element:<br>
-        <img src="files/css-styles-a.jpg" alt="main style">
+       ![css-styles-a](files/css-styles-a.jpg)
     *  Style the `<div>` elements:<br>
-        <img src="files/css-styles-b.jpg" alt="div style">
+       ![css-styles-b](files/css-styles-b.jpg)
     *  Colour the first two `<div>` elements:<br>
-        <img src="files/css-styles-c.jpg" alt="div colours">
+       ![css-styles-c](files/css-styles-c.jpg)
     *  Style the `.full-width`:<br>
-        <img src="files/css-styles-d.jpg" alt=".width class">
+       ![css-styles-d](files/css-styles-d.jpg)
 5. Open the **index.html** file in your browser. If the result is different, make any necessary corrections, and refresh your browser.
 6. In your browser, open the developer tools and examine the widths of each of the `<div>` elements in the `<main>`:<br>
 ![div-element-01.jpg](files/div-element-01.jpg)<br>

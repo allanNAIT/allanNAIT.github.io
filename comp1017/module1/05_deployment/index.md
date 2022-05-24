@@ -15,7 +15,7 @@ Login using temporary password >> Administration Options >> Change Password
 This will change both the Admin Panel and the default FTP passwords.
 _Note: Admin Panel security alert (browser): Do not worry about this. Just click Advanced, then Continue (Google Chrome), and go about your business. The browser-based security alert is because the panel is using SSL (https:// instead of http://), but a certificate has not been purchased for this domain._
 
-![Admin Panel](files/admin_panel.jpg)
+![Admin Panel](files/admin-panel.jpg)
 
 ## Deploying a Website Via FTP
 The simplest way to upload your website to a web server is via file transfer protocol (FTP). FTP allows you to establish a connection with a server and to then transfer files to that server. The key here for us will be making sure we upload our website content to the correct folder.

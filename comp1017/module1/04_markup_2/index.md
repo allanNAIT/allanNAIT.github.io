@@ -70,10 +70,9 @@ You can follow along with your instructor to complete this build and/or you can 
 6. The result should look like the following:<br>![table-demo_browser.jpg](files/table-demo_browser.jpg)
 7. For the paragraph text, add as you have done previously.
 8. The table steps are outlined below:<br>
-<br>
 
-`<table border="1">`
 ```html:
+<table border="1">
     <thead>
         <tr>
             <th>first column heading</th>
@@ -106,8 +105,8 @@ You can follow along with your instructor to complete this build and/or you can 
             <td colspan="# of columns to span">footer text</td>
         </tr>
     </tfoot>
+</table>
 ```
-`</table>`
 
 <br>
 NOTE: It really does not matter which order the <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, and <code>&lt;tfoot&gt;</code> are placed, but it is a convention to place them in this order for ease of readability and code debugging. Additionally, the <code>colspan</code> property essentially merges columns.

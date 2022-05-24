@@ -16,7 +16,7 @@ You can follow along with your instructor to complete this build and/or you can 
 ![box-model-final-01.jpg](files/box-model-final.jpg)
 4. The first step is to modify the **styles.css** file in your **css** folder using the following rules (images of the code are shown; the comments with each style rule can be omitted):
     *  Create a class to target the margins of a `<section>` element:<br>
-       ![css-styles-a](files/css-styles-a.jpg")
+       ![css-styles-a](files/css-styles-a.jpg)
     *  Create a class to target the borders of a `<section>` element:<br>
        ![css-styles-b](files/css-styles-b.jpg)
     *  Create a class to target the padding of a `<section>` element:<br>

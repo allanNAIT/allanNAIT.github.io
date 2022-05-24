@@ -29,17 +29,17 @@ You can follow along with your instructor to complete this build and/or you can 
 ![page-layout-wireframe.jpg](files/page-layout-wireframe.jpg)
 3. The steps to achieve the above result require you to make the following additions to styles.css (the comments in the code below are optional but recommended):
     *  Change the font styling:<br>
-        <img src="files/css-styles-a.jpg" alt="font styling">
+       ![css-styles-a](files/css-styles-a.jpg)
     *  Style the `<nav>` element:<br>
-        <img src="files/css-styles-b.jpg" alt="nav styling">
+       ![css-styles-b](files/css-styles-b.jpg)
     *  Style the `<header>` element:<br>
-        <img src="files/css-styles-c.jpg" alt="header styling">
+       ![css-styles-c](files/css-styles-c.jpg)
     *  Style the `<main>` element:<br>
-        <img src="files/css-styles-d.jpg" alt="main styling">
+       ![css-styles-d](files/css-styles-d.jpg)
     *  Style the `<section>`; element inside the `<main>`:<br>
-        <img src="files/css-styles-e.jpg" alt="main section styling">
+       ![css-styles-e](files/css-styles-e.jpg)
     *  Style the `<footer>` element:<br>
-        <img src="files/css-styles-f.jpg" alt="footer styling">
+       ![css-styles-f](files/css-styles-f.jpg)
 4. Save and run/refresh **index.html** in your browser. If your resulting web page does not look like the supplied wireframe, make any necessary code corrections, and refresh your browser.
 
 ## Exercise Instructions

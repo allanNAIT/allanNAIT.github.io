@@ -11,12 +11,12 @@ You can follow along with your instructor to complete this build and/or you can 
 3. Create a copy of the **framework** folder which was built in a previous class (you can download this file, in a ZIP format, from Moodle if you have lost your copy).
 4. Rename the copy of the folder in step 3 to **document-outline-2**.
 5. Examine the **copy.docx** file to make note of the HTML elements you may need for this build; it is a good idea to make a list of these elements, in the order that you need them, to make the markup easier.
-6. The final version, only showing the first few sections, should look like:<br>
+6. The final version should look like:<br>
 ![sectioning-complete](files/sectioning-complete.jpg)<br>
 For your layout, each of the second level headings denote that the content below is in its own **section**. You will also be adding an **aside**, which has content that is not directly related to the main topic of the web page; it only adds extra information. You will also be using a **dictionary list** which can be seen on the bottom of the web page.
 7. The structure of an aside, inside the <main> element, with a dictionary list, will look like:
 
-    ```html:
+    ```html
     <aside>
         <h2> … </h2>
         <p> … </p>

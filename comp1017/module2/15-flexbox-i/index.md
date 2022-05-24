@@ -20,17 +20,17 @@ You can follow along with your instructor to complete this build and/or you can 
     *  Divide that result by 2: **930 / 2 = 465**
 5. In the **css** folder add the following code:
     *  Style the `<main>` element:<br>
-        <img src="files/css-styles-a.jpg" alt="main element">
+       ![css-styles-a](files/css-styles-a.jpg)
     *  Style the `<div>` elements:<br>
-        <img src="files/css-styles-b.jpg" alt="div elements">
+       ![css-styles-b](files/css-styles-b.jpg)
     *  Create a class called `.red-paint`:<br>
-        <img src="files/css-styles-c.jpg" alt="red-paint">
+       ![css-styles-c](files/css-styles-c.jpg)
     *  Create a class called `.blue-paint`:<br>
-        <img src="files/css-styles-d.jpg" alt="blue-paint">
+       ![css-styles-d](files/css-styles-d.jpg)
     *  Create a class called `.black-paint`:<br>
-        <img src="files/css-styles-e.jpg" alt="black-paint">
+       ![css-styles-e](files/css-styles-e.jpg)
     *  Style the `<footer>` element:<br>
-        <img src="files/css-styles-f.jpg" alt="footer element">
+       ![css-styles-f](files/css-styles-f.jpg)
 6. Open the **index.html** file in your browser. If the result is different, make any necessary corrections, and refresh your browser.
 7. In your browser, open the developer tools and examine the widths of each of the `<div>` elements in the `<main>`:<br>
 ![div-element-01.jpg](files/div-element-01.jpg)<br>

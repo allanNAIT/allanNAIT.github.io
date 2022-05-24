@@ -70,7 +70,7 @@ You can follow along with your instructor to complete this build and/or you can 
     </ul>
     ```
 
-    Note: Examine the link to get back to index.html.
+>br>Note: Examine the link to get back to index.html.
 10. Change the contents of the `<main>` on used.html to match the screenshot above.
 11. Validate your HTML using [https://validator.w3.org/](https://validator.w3.org/){:target="_blank"}. Correct any errors before proceeding.
 12. Once your HTML has been validated open **index.html** in your web browser and see if you can navigate between each of the web pages. If there are errors, make the necessary correction and refresh your web browser.
@@ -81,12 +81,16 @@ You can follow along with your instructor to complete this build and/or you can 
 3. Rename the copy of the folder in step 3 to **site-navigation-demo**.
 4. Examine the **site-map.jpg** file to see how the hyperlinks will work.
 5. The final version should look like:<br>
-**index.html**:<br>![nav-index.jpg](files/nav-index.jpg)<br>
-**featured.html**:<br>![nav-featured.jpg](files/nav-featured.jpg)<br>
-**used.html**:<br>![nav-used.jpg](files/nav-used.jpg)<br>
-**new.html**:<br>![nav-new.jpg](files/nav-new.jpg)<br>
-**shop.html**:<br>![nav-shop.jpg](files/nav-shop.jpg)<br>
-Note: all web pages are in the same directory and thus use the same navigation menu.
+
+| **index.html** | **feature.html** | **used.html** |
+| -------------- | ---------------- | ------------- |
+| ![navigstion-index](files/navigation-index.jpg) | ![navigation-feature](files/navigation-feature.jpg) | ![navigation-used](files/navigation-used.jpg)|
+
+| **new.html** | **shop.html** |
+| ------------ | ------------- |
+| ![navigation-new](files/navigation-new.jpg) | ![navigation-shop](files/navigation-shop.jpg) |
+
+<br>Note: all web pages are in the same directory and thus use the same navigation menu.
 6. Modify the **index.html** to match the screenshot above.
 7. The navigation menu, which will be the same on each page, will look like:
 

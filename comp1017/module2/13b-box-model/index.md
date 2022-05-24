@@ -16,20 +16,14 @@ You can follow along with your instructor to complete this build and/or you can 
 ![box-model-final-01.jpg](files/box-model-final-01.jpg)<br>
 ![box-model-final-02.jpg](files/box-model-final-02.jpg)
 4.	The first step is to modify the **styles.css** file in your **css** folder using the following rules (images of the code are shown; the comments with each style rule can be omitted):<br>
-    <ol type="a">
-        <li>Create a class to target the margins of a &lt;section&gt; element:<br>
+    *  Create a class to target the margins of a `<section>` element:<br>
         <img src="files/css-styles-a.jpg" alt="section margins">
-        </li>
-        <li>Create a class to target the borders of a &lt;section&gt; element:<br>
+    *  Create a class to target the borders of a `<section>` element:<br>
         <img src="files/css-styles-b.jpg" alt="section borders">
-        </li>
-        <li>Create a class to target the padding of a &lt;section&gt; element:<br>
+    *  Create a class to target the padding of a `<section>` element:<br>
         <img src="files/css-styles-c.jpg" alt="section padding">
-        </li>
-        <li>Finally, create a class to targe the width of a &lt;section&gt; element:<br>
+    *  Finally, create a class to targe the width of a `<section>` element:<br>
         <img src="files/css-styles-d.jpg" alt="section width">
-        </li>
-    </ol>
 5.	Link the stylesheet to your **index.html** file.<br><br>
 **In the following steps, the sizes shown for each `<section>` element might be different on your computer.**<br><br>
 6.	In the second `<section>` element apply the **.margin-section** class, save and view the results in your browser, and using the browser’s developer tools.<br>

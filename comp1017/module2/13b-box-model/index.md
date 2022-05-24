@@ -12,18 +12,17 @@ You can follow along with your instructor to complete this build and/or you can 
 ## Steps
 1. Download the **demo-box-model.zip** file and extract the contents.
 2. Create a folder called **demo-box-model** and copy the extracted contents into this folder.
-3. The resulting solution looks like (multiple screenshots from a single web page):<br>
-![box-model-final-01.jpg](files/box-model-final-01.jpg)<br>
-![box-model-final-02.jpg](files/box-model-final-02.jpg)
+3. The resulting solution looks like:<br>
+![box-model-final-01.jpg](files/box-model-final.jpg)
 4. The first step is to modify the **styles.css** file in your **css** folder using the following rules (images of the code are shown; the comments with each style rule can be omitted):
     *  Create a class to target the margins of a `<section>` element:<br>
-        <img src="files/css-styles-a.jpg" alt="section margins">
+       ![css-styles-a](files/css-styles-a.jpg")
     *  Create a class to target the borders of a `<section>` element:<br>
-        <img src="files/css-styles-b.jpg" alt="section borders">
+       ![css-styles-b](files/css-styles-b.jpg)
     *  Create a class to target the padding of a `<section>` element:<br>
-        <img src="files/css-styles-c.jpg" alt="section padding">
+       ![css-styles-c](files/css-styles-c.jpg)
     *  Finally, create a class to targe the width of a `<section>` element:<br>
-        <img src="files/css-styles-d.jpg" alt="section width">
+       ![css-styles-d](files/css-styles-d.jpg)
 5. Link the stylesheet to your **index.html** file.<br><br>
 **In the following steps, the sizes shown for each `<section>` element might be different on your computer.**<br><br>
 6. In the second `<section>` element apply the **.margin-section** class, save and view the results in your browser, and using the browser’s developer tools.<br>

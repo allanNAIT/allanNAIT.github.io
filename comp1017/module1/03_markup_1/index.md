@@ -24,29 +24,29 @@ You can follow along with your instructor to complete this build and/or you can 
     *  Next, we have an image to put on the web page. There is a second level heading just above the image. Remember that the code for the image is `<img src="img/image file name" alt="some alt text" />`. Use the name of the image file, making sure that the name is sematic, and add an appropriate alternate text.
     *  Below the image code is a citation using the `<cite>` element: `<cite>https://www.adobe.com</cite>`.
     *  Below the `<cite>` element is another paragraph with a second level heading.
-    *  The next paragraph has an unordered list below it. Add the paragraph and its second level heading. Once added, add an unordered list below using the html code structure below:<br>
+    *  The next paragraph has an unordered list below it. Add the paragraph and its second level heading. Once added, add an unordered list below using the html code structure below:
     
-    ```html
-    <ul>
-      <li>first list item</li>
-      <li>second list item</li>
-      .
-      .
-    </ul>
-    ```
+        ```html
+        <ul>
+            <li>first list item</li>
+            <li>second list item</li>
+            . 
+            .
+        </ul>
+        ```
 
     *  The next paragraph is for an ordered list. Add the paragraph text, with the paragraph’s second level heading.
-    *  Below the paragraph add an ordered list using the format below:<br>
+    *  Below the paragraph add an ordered list using the format below:
 
-    ```html
-    <ol>
-      <li>first step</li>
-      <li>second step</li>
-      .
-      .
-      .
-    </ol>
-    ```
+        ```html
+        <ol>
+            <li>first step</li>
+            <li>second step</li>
+            .
+            .
+            .
+        </ol>
+        ```
 
     *  The final section has three paragraphs. The first has a second level heading. Below that is a third level heading, `<h3> … </h3>`, and a list below it. As there is no set order in the list, the list will be an unordered list.
     *  The last list, with its third level heading, is completed using the same structure as in the step above.

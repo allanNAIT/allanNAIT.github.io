@@ -12,16 +12,17 @@ The following files are required for this lesson:
 You can follow along with your instructor to complete this build and/or you can use this document as a guide in completing the demo build.
 
 ### Steps
-1. Download the [**figure-demo.zip**](files/figure-demo.zip) file.
+1. Download the **figure-demo.zip** file from Moodle.
 2. Extract the contents which contain the copy text and the images (make sure you rename the images semantically) that will be added to the web page.
 3. Create a copy of the **framework** folder which was built in a previous class (you can download this file, in a ZIP format, from Moodle if you have lost your copy).
 4. Rename the copy of the folder in step 3 to **figure-demo**.
 5. Examine the **copy.docx** file to make note of the HTML elements you may need for this build; it is a good idea to make a list of these elements, in the order that you need them, to make the markup easier.
-6. The final version should look like:<br>![figure-demo_browser.jpg](files/figures-complete.jpg)
+6. The final version should look like:<br>
+![figures-complete](files/figures-complete.jpg)
 7. Notice that three images are before a line of text. That code looks like:<br>
 
 ```html
-<p><img src="img/image name" alt="some alt text"/>… paragraph content</p>
+<p><img src="img/image name" alt="some alt text"/> … paragraph content</p>
 ```
 
 8. The last image uses the figure tag because it has a caption below it. The code for this looks like:<br>

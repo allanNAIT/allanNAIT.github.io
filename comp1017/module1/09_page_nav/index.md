@@ -47,7 +47,7 @@ You can follow along with your instructor to complete this build and/or you can 
 | -------------- | ------------- |
 | ![sub-directory-index](files/sub-directory-index.jpg) | ![sub-directory-used](files/sub-directory-used.jpg)|
 
-6. Modify the index.html file to match the screenshot above. The structure of the navigation on this page looks like:
+6. Modify the index.html file to match the screenshot above. The structure of the navigation on this page looks like (Note: the second hyperlink points to a directory in the web project folder):
 
     ```html
     <ul>
@@ -56,7 +56,6 @@ You can follow along with your instructor to complete this build and/or you can 
     </ul>
     ```
 
-<br>Note: the second hyperlink points to a directory in the web project folder.
 7. Create a folder in your web project called **used-items**. In this folder, create the **used.html** web page.
 8. Copy the contents of **index.html** into **used-items.html**.
 9. The navigation on this page needs to be(Note: Examine the link to get back to index.html):

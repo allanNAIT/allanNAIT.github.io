@@ -21,10 +21,9 @@ There are basically 4 types of methods:
 *  Returns a value and has 1 or more parameters
 
 ## Arguments and Parameters
-> When you read about C# you will find the words parameter and argument used interchangeably. This is actually not quite right. Understanding the difference will make C# documentation and error messages seem more sensible and might even give you a feeling of superiority over lessor programmers who don’t know the truth.<br><b>
-A parameter is the special kind of variable that is defined in the method header and used inside that method to represent the value that was fed into the method call.
-
-> An **argument** is the value that is supplied to the method when it is called.
+> When you read about C# you will find the words parameter and argument used interchangeably. This is actually not quite right. Understanding the difference will make C# documentation and error messages seem more sensible and might even give you a feeling of superiority over lessor programmers who don’t know the truth.<br><br>
+A parameter is the special kind of variable that is defined in the method header and used inside that method to represent the value that was fed into the method call.<br><br>
+An **argument** is the value that is supplied to the method when it is called.
 
 Given the method below, `int` is the **parameter** supplied to the method
 
@@ -44,6 +43,44 @@ number = IncrementByOne(number);
 
 Here, the `number` in parenthesis is the **argument**.
 
+## Method Signatures
+As each method in a program must be unique, the following examples show both valid and invalid **method overloading**.
+
+### Invalid Method Overloading
+
+```csharp
+static int AddNumbers(int number1, int number2)
+{
+    int sum = number1 + number2;
+    return sum;
+}//eom
+
+static int AddNumbers(int number2, int number1)
+{
+   int sum = number2 + number1;
+    return sum;
+}//eom
+```
+
+Having both these method in your program will cause a compile error as both methods have the same name, `AddNumbers`, and have the same parameter list, `(int, int)`.
+
+### Valid Method Overloading
+
+```csharp
+static int AddNumbers(int number1, int number2)
+{
+    int sum = number1 + number2;
+    return sum;
+}//eom
+
+static int AddNumbers(int number1, int number2, int number3)
+{
+   int sum = number1 + number2 + number3;
+    return sum;
+}//eom
+```
+
+Having both these method in your program will compile without error. The two methods have the same name but different paramter lists `(int, int)` vs. `(int, int, int)`.
 
 
 ## Coding Topics

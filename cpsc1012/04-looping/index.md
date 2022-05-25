@@ -32,7 +32,10 @@ do
 while(test);
 ```
 
-A post-test loop (sometimes called a do-until loop) has the test after the process. This means that the process executes 1 or more times. 
+A post-test loop (sometimes called a do-until loop) has the test after the process. This means that the process executes 1 or more times.
+
+## Deciding Which Loop to Use
+**CONCEPT**: Although most repetitive algorithms can be written with any of the three types of loops, each works best in different situation.
 
 
 ## <a ID="topics">Coding Topics</a>

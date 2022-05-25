@@ -11,9 +11,8 @@ The following information was retrieved from [Welcome to object-oriented program
 driveTo(you, work);
 ```
 
-> So, what is object-oriented programming? As with many things, it is perhaps understood most easily through use of an analogy. Take a look around you -- everywhere you look are objects: books and buildings and food and even you. Objects have two major components to them: 1) A list of relevant properties (e.g., weight, color, size, solidity, shape, etc.), and 2) Some number of behaviors that they can exhibit (e.g., being opened, making something else hot, etc.). These properties and behaviors are inseparable.
-
-> Object-oriented programming (OOP) provides us with the ability to create objects that tie together both properties and behaviors into a self-contained, reusable package. This leads to code that looks more like this:
+> So, what is object-oriented programming? As with many things, it is perhaps understood most easily through use of an analogy. Take a look around you -- everywhere you look are objects: books and buildings and food and even you. Objects have two major components to them: 1) A list of relevant properties (e.g., weight, color, size, solidity, shape, etc.), and 2) Some number of behaviors that they can exhibit (e.g., being opened, making something else hot, etc.). These properties and behaviors are inseparable.<br><br>
+Object-oriented programming (OOP) provides us with the ability to create objects that tie together both properties and behaviors into a self-contained, reusable package. This leads to code that looks more like this:
 
 ```
 you.driveTo(work);

@@ -26,32 +26,7 @@ In **C#** arrays will **always** use zero-based indexing. This means the first e
 * [1D Arrays](1d-array.md)
 * [Parallel Arrays](parallel.md)
 * [2D Arrays](2d-array.md)
-
-## Searching the Array
-There are two types of searches:
-*  Sequential: Start at the beginning of the array and examine each element, one after the other, to locate a value
-*  Binary: Requires a sorted array [covered later]. Does a _Divide & Conquer_ approach; splits the array in halves until the value is found
-
-A search can return:
-*  The value
-*  A Boolean
-*  The location in the array
-*  The count of how many matching items are in the array
-
-### Sequential Search - Boolean
-![sequential-search-boolean](files/sequential-search-boolean.jpg)
-
-### Sequential Search - Location
-![sequential-search-location](files/sequential-search-location.jpg)
-
-### Sequential Search - Count
-![sequential-search-count](files/sequential-search-count.jpg)
-
-### NOTE
-Before coding it is important to remember that the comparison of strings is different from numerical values.
-*  Numbers: `if(a == b)` is a valid test
-*  Strings: `if("Allan" == "allan")` is not always valid, instead use `if("Allan".Equals("allan"))`
-
+* [Searching Arrays](searching-arrays.md)
 
 #### [CPSC1012 Home](../)
 

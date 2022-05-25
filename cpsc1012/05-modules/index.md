@@ -97,7 +97,7 @@ class program
             number3,
             sum;
         
-        // user input
+        // user input (see Note 1)
         number1 = GetSafeInt("Enter the 1st number: ");
         number2 = GetSafeInt("Enter the 2nd number: ");
         number3 = GetSafeInt("Enter the 3rd number: ");
@@ -138,7 +138,7 @@ class program
         return number;
     }//eom
 
-    static int AddNumbers(int first, int second, int third)
+    static int AddNumbers(int first, int second, int third) // (see Note 2)
     {
         return first + second + third;
     }//eom

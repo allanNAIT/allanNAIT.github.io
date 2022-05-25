@@ -39,6 +39,7 @@ A post-test loop (sometimes called a do-until loop) has the test after the proce
 * [While Loop](while.md)
 * [Do Loop](do-loop.md)
 * [For Loop](for-loop.md)
+* [Totals & Sentinel Values](sentinels.md)
 * [Nested Loops](nested.md)
 
 #### [CPSC1012 Home](../)

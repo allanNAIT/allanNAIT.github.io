@@ -76,7 +76,7 @@ Index operations in a loop:<br>
 13.	If a comparison involves the use of Boolean operators, use one of these capitalized words: `AND`, `OR`, `NOT`.
 14.	Variable will be named using camel casing. This process capitalizes the first letter of each word, excluding the first word and then concatenates the words together to eliminate the spaces (`bigSiste`r, `firstName`, `dayOfWeek`
 15.	Variables must have meaningful names.
-16.	Variables can be set to int, double, char, string, bool, or DateTime.
+16.	Variables can be set to `int`, `double`, `char`, `string`, `boo`l, or `DateTime`.
 
 #### [Introduction Home](index.md)
 #### [CPSC1012 Home](../)

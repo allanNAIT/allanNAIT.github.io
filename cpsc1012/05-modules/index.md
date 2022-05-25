@@ -147,6 +147,6 @@ class program
 
 _Note 1: the `GetSafeInt()` method gets called 3 times, each time with a different **argument** value._
 
-_Note 2: the named parameters in the method signature for `AddNumbers()` have different names than argument names used to call the method (**remember**, only the data types have to be the same, **not** the names).
+_Note 2: the named parameters in the method signature for `AddNumbers()` have different names than argument names used to call the method (**remember**, only the data types have to be the same, **not** the names)._
 
 #### [CPSC1012 Home](../)

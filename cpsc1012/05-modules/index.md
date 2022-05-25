@@ -41,7 +41,7 @@ To call this method, you need to supply an **argument** such as:
 number = IncrementByOne(number);
 ```
 
-Here, the `number` in parenthesis is the **argument**.
+Here, the `number`, in parenthesis, is the **argument**.
 
 ## Method Signatures
 As each method in a program must be unique, the following examples show both valid and invalid **method overloading**.

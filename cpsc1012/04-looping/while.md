@@ -15,7 +15,7 @@ while (loop-continutation-condition)
 }
 ```
 
-For eaxmple:
+For example:
 
 ```csharp
 static void Main(string[] args)
@@ -28,6 +28,40 @@ static void Main(string[] args)
         number++;
     }
 }
+```
+
+## Increment & Decrement Operators
+**CONCEPT**: `++` and `–-` are operators that add and subtract one from their operands. To increment a value means to increase it by one.
+
+The following statements increment the variable `number`:
+
+```csharp
+number = number + 1;
+number += 1;
+number++;
+```
+
+To decrement a value means to decrease it by one. The following statements decrement the variable `number`:
+
+```chsarp
+number = number -1;
+number -= 1;
+number--;
+```
+
+### Prefix vs. Pstfix Modes
+When the increment and decrement operator are used in statements that do more than just increment or decrement. For example:
+
+```csharp
+number = 4;
+Console.WriteLine(number++); // 4
+```
+
+When the increment and decrement operator are used in statements that do more than just increment or decrement. For example:
+
+```csharp
+number = 4;
+Console.WriteLine(++number); // 5
 ```
 
 ## Loop Design Strategies

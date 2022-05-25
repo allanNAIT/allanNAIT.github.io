@@ -34,15 +34,25 @@ while(test);
 
 A post-test loop (sometimes called a do-until loop) has the test after the process. This means that the process executes 1 or more times.
 
-## Deciding Which Loop to Use
-**CONCEPT**: Although most repetitive algorithms can be written with any of the three types of loops, each works best in different situation.
-
-
 ## <a ID="topics">Coding Topics</a>
 * [While Loop](while.md)
 * [Do Loop](do-loop.md)
 * [For Loop](for-loop.md)
 * [Totals & Sentinel Values](sentinels.md)
 * [Nested Loops](nested.md)
+
+## Deciding Which Loop to Use
+**CONCEPT**: Although most repetitive algorithms can be written with any of the three types of loops, each works best in different situation.
+
+## Common Errors to Avoid
+*  Using the increment (`++`) or decrement (`--`) operator in the wrong mode.
+*  Forgetting to enclose the bool expression in a `while` loop or a `do-while` loop inside parentheses.
+*  Placing a semicolon at the end of a `while` or `for` loop’s header.
+*  Forgetting to write the semicolon at the end of the `do-while` loop.
+*  Forgetting to enclose multiple statements in the body of a loop in braces.
+*  Using commas instead of semicolons to separate the initialization, test, and update expression in a for loop.
+*  Forgetting to write code in the body of a `while` or `do-while` loop that modifies the loop control variable.
+*  Using a sentinel value that can also be a valid data value.
+*  Forgetting to initialize an accumulator to zero.
 
 #### [CPSC1012 Home](../)

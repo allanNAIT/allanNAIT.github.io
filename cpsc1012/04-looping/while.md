@@ -8,27 +8,28 @@ This topic introduces you to some fundamental coding practices for the **while**
 
 The syntax for the **while** loop is:
 
-    ```csharp
-    while (loop-continutation-condition)
-    {
-        //loop body
-    }
-    ```
+```csharp
+while (loop-continutation-condition)
+{
+    //loop body
+}
+```
 
 For eaxmple:
 
-    ```csharp
-    static void Main(string[] args)
-    {
-        int number = 1;
+```csharp
+static void Main(string[] args)
+{
+    int number = 1;
 
-        while (number <= 5)
-        {
-            Console.WriteLine("Hello");
-            number++;
-        }
+    while (number <= 5)
+    {
+        Console.WriteLine("Hello");
+        number++;
     }
-    ```
+}
+```
+
 ## Loop Design Strategies
 The key to designing a loop is to identify the code that needs to be repeated and write a condition for terminating the loop.
 
@@ -42,6 +43,7 @@ The key to designing a loop is to identify the code that needs to be repeated an
         // Statements
     }
     ```
+
 3. Code the ***loop-continuation-condition*** and add appropriate statements for controlling the loop:
 
     ```csharp

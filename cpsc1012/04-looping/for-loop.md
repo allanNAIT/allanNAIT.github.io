@@ -4,31 +4,53 @@ title: Looping Structures - For Loop
 ---
 
 ## Introduction
-For problems that can use loops over a definite number of iterations, the preferred structure is called a **for-loop**.
+For problems that can use loops over a definite number of iterations, the preferred structure is called a **for** loop.
+
+**CONCEPT**: The `for` loop is ideal for performing a known number of iterations. A `for` loop has a concise syntax for writing loops. The syntax of a `for` loop is as follows:
 
 ```csharp
-for(init; test; change)
+for(initial-action; loop-continuation-condition; action-after-each-iteration)
 {
-    //loop code goes here
+    // loop body
 }
 ```
 
-For example, given the problem:<br>
->Find the sum of the squares of the integers from 1 to mySquare, where mySquare is input by the user, e.g., user enters 4 then the code returns 30 (1x1 + 2x2 + 3x3 + 4x4 = 30).
-
-Using this problem the **for-loop** code could look like:
+### Squares.cs
 
 ```csharp
-for(int start = 1; start <= mySquare; start++)
+int number; // Loop control variable
+Console.WriteLine($"{"Number",-10} {"Number Squared",15}");
+Console.WriteLine($"-------------------------");
+
+for (number = 1; number <= 10; number++)
 {
-    //loop code goes here
+    Console.WriteLine($"{number,-10} {number * number,15}");
+}
+```
+
+### UserSquares.cs
+
+```csharp
+int number;   // Loop control variable
+int maxValue; // Maximum value to display
+Console.WriteLine("I will display a table of numbers and their squares.");
+
+Console.Write("How high should I go? ");
+maxValue= int.Parse(Console.ReadLine());
+
+Console.WriteLine($"{"Number",-10} {"Number Squared",15}");
+Console.WriteLine($"-------------------------");
+
+for (number = 1; number <= maxValue; number++)
+{
+    Console.WriteLine($"{number,-10} {number * number,15}");
 }
 ```
 
 ### For-Loop Code Explained
 In this loop, you initialize a [**local-scope** variable](#scope), `start`, to start at **1**. Next, this variable is tested against `mySquare` to see if is in range (`start <= mySquare`), if it is, then the code enters the loop, if not, the loop exits. If the code is in the loop, the code below `//loop code goes here` will execute. Once all the code executes, then the increment, `start++` executes. After the increment/change, the variable `start` is once again tested against `mySquare`. This process is repeated un the test fails, the variable `start`, is out of range and the loop exits.
 
-## Sum Of Squares
+### Sum Of Squares Flowchart & Logic
 A sample flowchart for the problem above is:<br>
 ![flowchart-sum-squares](files/flowchart-sum-squares.jpg)
 

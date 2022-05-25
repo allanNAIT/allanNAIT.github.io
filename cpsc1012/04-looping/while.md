@@ -49,7 +49,7 @@ number -= 1;
 number--;
 ```
 
-### Prefix vs. Pstfix Modes
+### Prefix vs. Postfix Modes
 When the increment and decrement operator are used in statements that do more than just increment or decrement. For example:
 
 ```csharp

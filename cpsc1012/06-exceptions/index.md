@@ -135,6 +135,8 @@ class TryCatchFinally
 
 
 ## Specific Exceptions
+One can always use the Exception class but often it is useful to use specific exceptions (the specific exceptions inherit from `Exception`). When using specific exceptions their catch blocks are placed first in order of the detail the exceptions are thrown.
+
 Consider the following code:
 
 ```csharp

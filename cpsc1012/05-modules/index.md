@@ -84,7 +84,7 @@ Having both these method in your program will compile without error. The two met
 
 
 ## Example
-The example below is an improvement on the `AddNumbers()` methods. It will demonstrate how to reuse methods. The program will prompt the user for threee positive integers. The prompt for the numbers will use a validation method. Once all the numbers are entered, the `AddNumbers()` method will add the three numbers, return the sum to be displayed from the `Main()` method.
+The example below is an improvement on the `AddNumbers()` method. It will also demonstrate how to reuse methods. The program will prompt the user for threee positive integers. The prompt for the numbers will use a validation method. Once all the numbers are entered, the `AddNumbers()` method will add the three numbers, return the sum to be displayed from the `Main()` method.
 
 ```csharp
 class program

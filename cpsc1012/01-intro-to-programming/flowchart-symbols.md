@@ -74,7 +74,7 @@ Index operations in a loop:<br>
 11.	Use a connector if the logic of the problem will not fit in the area available. Avoid breaks in logic within a structure. Use the on page connector if there is only a small amount of logic to finish and it will still be readable; use an off page connector if there is a substantial amount
 12.	Decision symbols must use a comparison condition of equal (=), less than (<), greater than (>), less than or equal to (<= or ≤), greater than or equal to (>= or ≥) or not equal (<> or ≠). A case structure will always be an equal condition
 13.	If a comparison involves the use of Boolean operators, use one of these capitalized words: `AND`, `OR`, `NOT`.
-14.	Variable will be named using camel casing. This process capitalizes the first letter of each word, excluding the first word and then concatenates the words together to eliminate the spaces (`bigSiste`r, `firstName`, `dayOfWeek`
+14.	Variable will be named using camel casing. This process capitalizes the first letter of each word, excluding the first word and then concatenates the words together to eliminate the spaces (`bigSister`, `firstName`, `dayOfWeek`
 15.	Variables must have meaningful names.
 16.	Variables can be set to `int`, `double`, `char`, `string`, `boo`l, or `DateTime`.
 

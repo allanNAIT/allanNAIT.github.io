@@ -66,16 +66,14 @@ Index operations in a loop:<br>
 5.	Flowcharts must be neat and legible. This is not a big concern if you are utilizing a software package that allows you to create flowcharts, but it is of paramount importance for any flowcharts drawn by hand
 6.	All flowcharts will have their logic executed between two terminal symbols. The symbols will indicate where the flowchart begins and where it ends
 7.	One process per box.
-8.	There is no standard for which side Yes or No should be placed on an If-Then-Else or Loop, but the following is recommended:<br>
-    <ol type="a">
-        <li>Try to be consistent to avoid human error</li>
-        <li>Use Yes/No, Y/N, True/False or T/F to label the flows</li>
-    </ol>
+8.	There is no standard for which side Yes or No should be placed on an If-Then-Else or Loop, but the following is recommended:
+    *  Try to be consistent to avoid human error
+    *  Use Yes/No, Y/N, True/False or T/F to label the flows
 9.	Process boxes used for complex calculations should have the formula annotated
 10.	Use a collector whenever a flow line will connect with another flow line. The only exception to this is the Case structure where a flow line can go directly into another flow line that leads to a common collector
 11.	Use a connector if the logic of the problem will not fit in the area available. Avoid breaks in logic within a structure. Use the on page connector if there is only a small amount of logic to finish and it will still be readable; use an off page connector if there is a substantial amount
 12.	Decision symbols must use a comparison condition of equal (=), less than (<), greater than (>), less than or equal to (<= or ≤), greater than or equal to (>= or ≥) or not equal (<> or ≠). A case structure will always be an equal condition
-13.	If a comparison involves the use of Boolean operators, use one of these capitalized words: AND, OR, NOT.
+13.	If a comparison involves the use of Boolean operators, use one of these capitalized words: `AND`, `OR`, `NOT`.
 14.	Variable will be named using camel casing. This process capitalizes the first letter of each word, excluding the first word and then concatenates the words together to eliminate the spaces (bigSister, firstName, dayOfWeek
 15.	Variables must have meaningful names.
 16.	Variables can be set to int, double, char, string, bool, or DateTime.

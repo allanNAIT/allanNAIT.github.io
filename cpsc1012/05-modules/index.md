@@ -140,7 +140,7 @@ class program
 
     static int AddNumbers(int number1, int number2, int number3)
     {
-        return number1 + numbner2 + number3;
+        return number1 + number2 + number3;
     }//eom
 }
 ```

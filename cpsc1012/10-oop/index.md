@@ -18,9 +18,9 @@ As previously mentioned, a `class` is a _blueprint_ for a real-world _thing_. A 
 
 ### Class Diagram
 A Class Diagram is a visual representation of the `class`; it outlines the _blueprint_ to code the `class`. (You are **not** required to create a Class Diagram in this course, only to use it to code the `class`.) A Class Diagram has three areas:
-*  ClassName: the name of the class
-*  Properties: a list of all the properties including the private member fields and their associated Accessors & Mutators
-*  Methods: a list of all the methods including Constructor(s) and class methods
+*  **ClassName**: the name of the class
+*  **Properties**: a list of all the properties including the private member fields and their associated Accessors & Mutators
+*  **Methods**: a list of all the methods including Constructor(s) and class methods
 
 ![class-diagram](files/class-diagram.jpg)
 

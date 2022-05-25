@@ -76,7 +76,7 @@ static int AddNumbers(int number1, int number2)
 static int AddNumbers(int number1, int number2, int number3)
 {
    int sum = number1 + number2 + number3;
-    return sum;
+  return sum;
 }//eom
 ```
 

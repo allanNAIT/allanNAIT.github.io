@@ -22,7 +22,7 @@ There are basically 4 types of methods:
 
 ## Arguments and Parameters
 > When you read about C# you will find the words parameter and argument used interchangeably. This is actually not quite right. Understanding the difference will make C# documentation and error messages seem more sensible and might even give you a feeling of superiority over lessor programmers who don’t know the truth.<br><br>
-A parameter is the special kind of variable that is defined in the method header and used inside that method to represent the value that was fed into the method call.<br><br>
+A **parameter** is the special kind of variable that is defined in the method header and used inside that method to represent the value that was fed into the method call.<br><br>
 An **argument** is the value that is supplied to the method when it is called.
 
 Given the method below, `int` is the **parameter** supplied to the method

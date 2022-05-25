@@ -21,7 +21,7 @@ To add workloads use the **Tools** menu option:<br>![vs-tools](files/vs-tools.jp
 3. Next, you can choose your font (recommend not changing the font or the colour scheme, only the font size):<br>![vs-options-02](files/vs-options-02.jpg)
 4. You can choose how Visual Studio starts (this is a personal preference):<br>![vs-options-03](files/vs-options-03.jpg)
 5. You can customize where the default project location is (**do not** change the location of the templates):<br>![vs-options-04](files/vs-options-04.jpg)
-6. You will want to have line numbers turned on for all your files (by default this is turned off):<br>[vs-options-05](files/vs-options-05.jpg)<br>To turn them on click twice in the **Line numbers** check box to get ![vs-options-06](files/vs-options-06.jpg)
+6. You will want to have line numbers turned on for all your files (by default this is turned off):<br>![vs-options-05](files/vs-options-05.jpg)<br>To turn them on click twice in the **Line numbers** check box to get ![vs-options-06](files/vs-options-06.jpg)
 7. Press **OK** to save all your options.
 
 There are many other options, but these are the ones you may find the most helpful for your working environment.

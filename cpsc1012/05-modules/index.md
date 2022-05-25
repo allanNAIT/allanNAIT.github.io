@@ -83,7 +83,68 @@ static int AddNumbers(int number1, int number2, int number3)
 Having both these method in your program will compile without error. The two methods have the same name but different paramter lists `(int, int)` vs. `(int, int, int)`.
 
 
-## Coding Topics
-TBD...
+## Example
+The example below is an improvement on the `AddNumbers()` methods. It will demonstrate how to reuse methods. The program will prompt the user for threee positive integers. The prompt for the numbers will use a validation method. Once all the numbers are entered, the `AddNumbers()` method will add the three numbers, return the sum to be displayed from the `Main()` method.
+
+```csharp
+class program
+{
+    static void Main(string[] args)
+    {
+        // declare variables
+        int number1,
+            number2,
+            number3,
+            sum;
+        
+        // user input
+        number1 = GetSafeInt("Enter the 1st number: ");
+        number2 = GetSafeInt("Enter the 2nd number: ");
+        number3 = GetSafeInt("Enter the 3rd number: ");
+
+        // process
+        sum = AddNumbers(number1, number2, number3);
+
+        // output
+        Console.WriteLine("{0} + {1} + {2} = {3}", number1, number2, number3, sum);
+
+        Console.ReadLine();
+    }//eom
+
+    static int GetSafeInt(string prompt)
+    {
+        bool isValid = false;
+        int number = 0;
+        do
+        {
+            try
+            {
+                Console.Write(prompt);
+                number = int.Parse(Console.ReadLine());
+                if (number > 0)
+                {
+                    isValid = true;
+                }
+                else
+                {
+                    Console.WriteLine("The number, {0}, is not a positive integer ... try again", number)
+                }
+            }
+            catch(Exception)
+            {
+                Console.WriteLine("Invalid input ... try again\n");
+            }
+        } while(!isValid);
+        return number;
+    }//eom
+
+    static int AddNumbers(int number1, int number2, int number3)
+    {
+        return number1 + numbner2 + number3;
+    }//eom
+}
+```
+
+_Note: the `GetSafeInt()` method gets called 3 times, each with a different **argument** value._
 
 #### [CPSC1012 Home](../)

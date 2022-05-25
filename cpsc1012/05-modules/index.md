@@ -145,6 +145,6 @@ class program
 }
 ```
 
-_Note: the `GetSafeInt()` method gets called 3 times, each with a different **argument** value._
+_Note: the `GetSafeInt()` method gets called 3 times, each time with a different **argument** value._
 
 #### [CPSC1012 Home](../)

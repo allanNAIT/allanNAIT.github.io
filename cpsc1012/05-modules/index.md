@@ -138,13 +138,15 @@ class program
         return number;
     }//eom
 
-    static int AddNumbers(int number1, int number2, int number3)
+    static int AddNumbers(int first, int second, int third)
     {
-        return number1 + number2 + number3;
+        return first + second + third;
     }//eom
 }
 ```
 
-_Note: the `GetSafeInt()` method gets called 3 times, each time with a different **argument** value._
+_Note 1: the `GetSafeInt()` method gets called 3 times, each time with a different **argument** value._
+
+_Note 2: the named parameters in the method signature for `AddNumbers()` have different names than argument names used to call the method (**remember**, only the data types have to be the same, **not** the names).
 
 #### [CPSC1012 Home](../)

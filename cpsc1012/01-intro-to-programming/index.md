@@ -11,5 +11,6 @@ This section covers introductory material required before you write your first p
 [Introduction to Visual Studio](visual-studio.md)<br>
 [Coding Standards](coding-standards.md)<br>
 [Flowcharting Symbols](flowchart-symbols.md)
+[Variable Identification](variables.md)
 
 #### [CPSC1012 Home](../)

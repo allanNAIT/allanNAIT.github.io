@@ -30,8 +30,9 @@ _NOTE: Many of the lessons are still under development. They will be added when 
   * [Parallel Arrays](07-arrays/parallel.md)
   * [2D Arrays](07-arrays/2d-array.md)
 * [File I/O](08-file-io/)
-* [Collection Classes](09-collection-classes/)
-* [Object Oreiented Programming (OOP)](10-oop/)
+* [Object Oreiented Programming (OOP)](09-oop/)
+* [Collection Classes](10-collection-classes/)
+
 
 ## [References](references/)
 

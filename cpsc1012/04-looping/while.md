@@ -260,7 +260,7 @@ int leftOver;     // number of leftover players
 string userInput; // to hold user input value
 
 // Get the number of players per team
-Console.WriteLine("Enter the number of players per team:");
+Console.Write("Enter the number of players per team: ");
 userInput= Console.ReadLine();
 teamSize= int.Parse(userInput);
 
@@ -269,13 +269,13 @@ teamSize= int.Parse(userInput);
 while (teamSize< MinPlayers|| teamSize> MaxPlayers)
 {
     Console.WriteLine($"The number must be at least {MinPlayers} and no more than {MaxPlayers}.");
-    Console.WriteLine("Enter the number of players per team.");
+    Console.Write("Enter the number of players per team: ");
     userInput= Console.ReadLine();
     teamSize= int.Parse(userInput);
 }
 
 // Get the number of available players
-Console.WriteLine("Enter the number of available players:");
+Console.Write("Enter the number of available players: ");
 userInput= Console.ReadLine();
 players = int.Parse(userInput);
 
@@ -295,6 +295,8 @@ leftOver= players % teamSize;
 // Display the results (teams, leftOver)
 Console.WriteLine($"There will be {teams} teams with {leftOver} players left over.");
 ```
+
+![soccer-team](files/soccer-team.jpg)
 
 #### [Looping Home](index.md)
 #### [CPSC1012 Home](../)

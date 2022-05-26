@@ -46,7 +46,7 @@ There are three rules that you will follow for commenting:
 
     ```csharp
     /* 
-    Purpose:        The program will prompt the user for 2 numbers and display the sum
+    Purpose:        Prompt the user for 2 numbers and display the sum
     Input:          two numbers
     Output:         sum
     Written By:     Allan Anderson

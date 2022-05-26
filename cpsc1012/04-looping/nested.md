@@ -25,6 +25,8 @@ for (int currentRow= 1; currentRow<= rows; currentRow++)
 }
 ```
 
+![rectangular-pattern](files/rectangular-pattern.jpg)
+
 ### TriangularPattern.cs
 
 ```csharp
@@ -40,6 +42,8 @@ for (int currentRow= 1; currentRow<= baseSize; currentRow++)
 }
 ```
 
+![triangular-pattern](files/triangular-pattern.jpg)
+
 ### StairStep.cs
 
 ```csharp
@@ -54,6 +58,8 @@ for (int currentRow= 1; currentRow<= steps; currentRow++)
     Console.WriteLine(symbol);
 }
 ```
+
+![stair-step](files/stair-step.jpg)
 
 #### [Looping Home](index.md)
 #### [CPSC1012 Home](../)

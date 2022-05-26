@@ -35,12 +35,16 @@ do
 Console.WriteLine($"The sum is {sum}");
 ```
 
-### TestAverage1.cs
+![test-dowhile](files/test-dowhile.jpg)
+
+### TestAverage.cs
 
 ```csharp
-int score1, score2, score3; // Three test scores
-double average;             // Average test score
-char repeat;                // To hold 'y' or 'n'
+int score1, 
+    score2, 
+    score3;      // Three test scores
+double average;  // Average test score
+char repeat;     // To hold 'y' or 'n'
 Console.WriteLine("This program calcualtesthe average of three test scores.");
 
 do
@@ -65,9 +69,11 @@ do
     Console.WriteLine("Would you like to average another set of test scores?");
     Console.Write("Enter Y or yes or N for no: ");
     repeat = Console.ReadKey().KeyChar;
+    Console.WriteLine();
 } while (repeat == 'Y' || repeat == 'y');
 ```
 
+![test-average](files/test-average.jpg)
 
 #### [Looping Home](index.md)
 #### [CPSC1012 Home](../)

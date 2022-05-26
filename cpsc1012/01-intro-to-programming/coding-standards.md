@@ -29,10 +29,10 @@ There are three rules that you will follow for commenting:
 
     ````csharp
     /* 
-    Purpose:		    What is the purpose of this application?
-    Input:			    What are the inputs?
-    Output:			    What are the outputs?
-    Written By: 	  Your Name
+    Purpose:        What is the purpose of this application?
+    Input:          What are the inputs?
+    Output:         What are the outputs?
+    Written By:     Your Name
     Last Modified:	Date of the last modification
     */
    ```

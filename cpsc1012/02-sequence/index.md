@@ -8,8 +8,8 @@ This section introduces you to some fundamental coding practices and workflows. 
 
 ## Coding Topics
 You will learn about the following:
-* [Input/Output](input-output.md)
-* [Math in C#](arithmetic.md)
-* [Some simple string processing](strings.md)
+[Input/Output](input-output.md)<br>
+[Math in C#](arithmetic.md)<br>
+[Some simple string processing](strings.md)
 
 #### [CPSC1012 Home](../)

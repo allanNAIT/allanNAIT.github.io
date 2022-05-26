@@ -23,10 +23,10 @@ An array takes up a contiguous block of computer memory.
 In **C#** arrays will **always** use zero-based indexing. This means the first element of the array will be `index = 0`.
 
 ## Coding Topics
-* [1D Arrays](1d-array.md)
-* [Parallel Arrays](parallel.md)
-* [2D Arrays](2d-array.md)
-* [Searching Arrays](searching-arrays.md)
+[1D Arrays](1d-array.md)<br>
+[Parallel Arrays](parallel.md)<br>
+[2D Arrays](2d-array.md)<br>
+[Searching Arrays](searching-arrays.md)
 
 #### [CPSC1012 Home](../)
 

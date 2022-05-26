@@ -35,11 +35,11 @@ while(test);
 A post-test loop (sometimes called a do-until loop) has the test after the process. This means that the process executes 1 or more times.
 
 ## <a ID="topics">Coding Topics</a>
-* [While Loop](while.md)
-* [Do Loop](do-loop.md)
-* [For Loop](for-loop.md)
-* [Totals & Sentinel Values](sentinels.md)
-* [Nested Loops](nested.md)
+[While Loop](while.md)<br>
+[Do Loop](do-loop.md)<br>
+[For Loop](for-loop.md)<br>
+[Totals & Sentinel Values](sentinels.md)<br>
+[Nested Loops](nested.md)
 
 ## Deciding Which Loop to Use
 **CONCEPT**: Although most repetitive algorithms can be written with any of the three types of loops, each works best in different situation.

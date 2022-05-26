@@ -31,7 +31,7 @@ Logical Operator | Meaning
 
 ## Coding Topics
 You will learn about the following:
-* [If-Then-Else](if-then-else.md)
-* [Switch Structure](switch.md)
+[If-Then-Else](if-then-else.md)<br>
+[Switch Structure](switch.md)
 
 #### [CPSC1012 Home](../)

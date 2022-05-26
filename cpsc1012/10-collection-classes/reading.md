@@ -47,6 +47,55 @@ public class StudentData
 }//eoc
 ```
 
+### Variables
+most of the variables used in the previous File I/O read are used in this example. One to make sure you have is:
+
+```csharp
+List<StudentData> studentData = new List<StudentData>();
+```
+
+### Reading
+As with previous File I/O, you will need `using System.IO;`, the `PathAndFile`, and check if the file exists.
+
+As you read a line in the file you will need to:
+1. Create a `StudentData` object
+2. Add the object created aboce to a `List<StudentData>`
+
+The code for the reading looks like:
+
+```csharp
+if (File.Exists (PathAndFile))
+{
+    StreamReader reader = null;
+    try
+    {
+        reader = File.Open(PathAndFile);
+        while((input = reader.ReadLine()) != null)
+        {
+            string[] parts = input.Split(',');
+            name = parts[0];
+            grade = int.Parse(parts[1]);
+            //1. Create a StudentData object
+            StudentData student = new StudentData(name, grade);
+            //2. Add the object to the List<StudentData>
+            studentData.Add(student);
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+    }
+    finally
+    {
+        reader.Close();
+    }
+}
+else
+{
+    Console.WriteLine($"The file, {PathAndFile}, does not exist");
+}
+```
+
 ### Display List
 Once you read the file data, and store it in the `List<T>`, yoy will need to display the contents of the list as follows:
 
@@ -68,8 +117,6 @@ static void DisplayList(List<StudentData> studentData)
     }
 }//end of DisplayList
 ```
-
-
 
 #### [Generics Home](index.md)
 #### [CPSC1012 Home](../index.md)

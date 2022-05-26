@@ -51,6 +51,7 @@ static int SearchArrayLocation(int[] grades, int size, int searchValue)
     }
     return location;
 }//end of SearchArrayLocation
+```
 
 ### Sequential Search - Count
 ![sequential-search-count](files/sequential-search-count.jpg)

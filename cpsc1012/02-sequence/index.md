@@ -10,6 +10,6 @@ This section introduces you to some fundamental coding practices and workflows. 
 You will learn about the following:<br>
 [Input/Output](input-output.md)<br>
 [Math in C#](arithmetic.md)<br>
-[Some simple string processing](strings.md)
+[Simple String Processing](strings.md)
 
 #### [CPSC1012 Home](../)

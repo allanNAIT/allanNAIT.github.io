@@ -15,6 +15,7 @@ The `List<T>` has the following methods:
 *  `.Add()`: allows you to add a new _object_ to the end of the list
 *  `.Clear()`: allows you to delate all the _objects_ in the list
 *  `.Find()`: allows you to find the first item in the list that matches the search criteria
+*  `.FindIndex()`: allows you to find the index of the _object_ that matches the search criteria
 *  `.Remove()`: allows you remove the first occurence of the _object_ in the list
 *  `.RemoveAt()`: allows you to remove an _object_ from the list at a specified index
 *  `.Sort()`: allows you to sort the list; this requires a different technique from sorting an array

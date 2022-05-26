@@ -53,6 +53,10 @@ if (File.Exists(PathAndFile))
 {
     
 }
+else
+{
+    
+}
 ```
 
 ### Reading & Exception Handling
@@ -97,6 +101,11 @@ if (File.Exists(PathAndFile))
         //10. Close the StreamReader
         reader.Close();
     }
+}
+else
+{
+    //11. Information message if the file does not exist
+    Console.WriteLine($"The file {PathAndFile} does not exist");
 }
 ```
 

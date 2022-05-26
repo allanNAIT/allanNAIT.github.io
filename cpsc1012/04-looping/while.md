@@ -67,7 +67,7 @@ Console.WriteLine(++number); // 5
 ### IncrementDecrement.cs
 
 ```csharp
-int number = 4; // numbers startsout with 4
+int number = 4; // numbers starts out with 4
 
 // Display the value in number.
 Console.WriteLine($"number is {number}");
@@ -86,10 +86,12 @@ number--;
 Console.WriteLine($"Now, number is {number}");
 ```
 
+![increment-decrement](files/increment-decrement.jpg)
+
 ### Prefix.cs
 
 ```csharp
-int number = 4; // numbers startsout with 4
+int number = 4; // numbers starts out with 4
 
 // Display the value in number.
 Console.WriteLine($"number is {number}");
@@ -106,17 +108,19 @@ Console.WriteLine($"I will decrement number.");
 --number;
 
 // Display the value in number once more.
-Console.WriteLine($The number is {number});
+Console.WriteLine($"The number is {number}");
 ```
+
+![prefix](files/prefix.jpg)
 
 ### RepeatAdditionQuiz.cs
 
 ```csharp
 static void Main(string[] args)
 {
-    Random keygen = new Random();
-    int number1 = keygen.Next(1, 10);
-    int number2 = keygen.Next(1, 10);
+    Random rand = new Random();
+    int number1 = rand.Next(1, 10);
+    int number2 = rand.Next(1, 10);
     int correctAnswer= number1 + number2;
     Console.Write($"What is {number1} + {number2} = ? ");
     int userAnswer= int.Parse(Console.ReadLine());
@@ -127,15 +131,19 @@ static void Main(string[] args)
         userAnswer= int.Parse(Console.ReadLine());
     }
     Console.WriteLine("You got it.");
-}
+
+    Console.ReadLine();
+}//eom
 ```
+
+![repeat-addition-quiz](files/repeat-addition-quiz.jpg)
 
 ### GuessNumberOneTime.cs
 
 ```csharp
 // Generate a random number to be guessed
-Random keygen = new Random();
-int number = keygen.Next(1, 101);
+Random rand = new Random();
+int number = rand.Next(1, 101);
 
 // Prompt the user to guess the number
 Console.Write("Enter your guess: ");
@@ -155,12 +163,16 @@ else
 }
 ```
 
+![guess-one-time-1](files/guess-one-time-1.jpg)<br>
+![guess-one-time-2](files/guess-one-time-2.jpg)<br>
+![guess-one-time-3](files/guess-one-time-3.jpg)
+
 ### GuessNumber.cs
 
 ```csharp
 // Generate a random number to be guessed
-Random keygen = new Random();
-int number = keygen.Next(1, 101);
+Random rand = new Random();
+int number = rand.Next(1, 101);
 
 Console.WriteLine("Guess a magic number between 1 and 100.");
 int guess = -1;
@@ -184,6 +196,8 @@ while (guess != number)
     }
 }
 ```
+
+![guess-number](files/guess-number.jpg)
 
 ## Loop Design Strategies
 The key to designing a loop is to identify the code that needs to be repeated and write a condition for terminating the loop.

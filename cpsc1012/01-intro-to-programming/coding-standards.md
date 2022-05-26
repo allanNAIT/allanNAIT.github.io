@@ -37,6 +37,8 @@ There are three rules that you will follow for commenting:
     */
    ```
 
+   _Note: Replace the questions, name and date, with appropriate text._
+
 2. **Other Commenting**: You will need to sufficiently document your code, especially sections where the code logic is a bit complex; this serves to help you, and your instructor, in understanding and debugging your code. For example:<br>
 ![other-commnenting-1](files/other-commenting-1.jpg)
 3. **Commented Code**: It is a **bad** practice to have code lines commented out. This indicates that you have experimented, or used a ***Trial-and-Error*** method, to solve the problem. It can also add confusion and adds size to your code files. If your submitted assignment has code commented out, you will receive a mark deduction.

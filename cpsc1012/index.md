@@ -11,6 +11,7 @@ _NOTE: Many of the lessons are still under development. They will be added when 
   * [Introduction to Visual Studio](01-intro-to-programming/visual-studio.md)
   * [Coding Standards](01-intro-to-programming/coding-standards.md)
   * [Flowcharting Symbols](01-intro-to-programming/flowchart-symbols.md)
+  * [Variable Identification](01-intro-to-programming/variables.md)
 2. [Sequence Structure](02-sequence/)
   * [Input/Output](02-sequence/input-output.md)
   * [Math in C#](02-sequence/arithmetic.md)

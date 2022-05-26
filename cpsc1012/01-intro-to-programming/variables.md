@@ -4,7 +4,7 @@ title: Variable Identification
 ---
 
 ## Introduction
-**CONCEPT**: In order to be successful in writing programming code it is not only important to know how to code, but what is needed for the code, i.e., **variable**s that will hold the data needed to solve the programming problem. Additionally, you will need to identify any data that will not change in your program code, this type of data is called a **constant**.
+**CONCEPT**: In order to be successful in writing programming code it is not only important to know how to code, but what is needed for the code, i.e., **variable**s that will hold the data needed to solve the programming problem and a data type for each variable identified. Additionally, you will need to identify any data that will not change in your program code, this type of data is called a **constant**.
 
 ## Variable and Constant Identification Problems
 For each of the following problems, identify the required variable(s) by underlining, highlighting, or other means. Write down a name and an appropriate simple data type (e.g., string, number, character, etc.) for each variable you identify.

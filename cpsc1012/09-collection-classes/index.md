@@ -3,7 +3,24 @@ layout: page
 title: Collection Classes
 ---
 ## Introduction
-**CONCEPT**: This concept is an extension to that of [Arrays](../07-arrays/).
+**CONCEPT**: This concept is an extension to that of [Arrays](../07-arrays/). The collection class used will be the generic list, `List<T>`. This is a strongly typed list that has built-in methds for sorting, searching, and modifying the contents of the list.
+
+## List<T>
+The `<T>` is stands for any **T**ype of object.
+
+The `List<T>` has the following properties:
+*  `.Count`: allows you to display the number of _objects_ in the list.
+
+The `List<T>` has the following methods:
+*  `.Add()`: allows you to add a new _object_ to the end of the list
+*  `.Clear()`: allows you to delate all the _objects_ in the list
+*  `.Find()`: allows you to find the first item in the list that matches the search criteria
+*  `.Remove()`: allows you remove the first occurence of the _object_ in the list
+*  `.RemoveAt()`: allows you to remove an _object_ from the list at a specified index
+*  `.Sort()`: allows you to sort the list; this requires a different technique from sorting an array
+
+_Note: Adding or removing an object from a list will automatically change the `.Count` property._
+
 
 ## Useful Code
 ### Lambda Sort

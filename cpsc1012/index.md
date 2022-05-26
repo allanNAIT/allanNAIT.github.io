@@ -33,6 +33,8 @@ _NOTE: Some of the lessons are still under development. They will be added when 
   * [2D Arrays](07-arrays/2d-array.md)
   * [Searching Arrays](07-arrays/searching-arrays.md)
 8. [File I/O](08-file-io/)
+  * [Reading a File](08-file-io/reading.md)
+  * [Writing to File](08-file-io/writing.md)
 9. [Object Oreiented Programming (OOP)](09-oop/)
 10. [Collection Classes](10-collection-classes/)
 

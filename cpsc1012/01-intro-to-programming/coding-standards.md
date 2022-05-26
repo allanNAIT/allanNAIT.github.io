@@ -25,11 +25,21 @@ Excessive whitespace, i.e., blank lines, do two things:
 
 ### Commenting
 There are three rules that you will follow for commenting:
-1. **Initial Comment Block**: At the top of **EVERY** code file you will have a comment block that looks like:<br>
-![initial-comment-block](files/initial-comment-block.jpg)
+1. **Initial Comment Block**: At the top of **EVERY** code file, just above the `namespace` code line, you will have a comment block that looks like:
+
+    ````csharp
+    /* 
+    Purpose:		    What is the purpose of this application?
+    Input:			    What are the inputs?
+    Output:			    What are the outputs?
+    Written By: 	  Your Name
+    Last Modified:	Date of the last modification
+    */
+   ```
+
 2. **Other Commenting**: You will need to sufficiently document your code, especially sections where the code logic is a bit complex; this serves to help you, and your instructor, in understanding and debugging your code. For example:<br>
 ![other-commnenting-1](files/other-commenting-1.jpg)
-3. **Commented Code**: It is a bad practice to have code lines commented out. This indicates that you have experimented, or used a ***Trial-and-Error*** method, to solve the problem. It can also add confusion and adds size to your code files. If your submitted assignments have code commented out, you will receive a deduction in your mark.
+3. **Commented Code**: It is a **bad** practice to have code lines commented out. This indicates that you have experimented, or used a ***Trial-and-Error*** method, to solve the problem. It can also add confusion and adds size to your code files. If your submitted assignments have code commented out, you will receive a deduction in your mark.
 
 #### [Introduction Home](index.md)
 #### [CPSC1012 Home](../)

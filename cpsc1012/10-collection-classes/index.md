@@ -108,4 +108,8 @@ static void SortList(List<string> names)
 }//eom
 ```
 
+## Advanced Topics
+[Reading a file to `List<T>`](reading.md)<br>
+[Writing `List<T> to File](writing.md)
+
 #### [CPSC1012 Home](../)

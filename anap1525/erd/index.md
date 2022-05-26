@@ -45,28 +45,28 @@ PK must be Unique, Stable, and NOT NULL.
 * A foreign key, also known as FK, is a **reference to a primary key in a table**. It is used to identify the relationships between entities. Note that foreign keys need not be unique. Multiple records can share the same values.
 * Must list mentioned ones from specs and need to have at least 3 per entity
 
-## Steps involved in creating an ERD include:
-* Identifying and defining the entities
-* Determining all interactions between the entities
-* Analyzing the nature of interactions/determining the cardinality of the relationships
-* Determining the attributes of each entity
-* Creating the ERD
+## Steps Involved in Creating an ERD Include:
+1. Identifying and defining the entities
+2. Determining all interactions between the entities
+3. Analyzing the nature of interactions/determining the cardinality of the relationships
+4. Determining the attributes of each entity
+5. Creating the ERD
 
 ## Example
-* Employee
+1. Employee
   * Is part of one department
   * Must belong to a department
   * May or may not have a manager
   * Can have 0 or many employee reviews – depending on their length of service
-* Department
+2. Department
   * Can have many employees
   * Must have at least one employee to be considered a department
   * A department with more than 3 employees must have a manager
-* Manager
+3. Manager
   * Can manage more than one department
   * Has employees
   * Creates yearly performance review for every employee
-* Employee review
+4. Employee review
   * Must be associated to an employee
   * Is created by a manager
 

@@ -65,7 +65,7 @@ Symbol:<br>
 ![process-symbol](files/process-symbol.png)
 
 ## Topics
-* [DFD Rules](rules.md)
-* [Multi-Level DFDs](multi-level.md)
+[DFD Rules](rules.md)<br>
+[Multi-Level DFDs](multi-level.md)
 
 #### [ANAP1525 Home](../)

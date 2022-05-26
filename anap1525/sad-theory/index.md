@@ -4,10 +4,10 @@ title: SAD Theory
 ---
 
 ## Topics
-* [SAD Introduction](introduction.md)
-* [Information Systems](info-systems.md)
-* [Business Rules](business-rules.md)
-* [Feasibility](feasibility.md)
-* [Risk Analysis](risks.md)
+[SAD Introduction](introduction.md)<br>
+[Information Systems](info-systems.md)<br>
+[Business Rules](business-rules.md)<br>
+[Feasibility](feasibility.md)<br>
+[Risk Analysis](risks.md)
 
 #### [ANAP1525 Home](../)

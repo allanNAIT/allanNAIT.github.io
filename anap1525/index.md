@@ -5,22 +5,22 @@ title: ANAP1525
 ![anap1525-icon.png](anap1525-icon.png) System Analysis and Design I
 
 ## Topics
-* [SAD Theory](sad-theory/)
-* [Client Interviews](interviews/)
-* [ADEPT Analysis](adept/)
-* [Data Flow Diagrams](dfd/)
-* [Entity Relationship Diagrams](erd/)
-* [User Interfaces](interfaces/)
+[SAD Theory](sad-theory/)<br>
+[Client Interviews](interviews/)<br>
+[ADEPT Analysis](adept/)<br>
+[Data Flow Diagrams](dfd/)<br>
+[Entity Relationship Diagrams](erd/)<br>
+[User Interfaces](interfaces/)
 
 ## Exercises
-* [C.U. Textbook Inventory System](exercises/textbooks.md)
-* [Moguls'N Stuff Ski School Scheduling System](exercises/ski-school.md)
-* [Golden Links Member System](exercises/golden-links.md)
-* [CSAW Broadcast Scheduling System](exercises/csaw.md)
-* [Invoice Porcessing System](exercises/invoices.md)
-* [Peek Magazine Inc. Subscription Handling System - easy](exercises/peek.md)
-* [Eider-Won Order Processing System - easy](exercises/eider-won.md)
-* [Umbra's Vehicle Maintenance System](exercises/umbra.md)
-* [Muther Truckers Ltd. - Maintenance System](exercises/truckers.md)
+1. [C.U. Textbook Inventory System](exercises/textbooks.md)
+2. [Moguls'N Stuff Ski School Scheduling System](exercises/ski-school.md)
+3. [Golden Links Member System](exercises/golden-links.md)
+4. [CSAW Broadcast Scheduling System](exercises/csaw.md)
+5. [Invoice Porcessing System](exercises/invoices.md)
+6. [Peek Magazine Inc. Subscription Handling System - easy](exercises/peek.md)
+7. [Eider-Won Order Processing System - easy](exercises/eider-won.md)
+8. [Umbra's Vehicle Maintenance System](exercises/umbra.md)
+9. [Muther Truckers Ltd. - Maintenance System](exercises/truckers.md)
 
 #### [Home](../)

@@ -37,7 +37,7 @@ There are three rules that you will follow for commenting:
     */
    ```
 
-   _Note: Replace the questions, name and date, with appropriate text._
+   _Note: Replace the questions, name, and date with appropriate text._
 
 2. **Other Commenting**: You will need to sufficiently document your code, especially sections where the code logic is a bit complex; this serves to help you, and your instructor, in understanding and debugging your code. For example:<br>
 ![other-commnenting-1](files/other-commenting-1.jpg)

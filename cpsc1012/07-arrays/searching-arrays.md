@@ -30,7 +30,7 @@ Before coding it is important to remember that the comparison of strings is diff
 *  Strings: `if("Allan" == "allan")` is not always valid, instead use `if("Allan".Equals("allan"))`
 
 ## Binary Search
-![selection-sort](files/selection-sort.jpg)
+![selection-sort](files/selection-sort.jpg)<br>
 ![binary-search](files/binary-search.jpg)
 
 #### [Arrays Home](index.md)

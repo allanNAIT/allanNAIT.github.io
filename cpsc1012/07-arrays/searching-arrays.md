@@ -6,7 +6,7 @@ title: Arrays - Searching
 ## Introduction
 There are two types of searches:
 *  [Sequential](#sequesntial): Start at the beginning of the array and examine each element, one after the other, to locate a value
-*  [Binary](#binary): Requires a sorted array does a _Divide & Conquer_ approach; splits the array in halves until the value is found
+*  [Binary](#binary): Requires a sorted array and does a _Divide & Conquer_ approach; splits the array in halves until the value is found
 
 A search can return:
 *  The value

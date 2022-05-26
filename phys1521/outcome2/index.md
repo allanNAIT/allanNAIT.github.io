@@ -4,7 +4,7 @@ title: Perform basic mathematical calculations using matrices.
 ---
 This topic covers the mathematics of matrices and quaternions.
 
-## Topics
+## Lessons
 [2.1 - Matrix Math](matrix-math.md)<br>
 [2.2 - Linear Transforms](transforms.md)<br>
 [2.3 - Determinants & Inverses](determinants.md)<br>

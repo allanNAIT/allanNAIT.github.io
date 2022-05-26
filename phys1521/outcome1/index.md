@@ -4,7 +4,7 @@ title: Perform basic mathematical calculations relating to 2D and 3D vectors.
 ---
 This topic covers basic trigonometry and the mathematics of 2D and 3D vectors.
 
-## Topics
+## Lessons
 [1.1 - Trigonometry](trigonometry.md)<br>
 [1.2 - Vector Math](vector-math.md)<br>
 [1.3 - Dot Product](dot-product.md)<br>

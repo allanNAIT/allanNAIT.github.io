@@ -28,6 +28,8 @@ for (number = 1; number <= 10; number++)
 }
 ```
 
+![squares](files/squares.jpg)
+
 ### UserSquares.cs
 
 ```csharp
@@ -46,6 +48,8 @@ for (number = 1; number <= maxValue; number++)
     Console.WriteLine($"{number,-10} {number * number,15}");
 }
 ```
+
+![user-squares](files/user-squares.jpg)
 
 ### For-Loop Code Explained
 In this loop, you initialize a [**local-scope** variable](#scope), `start`, to start at **1**. Next, this variable is tested against `mySquare` to see if is in range (`start <= mySquare`), if it is, then the code enters the loop, if not, the loop exits. If the code is in the loop, the code below `//loop code goes here` will execute. Once all the code executes, then the increment, `start++` executes. After the increment/change, the variable `start` is once again tested against `mySquare`. This process is repeated un the test fails, the variable `start`, is out of range and the loop exits.

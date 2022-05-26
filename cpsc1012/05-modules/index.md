@@ -127,7 +127,7 @@ class program
                 }
                 else
                 {
-                    Console.WriteLine("The number, {0}, is not a positive integer ... try again", number)
+                    Console.WriteLine("The number, {0}, is not a positive integer ... try again", number);
                 }
             }
             catch(Exception)
@@ -142,8 +142,10 @@ class program
     {
         return first + second + third;
     }//eom
-}
+}//eoc
 ```
+
+![method-demo](files/method-demo.jpg)
 
 _Note 1: the `GetSafeInt()` method gets called 3 times, each time with a different **argument** value._
 

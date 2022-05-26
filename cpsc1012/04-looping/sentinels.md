@@ -23,11 +23,15 @@ totalSales= 0;
 // Get the sales figures and calculate a running total
 for (int count = 1; count <= days; count++)
 {
-    Console.Write($"Enter the sales figure for day #{count}");
+    Console.Write($"Enter the sales figure for day #{count}: ");
     sales = double.Parse(Console.ReadLine());
     totalSales+= sales;
 }
+
+Console.WriteLine($"The total sales for {days} days is {totalSales}");
 ```
+
+![total-sales](files/total-sales.jpg)
 
 ### AverageMark.cs
 
@@ -39,7 +43,7 @@ double averageMark; // Average mark for all students
 string userInput;
 
 // Prompt and read in the number of students
-Console.WriteLine("How many students?");
+Console.Write("How many students? ");
 userInput= Console.ReadLine();
 students = int.Parse(userInput);
 
@@ -50,7 +54,7 @@ totalMarks= 0;
 // and calculate a running total.
 for(int count = 1; count <= students; count += 1)
 {
-    Console.WriteLine($"Enter mark for student #{count}:");
+    Console.Write($"Enter mark for student #{count}: ");
     userInput= Console.ReadLine();
     mark = double.Parse(userInput);
     totalMarks+= mark;
@@ -60,6 +64,8 @@ averageMark= totalMarks/ students;
 // Display the average mark
 Console.WriteLine($"The average mark is {averageMark:F1}");
 ```
+
+![average-mark](files/average-mark.jpg)
 
 ### SentinelValues.cs
 
@@ -80,6 +86,7 @@ while (data != 0)
 Console.WriteLine("The sum is " + sum);
 ```
 
+![sentinel-values](files/sentinel-values.jpg)
 
 #### [Looping Home](index.md)
 #### [CPSC1012 Home](../)

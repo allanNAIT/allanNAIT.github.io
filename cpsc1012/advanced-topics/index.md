@@ -8,6 +8,7 @@ The topics listed here are not normally covered in CPSC1012 and are provided for
 
 ## Topics
 [Tuples](tuple.md)<br>
-[Bitwise Operators](bitwise.md)
+[Bitwise Operators](bitwise.md)<br>
+[Overload Operators](overloads.md)
 
 #### [CPSC1012 Home](../index.md)

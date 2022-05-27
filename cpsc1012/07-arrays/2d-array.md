@@ -142,5 +142,7 @@ namespace TwoDArrayDemo
 }//eon
 ```
 
+![array-2d-demo](files/array-2d-demo.jpg)
+
 #### [Arrays Home](index.md)
 #### [CPSC1012 Home](../)

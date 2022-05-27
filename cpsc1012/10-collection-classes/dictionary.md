@@ -78,7 +78,7 @@ namespace DictionaryListDemo
             Console.ForegroundColor = ConsoleColor.Black;
             Console.BackgroundColor = ConsoleColor.White;
             Console.Clear();
-        }//end ofn Setup
+        }//end of Setup
     }//eoc
 }//eon
 ```

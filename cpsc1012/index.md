@@ -17,7 +17,7 @@ _NOTE: Some of the lessons are still under development. They will be added when 
 9. [Object Oreiented Programming (OOP)](09-oop/)
 10. [Collection Classes](10-collection-classes/)
 
-## [Advanced Topics](advanced-topics/index.md)
-## [References](references/)
+### [Advanced Topics](advanced-topics/index.md)
+### [References](references/)
 
 #### [Home](../)

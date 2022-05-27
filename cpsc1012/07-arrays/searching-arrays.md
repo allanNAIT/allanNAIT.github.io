@@ -140,7 +140,7 @@ static void SelectionSort(string[] names, int size)
 ![binary-search](files/binary-search.jpg)
 
 ```csharp
-static int BinarySearch(int[] numbers, int size)
+static int BinarySearch(int[] numbers, int size, int searchNumber)
 {
     //Ensure the array is sorted!
     SelectionSort(numbers, size);
@@ -203,6 +203,82 @@ static int BinarySearch(string[] names, int size, string searchName)
     return location;
 }//end of BinarySearch
 ```
+
+## Coding Example
+For this demo the array will be manually filled with values.
+
+```csharp
+const int PhysicalSize = 10;
+int[] numbers = { 25, 17, 4, 13, 45, 10, 17, 26, 9, 19 };
+
+DisplayArray(numbers, PhysicalSize);
+```
+
+```csharp
+static void DisplayArray(int[] numbers, int size)
+{
+    for(int index = 0; index < size; index++)
+    {
+        Console.Write($"{numbers[index]}\t");
+    }
+    Console.WriteLine();
+}//end of DisplayArray
+```
+
+![search-sort-original](files/search-sort-original.jpg)
+
+Testing the boolean search:
+
+```csahrp
+//Boolean search
+Console.WriteLine($"Searching for 7 is {SearchArrayBoolean(numbers, PhysicalSize, 7)}");
+Console.WriteLine($"Searching for 17 is {SearchArrayBoolean(numbers, PhysicalSize, 17)}");
+```
+
+![boolean-search](files/boolean-search.jpg)
+
+Testing the location search:
+
+```csharp
+//Location Search
+Console.WriteLine($"Searching for 7's location is: {SearchArrayLocation(numbers,PhysicalSize,7)}");
+Console.WriteLine($"Searching for 17's location is: {SearchArrayLocation(numbers, PhysicalSize, 17)}");
+```
+
+![location-search](files/location-search.jpg)
+
+Testing the count search:
+
+```csharp
+//Count Search
+Console.WriteLine($"Count of how many 7's is {SearchArrayCount(numbers,PhysicalSize, 7)}");
+Console.WriteLine($"Count of how many 17's is {SearchArrayCount(numbers, PhysicalSize, 17)}");
+```
+
+Test sorting the array:
+
+```csharp
+DisplayArray(numbers, PhysicalSize);
+//Sort the Array
+SelectionSort(numbers, PhysicalSize);
+Console.WriteLine("\nAfter the sort ...");
+DisplayArray(numbers, PhysicalSize);
+```
+
+![sorting](files/sorting.jpg)
+
+Test the Binary Search
+
+```csharp
+//Binary Search
+SelectionSort(numbers, PhysicalSize);
+DisplayArray(numbers, PhysicalSize);
+Console.WriteLine($"Binary search for 7's location is {BinarySearch(numbers,PhysicalSize, 7)}");
+Console.WriteLine($"Binary search for 17's location is {BinarySearch(numbers, PhysicalSize, 17)}");
+```
+
+![binary-search-result](files/binary-search-result.jpg)
+
 
 #### [Arrays Home](index.md)
 #### [CPSC1012 Home](../)

@@ -107,5 +107,9 @@ else
 }
 ```
 
+![file-not-exist](files/file-not-exist.jpg)<br>
+![file-read](files/file-read.jpg)
+
+
 #### [File I/O Home](index.md)
 #### [CPSC1012 Home](../)

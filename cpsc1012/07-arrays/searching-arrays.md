@@ -255,6 +255,8 @@ Console.WriteLine($"Count of how many 7's is {SearchArrayCount(numbers,PhysicalS
 Console.WriteLine($"Count of how many 17's is {SearchArrayCount(numbers, PhysicalSize, 17)}");
 ```
 
+![count-search](files/count-search.jpg)
+
 Test sorting the array:
 
 ```csharp

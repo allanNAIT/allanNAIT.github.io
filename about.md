@@ -34,14 +34,14 @@ Began teaching at NAIT in 2002; prior to working at NAIT Allan spent 18 years in
 * [COMP1017 - Web Fundamentals I](comp1017/index.md)
 * [CPSC1012 - Programming Fundamentals](cpsc1012/index.md)
 * DMIT1001 - Communications for Digital Media & IT
-* DMIT1508 - Database Fundamentals
+* [DMIT1508 - Database Fundamentals](dmit1508/index.md)
 * DMIT1518 - IT System Administration
-* DMIT1530 - Web Fundamentals II
+* [DMIT1530 - Web Fundamentals II](dmit1530/index.md)
 * DMIT2000 - Advanced Communication for Digital Media and IT
 * DMIT2018 (HUST) - Intermediate Application Development
 * DMIT2028 (NAIT and HUST) - Systems Analysis and Design II
 * DMIT2501 - Portfolio Development
-* PHYS1521 - Math and Physics for Games
+* [PHYS1521 - Math and Physics for Games](phys1521/index.md)
 
 ## Courses I Have Taught in BTech
 * BTM3500 - System Analysis & Design

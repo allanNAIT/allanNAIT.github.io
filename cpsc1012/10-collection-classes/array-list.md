@@ -8,6 +8,8 @@ An `ArrayList` works like an `Array` and is similar, but not as _powerful_ as a 
 
 The code below demonstrates an ArrayList:
 
+You will need to add `using Systems.Collections` before the `namespace`.
+
 ```csharp
 namespace ArrayListDemo
 {

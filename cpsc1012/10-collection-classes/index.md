@@ -112,5 +112,6 @@ static void SortList(List<string> names)
 [Reading a file to `List<T>`](reading.md)<br>
 [Writing `List<T>` to File](writing.md)<br>
 [Dictionary List](dictionary.md)
+[ArrayList](array-list.md)
 
 #### [CPSC1012 Home](../)

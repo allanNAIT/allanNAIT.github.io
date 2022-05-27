@@ -83,5 +83,7 @@ namespace DictionaryListDemo
 }//eon
 ```
 
+![dictionary-list](files/dictionary-list.jpg)
+
 #### [Generics Home](index.md)
 #### [CPSC1012 Home](../index.md)

@@ -39,7 +39,13 @@ _NOTE: Some of the lessons are still under development. They will be added when 
 10. [Collection Classes](10-collection-classes/)
   * [Reading a file to `List<T>`](10-collection-classes/reading.md)
   * [Writing `List<T>` to File](10-collection-classes/writing.md)
+  * [DictionaryList](10-collection-classes/dictionary.md)
+  * [ArrayList](10-collection-classes/array-list.md)
 
+## Advanced Topics
+*  [Advanced Topics](advanced-topics/index.md)
+  *  [Tuples](advanced-topics/index.md)
+  *  [Bitwise Operators](advanced-topics/bitwise.md)
 ## [References](references/)
 
 #### [Home](../)

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Generics - Dictionary List
+title: Generics - DictionaryList
 --- 
 
 ## Introduction

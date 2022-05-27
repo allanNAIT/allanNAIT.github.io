@@ -42,10 +42,7 @@ _NOTE: Some of the lessons are still under development. They will be added when 
   * [DictionaryList](10-collection-classes/dictionary.md)
   * [ArrayList](10-collection-classes/array-list.md)
 
-## Advanced Topics
-*  [Advanced Topics](advanced-topics/index.md)
-  *  [Tuples](advanced-topics/index.md)
-  *  [Bitwise Operators](advanced-topics/bitwise.md)
+## [Advanced Topics](advanced-topics/index.md)
 ## [References](references/)
 
 #### [Home](../)

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CPSC1012 - Advanced Topics - Bitwise Operators
+title: Advanced Topics - Bitwise Operators
 ---
 
 ## Introduction

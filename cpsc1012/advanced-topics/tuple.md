@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CPSC1012 - Advanced Topics - Tuple
+title: Advanced Topics - Tuple
 ---
 
 ## Introduction

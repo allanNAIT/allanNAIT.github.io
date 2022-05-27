@@ -15,6 +15,7 @@ A search can return:
 *  The count of how many matching items are in the array
 
 ## <a id="sequential">Sequential Searches</a>
+Although the code examples below are for integer arrays, the logic is similar for an array of strings.
 ### Sequential Search - Boolean
 ![sequential-search-boolean](files/sequential-search-boolean.jpg)
 

@@ -47,18 +47,18 @@ static void DisplayArrays(string[] names, int[] grades, int size)
 You can add the code to write to a file inside your `Main()` method but a better approach is to have this done in a separate method. In your `Main()` method you would have something like:
 
 ```csharp
-FileWrite(names, grades, Size);
+FileWrite(PathAndFile, names, grades, Size);
 ```
 
 In your code file you would then have the following method:
 
 ```csharp
-static void FileWrite(string[] names, int[] grades, int size)
+static void FileWrite(string file, string[] names, int[] grades, int size)
 {
     StreamWriter writer = null;
     try
     {
-        writer = File.CreateText(PathAndFile);
+        writer = File.CreateText(file);
         for(int index = 0; index < size; index++)
         {
             writer.WriteLine(string.Format("{0},{1}", names[index], grades[index]));
@@ -75,6 +75,7 @@ static void FileWrite(string[] names, int[] grades, int size)
 }//end of FileWrite
 ```
 
+![file-write](files/file-write.jpg)
 
 #### [File I/O Home](index.md)
 #### [CPSC1012 Home](../)

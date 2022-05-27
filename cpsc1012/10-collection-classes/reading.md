@@ -42,7 +42,7 @@ public class StudentData
 
    public override string ToString()
    {
-       return string.Format("{0,-20} {1,3}", Name, Grade));
+       return string.Format("{0,-20} {1,3}", Name, Grade);
    }//end of ToString
 }//eoc
 ```
@@ -69,7 +69,7 @@ if (File.Exists (PathAndFile))
     StreamReader reader = null;
     try
     {
-        reader = File.Open(PathAndFile);
+        reader = File.OpenText(PathAndFile);
         while((input = reader.ReadLine()) != null)
         {
             string[] parts = input.Split(',');
@@ -89,6 +89,8 @@ if (File.Exists (PathAndFile))
     {
         reader.Close();
     }
+
+    DisplayList(studentData);
 }
 else
 {
@@ -117,6 +119,9 @@ static void DisplayList(List<StudentData> studentData)
     }
 }//end of DisplayList
 ```
+
+![file-not-exist](files/file-not-exist.jpg)<br>
+![file-read](files/file-read.jpg)
 
 #### [Generics Home](index.md)
 #### [CPSC1012 Home](../index.md)

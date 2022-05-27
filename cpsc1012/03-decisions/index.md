@@ -30,7 +30,7 @@ Logical Operator | Meaning
 **`!`** | A logical `NOT`; negates the logical result, i.e., if the condition is TRUE, then it will negate it to be a FALSE
 
 ## Coding Topics
-You will learn about the following:
+You will learn about the following:<br>
 [If-Then-Else](if-then-else.md)<br>
 [Switch Structure](switch.md)
 

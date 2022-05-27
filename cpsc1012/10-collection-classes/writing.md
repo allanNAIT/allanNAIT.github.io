@@ -45,7 +45,7 @@ public class StudentData
 }//eoc
 ```
 
-### `List<StudentData>`
+### List<StudentData>
 There are many techniques covered in this course to prompt the user for data and store that data in the program. For simplicity sake, the list will be loaded manually:
 
 ```csharp

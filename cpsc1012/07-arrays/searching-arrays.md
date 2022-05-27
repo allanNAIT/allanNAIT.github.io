@@ -106,6 +106,35 @@ static void SelectionSort(int[] numbers, int size)
 }//end of SelectionSort
 ```
 
+To apply this to an array of strings you could have:
+
+```csharp
+static void SelectionSort(string[] names, int size)
+{
+    int minIndex;
+    string temp,
+    minValue;
+    for (int startScan = 0; startScan < size - 1; startScan++)
+    {
+        //assume, for now, the first element has the smallest value
+        minValue = names[startScan];
+        //now look at the rest of the array
+        for (int index = startScan; index < size; index++)
+        {
+            if (names[index].ToUpper().CompareTo(minValue.ToUpper()) < 0)
+            {
+                minValue = names[index];
+                minIndex = index;
+                //now swap
+                temp = names[minIndex];
+                names[minIndex] = names[startScan];
+                names[startScan] = temp;
+            }//end if
+        }//end inner for
+    }//end outer for
+}//end of SelectionSort
+```
+
 ### Binary Search
 ![binary-search](files/binary-search.jpg)
 
@@ -135,6 +164,40 @@ static int BinarySearch(int[] numbers, int size)
             location = middle;
         }
          middle = (first + last + 1) / 2;
+    }
+    return location;
+}//end of BinarySearch
+```
+
+Applying this technique to serach through an array of strings you could have:
+
+```csharp
+static int BinarySearch(string[] names, int size, string searchName)
+{
+    //1. Ensure the array is sorted
+    SelectionSort(names, size);
+    //2. Local scope variables
+    int first = 0,
+        last = size -1,
+        middle = (first + last + 1) / 2,
+        location = -1;
+    
+    //3. Loop
+    while (first <= last && location == -1)
+    {
+        if (searchName.ToUpper().CompareTo(names[middle].ToUpper()) > 0)
+        {
+            first = middle + 1
+        }
+        else if (searchName.ToUpper().CompareTo(names[middle].ToUpper()) < 0)
+        {
+            last = middle -1;
+        }
+        else
+        {
+            location = middle
+        }
+        middle = (first + last + 1) / 2;
     }
     return location;
 }//end of BinarySearch

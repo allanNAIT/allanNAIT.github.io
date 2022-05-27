@@ -3,7 +3,7 @@ layout: page
 title: List<T> - Reading From File
 --- 
 
-## Intr5oduction
+## Introduction
 To tap into the power of the `List<T>`, you can store objects in the list. For this lesson, you will use the following class:
 
 ![class-diagram](files/class-diagram.jpg)

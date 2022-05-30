@@ -21,6 +21,7 @@ title: ANAP1525
 [Peek Magazine Inc. Subscription Handling System - easy](exercises/peek.md)<br>
 [Eider-Won Order Processing System - easy](exercises/eider-won.md)<br>
 [Umbra's Vehicle Maintenance System](exercises/umbra.md)<br>
-[Muther Truckers Ltd. - Maintenance System](exercises/truckers.md)
+[Muther Truckers Ltd. - Maintenance System](exercises/truckers.md)<br>
+[Happy Dragon Electonics - Order Processing System](exercises/happy-dragon.md)
 
 #### [Home](../)

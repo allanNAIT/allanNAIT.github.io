@@ -26,7 +26,8 @@ In **C#** arrays will **always** use zero-based indexing. This means the first e
 [1D Arrays](1d-array.md)<br>
 [Parallel Arrays](parallel.md)<br>
 [2D Arrays](2d-array.md)<br>
-[Searching Arrays](searching-arrays.md)
+[Searching Arrays](searching-arrays.md)<br>
+[Mode of an Array](array-mode.md)
 
 #### [CPSC1012 Home](../)
 

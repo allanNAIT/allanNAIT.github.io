@@ -13,10 +13,10 @@ permalink: /about/
 **Office Hours**: 08:00 - 16:00<br>
 **Office Location**: W309 - HP Centre
 
-## Fall Teaching Schedule
+## Fall Teaching Schedule (Sep-Dec 2022)
 ![fall2021-schedule](images/fall-schedule.png)
 
-## Winter Teaching Schedule
+## Winter Teaching Schedule (Jan-Apr 2023)
 ![winter2022-schedule](images/winter-schedule.png)
 
 ## Education & Qualifications

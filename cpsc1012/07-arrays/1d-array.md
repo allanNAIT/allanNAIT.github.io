@@ -72,6 +72,18 @@ for (int index = 0; index < 10; index++)
 }
 ```
 
+OR
+
+```csharp
+// create an array of random numbers from 1 to 100
+Random random = new Random();
+int[] randomNumbers[] = new int[10];
+for (int index = 0; index < 10; index++)
+{
+    randomNumbers[index] = random.Next[1, 101];
+}
+```
+
 **Question**: What does the data in this array look like?
 
 ### User Entered Data

@@ -64,13 +64,36 @@ As you read a line in the file you will need to:
 The code for the reading looks like:
 
 ```csharp
-if (File.Exists (PathAndFile))
+static void Main(string[] args)
 {
+    List<StudentData> studentData = new List<StudentData>();
+    const string PathAndFile = @"C:\Work\NamesAndGrades.csv";
+            
+    if (File.Exists(PathAndFile))
+    {
+        ReadFile(PathAndFile, studentData);
+                      
+        DisplayList(studentData);
+    }
+    else
+    {
+        Console.WriteLine($"The file, {PathAndFile}, does not exist");
+    }
+
+    Console.ReadLine();
+}//eom
+
+static void ReadFile(string file, List<StudentData> studentData)
+{
+    string input;
+    string name;
+    int grade;
+
     StreamReader reader = null;
     try
     {
-        reader = File.OpenText(PathAndFile);
-        while((input = reader.ReadLine()) != null)
+        reader = File.OpenText(file);
+        while ((input = reader.ReadLine()) != null)
         {
             string[] parts = input.Split(',');
             name = parts[0];
@@ -89,25 +112,14 @@ if (File.Exists (PathAndFile))
     {
         reader.Close();
     }
-
-    DisplayList(studentData);
-}
-else
-{
-    Console.WriteLine($"The file, {PathAndFile}, does not exist");
-}
+}//end of ReadFile
 ```
 
 ### Display List
 Once you read the file data, and store it in the `List<T>`, yoy will need to display the contents of the list as follows:
 
-In your `Main()` method you could have something like:
 
-```csharp
-DisplayList(studentData);
-```
-
-And in your code file you could have something like:
+In your code file you need something like the code below as the `DisplayList()` method is called after the `ReadFile()` method:
 
 ```csharp
 static void DisplayList(List<StudentData> studentData)

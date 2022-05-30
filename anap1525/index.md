@@ -22,6 +22,7 @@ title: ANAP1525
 [Eider-Won Order Processing System - easy](exercises/eider-won.md)<br>
 [Umbra's Vehicle Maintenance System](exercises/umbra.md)<br>
 [Muther Truckers Ltd. - Maintenance System](exercises/truckers.md)<br>
-[Happy Dragon Electonics - Order Processing System](exercises/happy-dragon.md)
+[Happy Dragon Electonics - Order Processing System](exercises/happy-dragon.md)<br>
+[Hotel Reservation System](exercises/hotel-reservation.md)
 
 #### [Home](../)

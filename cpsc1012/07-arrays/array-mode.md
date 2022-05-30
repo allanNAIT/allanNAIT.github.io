@@ -71,5 +71,7 @@ namespace ModeOfAnArray
 
 ![array-mode](files/array-mode.jpg)
 
+**Question**: In this example, why is the `mode` 45 and not 59?
+
 #### [Arrays Home](index.md)
 #### [CPSC1012 Home](../)

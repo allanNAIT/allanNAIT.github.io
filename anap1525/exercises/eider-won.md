@@ -22,4 +22,5 @@ The Shipping Department pulls the inventory items from the warehouse, adjusts th
 4.	Write the System Level DFD Narratives
 5.	Draw the Entity Relationship Diagram
 
+#### [Exercise Home](index.md)
 #### [ANAP1525 Home](../)

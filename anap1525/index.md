@@ -12,7 +12,7 @@ title: ANAP1525
 [Entity Relationship Diagrams](erd/)<br>
 [User Interfaces](interfaces/)
 
-## Exercises
+## [Exercises](exercises/index.md)
 [C.U. Textbook Inventory System](exercises/textbooks.md)<br>
 [Moguls'N Stuff Ski School Scheduling System](exercises/ski-school.md)<br>
 [Golden Links Member System](exercises/golden-links.md)<br>

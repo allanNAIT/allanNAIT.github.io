@@ -13,6 +13,8 @@ Each day, the subscription clerk prepares a three-part Special Offer Requisition
 
 If the subscription request is incomplete or incorrect, the subscription clerk contacts the subscriber. If the subscriber cannot be contacted immediately, the subscription clerk files these incomplete requests with a status of “Incomplete”. When the subscriber provides the needed information, the subscription clerk enters this information onto the original subscription request form, and then processes the subscription request using existing procedures.
 
+<hr>
+
 ## Required: SDLC
 1.	Apply the ADEPT Analysis Framework to this case
 2.	Draw the CONTEXT LEVEL Data Flow Diagram for this case 

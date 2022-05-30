@@ -9,6 +9,8 @@ Upon receipt of the program listing, June uses this information and the informat
 
 Later, the Sales Department sends the scheduler a list of the advertising they have sold. She then schedules the sold advertising into the available time slots. When the schedule deadline has been reached there are instances when all the available advertising space is not sold. In these situations, June chooses the appropriate number of National Film Board Vignettes from the Vignette library to fill in the gaps and updates the Schedule file accordingly. She then prints out the completed schedule and sends it to the Broadcast Operator.
 
+<hr>
+
 ## Required: SDLC
 1.	Apply the ADEPT Analysis Framework to this case
 2.	Draw the CONTEXT LEVEL Data Flow Diagram for this case 

@@ -13,6 +13,8 @@ If there is sufficient inventory available, the Shipping Department receives the
 
 The Shipping Department pulls the inventory items from the warehouse, adjusts the inventory levels and ships the order to the customer with a copy of the packing slip and the top copy of the two-part invoice. The fourth copy of the packing slip is filed within the Shipping Department. The customer order is stamped "Finished" and filed.
 
+<hr>
+
 ## Required: SDLC
 1.	Apply the ADEPT Analysis Framework to this case
 2.	Draw the CONTEXT LEVEL Data Flow Diagram for this case 

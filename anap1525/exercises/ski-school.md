@@ -9,6 +9,8 @@ When an instructor accepts, the clerk prepares the class list using the Instruct
 
 First thing the next day the clerk sends a copy of the class list to the instructor. The class list contains the date, time, location, type of lesson, number of students and their names. The clerk also sends a class confirmation letter to each student.
 
+<hr>
+
 ## Required: SDLC
 1.	Apply the ADEPT Analysis Framework to this case
 2.	Draw the CONTEXT LEVEL Data Flow Diagram for this case 

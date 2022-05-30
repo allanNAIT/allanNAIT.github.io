@@ -9,6 +9,8 @@ Once the members have their membership cards, they can participate in the many f
 
 Every morning when the Shop Clerk arrives, all the lessons for that day are collected and the member’s name, skill level and lesson description as well as the time and location are used to prepare the current day’s Lesson Schedule. The Lesson Schedule is used by the Golf Pro to find each member and deliver the lesson.
 
+<hr>
+
 ## Required: SDLC
 1.	Apply the ADEPT Analysis Framework to this case
 2.	Draw the CONTEXT LEVEL Data Flow Diagram for this case 

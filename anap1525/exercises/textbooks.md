@@ -9,6 +9,8 @@ When the bookstore personnel receive a requisition, they sort the requested text
 
 The textbooks arrive at the bookstore, accompanied by a Packing Slip. This packing slip is checked and verified against the purchase order by the bookstore. The verified packing slip is then stamped “verified” and sent to the Accounting department for payment.
 
+<hr>
+
 ## Required: SDLC
 1.	Apply the ADEPT Analysis Framework to this case
 2.	Draw the CONTEXT LEVEL Data Flow Diagram for this case

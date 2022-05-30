@@ -7,6 +7,8 @@ Invoices arrive from various vendors daily. This triggers the following events t
 
 If the invoice is rejected, it is sent to the Purchasing Department to be reprocessed at a later date. The Accounts Payable clerk is responsible for producing a listing of all invoices paid. This Audit Trail report is then sent to the Finance Managers at the end of every month for reconciliation purposes.
 
+<hr>
+
 ## Required: SDLC
 1.	Apply the ADEPT Analysis Framework to this case
 2.	Draw the CONTEXT LEVEL Data Flow Diagram for this case 

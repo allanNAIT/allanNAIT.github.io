@@ -17,6 +17,8 @@ When the repairs are completed, repair supervisor enters the labor cost and part
 
 Monthly, the Office Manager accesses the truck log file to prepare the necessary reports for the Regional Manager in Toronto.
 
+<hr>
+
 ## Required: SDLC
 1.	Apply the ADEPT Analysis Framework to this case
 2.	Draw the CONTEXT LEVEL Data Flow Diagram for this case 

@@ -13,6 +13,8 @@ The mechanic then gives the completed work order form to the Service Manager, wh
 
  When the customer returns to pick up their vehicle, the Service Manager reviews the repairs and total with the customer. The customer pays for the repairs. The Service Manager records the payment on the Work Order then gives a receipt along with a copy of the work order form. The customer obtains their keys and drives off.
 
+<hr>
+
 ## Required: SDLC
 1.	Apply the ADEPT Analysis Framework to this case
 2.	Draw the CONTEXT LEVEL Data Flow Diagram for this case 

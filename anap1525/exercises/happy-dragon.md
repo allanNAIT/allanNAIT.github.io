@@ -11,6 +11,8 @@ The Order clerk enters the new Order and then checks the Discount file for each 
 
 Once a week the Order clerk contacts all Customers that have order with an "Incomplete" status. An Incomplete Order notification is sent to each customer with a copy of the incomplete Order. When the Customer provides the needed information, the Order clerk enters this information onto the original Order request form, and then processes the Order request using existing procedures.
 
+<hr>
+
 ## Required: SDLC
 1.	Apply the ADEPT Analysis Framework to this case
 2.	Draw the CONTEXT LEVEL Data Flow Diagram for this case 

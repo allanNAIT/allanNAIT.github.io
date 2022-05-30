@@ -73,5 +73,21 @@ namespace ModeOfAnArray
 
 **Question**: In this example, why is the `mode` 45 and not 59?
 
+If the data in the array was:
+
+```csharp
+int[] numbers = { 2, 3, 6, 9, 9, 13, 22, 29, 33, 41, 42, 45, 45, 46, 47, 48, 57, 59, 59, 65, 83, 83, 91, 99, 100 };
+```
+
+the mode would be **9**. The mode method finds the first number that has the highest count number in the array. If the next highest count is the same count value, the first one is returned.
+
+Changing the array data to:
+
+```csharp
+int[] numbers = { 2, 3, 6, 9, 9, 13, 22, 29, 33, 41, 42, 45, 45, 46, 47, 48, 57, 59, 59, 59, 83, 83, 91, 99, 100 };
+```
+
+returns a `mode` of **59**.
+
 #### [Arrays Home](index.md)
 #### [CPSC1012 Home](../)

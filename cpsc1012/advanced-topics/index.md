@@ -10,6 +10,7 @@ The topics listed here are not normally covered in CPSC1012 and are provided for
 [Tuples](tuple.md)<br>
 [Bitwise Operators](bitwise.md)<br>
 [Overload Operators](overloads.md)<br>
-[Struct vs. Class](struct-vs-class.md)
+[Struct vs. Class](struct-vs-class.md)<br>
+[Static vs. Non-Static in OOP](static-vs-nonstatic.md)
 
 #### [CPSC1012 Home](../index.md)

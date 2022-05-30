@@ -61,9 +61,30 @@ else
 You will need to use the `StreamReader` class to read the file. As there may be unexpected errors when reading the file, you will need to use a `try-catch-finally` coding structure. Modify your code to now have the following:
 
 ```csharp
-//1. Test if the file exists
-if (File.Exists(PathAndFile))
+static void Main(string[] args)
 {
+    const string PathAndFile = @"C:\Work\Students.txt"; //preferred version
+         
+    //1. Test if the file exists
+    if (File.Exists(PathAndFile))
+    {
+        ReadFile(PathAndFile);
+    }
+    else
+    {
+        //11. Information message if the file does not exist
+        Console.WriteLine($"The file {PathAndFile} does not exist");
+    }
+
+    Console.ReadLine();
+}//eom
+
+static void ReadFile (string file)
+{
+    string input; //used to hold the text from one line of the file
+    string name;
+    int grade;
+
     //2. Setup the StreamReader
     StreamReader reader = null;
 
@@ -71,14 +92,14 @@ if (File.Exists(PathAndFile))
     try
     {
         //4. Open the file for reading
-        reader = File.OpenText(PathAndFile);
+        reader = File.OpenText(file);
 
         //5. Display column headers
         Console.WriteLine("Name            Mark");
         Console.WriteLine("==============  ====");
 
         //6. Use a while loop to loop through the file
-        while((input = reader.ReadLine()) != null) //read until the end of the file
+        while ((input = reader.ReadLine()) != null) //read until the end of the file
         {
             //7. Split the line of the file on the delimeter, i.e., the comma
             string[] parts = input.Split(',');
@@ -99,12 +120,7 @@ if (File.Exists(PathAndFile))
         //10. Close the StreamReader
         reader.Close();
     }
-}
-else
-{
-    //11. Information message if the file does not exist
-    Console.WriteLine($"The file {PathAndFile} does not exist");
-}
+}//end of ReadFile
 ```
 
 ![file-not-exist](files/file-not-exist.jpg)<br>

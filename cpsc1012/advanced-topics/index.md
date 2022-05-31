@@ -7,11 +7,12 @@ title: CPSC1012 - Advanced Topics
 The topics listed here are not normally covered in CPSC1012 and are provided for those students who want to explore some advanced programming concepts. All the code provided in these topics is provided with little to no explanation.
 
 ## Topics
-[Tuples](tuple.md)<br>
-[Bitwise Operators](bitwise.md)<br>
-[Overload Operators](overloads.md)<br>
+[Collection Property](collection-property.md)<br>
 [Struct vs. Class](struct-vs-class.md)<br>
 [Static vs. Non-Static in OOP](static-vs-nonstatic.md)<br>
-[Collection Property](collection-property.md)
+[Tuples](tuple.md)<br>
+[Overload Operators](overloads.md)<br>
+[Bitwise Operators](bitwise.md)
+
 
 #### [CPSC1012 Home](../index.md)

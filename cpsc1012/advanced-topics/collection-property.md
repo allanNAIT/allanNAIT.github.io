@@ -336,6 +336,12 @@ namespace InventoryDemo
 }//eon
 ```
 
+### Testing
+The screenshots below show the testing of:
+*  Entering the name of the store
+*  Adding products to the store
+*  Displaying the store inventory
+
 ![inventory-demo-1](files/inventory-demo-1.jpg)
 ![inventory-demo-2](files/inventory-demo-2.jpg)
 

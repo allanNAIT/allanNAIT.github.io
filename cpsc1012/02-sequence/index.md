@@ -12,4 +12,8 @@ You will learn about the following:<br>
 [Math in C#](arithmetic.md)<br>
 [Simple String Processing](strings.md)
 
+## Practice Problems
+[Arithmentic Problems](files/arithmetic-problems.pdf){:target="_blank"}<br>
+[Sequence Structure Programming Exercises](files/sequence-structure-programming-exercises.pdf){:target="_blank"}
+
 #### [CPSC1012 Home](../)

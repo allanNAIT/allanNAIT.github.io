@@ -169,4 +169,7 @@ class SpecificExceptions
 
 **Note**: The order the exceptions are caught from the most to the least specific (general).
 
+## Practice Problems
+[Loops Programming Exercises](files/loops-programming-exercises.pdf){:target="_blank"}
+
 #### [CPSC1012 Home](../)

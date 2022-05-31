@@ -34,4 +34,9 @@ You will learn about the following:<br>
 [If-Then-Else](if-then-else.md)<br>
 [Switch Structure](switch.md)
 
+## Practice Problems
+[Decision Making Problems 1](files/decision-making-problems.pdf){:target="_blank"}<br>
+[Decision Making Problems 2](files/decision-making-problems-2.pdf){:target="_blank"}<br>
+[Decision Structure Programming Exercises](files/decision-structure-programming-exercises.pdf){:target="_blank"}
+
 #### [CPSC1012 Home](../)

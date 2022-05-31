@@ -29,5 +29,13 @@ In **C#** arrays will **always** use zero-based indexing. This means the first e
 [Searching Arrays](searching-arrays.md)<br>
 [Mode of an Array](array-mode.md)
 
+
+## Practice Problems
+[Array Problems 1](files/array-problems-1.pdf){:target="_blank"}<br>
+[Array Problems 2](files/array-problems-2.pdf){:target="_blank"}<br>
+[Arrays Exercise 1](files/arrays-exercise-1.pdf){:target="_blank"}<br>
+[Arrays Exercise 2](files/arrays-exercise-2.pdf){:target="_blank"}<br>
+[Arrays Worksheet 06a](files/arrays-worksheet-06a.pdf){:target="_blank"}<br>
+[Arrays Worksheet 06b](files/arrays-worksheet-06b.pdf){:target="_blank"}
 #### [CPSC1012 Home](../)
 

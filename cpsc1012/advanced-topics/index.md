@@ -8,6 +8,7 @@ The topics listed here are not normally covered in CPSC1012 and are provided for
 
 ## Topics
 [Collection Property](collection-property.md)<br>
+[OOP Inheritance](inheritance.md)<br>
 [Struct vs. Class](struct-vs-class.md)<br>
 [Static vs. Non-Static in OOP](static-vs-nonstatic.md)<br>
 [Tuples](tuple.md)<br>

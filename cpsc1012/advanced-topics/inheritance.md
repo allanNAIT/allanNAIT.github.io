@@ -191,8 +191,101 @@ In the `Main()` method you will need a collection object for all the `Person` (i
 ```csharp
 List<Person> people = new List<Person>();
 ```
+#### LoadPersons()
+This method will load data into the `List<Person>`; it will contain `Person`, `Instructor`, and `Student` objects:
 
+```csharp
+static void LoadPersons(List<Person> people)
+{
+    //1. Add a default person object to the List
+    people.Add(new Person());
 
+    //2. Add some Instructors
+    people.Add(new Instructor(2, "Anderson", "Allan", new ContactInfo("aanderson@nait.ca", "1-780-378-5275"), "W309"));
+    people.Add(new Instructor(3, "Doe", "Jane", new ContactInfo("janed@nait.ca", "1-780-333-1111"), "W309"));
+
+    //3. Add some Students
+    people.Add(new Student(1001, "Stardust", "Ziggy", new ContactInfo("ziggys@gmail.com", "1-587-555-1212"), "DMIT", 1));
+    people.Add(new Student(1002, "Kenobi", "Obi-Wan", new ContactInfo("jedi-master@gmail.com", "1-999-999-9999"), "BAIST", 4));
+}//end of LoadPersons
+```
+
+To call this method use:
+
+```csharp
+LoadPersons(people);
+```
+
+#### DisplayPersons()
+This method will display all the `Person` objects in the list:
+
+```csharp
+static void DisplayPersons(List<Person> people)
+{
+    foreach(Person person in people)
+    {
+        Console.WriteLine(person);
+    }
+}//end of DisplayPersons
+```
+
+To call this method add the following:
+
+```csharp
+Console.WriteLine("All Person Objects:");
+DisplayPersons(people);
+```
+
+#### DisplayStudents()
+This method will **only** display the `Student` objects in the `List<Person>`:
+
+```csharp
+static void DisplayStudents(List<Person> people)
+{
+    foreach(Person person in people)
+    {
+       if (person.GetType() == typeof(Student))
+       {
+            Console.WriteLine(person);
+        }
+    }
+}//end of DisplayStudents
+```
+
+Do not forget to add the following:
+
+```csharp
+Console.WriteLine("\nOnly Student Objects:");
+DisplayStudents(people);
+```
+#### DisplayInstructors()
+This method is just like the `DisplayStudents()` method:
+
+```csharp
+static void DisplayInstructors(List<Person> people)
+{
+    foreach(Person person in people)
+    {
+       if (person.GetType() == typeof(Instructor))
+       {
+            Console.WriteLine(person);
+        }
+    }
+}//end of Displayinstructors
+```
+
+Do not forget to add the following:
+
+```csharp
+Console.WriteLine("\nOnly Instructor Objects:");
+DisplayInstructors(people);
+```
+
+### Output
+
+![inheritance-1](files/inheritance-1.jpg)<br>
+![inheritance-2](files/inheritance-2.jpg)<br>
+![inheritance-3](files/inheritance-3.jpg)
 
 #### [Advanced Home](index.md)
 #### [CPSC1012 Home](../index.md)

@@ -9,4 +9,7 @@ title: File I/O
 [Reading a File](reading.md)<br>
 [Writing to File](writing.md)
 
+## Practice Problems
+[Understanding File I/O Worksheet](files/understanding-file-io-worksheet.pdf){:target="_blank"}
+
 #### [CPSC1012 Home](../)

@@ -151,4 +151,10 @@ _Note 1: the `GetSafeInt()` method gets called 3 times, each time with a differe
 
 _Note 2: the named parameters in the method signature for `AddNumbers()` have different names than argument names used to call the method (**remember**, only the data types have to be the same, **not** the names)._
 
+## Practice Problems
+[Understanding Methods Worksheet](files/understanding-methods-worksheet.pdf){:target="_blank"}<br>
+[Method Problems 1](files/method-problems-1.pdf){:target="_blank"}<br>
+[Method Problems 2](files/method-problems-2.pdf){:target="_blank"}<br>
+[Method Problems 3](files/method-problems-3.pdf){:target="_blank"}
+
 #### [CPSC1012 Home](../)

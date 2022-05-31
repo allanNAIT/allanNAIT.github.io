@@ -55,4 +55,9 @@ A post-test loop (sometimes called a do-until loop) has the test after the proce
 *  Using a sentinel value that can also be a valid data value.
 *  Forgetting to initialize an accumulator to zero.
 
+## Practice Problems
+[Loop Problems 1](files/loop-problems-1.pdf){:target="_blank"}<br>
+[Loop Problems 2](files/loop-problems-2.pdf){:target="_blank"}<br>
+[Loop Problems 3](files/loop-problems-3.pdf){:target="_blank"}
+
 #### [CPSC1012 Home](../)

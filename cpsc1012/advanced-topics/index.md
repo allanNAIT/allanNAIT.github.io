@@ -11,7 +11,7 @@ The topics listed here are not normally covered in CPSC1012 and are provided for
 [Bitwise Operators](bitwise.md)<br>
 [Overload Operators](overloads.md)<br>
 [Struct vs. Class](struct-vs-class.md)<br>
-[Static vs. Non-Static in OOP](static-vs-nonstatic.md)
+[Static vs. Non-Static in OOP](static-vs-nonstatic.md)<br>
 [Collection Property](collection-property.md)
 
 #### [CPSC1012 Home](../index.md)

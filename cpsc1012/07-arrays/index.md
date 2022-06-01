@@ -27,8 +27,8 @@ In **C#** arrays will **always** use zero-based indexing. This means the first e
 [Parallel Arrays](parallel.md)<br>
 [2D Arrays](2d-array.md)<br>
 [Searching Arrays](searching-arrays.md)<br>
-[Mode of an Array](array-mode.md)
-
+[Mode of an Array](array-mode.md)<br>
+[Randomize an Array](randomize.md)
 
 ## Practice Problems
 [Array Problems 1](files/array-problems-1.pdf){:target="_blank"}<br>

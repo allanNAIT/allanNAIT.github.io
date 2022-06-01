@@ -182,10 +182,10 @@ The following options could be made to this program:
 *  Colour the Diamond and Heart suits red
 *  Sort each player's hand by suit and card value descending
 *  Add code to add the player's points:
-  *  Ace = 4
-  *  King = 3
-  *  Quenn = 2
-  *  Jack = 1
+   *  Ace = 4
+   *  King = 3
+   *  Quenn = 2
+   *  Jack = 1
 
 #### [Arrays Home](index.md)
 #### [CPSC1012 Home](../)

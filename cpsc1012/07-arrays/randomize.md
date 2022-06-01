@@ -155,6 +155,7 @@ static void DealDeck(int[] cards, int[] west, int[] north, int[] east, int[] sou
 }//end of DealDeck
 ```
 
+## Program Class - Part 2
 You will need to add the following code in the `Main()` method below what is already there:
 
 ```csharp

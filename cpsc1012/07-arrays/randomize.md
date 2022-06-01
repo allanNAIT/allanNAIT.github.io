@@ -187,5 +187,7 @@ The following options could be made to this program:
    *  Quenn = 2
    *  Jack = 1
 
+![randomize-3](files/randomize-3.jpg)
+
 #### [Arrays Home](index.md)
 #### [CPSC1012 Home](../)

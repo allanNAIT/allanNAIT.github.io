@@ -11,7 +11,7 @@ The topics listed here are not normally covered in CPSC1012 and are provided for
 [OOP Inheritance](inheritance.md)<br>
 [Struct vs. Class](struct-vs-class.md)<br>
 [Static vs. Non-Static in OOP](static-vs-nonstatic.md)<br>
-[Enumerations](enum.md)
+[Enumerations](enum.md)<br>
 [Tuples](tuple.md)<br>
 [Overload Operators](overloads.md)<br>
 [Bitwise Operators](bitwise.md)

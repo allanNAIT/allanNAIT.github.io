@@ -132,10 +132,59 @@ static void Setup()
 }//end of Setup
 ```
 
-There are 4 arrays, one for each player's hand, that will be used later.<br>
+There are 4 arrays, one for each player's hand, that will be used later. At this point you should have something like:<br>
 ![randomize-1](files/randomize-1.jpg)
 
+## DealDeck()
+In this method all that is done is take the shuffled deck and add cards to each player:
 
+```csharp
+static void DealDeck(int[] cards, int[] west, int[] north, int[] east, int[] south, int deckSize)
+{
+    int index = 0,
+    handIndex = 0;
+    while(index < deckSize)
+    {
+        west[handIndex] = cards[index];
+        north[handIndex] = cards[index + 1];
+        east[handIndex] = cards[index + 2];
+        south[handIndex] = cards[index + 3];
+        index += 4;
+        handIndex++;
+    }
+}//end of DealDeck
+```
+
+You will need to add the following code in the `Main()` method below what is already there:
+
+```csharp
+//deal the cards to each player
+DealDeck(cards, west, north, east, south, PhysicalSize);
+Console.WriteLine("\nWest's Hand");
+ShowDeck(west, HandSize);
+Console.WriteLine("\nNorth's Hand");
+ShowDeck(north, HandSize);
+Console.WriteLine("\nEast's Hand");
+ShowDeck(east,HandSize);
+Console.WriteLine("\nSouth's Hand");
+ShowDeck(south, HandSize);
+```
+
+_Note: this code call the `ShowDeck()` method but instead of passing is the entire deck, you pass in each player's hand._
+
+At this point the output should look something like:<br>
+![randomize-2](files/randomize-2.jpg)
+
+## Options
+The following options could be made to this program:
+*  Instead of letters for the suits, use the suit chracters
+*  Colour the Diamond and Heart suits red
+*  Sort each player's hand by suit and card value descending
+*  Add code to add the player's points:
+  *  Ace = 4
+  *  King = 3
+  *  Quenn = 2
+  *  Jack = 1
 
 #### [Arrays Home](index.md)
 #### [CPSC1012 Home](../)

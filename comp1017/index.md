@@ -21,10 +21,6 @@ Here you will explore content styling with CSS, web image formats, background im
 ### [Module 4 - Styling Forms & Web Site Build](module4/)
 Here you learn how to style an HTML form in CSS and will put all your knowledge together to build a complete web site.
 
-### References
-[HTML Reference - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML){:target="_blank"}<br>
-[CSS Reference MDN](https://developer.mozilla.org/en-US/docs/Web/CSS){:target="_blank"}<br>
-[File Naming Conventions](https://www.oreilly.com/library/view/web-design-in/0596009879/ch04s03.html){:target="_blank"}<br>
-[Site File Naming Conventions](https://www.acf.hhs.gov/digital-toolbox/training-technical-assistance/site-file-naming-conventions){:target="_blank"}
+### [References](references/index.md)
 
 #### [Home](../)

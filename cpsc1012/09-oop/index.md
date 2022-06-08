@@ -160,8 +160,8 @@ class Program
 TBD...
 
 ## Practice Problems
-[Understanding Objects Worksheet](files/understanding-objects-worksheet.pdf){:target="_blank"}<br>
 [Object Problems 1](files/object-problems-1.pdf){:target="_blank"}<br>
-[Object Problems 2](files/object-problems-2.pdf){:target="_blank"}
+[Object Problems 2](files/object-problems-2.pdf){:target="_blank"}<br>
+[Understanding Objects Worksheet](files/understanding-objects-worksheet.pdf){:target="_blank"}
 
 #### [CPSC1012 Home](../)

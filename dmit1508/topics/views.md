@@ -5,7 +5,7 @@ title: SQL Views
 
 ## SQL Views
 * Simplify data retrieval from complex queries
-*Hiding the underlying table structure
+* Hiding the underlying table structure
 * Controlling access to data for different users
 
 ### Data Modification

@@ -10,7 +10,7 @@ In the last module of the course you will learn the tools and tricks to optimize
 [Navigation and Forms in Bootstrap](36-navigation-forms-bootstrap/)<br>
 In-Class Build #6<br>
 [Image Resolution Switching + Preloading](38-images-resolution-preloading/)<br>
-[Assignment #4](39-assignment-4/)<br>
+Assignment #4<br>
 [Sass](40-sass/)
 
 #### [DMIT1530 Home](../)

@@ -19,8 +19,5 @@ title: Welcome to my GitHub Pages
 <hr/>
 
 #### Disclaimer
-Every effort has been made to ensure the accuracy and correctness of the content of these notes, If you do find an error or discrepancy contact the author and clearly identify the page and the error or discrepancy.
-
-These notes are unofficial, for official resources go to [Moodle](https://moodle.nait.ca/){:target="_blank"}
-
+Every effort has been made to ensure the accuracy and correctness of the content of these notes, If you do find an error or discrepancy contact the author and clearly identify the page and the error or discrepancy. Additionally, these notes are unofficial, for official resources go to **[Moodle](https://moodle.nait.ca/){:target="_blank"}**.
 <hr/>

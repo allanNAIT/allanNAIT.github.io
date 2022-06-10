@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CSS Preprocessor
+title: Introduction to SASS
 ---
 
 ## Lesson Demo

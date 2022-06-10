@@ -55,7 +55,7 @@ When A=0 there is a constant velocity, or no change in velocity. When A > 0 a pl
 
 The general equation of motion given an initial velocity and a constant acceleration:
 
-<img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{D}=VIit+\frac{1}{2}At^2"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\Delta{D}=V_{i}t+\frac{1}{2}At^2"/>
 
 In the example of dropping the ball bearing from the building the velocity after each second was calculated but not how far it had travelled. This _distance_ is called **displacement** and can be calculated. For example, how far would the ball bearing travel, from rest, after 1 second?
 

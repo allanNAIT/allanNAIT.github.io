@@ -133,7 +133,7 @@ To test:
 4. Issue a valid update to the character wages that affects **zero rows**
 
 **MovieCharacter ERD**:<br>
-![movie-character-erd.png](images/movie-character-erd.png)
+![movie-character-erd.jpg](images/movie-character-erd.jpg)
 
 ### Practice Q #2
 Create a trigger to enforce a rule that `CharacterWages` must be `>= 0`.

@@ -11,7 +11,7 @@ In the first part of the module we will focus on web fonts and font styling with
 [Positioning Properties](18-positioning-properties/)<br>
 In-Class Build #2<br>
 [Toggle/Hamburger Navigation](20-21-toggle-nav/)<br>
-[In-Class Build #3](22a-build-03/)<br>
+In-Class Build #3<br>
 Assignment #2
 
 #### [DMIT1530 Home](../)

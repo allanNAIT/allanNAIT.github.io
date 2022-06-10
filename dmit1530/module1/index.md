@@ -15,10 +15,10 @@ In this module, we will start off with a review of best practice techniques for 
 [Responsive Web Design](10-rwd/)<br>
 [Relative Units](11a-units/)<br>
 [Advanced CSS & Flex Order](11b-adv-css/)<br>
-[In-Class Build #1](11c-build-01/)<br>
+In-Class Build #1<br>
 [Image Optimization for Web](12-image-optimization/)<br>
 [Responsive Background Images](13-responsive-background-img/)<br>
-[Assignment 1](14-assignment1/)
+Assignment #1
 
 #### [DMIT1530 Home](../)
 #### [Home](../)

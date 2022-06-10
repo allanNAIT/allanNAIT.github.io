@@ -6,7 +6,7 @@ minima:
   date_format: "%b %-d, %Y"
 github_username: allanNAIT
 description: A collection of notes and resources for students.
-show_excerpts: true # set to true to show excerpts on the homepage
+show_excerpts: false # set to true to show excerpts on the homepage
 
 header_pages:
  - anap1525/index.md

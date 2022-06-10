@@ -70,7 +70,7 @@ namespace ArrayListDemo
 }//eon
 ```
 
-![array-list-1](files/array-list-outout.jpg)
+![array-list-output](files/array-list-output.jpg)
 
 
 #### [Generics Home](index.md)

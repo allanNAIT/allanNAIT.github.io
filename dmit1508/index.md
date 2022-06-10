@@ -19,7 +19,7 @@ title: DMIT1508
     * [Testing a CHECK Constratint](topics/ddl.md/#testing)
     * [DEFAULT Constraint](topics/ddl.md/#default)
 * [ALTER TABLE](topics/alter.md/#alter)
-* [Indexes](topics/alter.md/#indexes)
+  * [Indexes](topics/alter.md/#indexes)
 * [SQL Queries](topics/queries.md)
   * [UNION](topics/queries.md/#union)
   * [Aggregate Functions](topics/queries.md/#aggregate)

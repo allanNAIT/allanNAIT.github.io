@@ -50,7 +50,7 @@ namespace ArrayListDemo
 
         static void DisplayNames(ArrayList names)
         {
-            Console.WriteLine("Names");
+            Console.WriteLine("List of Names:");
             foreach (string name in names)
             {
                 Console.WriteLine(name);

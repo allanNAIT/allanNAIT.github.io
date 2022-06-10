@@ -13,7 +13,7 @@ title: Data Definition Language (DDL)
   * [FK Constraints](#fk)
   * [CHECK Constraints](#check)
   * [LIKE Operator](#like)
-  * [Testing a CHECK Constratint](#testing)
+  * [Testing a CHECK Constraint](#testing)
   * [DEFAULT Constraint](#default)
 
 ## <a ID="basic">Basic Table Definition</a>

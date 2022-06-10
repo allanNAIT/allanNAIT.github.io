@@ -139,7 +139,7 @@ Note: When the browser is resized, the menu will start to wrap to the next row.
         <li>Now add some layout rules for the menus:<br>
         <img src="files/multi-css-styles-11.jpg" alt="multi-css-styles-11"><br>
         The sub-menus are hidden but still affect the display of the menu:<br>
-        <img src="files/multi-03.jpg" alt="multi-03"><br>
+        <img src="files/multi-04.jpg" alt="multi-04"><br>
         Notice the vertical scroll bar which indicates there is still something there.<br>
         <b>Question</b>: How can this be fixed?
         </li>
@@ -152,11 +152,11 @@ Note: When the browser is resized, the menu will start to wrap to the next row.
         <li>Add accessibility and tab navigation:<br>
         <img src="files/multi-css-styles-14.jpg" alt="multi-css-styles-14"><br>
         Refresh your browser and use the <b>tab</b> key to tab through the menus.<br>
-        <img src="files/multi-04.jpg" alt="multi-04">
+        <img src="files/multi-05.jpg" alt="multi-05">
         </li>
         <li>Add another media query:<br>
         <img src="files/multi-css-styles-15.jpg" alt="multi-css-styles-15"><br>
-        <img src="files/multi-05.jpg" alt="multi-05"><br>
+        <img src="files/multi-06.jpg" alt="multi-06"><br>
         <b>Question</b>: What happened?
         </li>
     </ol>

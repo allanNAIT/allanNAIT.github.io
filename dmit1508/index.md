@@ -16,7 +16,7 @@ title: DMIT1508
     * [FK Constraints](topics/ddl.md/#fk)
     * [CHECK Constraints](topics/ddl.md/#check)
     * [LIKE Operator](topics/ddl.md/#like)
-    * [Testing a CHECK Constratint](topics/ddl.md/#testing)
+    * [Testing a CHECK Constraint](topics/ddl.md/#testing)
     * [DEFAULT Constraint](topics/ddl.md/#default)
 * [ALTER TABLE](topics/alter.md/#alter)
   * [Indexes](topics/alter.md/#indexes)

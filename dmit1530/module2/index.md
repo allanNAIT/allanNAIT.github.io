@@ -9,9 +9,9 @@ In the first part of the module we will focus on web fonts and font styling with
 [Text Styling and Web Fonts](15-text-web-fonts/)<br>
 [Flex Grow and Responsive Navigation](16-17-responsive-nav/)<br>
 [Positioning Properties](18-positioning-properties/)<br>
-[In-Class Build #2](18-19-build-02/)<br>
+In-Class Build #2<br>
 [Toggle/Hamburger Navigation](20-21-toggle-nav/)<br>
 [In-Class Build #3](22a-build-03/)<br>
-[Assignment #2](22b-assignment2/)
+Assignment #2
 
 #### [DMIT1530 Home](../)

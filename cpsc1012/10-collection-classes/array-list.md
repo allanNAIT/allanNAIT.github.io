@@ -22,13 +22,13 @@ namespace ArrayListDemo
             LoadArrayList(names);
             Console.WriteLine("Original ArrayList");
             DisplayNames(names);
-            Console.Write($"\nEnter element to inspect (0 to {names.Count}): ");
+            Console.Write($"\nEnter element to inspect (0 to {names.Count - 1}): ");
             element = int.Parse(Console.ReadLine());
             DisplayElement(names, element);
             SortArrayList(names);
             Console.WriteLine("\nSorted ArrayList");
             DisplayNames(names);
-            Console.Write($"\nEnter element to inspect (0 to {names.Count}): ");
+            Console.Write($"\nEnter element to inspect (0 to {names.Count - 1}): ");
             element = int.Parse(Console.ReadLine());
             DisplayElement(names, element);
 

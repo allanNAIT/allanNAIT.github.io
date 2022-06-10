@@ -14,7 +14,8 @@ The topics listed here are not normally covered in CPSC1012 and are provided for
 [Enumerations](enum.md)<br>
 [Tuples](tuple.md)<br>
 [Overload Operators](overloads.md)<br>
-[Bitwise Operators](bitwise.md)
+[Bitwise Operators](bitwise.md)<br>
+[Database Read Demo](files/database-read-demo.pdf){:target="_blank"}
 
 
 #### [CPSC1012 Home](../index.md)

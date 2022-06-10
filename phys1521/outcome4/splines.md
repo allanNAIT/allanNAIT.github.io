@@ -5,7 +5,7 @@ title: Catmull-Rom Spline
 ## Introduction
 In this next part of the course the math involved with splines can be very complex. Add to this that there are many types of cubic splines, of which Catmull-Rom is only one of them. The intention of this outcome is to provide the student with a basic understanding of the importance of Catmull-Rom splines and how they apply to game programming.
 
-## <a ID="references">References</a>
+## References
 * [Centripetal Catmull–Rom spline](https://en.wikipedia.org/wiki/Centripetal_Catmull%E2%80%93Rom_spline){:target="_blank"}
 * [Introduction to Catmull-Rom Splines](http://www.mvps.org/directx/articles/catmull/){:target="_blank"}
 * [Interpolation in Unity with C#](https://www.habrador.com/tutorials/interpolation/){:target="_blank"}

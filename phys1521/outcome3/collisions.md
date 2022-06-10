@@ -11,7 +11,7 @@ The key concepts for this part of the lesson are:
 * Calculations based on Momentum
 * Calculations based on Impulse forces
 
-### <a ID="references">References for this lesson</a>
+### References for this lesson
 * [Introduction to momentum](https://www.khanacademy.org/science/physics/linear-momentum/momentum-tutorial/v/introduction-to-momentum){:target="_blank"}
 * [Momentum: Ice skater throws a ball](https://www.khanacademy.org/science/physics/linear-momentum/momentum-tutorial/v/momentum-ice-skater-throws-a-ball){:target="_blank"}
 * [2-dimensional momentum problem](https://www.khanacademy.org/science/physics/linear-momentum/momentum-tutorial/v/2-dimensional-momentum-problem){:target="_blank"}

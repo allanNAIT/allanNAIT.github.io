@@ -17,4 +17,4 @@ title: Welcome to my GitHub Pages
 
 <br><hr>
 #### Disclaimer
-Every effort has been made to ensure the correctness of the congtent of these notes, If you do find an error or discrepancy contact the author and clearly identify the page and the error or discrepancy.
+Every effort has been made to ensure the accuracy and correctness of the content of these notes, If you do find an error or discrepancy contact the author and clearly identify the page and the error or discrepancy.

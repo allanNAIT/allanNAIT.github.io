@@ -202,7 +202,7 @@ RETURN
 ```
 
 ## <a ID="errors">Raising Errors</a>
-`RaisError` lets us send error messages back to the user.
+`RAISERROR` lets us send error messages back to the user.
 
 In this class we will always use a severity of `16` and a state of `1`.
 

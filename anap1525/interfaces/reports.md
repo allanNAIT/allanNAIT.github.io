@@ -74,7 +74,5 @@ The following general principles are important for output design:
 **Sample Report Prototype Screen**<br>
 ![reports-07](files/reports-07.jpg)
 
-*NOTE: It is preferable to have the totals below the columns and not below the information*
-
 #### [Interfaces Home](index.md)
 #### [ANAP1525 Home](../)

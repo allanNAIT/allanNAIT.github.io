@@ -27,7 +27,7 @@ Excessive whitespace, i.e., blank lines, do two things:
 There are three rules that you will follow for commenting:
 1. **Initial Comment Block**: At the top of **EVERY** code file, just above the `namespace` code line, you will have a comment block that looks like:
 
-    ````csharp
+    ```csharp
     /* 
     Purpose:        What is the purpose of this application?
     Input:          What are the inputs?
@@ -44,7 +44,7 @@ There are three rules that you will follow for commenting:
 
     _Note: The **initial comment block** for this sample might look like:_
 
-    ````csharp
+    ```csharp
     /* 
     Purpose:        Prompt the user for 2 numbers and display the sum
     Input:          two numbers

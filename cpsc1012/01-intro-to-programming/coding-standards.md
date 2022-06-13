@@ -44,7 +44,7 @@ There are three rules that you will follow for commenting:
 
     _Note: The **initial comment block** for this sample might look like:_
 
-    ```csharp
+    ````csharp
     /* 
     Purpose:        Prompt the user for 2 numbers and display the sum
     Input:          two numbers

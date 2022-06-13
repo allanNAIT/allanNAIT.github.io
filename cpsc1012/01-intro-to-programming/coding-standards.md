@@ -16,7 +16,7 @@ Constants | Pascal cased | `const double GstRate = 0.05;`
 The structure of your code must be such that it is easily read by humans. There are basically three rules you will follow in this class:
 
 ### Indentation
-All code will be correctly indented. This is normally not a problem if you let Visual Studio (IDE or Code) work for you. Each block level, inside the curly braces, {…}, will be indented (normally 4 spaces, or a tab).
+All code will be correctly indented. This is normally not a problem if you let Visual Studio work for you. Each block level, inside the curly braces, {…}, will be indented (normally 4 spaces, or a tab).
 
 ### Whitesapce
 Excessive whitespace, i.e., blank lines, do two things:

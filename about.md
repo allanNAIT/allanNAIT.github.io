@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![about](images/about.png)
+![about](images/about.png) **About Me**
 
 ## Contact Information
 ![gravatar](images/gravatar_01.png)<br>

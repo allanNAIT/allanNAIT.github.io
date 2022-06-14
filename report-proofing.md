@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Formal Report - Proofing Setup
+title: Report Proofing
 permalink: /report-proofing/
 ---
 

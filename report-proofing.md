@@ -4,6 +4,8 @@ title: Report Proofing
 permalink: /report-proofing/
 ---
 
+![report-proofing](images/hidden-character.png) Report Proofing
+
 ## Introduction
 One aspect of communications is a formal report document. To have your meaning clear and concise it is necessary to configure the proofing options in Microsoft Word. Once this is done, any document that you create, or open for reading, will be checked against the proofing options.
 

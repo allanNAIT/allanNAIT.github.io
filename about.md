@@ -4,9 +4,10 @@ title: About
 permalink: /about/
 ---
 
-![gravatar](images/gravatar_01.png)
+![about](images/about.png)
 
 ## Contact Information
+![gravatar](images/gravatar_01.png)<br>
 **Name**: Allan Anderson<br>
 **Email**: aanderson@nait.ca<br>
 **Phone**: 780-378-5275<br>

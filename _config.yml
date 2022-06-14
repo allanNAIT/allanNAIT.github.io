@@ -17,6 +17,7 @@ header_pages:
  #- phys1521/index.md
  #- dmit2018/index.md
  #- dmit2028/index.md
+ - report-proofing.md
  - about.md
 
 exclude:

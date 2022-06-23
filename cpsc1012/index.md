@@ -17,6 +17,9 @@ _NOTE: Some of the lessons are still under development. They will be added when 
 [Object Oreiented Programming (OOP)](09-oop/)<br>
 [Collection Classes](10-collection-classes/)
 
+### Additional Exercises
+[Extra Problems](extra-problems.pdf){:target="_blank"}
+
 ### [Advanced Topics](advanced-topics/index.md)
 ### [References](references/)
 

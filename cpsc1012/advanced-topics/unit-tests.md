@@ -129,3 +129,4 @@ namespace UnitTestingClasses
   ```
 
 9. If everything has been typed/coded correctly, your solution should build without errors; you may receive some warnings which can be ignored.<br>![unit-test-07](files/unit-test-07.jpg)
+10. The next phase is to create a new project, in the same solution (and solution folder) to hold the testing environment. Right click the solution name and add a new project:

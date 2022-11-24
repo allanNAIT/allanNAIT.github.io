@@ -69,7 +69,7 @@ The error is either the test data was incorrect (manual calculations gave the wr
 ![unit-test-29b](files/unit-test-29b.jpg)<br>
 The results should look like the following:<br>
 ![unit-test-29c](files/unit-test-29c.jpg)
-25. Oops! There seems to be a problem with one set of test data. Why nis that? The answer is that the expected value was rounded to 4 decimal places and the line ![unit-test-30](files/unit-test-30.jpg) expects an exact numerical match to pass the test; even though the results are very close the test fails. [Note: Floating point math in C# is not always accurate, thus rounding errors tend to appear.] When such an error occurs, it is a good practice to use the Math.Round() method. Change the test code to that shown below and re-run the failed test:<br>
+25. Oops! There seems to be a problem with one set of test data. Why nis that? The answer is that the expected value was rounded to 4 decimal places and the line ![unit-test-30](files/unit-test-30.jpg) expects an exact numerical match to pass the test; even though the results are very close the test fails. [_Note: Floating point math in C# is not always accurate, thus rounding errors tend to appear._] When such an error occurs, it is a good practice to use the **Math.Round()** method. Change the test code to that shown below and re-run the failed test:<br>
 ![unit-test-31](files/unit-test-31.jpg)
 
 ## Summary

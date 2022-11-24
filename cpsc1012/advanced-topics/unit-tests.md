@@ -41,91 +41,91 @@ namespace UnitTestingClasses
 
   ```csharp
   namespace UnitTestingClasses.Classes
-{
-    public class Point2D
-    {
-        //private member fields
-        private double _xValue;
-        private double _yValue;
+  {
+      public class Point2D
+      {
+          //private member fields
+          private double _xValue;
+          private double _yValue;
 
-        //public properties - using auto-implemented properties as any number is valid
-        public double XValue
-        {
-            get { return _xValue; }
-            set { _xValue = value; }
-        }//end of XValue
+          //public properties - using auto-implemented properties as any number is valid
+          public double XValue
+          {
+              get { return _xValue; }
+              set { _xValue = value; }
+          }//end of XValue
 
-        public double YValue
-        {
-            get { return _yValue; }
-            set { _yValue = value; }
-        }//end of YValue
+          public double YValue
+          {
+              get { return _yValue; }
+              set { _yValue = value; }
+          }//end of YValue
 
-        //constructor
-        public Point2D(double xValue, double yValue)
-        {
-            XValue = xValue;
-            YValue = yValue;
-        }//end of Point2D
+          //constructor
+          public Point2D(double xValue, double yValue)
+          {
+              XValue = xValue;
+              YValue = yValue;
+          }//end of Point2D
 
-        //Class Methods
-        public Point2D MidPoint(Point2D pointB)
-        {
-            return new Point2D(0.5 * (XValue + pointB.XValue), 0.5 * (YValue + pointB.YValue));
-        }//end of MidPoint
+          //Class Methods
+          public Point2D MidPoint(Point2D pointB)
+          {
+              return new Point2D(0.5 * (XValue + pointB.XValue), 0.5 * (YValue + pointB.YValue));
+          }//end of MidPoint
 
-        public double SegmentLength(Point2D pointB)
-        {
-            return Math.Sqrt(Math.Pow(pointB.XValue - XValue, 2) + Math.Pow(pointB.YValue - YValue, 2));
-        }//end of SegmentLength
-    }
-}
+          public double SegmentLength(Point2D pointB)
+          {
+              return Math.Sqrt(Math.Pow(pointB.XValue - XValue, 2) + Math.Pow(pointB.YValue - YValue, 2));
+          }//end of SegmentLength
+      }
+  }
   ```
 
   * **Line.cs**:<br>
 
   ```csharp
-namespace UnitTestingClasses.Classes
-{
-    public class Line
-    {
-        private Point2D _pointA;
-        private Point2D _pointB;
+  namespace UnitTestingClasses.Classes
+  {
+      public class Line
+      {
+          private Point2D _pointA;
+          private Point2D _pointB;
 
-        public Point2D PointA
-        {
-            get { return _pointA; }
-            set { _pointA = value; }
-        }//end of PointA
+          public Point2D PointA
+          {
+              get { return _pointA; }
+              set { _pointA = value; }
+          }//end of PointA
 
-        public Point2D PointB
-        {
-            get { return _pointB; }
-            set { _pointB = value; }
-        }//end of PointB
+          public Point2D PointB
+          {
+              get { return _pointB; }
+              set { _pointB = value; }
+          }//end of PointB
 
-        public Line(Point2D pointA, Point2D pointB)
-        {
-            PointA = pointA;
-            PointB = pointB;
-        }
+          public Line(Point2D pointA, Point2D pointB)
+          {
+              PointA = pointA;
+              PointB = pointB;
+          }
 
-        public double Slope()
-        {
-            return (PointA.YValue - PointB.YValue) / (PointA.XValue - PointB.XValue);
-        }//end of Slope
+          public double Slope()
+          {
+              return (PointA.YValue - PointB.YValue) / (PointA.XValue - PointB.XValue);
+          }//end of Slope
 
-        public double YIntercept()
-        {
-            return PointA.YValue - (Slope() * PointA.XValue);
-        }//end of YIntercept
+          public double YIntercept()
+          {
+              return PointA.YValue - (Slope() * PointA.XValue);
+          }//end of YIntercept
 
-        public override string ToString()
-        {
-            return $"y = {Slope()}x + {YIntercept()}";
-        }//end of ToString
-    }
-}
+          public override string ToString()
+          {
+              return $"y = {Slope()}x + {YIntercept()}";
+          }//end of ToString
+      }
+  }
   ```
 
 9. If everything has been typed/coded correctly, your solution should build without errors; you may receive some warnings which can be ignored.<br>![unit-test-07](files/unit-test-07.jpg)

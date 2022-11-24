@@ -48,3 +48,33 @@ The code above creates a test method with some sample test data. The first 2 lin
 ![unit-test-21](files/unit-test-21.jpg)<br>
 Running the tests should give results like the following:<br>
 ![unit-test-22](files/unit-test-22.jpg)
+19. More tests can be added to test the method. Change the test line to that shown below and re-run the test method:<br>
+![unit-test-23](files/unit-test-23.jpg)<br>
+The results should be like those shown below:<br>
+![unit-test-24](files/unit-test-24.jpg)
+20. It would make sense to test the other class methods of the **Point2D** class, therefore add the following test method below the existing method in the **UnitTest1.cs** class file:<br>
+![unit-test-25](files/unit-test-25.jpg)
+21. Re-run the tests in the **Test Explorer** to see something like the following:<br>
+![unit-test-26](files/unit-test-26.jpg)
+22. What happens if a test fails? Change the test cases for this second test method to that shown below and re-run the **Test Explorer**:<br>
+![unit-test-27a](files/unit-test-27a.jpg)<br>
+![unit-test-27b](files/unit-test-27b.jpg)<br>
+The error is either the test data was incorrect (manual calculations gave the wrong answer) or the class method being tested has a logic error. Which is it? The first step is to double-check the expected results from the given test data.<br>
+![unit-test-27c](files/unit-test-27c.jpg)
+23. It now appears that the second set of test data was incorrect for the expected results therefore change the second **TestCase** (right-click on the failed test to run just that test) to that shown below and re-run the failed test:<br>
+![unit-test-28a](files/unit-test-28a.jpg)<br>
+![unit-test-28b](files/unit-test-28b.jpg)
+24. Now that it is shown that unit tests can be created and run, and failed tests can be checked, add the following test methods to the **UnitTest1.cs** class file and re-run the **Test Explorer**:<br>
+![unit-test-29a](files/unit-test-29a.jpg)<br>
+![unit-test-29b](files/unit-test-29b.jpg)<br>
+The results should look like the following:<br>
+![unit-test-29c](files/unit-test-29c.jpg)
+25. Oops! There seems to be a problem with one set of test data. Why nis that? The answer is that the expected value was rounded to 4 decimal places and the line ![unit-test-30](files/unit-test-30.jpg) expects an exact numerical match to pass the test; even though the results are very close the test fails. [Note: Floating point math in C# is not always accurate, thus rounding errors tend to appear.] When such an error occurs, it is a good practice to use the Math.Round() method. Change the test code to that shown below and re-run the failed test:<br>
+![unit-test-31](files/unit-test-31.jpg)
+
+## Summary
+This demo walked through creating a test project, writing unit tests, executing the unit tests, and resolving failed tests. As the main project is still a console application, once all the tests pass any code needed for the application to produce the desired results should produce said results. Currently the console application only gives the following:<br>
+![unit-test-32](files/unit-test-32.jpg)
+
+#### [Advanced Home](index.md)
+#### [CPSC1012 Home](../index.md)

@@ -16,7 +16,7 @@ header_pages:
  - dmit1530/index.md
  - phys1521/index.md
  #- dmit2018/index.md
- #- dmit2028/index.md
+ - dmit2028/index.md
  - report-proofing.md
  - about.md
 

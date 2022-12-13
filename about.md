@@ -18,7 +18,7 @@ permalink: /about/
 ![fall2021-schedule](images/fall-schedule.png)
 
 ## Winter Teaching Schedule (Jan-Apr 2023)
-![winter2022-schedule](images/retired-schedule.png)
+![retired-schedule](images/retired-schedule.jpg)
 
 ## Education & Qualifications
 B. Sc. - University of Saskatchewan (1977)<br>
